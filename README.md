@@ -18,6 +18,6 @@ A preprint is available [here](https://arxiv.org/abs/2504.20485).
 
 ## Usage
 
-TODO
+Official release coming shortly. For now, we provide the anonymous [submission link](https://zenodo.org/records/15039856?preview=1&token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTc0MjIxODg4MiwiZXhwIjoxNzY3MTM5MTk5fQ.eyJpZCI6ImY4YzQ1ZDkwLTIwOGQtNDEzMy1iODVlLWFiYTc5ODljODQxNiIsImRhdGEiOnt9LCJyYW5kb20iOiJjZWIwMWZhMTA5N2U3NTU4ZWQ0MGVlMTA1OGE4OTIwNSJ9.iGAqYqGv1_MdFHnd8QcXtuS4mFO5zVvFLI78OyiKHqLD1phW5sYDkH_aTIrDAWximJK4WmlzN0KFp_bVCM-xVQ).
 
 
