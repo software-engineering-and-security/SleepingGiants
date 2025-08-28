@@ -138,6 +138,63 @@ For reference, these outputs refer to the following artifacts:
 
 ### Step 2 - Running Gadget Chain Detectors
 
+By running the gadget chain detectors over the unmodified dependencies and the modified datasets we receive the results in ``output/results/<androChain|crystallizer|tabby>``, artifacts *androChain_results.tar.gz*, *crystallizer_results.tar.gz*, *tabby_results_tar.gz*. 
+
+
+
+#### AndroChain
+
+```bash
+# It uses the ../input/libs/ dir for comparison as default
+parallel -j128 python3 run-androchain.py {} <modification> :::: <batch_file>
+
+# e.g.:
+parallel -j128 python3 run-androchain.py {} a :::: ../data/final_datasets/dependencies_D.txt
+
+```
+
+#### Crystallizer
+```bash
+# setup containers to receive batches and teardown -> creates directories crystallizer/0 , crystallizer/1, etc. 
+python3 run-crystallizer.py start <container_cnt>
+python3 run-crystallizer.py kill <container_cnt>
+
+# run a batch of dependencies on Crystallizer containers (starting at container offset)
+python3 run-crystallizer.py run <batch_file>
+python3 run-crystallizer.py run <batch_file> <offset> <dependency_dir>
+
+# we can use "peek" to check whether the sinkID has been fruitful
+python3 run-crystallizer.py peek <container_cnt>
+
+# save results
+python3 run-crystallizer.py store <container_cnt> <save_dir> <offset>
+```
+
+#### Tabby
+
+```bash
+# if necessary build the Tabby image
+cd scripts/tabby_docker
+docker build docker build -t tabby_neo4j .
+
+# Start/Kill neo4j databases:
+python3 run-tabby.py neo4j start <container_cnt>
+python3 run-tabby.py neo4j kill <container_cnt>
+
+# Batch execution (make sure the batch size matches container_cnt)
+parallel python3 run-tabby.py run {1} {2} <target> :::: <batch_file> :::+ {0..<container_cnt-1>}
+# e.g., running a batch_D_1.txt with 50 jar files defined inside
+parallel python3 run-tabby.py run {1} {2} a :::: batch_D_1.txt :::+ {0..49}
+```
+
+### Step 3 - Filtering for manual analysis
+
+```bash
+cd scripts
+python3 filter-gc.py filter
+```
+
+This leaves us with the artifact *filtered.tar* for manual analysis.
 
 
 
