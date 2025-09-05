@@ -20,7 +20,7 @@ A preprint is available [here](https://arxiv.org/abs/2504.20485).
 ## Getting the Datasets
 
 - **Section 3.3**: find the 4 gadget providing dependency datasets in [datasets/section3_final_datasets](datasets/section3_final_datasets)
-- **Section 4.2**: modified dependencies are uploaded in the artifacts
+- **Section 4.2**: modified dependencies are uploaded as release artifacts
 
 ## Usage
 
