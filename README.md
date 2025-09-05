@@ -1,6 +1,6 @@
 # SleepingGiants
 
-<img src="logo.png" width="300" height="300">
+<img src="logo2.png" width="300" height="300">
 
 A dataset for dependencies susceptible to hiding Java deserialization gadgets and injection framework.
 
