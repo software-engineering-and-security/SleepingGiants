@@ -10,6 +10,7 @@ A preprint is available [here](https://arxiv.org/abs/2504.20485).
 @inproceedings{kreyssig_sleepinggiants_2025,
   author = {Kreyssig, Bruno and Houy, Sabine and Riom, Timothée and Bartel, Alexandre},
   title = {Sleeping Giants - Activating Dormant Java Deserialization Gadget Chains through Stealthy Code Changes},
+  doi = {10.1145/3719027.3765031},
   year = {2025},
   location = {Taipei, Taiwan},
   series = {CCS '25}
