@@ -1,0 +1,3 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+4459,com.jolbox.bonecp,0.7.1,2011-04-26,https://repo1.maven.org/maven2/com/jolbox/bonecp/0.7.1.RELEASE/bonecp-0.7.1.RELEASE.jar,6,,,,,,,0.8.0
+4460,com.jolbox.bonecp,0.8.0,2013-10-23,https://repo1.maven.org/maven2/com/jolbox/bonecp/0.8.0.RELEASE/bonecp-0.8.0.RELEASE.jar,: 9,2,0,0,0,3,2,

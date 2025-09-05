@@ -1,0 +1,18 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+106927,org.playframework.play-ws,2.8.0,2024-11-08,https://repo1.maven.org/maven2/com/typesafe/play/play-ws_2.13/2.8.0/play-ws_2.13-2.8.0.jar,,,,,,,,2.8.2
+106928,org.playframework.play-ws,2.8.2,2024-02-21,https://repo1.maven.org/maven2/com/typesafe/play/play-ws_2.12/2.8.2/play-ws_2.12-2.8.2.jar,,,,,,,,2.8.8
+106929,org.playframework.play-ws,2.8.8,2024-02-20,https://repo1.maven.org/maven2/com/typesafe/play/play-ws_2.13/2.8.8/play-ws_2.13-2.8.8.jar,,,,,,,,2.8.11
+106930,org.playframework.play-ws,2.8.11,2024-02-21,https://repo1.maven.org/maven2/com/typesafe/play/play-ws_2.13/2.8.11/play-ws_2.13-2.8.11.jar,,,,,,,,2.8.19
+106931,org.playframework.play-ws,2.8.19,2024-07-19,https://repo1.maven.org/maven2/com/typesafe/play/play-ws_2.13/2.8.19/play-ws_2.13-2.8.19.jar,,,,,,,,2.9.1
+106932,org.playframework.play-ws,2.9.1,2024-02-02,https://repo1.maven.org/maven2/com/typesafe/play/play-ws_2.13/2.9.1/play-ws_2.13-2.9.1.jar,,,,,,,,2.9.2
+106933,org.playframework.play-ws,2.9.2,2024-05-06,https://repo1.maven.org/maven2/com/typesafe/play/play-ws_3/2.9.2/play-ws_3-2.9.2.jar,,,,,,,,2.9.3
+106934,org.playframework.play-ws,2.9.3,2024-05-07,https://repo1.maven.org/maven2/com/typesafe/play/play-ws_2.13/2.9.3/play-ws_2.13-2.9.3.jar,,,,,,,,2.9.4
+106947,org.playframework.play-ws,2.9.4,2024-06-17,https://repo1.maven.org/maven2/com/typesafe/play/play-ws_2.13/2.9.4/play-ws_2.13-2.9.4.jar,,,,,,,,2.9.5
+106946,org.playframework.play-ws,2.9.5,2024-09-19,https://repo1.maven.org/maven2/com/typesafe/play/play-ws_2.13/2.9.5/play-ws_2.13-2.9.5.jar,,,,,,,,3.0.0
+48472,org.playframework.play-ws,3.0.0,2023-10-25,https://repo1.maven.org/maven2/org/playframework/play-ws_3/3.0.0/play-ws_3-3.0.0.jar,3,,,,,,,3.0.1
+48473,org.playframework.play-ws,3.0.1,2023-12-19,https://repo1.maven.org/maven2/org/playframework/play-ws_3/3.0.1/play-ws_3-3.0.1.jar,3,0,0,0,0,0,0,3.0.2
+48474,org.playframework.play-ws,3.0.2,2024-03-01,https://repo1.maven.org/maven2/org/playframework/play-ws_3/3.0.2/play-ws_3-3.0.2.jar,3,0,0,0,0,0,0,3.0.3
+48475,org.playframework.play-ws,3.0.3,2024-05-07,https://repo1.maven.org/maven2/org/playframework/play-ws_3/3.0.3/play-ws_3-3.0.3.jar,3,0,0,0,0,0,0,3.0.4
+48476,org.playframework.play-ws,3.0.4,2024-06-17,https://repo1.maven.org/maven2/org/playframework/play-ws_3/3.0.4/play-ws_3-3.0.4.jar,3,0,0,0,0,0,0,3.0.5
+48477,org.playframework.play-ws,3.0.5,2024-07-24,https://repo1.maven.org/maven2/org/playframework/play-ws_3/3.0.5/play-ws_3-3.0.5.jar,3,0,0,0,0,0,0,3.0.6
+48478,org.playframework.play-ws,3.0.6,2024-11-28,https://repo1.maven.org/maven2/org/playframework/play-ws_3/3.0.6/play-ws_3-3.0.6.jar,: 3,0,0,0,0,0,0,

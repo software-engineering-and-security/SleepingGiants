@@ -1,0 +1,41 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.activemq.jndi.ReadOnlyContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<javax.naming.Context: java.lang.Object lookup(javax.naming.Name)> with actual argTypes: [javax.naming.Name] and taint: [true, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.activemq.jndi.ReadOnlyContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]"
+        ],
+        [
+            "<ses.ginject.pattern.Caller: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.activemq.jndi.ReadOnlyContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<javax.naming.Context: java.lang.Object lookup(javax.naming.Name)> with actual argTypes: [javax.naming.Name] and taint: [true, false]"
+        ],
+        [
+            "<ses.ginject.pattern.Caller: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.activemq.jndi.ReadOnlyContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]"
+        ],        
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.activemq.jndi.ReadOnlyContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<javax.naming.spi.NamingManager: java.lang.Object getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)> with actual argTypes: [java.lang.Object, null, null, java.util.Hashtable] and taint: [false, true, false, false, true]",
+            "<org.apache.activemq.jndi.JNDIBaseStorable: javax.naming.Reference getReference()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.activemq.jndi.JNDIReferenceFactory: javax.naming.Reference createReference(java.lang.String,org.apache.activemq.jndi.JNDIStorableInterface)> with actual argTypes: [java.lang.String, org.apache.activemq.jndi.JNDIBaseStorable] and taint: [false, true, true]",
+            "<org.apache.activemq.jndi.JNDIBaseStorable: java.util.Properties getProperties()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.activemq.ActiveMQConnectionFactory: void populateProperties(java.util.Properties)> with actual argTypes: [java.util.Properties] and taint: [true, true]",
+            "<org.apache.activemq.util.IntrospectionSupport: boolean getProperties(java.lang.Object,java.util.Map,java.lang.String)> with actual argTypes: [org.apache.activemq.ActiveMQPrefetchPolicy, java.util.Properties, java.lang.String] and taint: [false, true, true, false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [true, true, false]"
+        ]
+    ]
+}

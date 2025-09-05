@@ -1,0 +1,2 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+6722,org.glassfish.web.jstl-impl,1.2,2011-06-15,https://repo1.maven.org/maven2/org/glassfish/web/jstl-impl/1.2/jstl-impl-1.2.jar,,,,,,,,

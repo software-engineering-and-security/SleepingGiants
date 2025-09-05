@@ -1,0 +1,37 @@
+{
+    "tabby": [
+        [
+            "javax.swing.JComponent#readObject -[ALIAS]-> javax.swing.JMenuItem#readObject",
+            "-[CALL]-> javax.swing.JMenuItem#updateUI",
+            "-[CALL]-> javax.swing.UIManager#getUI",
+            "-[CALL]-> javax.swing.UIDefaults#getUI",
+            "-[CALL]-> javax.swing.UIDefaults#getUIClass",
+            "-[CALL]-> java.lang.ClassLoader#loadClass",
+            "-[CALL]-> java.lang.ClassLoader#loadClass",
+            "-[CALL]-> java.lang.ClassLoader#findClass -[ALIAS]-> org.apache.xalan.xsltc.compiler.XSLTC$ByteArrayClassLoader#findClass",
+            "-[CALL]-> java.lang.ClassLoader#defineClass",
+            "-[CALL]-> java.lang.ClassLoader#defineClass"
+        ],
+        [
+            "javax.swing.JMenuItem#readObject",
+            "-[CALL]-> javax.swing.JMenuItem#updateUI",
+            "-[CALL]-> javax.swing.UIManager#getUI",
+            "-[CALL]-> javax.swing.UIDefaults#getUI",
+            "-[CALL]-> javax.swing.UIDefaults#getUIClass",
+            "-[CALL]-> java.lang.ClassLoader#loadClass",
+            "-[CALL]-> java.lang.ClassLoader#loadClass",
+            "-[CALL]-> java.lang.ClassLoader#findClass -[ALIAS]-> org.apache.xalan.xsltc.compiler.XSLTC$ByteArrayClassLoader#findClass",
+            "-[CALL]-> java.lang.ClassLoader#defineClass",
+            "-[CALL]-> java.lang.ClassLoader#defineClass"
+        ]
+    ],
+    "androChain": [
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: javax.xml.transform.Transformer newTransformer()> with actual argTypes: [] and taint: [true]",
+            "<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl: com.sun.org.apache.xalan.internal.xsltc.Translet getTransletInstance()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, false]"
+        ]
+    ]
+}

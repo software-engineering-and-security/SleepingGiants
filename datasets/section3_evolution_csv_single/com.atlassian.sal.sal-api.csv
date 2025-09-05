@@ -1,0 +1,2 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+58461,com.atlassian.sal.sal-api,5.0.1,2022-06-22,https://maven.artifacts.atlassian.com/com/atlassian/sal/sal-api/5.0.1/sal-api-5.0.1.jar,: 4,,,,,,,

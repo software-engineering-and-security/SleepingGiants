@@ -1,0 +1,202 @@
+{
+    "tabby": [
+        [
+            "com.google.common.collect.HashMultimap#readObject",
+            "-[CALL]-> com.google.common.collect.Serialization#populateMultimap",
+            "-[CALL]-> com.google.common.collect.Multimap#get -[ALIAS]-> com.google.common.collect.FilteredKeyMultimap#get",
+            "-[CALL]-> com.google.common.base.Predicate#apply -[ALIAS]-> com.google.common.base.Predicates$CompositionPredicate#apply",
+            "-[CALL]-> com.google.common.base.Function#apply -[ALIAS]-> com.google.common.reflect.Types$ParameterizedTypeImpl$typeName__157#apply",
+            "-[CALL]-> com.google.common.reflect.Types$JavaVersion#typeName -[ALIAS]-> com.google.common.reflect.Types$JavaVersion$3#typeName",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ],
+        [
+            "com.google.common.collect.TreeMultiset#readObject",
+            "-[CALL]-> com.google.common.collect.GeneralRange#all",
+            "-[CALL]-> com.google.common.collect.GeneralRange#<init>",
+            "-[CALL]-> java.util.Comparator#compare -[ALIAS]-> com.google.common.collect.Ordering#compare -[ALIAS]-> com.google.common.collect.ByFunctionOrdering#compare",
+            "-[CALL]-> com.google.common.base.Function#apply -[ALIAS]-> com.google.common.reflect.Types$ParameterizedTypeImpl$typeName__157#apply",
+            "-[CALL]-> com.google.common.reflect.Types$JavaVersion#typeName -[ALIAS]-> com.google.common.reflect.Types$JavaVersion$3#typeName",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ],
+        [
+            "com.google.common.collect.Multimaps$CustomSortedSetMultimap#readObject",
+            "-[CALL]-> com.google.common.base.Supplier#get -[ALIAS]-> com.google.common.base.Suppliers$SupplierComposition#get",
+            "-[CALL]-> com.google.common.base.Function#apply -[ALIAS]-> com.google.common.reflect.Types$ParameterizedTypeImpl$typeName__157#apply",
+            "-[CALL]-> com.google.common.reflect.Types$JavaVersion#typeName -[ALIAS]-> com.google.common.reflect.Types$JavaVersion$3#typeName",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ],
+        [
+            "com.google.common.collect.ArrayListMultimap#readObject",
+            "-[CALL]-> com.google.common.collect.Serialization#populateMultimap",
+            "-[CALL]-> com.google.common.collect.Multimap#get -[ALIAS]-> com.google.common.collect.FilteredKeyMultimap#get",
+            "-[CALL]-> com.google.common.base.Predicate#apply -[ALIAS]-> com.google.common.base.Predicates$CompositionPredicate#apply",
+            "-[CALL]-> com.google.common.base.Function#apply -[ALIAS]-> com.google.common.reflect.Types$ParameterizedTypeImpl$typeName__157#apply",
+            "-[CALL]-> com.google.common.reflect.Types$JavaVersion#typeName -[ALIAS]-> com.google.common.reflect.Types$JavaVersion$3#typeName",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ],
+        [
+            "com.google.common.cache.LocalCache$ManualSerializationProxy#readObject",
+            "-[CALL]-> com.google.common.cache.CacheBuilder#build",
+            "-[CALL]-> com.google.common.cache.LocalCache$LocalManualCache#<init>",
+            "-[CALL]-> com.google.common.cache.LocalCache#<init>",
+            "-[CALL]-> com.google.common.base.Supplier#get -[ALIAS]-> com.google.common.base.Suppliers$SupplierComposition#get",
+            "-[CALL]-> com.google.common.base.Function#apply -[ALIAS]-> com.google.common.reflect.Types$ParameterizedTypeImpl$typeName__157#apply",
+            "-[CALL]-> com.google.common.reflect.Types$JavaVersion#typeName -[ALIAS]-> com.google.common.reflect.Types$JavaVersion$3#typeName",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ],
+        [
+            "com.google.common.collect.EnumMultiset#readObject",
+            "-[CALL]-> java.lang.Class#getEnumConstants",
+            "-[CALL]-> java.lang.Object#clone -[ALIAS]-> javax.crypto.Mac#clone",
+            "-[CALL]-> javax.crypto.Mac#chooseFirstProvider",
+            "-[CALL]-> java.security.Provider$Service#newInstance",
+            "-[CALL]-> java.security.Provider$Service#newInstanceUtil",
+            "-[CALL]-> java.lang.reflect.Constructor#newInstance"
+        ],
+        [
+            "com.google.common.collect.HashMultiset#readObject",
+            "-[CALL]-> com.google.common.collect.Serialization#populateMultiset",
+            "-[CALL]-> com.google.common.collect.Multiset#add -[ALIAS]-> com.google.common.collect.TreeMultiset#add",
+            "-[CALL]-> java.util.Comparator#compare -[ALIAS]-> com.google.common.collect.Ordering#compare -[ALIAS]-> com.google.common.collect.ByFunctionOrdering#compare",
+            "-[CALL]-> com.google.common.base.Function#apply -[ALIAS]-> com.google.common.reflect.Types$ParameterizedTypeImpl$typeName__157#apply",
+            "-[CALL]-> com.google.common.reflect.Types$JavaVersion#typeName -[ALIAS]-> com.google.common.reflect.Types$JavaVersion$3#typeName",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ],
+        [
+            "com.google.common.collect.TreeMultimap#readObject",
+            "-[CALL]-> com.google.common.collect.Serialization#populateMultimap",
+            "-[CALL]-> com.google.common.collect.Serialization#populateMultimap",
+            "-[CALL]-> com.google.common.collect.Multimap#get -[ALIAS]-> com.google.common.collect.FilteredKeyMultimap#get",
+            "-[CALL]-> com.google.common.base.Predicate#apply -[ALIAS]-> com.google.common.base.Predicates$CompositionPredicate#apply",
+            "-[CALL]-> com.google.common.base.Function#apply -[ALIAS]-> com.google.common.reflect.Types$ParameterizedTypeImpl$typeName__157#apply",
+            "-[CALL]-> com.google.common.reflect.Types$JavaVersion#typeName -[ALIAS]-> com.google.common.reflect.Types$JavaVersion$3#typeName",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ],
+        [
+            "java.security.Provider#readObject",
+            "-[CALL]-> java.util.Map$Entry#getValue -[ALIAS]-> com.google.common.collect.AbstractMapEntry#getValue -[ALIAS]-> com.google.common.collect.Maps$12#getValue",
+            "-[CALL]-> com.google.common.collect.Maps$EntryTransformer#transformEntry -[ALIAS]-> com.google.common.collect.Maps$9#transformEntry",
+            "-[CALL]-> com.google.common.base.Function#apply -[ALIAS]-> com.google.common.reflect.Types$ParameterizedTypeImpl$typeName__157#apply",
+            "-[CALL]-> com.google.common.reflect.Types$JavaVersion#typeName -[ALIAS]-> com.google.common.reflect.Types$JavaVersion$3#typeName",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ],
+        [
+            "com.google.common.collect.LinkedHashMultiset#readObject",
+            "-[CALL]-> com.google.common.collect.Serialization#populateMultiset",
+            "-[CALL]-> com.google.common.collect.Multiset#add -[ALIAS]-> com.google.common.collect.TreeMultiset#add",
+            "-[CALL]-> java.util.Comparator#compare -[ALIAS]-> com.google.common.collect.Ordering#compare -[ALIAS]-> com.google.common.collect.ByFunctionOrdering#compare",
+            "-[CALL]-> com.google.common.base.Function#apply -[ALIAS]-> com.google.common.reflect.Types$ParameterizedTypeImpl$typeName__157#apply",
+            "-[CALL]-> com.google.common.reflect.Types$JavaVersion#typeName -[ALIAS]-> com.google.common.reflect.Types$JavaVersion$3#typeName",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ],
+        [
+            "com.google.common.cache.LocalCache$LoadingSerializationProxy#readObject",
+            "-[CALL]-> com.google.common.cache.CacheBuilder#build",
+            "-[CALL]-> com.google.common.cache.LocalCache$LocalLoadingCache#<init>",
+            "-[CALL]-> com.google.common.cache.LocalCache#<init>",
+            "-[CALL]-> com.google.common.base.Supplier#get -[ALIAS]-> com.google.common.base.Suppliers$SupplierComposition#get",
+            "-[CALL]-> com.google.common.base.Function#apply -[ALIAS]-> com.google.common.reflect.Types$ParameterizedTypeImpl$typeName__157#apply",
+            "-[CALL]-> com.google.common.reflect.Types$JavaVersion#typeName -[ALIAS]-> com.google.common.reflect.Types$JavaVersion$3#typeName",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ],
+        [
+            "com.google.common.collect.HashMultimap#readObject",
+            "-[CALL]-> com.google.common.collect.Serialization#populateMultimap",
+            "-[CALL]-> com.google.common.collect.Multimap#get -[ALIAS]-> com.google.common.collect.FilteredKeyMultimap#get",
+            "-[CALL]-> com.google.common.base.Predicate#apply -[ALIAS]-> com.google.common.base.Predicates$CompositionPredicate#apply",
+            "-[CALL]-> com.google.common.base.Function#apply -[ALIAS]-> com.google.common.reflect.Types$ParameterizedTypeImpl$typeName__202#apply",
+            "-[CALL]-> com.google.common.reflect.Types$JavaVersion#typeName -[ALIAS]-> com.google.common.reflect.Types$JavaVersion$3#typeName",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ],
+        [
+            "com.google.common.collect.TreeMultiset#readObject",
+            "-[CALL]-> com.google.common.collect.GeneralRange#all",
+            "-[CALL]-> com.google.common.collect.GeneralRange#<init>",
+            "-[CALL]-> java.util.Comparator#compare -[ALIAS]-> com.google.common.collect.Ordering#compare -[ALIAS]-> com.google.common.collect.ByFunctionOrdering#compare",
+            "-[CALL]-> com.google.common.base.Function#apply -[ALIAS]-> com.google.common.reflect.Types$ParameterizedTypeImpl$typeName__202#apply",
+            "-[CALL]-> com.google.common.reflect.Types$JavaVersion#typeName -[ALIAS]-> com.google.common.reflect.Types$JavaVersion$3#typeName",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ],
+        [
+            "com.google.common.collect.Multimaps$CustomSortedSetMultimap#readObject",
+            "-[CALL]-> com.google.common.base.Supplier#get -[ALIAS]-> com.google.common.base.Suppliers$SupplierComposition#get",
+            "-[CALL]-> com.google.common.base.Function#apply -[ALIAS]-> com.google.common.reflect.Types$ParameterizedTypeImpl$typeName__202#apply",
+            "-[CALL]-> com.google.common.reflect.Types$JavaVersion#typeName -[ALIAS]-> com.google.common.reflect.Types$JavaVersion$3#typeName",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ],
+        [
+            "com.google.common.collect.ArrayListMultimap#readObject",
+            "-[CALL]-> com.google.common.collect.Serialization#populateMultimap",
+            "-[CALL]-> com.google.common.collect.Multimap#get -[ALIAS]-> com.google.common.collect.FilteredKeyMultimap#get",
+            "-[CALL]-> com.google.common.base.Predicate#apply -[ALIAS]-> com.google.common.base.Predicates$CompositionPredicate#apply",
+            "-[CALL]-> com.google.common.base.Function#apply -[ALIAS]-> com.google.common.reflect.Types$ParameterizedTypeImpl$typeName__202#apply",
+            "-[CALL]-> com.google.common.reflect.Types$JavaVersion#typeName -[ALIAS]-> com.google.common.reflect.Types$JavaVersion$3#typeName",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ],
+        [
+            "com.google.common.cache.LocalCache$ManualSerializationProxy#readObject",
+            "-[CALL]-> com.google.common.cache.CacheBuilder#build",
+            "-[CALL]-> com.google.common.cache.LocalCache$LocalManualCache#<init>",
+            "-[CALL]-> com.google.common.cache.LocalCache#<init>",
+            "-[CALL]-> com.google.common.base.Supplier#get -[ALIAS]-> com.google.common.base.Suppliers$SupplierComposition#get",
+            "-[CALL]-> com.google.common.base.Function#apply -[ALIAS]-> com.google.common.reflect.Types$ParameterizedTypeImpl$typeName__202#apply",
+            "-[CALL]-> com.google.common.reflect.Types$JavaVersion#typeName -[ALIAS]-> com.google.common.reflect.Types$JavaVersion$3#typeName",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ],
+        [
+            "java.util.Hashtable#readObject -[ALIAS]-> java.security.Provider#readObject",
+            "-[CALL]-> java.util.Map$Entry#getValue -[ALIAS]-> com.google.common.collect.AbstractMapEntry#getValue -[ALIAS]-> com.google.common.collect.Maps$12#getValue",
+            "-[CALL]-> com.google.common.collect.Maps$EntryTransformer#transformEntry -[ALIAS]-> com.google.common.collect.Maps$9#transformEntry",
+            "-[CALL]-> com.google.common.base.Function#apply -[ALIAS]-> com.google.common.reflect.Types$ParameterizedTypeImpl$typeName__202#apply",
+            "-[CALL]-> com.google.common.reflect.Types$JavaVersion#typeName -[ALIAS]-> com.google.common.reflect.Types$JavaVersion$3#typeName",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ],
+        [
+            "com.google.common.collect.HashMultiset#readObject",
+            "-[CALL]-> com.google.common.collect.Serialization#populateMultiset",
+            "-[CALL]-> com.google.common.collect.Multiset#add -[ALIAS]-> com.google.common.collect.TreeMultiset#add",
+            "-[CALL]-> java.util.Comparator#compare -[ALIAS]-> com.google.common.collect.Ordering#compare -[ALIAS]-> com.google.common.collect.ByFunctionOrdering#compare",
+            "-[CALL]-> com.google.common.base.Function#apply -[ALIAS]-> com.google.common.reflect.Types$ParameterizedTypeImpl$typeName__202#apply",
+            "-[CALL]-> com.google.common.reflect.Types$JavaVersion#typeName -[ALIAS]-> com.google.common.reflect.Types$JavaVersion$3#typeName",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ],
+        [
+            "com.google.common.cache.LocalCache$LoadingSerializationProxy#readObject",
+            "-[CALL]-> com.google.common.cache.CacheBuilder#build",
+            "-[CALL]-> com.google.common.cache.LocalCache$LocalLoadingCache#<init>",
+            "-[CALL]-> com.google.common.cache.LocalCache#<init>",
+            "-[CALL]-> com.google.common.base.Supplier#get -[ALIAS]-> com.google.common.base.Suppliers$SupplierComposition#get",
+            "-[CALL]-> com.google.common.base.Function#apply -[ALIAS]-> com.google.common.reflect.Types$ParameterizedTypeImpl$typeName__202#apply",
+            "-[CALL]-> com.google.common.reflect.Types$JavaVersion#typeName -[ALIAS]-> com.google.common.reflect.Types$JavaVersion$3#typeName",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ],
+        [
+            "com.google.common.collect.TreeMultimap#readObject",
+            "-[CALL]-> com.google.common.collect.Serialization#populateMultimap",
+            "-[CALL]-> com.google.common.collect.Serialization#populateMultimap",
+            "-[CALL]-> com.google.common.collect.Multimap#get -[ALIAS]-> com.google.common.collect.FilteredKeyMultimap#get",
+            "-[CALL]-> com.google.common.base.Predicate#apply -[ALIAS]-> com.google.common.base.Predicates$CompositionPredicate#apply",
+            "-[CALL]-> com.google.common.base.Function#apply -[ALIAS]-> com.google.common.reflect.Types$ParameterizedTypeImpl$typeName__202#apply",
+            "-[CALL]-> com.google.common.reflect.Types$JavaVersion#typeName -[ALIAS]-> com.google.common.reflect.Types$JavaVersion$3#typeName",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ],
+        [
+            "java.security.Provider#readObject",
+            "-[CALL]-> java.util.Map$Entry#getValue -[ALIAS]-> com.google.common.collect.AbstractMapEntry#getValue -[ALIAS]-> com.google.common.collect.Maps$12#getValue",
+            "-[CALL]-> com.google.common.collect.Maps$EntryTransformer#transformEntry -[ALIAS]-> com.google.common.collect.Maps$9#transformEntry",
+            "-[CALL]-> com.google.common.base.Function#apply -[ALIAS]-> com.google.common.reflect.Types$ParameterizedTypeImpl$typeName__202#apply",
+            "-[CALL]-> com.google.common.reflect.Types$JavaVersion#typeName -[ALIAS]-> com.google.common.reflect.Types$JavaVersion$3#typeName",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ],
+        [
+            "com.google.common.collect.LinkedHashMultiset#readObject",
+            "-[CALL]-> com.google.common.collect.Serialization#populateMultiset",
+            "-[CALL]-> com.google.common.collect.Multiset#add -[ALIAS]-> com.google.common.collect.TreeMultiset#add",
+            "-[CALL]-> java.util.Comparator#compare -[ALIAS]-> com.google.common.collect.Ordering#compare -[ALIAS]-> com.google.common.collect.ByFunctionOrdering#compare",
+            "-[CALL]-> com.google.common.base.Function#apply -[ALIAS]-> com.google.common.reflect.Types$ParameterizedTypeImpl$typeName__202#apply",
+            "-[CALL]-> com.google.common.reflect.Types$JavaVersion#typeName -[ALIAS]-> com.google.common.reflect.Types$JavaVersion$3#typeName",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ]
+    ],
+    "androChain": []
+}

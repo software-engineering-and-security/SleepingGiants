@@ -1,0 +1,106 @@
+{
+    "tabby": [
+        [
+            "java.util.concurrent.ConcurrentSkipListMap#readObject",
+            "-[CALL]-> java.util.concurrent.ConcurrentSkipListMap#cpr",
+            "-[CALL]-> java.util.Comparator#compare -[ALIAS]-> java.util.Comparator$lambda_comparing_ea9a8b3a_1__279#compare",
+            "-[CALL]-> java.util.Comparator#lambda$comparing$ea9a8b3a$1",
+            "-[CALL]-> java.util.function.Function#apply -[ALIAS]-> org.apache.poi.poifs.crypt.dsig.services.TSPTimeStampService$lambda_retrieveCRL_9__410#apply",
+            "-[CALL]-> org.apache.poi.poifs.crypt.dsig.services.TSPTimeStampService#lambda$retrieveCRL$9",
+            "-[CALL]-> org.apache.poi.poifs.crypt.dsig.services.TSPTimeStampService#downloadCRL",
+            "-[CALL]-> org.apache.poi.poifs.crypt.dsig.services.TimeStampHttpClient#get -[ALIAS]-> org.apache.poi.poifs.crypt.dsig.services.TimeStampSimpleHttpClient#get",
+            "-[CALL]-> org.apache.poi.poifs.crypt.dsig.services.TimeStampSimpleHttpClient#handleRedirect",
+            "-[CALL]-> java.net.URL#openConnection"
+        ],
+        [
+            "java.util.concurrent.ConcurrentSkipListMap#readObject",
+            "-[CALL]-> java.util.concurrent.ConcurrentSkipListMap#cpr",
+            "-[CALL]-> java.util.Comparator#compare -[ALIAS]-> java.util.Comparator$lambda_comparing_77a9974f_1__473#compare",
+            "-[CALL]-> java.util.Comparator#lambda$comparing$77a9974f$1",
+            "-[CALL]-> java.util.function.Function#apply -[ALIAS]-> org.apache.poi.poifs.crypt.dsig.services.TSPTimeStampService$lambda_retrieveCRL_9__390#apply",
+            "-[CALL]-> org.apache.poi.poifs.crypt.dsig.services.TSPTimeStampService#lambda$retrieveCRL$9",
+            "-[CALL]-> org.apache.poi.poifs.crypt.dsig.services.TSPTimeStampService#downloadCRL",
+            "-[CALL]-> org.apache.poi.poifs.crypt.dsig.services.TimeStampHttpClient#get -[ALIAS]-> org.apache.poi.poifs.crypt.dsig.services.TimeStampSimpleHttpClient#get",
+            "-[CALL]-> org.apache.poi.poifs.crypt.dsig.services.TimeStampSimpleHttpClient#handleRedirect",
+            "-[CALL]-> java.net.URL#openConnection"
+        ],
+        [
+            "java.util.concurrent.ConcurrentSkipListMap#readObject",
+            "-[CALL]-> java.util.concurrent.ConcurrentSkipListMap#cpr",
+            "-[CALL]-> java.util.Comparator#compare -[ALIAS]-> java.util.Comparator$lambda_comparing_77a9974f_1__348#compare",
+            "-[CALL]-> java.util.Comparator#lambda$comparing$77a9974f$1",
+            "-[CALL]-> java.util.function.Function#apply -[ALIAS]-> org.apache.poi.poifs.crypt.dsig.services.TSPTimeStampService$lambda_retrieveCRL_9__471#apply",
+            "-[CALL]-> org.apache.poi.poifs.crypt.dsig.services.TSPTimeStampService#lambda$retrieveCRL$9",
+            "-[CALL]-> org.apache.poi.poifs.crypt.dsig.services.TSPTimeStampService#downloadCRL",
+            "-[CALL]-> org.apache.poi.poifs.crypt.dsig.services.TimeStampHttpClient#get -[ALIAS]-> org.apache.poi.poifs.crypt.dsig.services.TimeStampSimpleHttpClient#get",
+            "-[CALL]-> org.apache.poi.poifs.crypt.dsig.services.TimeStampSimpleHttpClient#handleRedirect",
+            "-[CALL]-> java.net.URL#openConnection"
+        ],
+        [
+            "java.util.concurrent.ConcurrentSkipListMap#readObject",
+            "-[CALL]-> java.util.concurrent.ConcurrentSkipListMap#cpr",
+            "-[CALL]-> java.util.Comparator#compare -[ALIAS]-> java.util.Comparator$lambda_comparing_77a9974f_1__141#compare",
+            "-[CALL]-> java.util.Comparator#lambda$comparing$77a9974f$1",
+            "-[CALL]-> java.util.function.Function#apply -[ALIAS]-> org.apache.poi.poifs.crypt.dsig.services.TSPTimeStampService$lambda_retrieveCRL_9__437#apply",
+            "-[CALL]-> org.apache.poi.poifs.crypt.dsig.services.TSPTimeStampService#lambda$retrieveCRL$9",
+            "-[CALL]-> org.apache.poi.poifs.crypt.dsig.services.TSPTimeStampService#downloadCRL",
+            "-[CALL]-> org.apache.poi.poifs.crypt.dsig.services.TimeStampHttpClient#get -[ALIAS]-> org.apache.poi.poifs.crypt.dsig.services.TimeStampSimpleHttpClient#get",
+            "-[CALL]-> org.apache.poi.poifs.crypt.dsig.services.TimeStampSimpleHttpClient#handleRedirect",
+            "-[CALL]-> java.net.URL#openConnection"
+        ]
+    ],
+    "androChain": [
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.poi.poifs.crypt.temp.AesZipFileZipEntrySource: void close()> with actual argTypes: [] and taint: [true]",
+            "<java.io.File: boolean delete()> with actual argTypes: [] and taint: [true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.poi.openxml4j.opc.OPCPackage: void close()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.poi.openxml4j.opc.OPCPackage: void save(java.io.File)> with actual argTypes: [java.io.File] and taint: [true, false]",
+            "<java.nio.file.Files: java.io.OutputStream newOutputStream(java.nio.file.Path,java.nio.file.OpenOption[])> with actual argTypes: [java.nio.file.Path, java.nio.file.OpenOption[]] and taint: [false, false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.poi.openxml4j.opc.OPCPackage: void close()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.poi.openxml4j.opc.ZipPackage: void closeImpl()> with actual argTypes: [] and taint: [true]",
+            "<java.io.File: boolean delete()> with actual argTypes: [] and taint: [true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.poi.openxml4j.opc.OPCPackage: void close()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.poi.openxml4j.opc.ZipPackage: void closeImpl()> with actual argTypes: [] and taint: [true]",
+            "<java.io.File: boolean delete()> with actual argTypes: [] and taint: [false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.poi.openxml4j.opc.OPCPackage: void close()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.poi.openxml4j.opc.ZipPackage: void closeImpl()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.poi.openxml4j.opc.OPCPackage: void save(java.io.File)> with actual argTypes: [java.io.File] and taint: [true, true]",
+            "<java.nio.file.Files: java.io.OutputStream newOutputStream(java.nio.file.Path,java.nio.file.OpenOption[])> with actual argTypes: [java.nio.file.Path, java.nio.file.OpenOption[]] and taint: [false, true, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.poi.openxml4j.opc.OPCPackage: void close()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.poi.openxml4j.opc.ZipPackage: void closeImpl()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.poi.openxml4j.opc.internal.FileHelper: void copyFile(java.io.File,java.io.File)> with actual argTypes: [java.io.File, java.io.File] and taint: [false, true, false]",
+            "<java.io.FileOutputStream: void <init>(java.io.File)> with actual argTypes: [java.io.File] and taint: [false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.poi.ooxml.POIXMLDocument: void close()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.poi.openxml4j.opc.OPCPackage: void revert()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.poi.openxml4j.opc.ZipPackage: void revertImpl()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.poi.poifs.crypt.temp.AesZipFileZipEntrySource: void close()> with actual argTypes: [] and taint: [true]",
+            "<java.io.File: boolean delete()> with actual argTypes: [] and taint: [true]"
+        ]
+    ]
+}

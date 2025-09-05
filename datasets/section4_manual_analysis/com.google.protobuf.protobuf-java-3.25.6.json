@@ -1,0 +1,67 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<com.google.protobuf.AbstractMessage: boolean equals(java.lang.Object)> with actual argTypes: [java.lang.Class] and taint: [true, true]",
+            "<com.google.protobuf.GeneratedMessage: java.util.Map getAllFields()> with actual argTypes: [] and taint: [true]",
+            "<com.google.protobuf.GeneratedMessage: java.util.Map getAllFieldsMutable(boolean)> with actual argTypes: [int] and taint: [true, false]",
+            "<com.google.protobuf.GeneratedMessage: java.lang.Object getField(com.google.protobuf.Descriptors$FieldDescriptor)> with actual argTypes: [com.google.protobuf.Descriptors$FieldDescriptor] and taint: [true, true]",
+            "<com.google.protobuf.GeneratedMessage$FieldAccessorTable$RepeatedFieldAccessor: java.lang.Object get(com.google.protobuf.GeneratedMessage)> with actual argTypes: [com.google.protobuf.GeneratedMessage] and taint: [true, true]",
+            "<com.google.protobuf.GeneratedMessage: java.lang.Object access$1200(java.lang.reflect.Method,java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.reflect.Method, com.google.protobuf.GeneratedMessage, java.lang.Object[]] and taint: [false, true, true, false]",
+            "<com.google.protobuf.GeneratedMessage: java.lang.Object invokeOrDie(java.lang.reflect.Method,java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.reflect.Method, java.lang.Object, java.lang.Object[]] and taint: [false, true, true, false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [true, true, false]"
+        ],
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<com.google.protobuf.AbstractMessage: boolean equals(java.lang.Object)> with actual argTypes: [java.lang.Class] and taint: [true, true]",
+            "<com.google.protobuf.GeneratedMessageV3: java.util.Map getAllFields()> with actual argTypes: [] and taint: [true]",
+            "<com.google.protobuf.GeneratedMessageV3: java.util.Map getAllFieldsMutable(boolean)> with actual argTypes: [int] and taint: [true, false]",
+            "<com.google.protobuf.GeneratedMessageV3: boolean hasOneof(com.google.protobuf.Descriptors$OneofDescriptor)> with actual argTypes: [com.google.protobuf.Descriptors$OneofDescriptor] and taint: [true, true]",
+            "<com.google.protobuf.GeneratedMessageV3$FieldAccessorTable$RealOneofAccessor: boolean has(com.google.protobuf.GeneratedMessageV3)> with actual argTypes: [com.google.protobuf.GeneratedMessageV3] and taint: [true, true]",
+            "<com.google.protobuf.GeneratedMessageV3: java.lang.Object access$1100(java.lang.reflect.Method,java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.reflect.Method, com.google.protobuf.GeneratedMessageV3, java.lang.Object[]] and taint: [false, true, true, false]",
+            "<com.google.protobuf.GeneratedMessageV3: java.lang.Object invokeOrDie(java.lang.reflect.Method,java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.reflect.Method, java.lang.Object, java.lang.Object[]] and taint: [false, true, true, false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [true, true, false]"
+        ],
+        [
+            "<com.google.protobuf.GeneratedMessageLite$SerializedForm: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<com.google.protobuf.AbstractMessageLite$Builder: com.google.protobuf.MessageLite$Builder mergeFrom(byte[])> with actual argTypes: [byte[]] and taint: [true, true]",
+            "<com.google.protobuf.AbstractMessageLite$Builder: com.google.protobuf.AbstractMessageLite$Builder mergeFrom(byte[])> with actual argTypes: [byte[]] and taint: [true, true]",
+            "<com.google.protobuf.AbstractMessageLite$Builder: com.google.protobuf.AbstractMessageLite$Builder mergeFrom(byte[],int,int)> with actual argTypes: [byte[], int, int] and taint: [true, true, false, true]",
+            "<com.google.protobuf.AbstractMessageLite$Builder: com.google.protobuf.AbstractMessageLite$Builder mergeFrom(com.google.protobuf.CodedInputStream)> with actual argTypes: [com.google.protobuf.CodedInputStream] and taint: [true, true]",
+            "<com.google.protobuf.ExtensionRegistryLite: com.google.protobuf.ExtensionRegistryLite getEmptyRegistry()> with actual argTypes: [] and taint: [false]",
+            "<com.google.protobuf.ExtensionRegistryFactory: com.google.protobuf.ExtensionRegistryLite createEmpty()> with actual argTypes: [] and taint: [false]",
+            "<com.google.protobuf.ExtensionRegistryFactory: com.google.protobuf.ExtensionRegistryLite invokeSubclassFactory(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [null, java.lang.Object[]] and taint: [false, false, false]"
+        ],
+        [
+            "<com.google.protobuf.GeneratedMessageLite$SerializedForm: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<com.google.protobuf.AbstractMessageLite$Builder: com.google.protobuf.MessageLite$Builder mergeFrom(byte[])> with actual argTypes: [byte[]] and taint: [true, true]",
+            "<com.google.protobuf.AbstractMessageLite$Builder: com.google.protobuf.AbstractMessageLite$Builder mergeFrom(byte[])> with actual argTypes: [byte[]] and taint: [true, true]",
+            "<com.google.protobuf.GeneratedMessageLite$Builder: com.google.protobuf.AbstractMessageLite$Builder mergeFrom(byte[],int,int)> with actual argTypes: [byte[], int, int] and taint: [true, true, false, true]",
+            "<com.google.protobuf.GeneratedMessageLite$Builder: com.google.protobuf.GeneratedMessageLite$Builder mergeFrom(byte[],int,int)> with actual argTypes: [byte[], int, int] and taint: [true, true, false, true]",
+            "<com.google.protobuf.GeneratedMessageLite$Builder: com.google.protobuf.GeneratedMessageLite$Builder mergeFrom(byte[],int,int,com.google.protobuf.ExtensionRegistryLite)> with actual argTypes: [byte[], int, int, com.google.protobuf.ExtensionRegistryLite] and taint: [true, true, false, true, false]",
+            "<com.google.protobuf.MessageSchema: void mergeFrom(java.lang.Object,byte[],int,int,com.google.protobuf.ArrayDecoders$Registers)> with actual argTypes: [com.google.protobuf.GeneratedMessageLite, byte[], int, int, com.google.protobuf.ArrayDecoders$Registers] and taint: [true, true, true, false, true, false]",
+            "<com.google.protobuf.MessageSchema: int parseMessage(java.lang.Object,byte[],int,int,int,com.google.protobuf.ArrayDecoders$Registers)> with actual argTypes: [java.lang.Object, byte[], int, int, int, com.google.protobuf.ArrayDecoders$Registers] and taint: [true, true, true, false, true, false, false]",
+            "<com.google.protobuf.MessageSchema: java.lang.Object filterMapUnknownEnumValues(java.lang.Object,int,java.lang.Object,com.google.protobuf.UnknownFieldSchema,java.lang.Object)> with actual argTypes: [java.lang.Object, int, com.google.protobuf.UnknownFieldSetLite, com.google.protobuf.UnknownFieldSchema, java.lang.Object] and taint: [true, true, true, true, true, true]",
+            "<com.google.protobuf.MessageSchema: java.lang.Object filterUnknownEnumMap(int,int,java.util.Map,com.google.protobuf.Internal$EnumVerifier,java.lang.Object,com.google.protobuf.UnknownFieldSchema,java.lang.Object)> with actual argTypes: [int, int, java.util.Map, com.google.protobuf.Internal$EnumVerifier, java.lang.Object, com.google.protobuf.UnknownFieldSchema, java.lang.Object] and taint: [true, true, true, true, true, true, true, true]",
+            "<com.google.protobuf.MapEntryLite: void writeTo(com.google.protobuf.CodedOutputStream,com.google.protobuf.MapEntryLite$Metadata,java.lang.Object,java.lang.Object)> with actual argTypes: [com.google.protobuf.CodedOutputStream, com.google.protobuf.MapEntryLite$Metadata, java.lang.Object, java.lang.Object] and taint: [false, true, true, true, true]",
+            "<com.google.protobuf.FieldSet: void writeElement(com.google.protobuf.CodedOutputStream,com.google.protobuf.WireFormat$FieldType,int,java.lang.Object)> with actual argTypes: [com.google.protobuf.CodedOutputStream, com.google.protobuf.WireFormat$FieldType, int, java.lang.Object] and taint: [false, true, true, false, true]",
+            "<com.google.protobuf.CodedOutputStream: void writeGroup(int,com.google.protobuf.MessageLite)> with actual argTypes: [int, com.google.protobuf.MessageLite] and taint: [true, false, true]",
+            "<com.google.protobuf.CodedOutputStream: void writeGroupNoTag(com.google.protobuf.MessageLite)> with actual argTypes: [com.google.protobuf.MessageLite] and taint: [true, true]",
+            "<com.google.protobuf.GeneratedMessageLite: void writeTo(com.google.protobuf.CodedOutputStream)> with actual argTypes: [com.google.protobuf.CodedOutputStream] and taint: [true, true]",
+            "<com.google.protobuf.MessageSchema: void writeTo(java.lang.Object,com.google.protobuf.Writer)> with actual argTypes: [com.google.protobuf.GeneratedMessageLite, com.google.protobuf.CodedOutputStreamWriter] and taint: [true, true, true]",
+            "<com.google.protobuf.MessageSchema: void writeFieldsInDescendingOrder(java.lang.Object,com.google.protobuf.Writer)> with actual argTypes: [java.lang.Object, com.google.protobuf.Writer] and taint: [true, true, true]",
+            "<com.google.protobuf.MessageSchema: void writeMapHelper(com.google.protobuf.Writer,int,java.lang.Object,int)> with actual argTypes: [com.google.protobuf.Writer, int, java.lang.Object, int] and taint: [true, true, true, true, true]",
+            "<com.google.protobuf.CodedOutputStreamWriter: void writeMap(int,com.google.protobuf.MapEntryLite$Metadata,java.util.Map)> with actual argTypes: [int, com.google.protobuf.MapEntryLite$Metadata, java.util.Map] and taint: [true, true, true, true]",
+            "<com.google.protobuf.CodedOutputStreamWriter: void writeDeterministicMap(int,com.google.protobuf.MapEntryLite$Metadata,java.util.Map)> with actual argTypes: [int, com.google.protobuf.MapEntryLite$Metadata, java.util.Map] and taint: [true, true, true, true]",
+            "<com.google.protobuf.CodedOutputStreamWriter: void writeDeterministicIntegerMap(int,com.google.protobuf.MapEntryLite$Metadata,java.util.Map)> with actual argTypes: [int, com.google.protobuf.MapEntryLite$Metadata, java.util.Map] and taint: [true, true, true, true]",
+            "<java.util.Arrays: void sort(int[])> with actual argTypes: [int[]] and taint: [false, true]",
+            "<java.util.DualPivotQuicksort: void sort(int[],int,int,int)> with actual argTypes: [int[], int, int, int] and taint: [false, true, false, false, true]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Object invoke()> with actual argTypes: [] and taint: [false]",
+            "<java.util.concurrent.ForkJoinTask: void reportException(int)> with actual argTypes: [int] and taint: [false, false]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Throwable getThrowableException()> with actual argTypes: [] and taint: [false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, false]"
+        ]
+    ]
+}

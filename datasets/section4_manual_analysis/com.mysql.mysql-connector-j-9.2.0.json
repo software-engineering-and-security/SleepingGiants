@@ -1,0 +1,126 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<com.mysql.cj.xdevapi.AbstractDataResult: java.lang.Object next()> with actual argTypes: [] and taint: [true]",
+            "<com.mysql.cj.protocol.ProtocolEntityFactory: java.lang.Object createFromProtocolEntity(com.mysql.cj.protocol.ProtocolEntity)> with actual argTypes: [com.mysql.cj.result.Row] and taint: [true, true]",
+            "<com.mysql.cj.exceptions.ExceptionFactory: com.mysql.cj.exceptions.CJException createException(java.lang.Class,java.lang.String)> with actual argTypes: [java.lang.Class, java.lang.String] and taint: [false, false, true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, true]"
+        ],
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<com.mysql.cj.protocol.a.result.ResultsetRowsStreaming: java.lang.Object next()> with actual argTypes: [] and taint: [true]",
+            "<com.mysql.cj.protocol.a.result.ResultsetRowsStreaming: com.mysql.cj.result.Row next()> with actual argTypes: [] and taint: [true]",
+            "<com.mysql.cj.util.Util: java.lang.String stackTraceToString(java.lang.Throwable)> with actual argTypes: [java.lang.Exception] and taint: [false, false]",
+            "<javax.xml.transform.TransformerException: void printStackTrace(java.io.PrintWriter)> with actual argTypes: [java.io.PrintWriter] and taint: [false, false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Throwable, java.lang.Object[]] and taint: [false, false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.sun.rowset.JdbcRowSetImpl: java.sql.ResultSetMetaData getMetaData()> with actual argTypes: [] and taint: [true]",
+            "<com.sun.rowset.JdbcRowSetImpl: java.sql.PreparedStatement prepare()> with actual argTypes: [] and taint: [false]",
+            "<com.sun.rowset.JdbcRowSetImpl: java.sql.Connection connect()> with actual argTypes: [] and taint: [false]",
+            "<javax.naming.InitialContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.mysql.cj.jdbc.result.UpdatableResultSet: void updateObject(int,java.lang.Object,int)> with actual argTypes: [int, java.lang.Object, int] and taint: [true, true, true, true]",
+            "<com.mysql.cj.jdbc.result.UpdatableResultSet: void updateObjectInternal(int,java.lang.Object,java.lang.Integer,int)> with actual argTypes: [int, java.lang.Object, java.lang.Integer, int] and taint: [true, true, true, false, true]",
+            "<java.sql.JDBCType: java.sql.JDBCType valueOf(int)> with actual argTypes: [int] and taint: [false, false]",
+            "<java.lang.Class: java.lang.Object[] getEnumConstants()> with actual argTypes: [] and taint: [false]",
+            "<java.lang.Class: java.lang.Object[] getEnumConstantsShared()> with actual argTypes: [] and taint: [false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [null, java.lang.Object[]] and taint: [false, false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.mysql.cj.jdbc.result.ResultSetImpl: java.sql.Timestamp getTimestamp(int,java.util.Calendar)> with actual argTypes: [int, java.util.Calendar] and taint: [true, true, true]",
+            "<com.mysql.cj.protocol.a.NativeServerSession: java.util.TimeZone getSessionTimeZone()> with actual argTypes: [] and taint: [true]",
+            "<com.mysql.cj.util.TimeUtil: java.lang.String getCanonicalTimeZone(java.lang.String,com.mysql.cj.exceptions.ExceptionInterceptor)> with actual argTypes: [java.lang.String, null] and taint: [false, true, false]",
+            "<com.mysql.cj.util.TimeUtil: void loadTimeZoneMappings(com.mysql.cj.exceptions.ExceptionInterceptor)> with actual argTypes: [com.mysql.cj.exceptions.ExceptionInterceptor] and taint: [false, false]",
+            "<java.lang.Class: java.io.InputStream getResourceAsStream(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<java.net.URL: java.io.InputStream openStream()> with actual argTypes: [] and taint: [false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.mysql.cj.jdbc.result.ResultSetImpl: java.sql.Timestamp getTimestamp(int,java.util.Calendar)> with actual argTypes: [int, java.util.Calendar] and taint: [true, true, true]",
+            "<com.mysql.cj.protocol.a.NativeServerSession: java.util.TimeZone getSessionTimeZone()> with actual argTypes: [] and taint: [true]",
+            "<com.mysql.cj.util.TimeUtil: java.lang.String getCanonicalTimeZone(java.lang.String,com.mysql.cj.exceptions.ExceptionInterceptor)> with actual argTypes: [java.lang.String, null] and taint: [false, true, false]",
+            "<com.mysql.cj.util.TimeUtil: void loadTimeZoneMappings(com.mysql.cj.exceptions.ExceptionInterceptor)> with actual argTypes: [com.mysql.cj.exceptions.ExceptionInterceptor] and taint: [false, false]",
+            "<java.lang.Class: java.io.InputStream getResourceAsStream(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<java.lang.ClassLoader: java.io.InputStream getSystemResourceAsStream(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<java.net.URL: java.io.InputStream openStream()> with actual argTypes: [] and taint: [false]"
+        ],
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<com.mysql.cj.xdevapi.AbstractDataResult: java.lang.Object next()> with actual argTypes: [] and taint: [true]",
+            "<com.mysql.cj.protocol.a.ResultsetFactory: java.lang.Object createFromProtocolEntity(com.mysql.cj.protocol.ProtocolEntity)> with actual argTypes: [com.mysql.cj.result.Row] and taint: [true, true]",
+            "<com.mysql.cj.protocol.a.ResultsetFactory: com.mysql.cj.protocol.Resultset createFromProtocolEntity(com.mysql.cj.protocol.ProtocolEntity)> with actual argTypes: [com.mysql.cj.protocol.ProtocolEntity] and taint: [true, true]",
+            "<com.mysql.cj.protocol.a.result.NativeResultset: void <init>(com.mysql.cj.protocol.ResultsetRows)> with actual argTypes: [com.mysql.cj.protocol.ResultsetRows] and taint: [false, true]",
+            "<com.mysql.cj.protocol.a.result.ResultsetRowsStreaming: void close()> with actual argTypes: [] and taint: [true]",
+            "<com.mysql.cj.CoreSession: com.mysql.cj.log.ProfilerEventHandler getProfilerEventHandler()> with actual argTypes: [] and taint: [true]",
+            "<com.mysql.cj.util.Util: java.lang.Object getInstance(java.lang.Class,java.lang.String,java.lang.Class[],java.lang.Object[],com.mysql.cj.exceptions.ExceptionInterceptor)> with actual argTypes: [java.lang.Class, java.lang.String, null, null, com.mysql.cj.exceptions.ExceptionInterceptor] and taint: [false, false, true, false, false, true]",
+            "<com.mysql.cj.util.Util: java.lang.Object handleNewInstance(java.lang.reflect.Constructor,java.lang.Object[],com.mysql.cj.exceptions.ExceptionInterceptor)> with actual argTypes: [java.lang.reflect.Constructor, java.lang.Object[], com.mysql.cj.exceptions.ExceptionInterceptor] and taint: [false, true, false, true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.mysql.cj.jdbc.ha.MultiHostMySQLConnection: java.sql.CallableStatement prepareCall(java.lang.String,int,int,int)> with actual argTypes: [java.lang.String, int, int, int] and taint: [true, true, true, true, true]",
+            "<com.mysql.cj.jdbc.ha.ReplicationMySQLConnection: com.mysql.cj.jdbc.JdbcConnection getActiveMySQLConnection()> with actual argTypes: [] and taint: [true]",
+            "<com.mysql.cj.jdbc.ha.ReplicationMySQLConnection: com.mysql.cj.jdbc.JdbcConnection getCurrentConnection()> with actual argTypes: [] and taint: [true]",
+            "<com.mysql.cj.jdbc.ha.ReplicationConnectionProxy: com.mysql.cj.jdbc.JdbcConnection getCurrentConnection()> with actual argTypes: [] and taint: [true]",
+            "<com.mysql.cj.jdbc.ha.LoadBalancedConnectionProxy: com.mysql.cj.jdbc.ha.LoadBalancedConnection getNullLoadBalancedConnectionInstance()> with actual argTypes: [] and taint: [false]",
+            "<java.lang.reflect.Proxy: java.lang.Object newProxyInstance(java.lang.ClassLoader,java.lang.Class[],java.lang.reflect.InvocationHandler)> with actual argTypes: [java.lang.ClassLoader, java.lang.Class[], com.mysql.cj.jdbc.ha.LoadBalancedConnectionProxy$NullLoadBalancedConnectionProxy] and taint: [false, false, false, false]",
+            "<java.lang.reflect.Proxy: java.lang.Object newProxyInstance(java.lang.Class,java.lang.reflect.Constructor,java.lang.reflect.InvocationHandler)> with actual argTypes: [java.lang.Class, java.lang.reflect.Constructor, java.lang.reflect.InvocationHandler] and taint: [false, false, false, false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, false]"
+        ],
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<com.mysql.cj.xdevapi.AbstractDataResult: java.lang.Object next()> with actual argTypes: [] and taint: [true]",
+            "<com.mysql.cj.protocol.ProtocolEntityFactory: java.lang.Object createFromProtocolEntity(com.mysql.cj.protocol.ProtocolEntity)> with actual argTypes: [com.mysql.cj.result.Row] and taint: [true, true]",
+            "<com.mysql.cj.exceptions.ExceptionFactory: com.mysql.cj.exceptions.CJException createException(java.lang.Class,java.lang.String)> with actual argTypes: [java.lang.Class, java.lang.String] and taint: [false, false, false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, false]"
+        ],
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<com.mysql.cj.protocol.a.result.ResultsetRowsCursor: boolean hasNext()> with actual argTypes: [] and taint: [true]",
+            "<com.mysql.cj.protocol.a.result.ResultsetRowsCursor: void fetchMoreRows()> with actual argTypes: [] and taint: [true]",
+            "<com.mysql.cj.jdbc.result.ResultSetImpl: java.util.concurrent.locks.Lock getLock()> with actual argTypes: [] and taint: [true]",
+            "<com.mysql.cj.jdbc.ha.MultiHostMySQLConnection: java.util.concurrent.locks.Lock getConnectionLock()> with actual argTypes: [] and taint: [true]",
+            "<com.mysql.cj.jdbc.ha.ReplicationMySQLConnection: com.mysql.cj.jdbc.JdbcConnection getActiveMySQLConnection()> with actual argTypes: [] and taint: [true]",
+            "<com.mysql.cj.jdbc.ha.ReplicationMySQLConnection: com.mysql.cj.jdbc.JdbcConnection getCurrentConnection()> with actual argTypes: [] and taint: [true]",
+            "<com.mysql.cj.jdbc.ha.ReplicationConnectionProxy: com.mysql.cj.jdbc.JdbcConnection getCurrentConnection()> with actual argTypes: [] and taint: [true]",
+            "<com.mysql.cj.jdbc.ha.LoadBalancedConnectionProxy: com.mysql.cj.jdbc.ha.LoadBalancedConnection getNullLoadBalancedConnectionInstance()> with actual argTypes: [] and taint: [false]",
+            "<java.lang.reflect.Proxy: java.lang.Object newProxyInstance(java.lang.ClassLoader,java.lang.Class[],java.lang.reflect.InvocationHandler)> with actual argTypes: [java.lang.ClassLoader, java.lang.Class[], com.mysql.cj.jdbc.ha.LoadBalancedConnectionProxy$NullLoadBalancedConnectionProxy] and taint: [false, false, false, false]",
+            "<java.lang.reflect.Proxy: java.lang.Object newProxyInstance(java.lang.Class,java.lang.reflect.Constructor,java.lang.reflect.InvocationHandler)> with actual argTypes: [java.lang.Class, java.lang.reflect.Constructor, java.lang.reflect.InvocationHandler] and taint: [false, false, false, false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.mysql.cj.jdbc.MysqlDataSource: javax.naming.Reference getReference()> with actual argTypes: [] and taint: [true]",
+            "<com.mysql.cj.conf.DefaultPropertySet: com.mysql.cj.conf.RuntimeProperty getProperty(com.mysql.cj.conf.PropertyKey)> with actual argTypes: [com.mysql.cj.conf.PropertyKey] and taint: [true, false]",
+            "<com.mysql.cj.exceptions.ExceptionFactory: com.mysql.cj.exceptions.CJException createException(java.lang.Class,java.lang.String,java.lang.Throwable)> with actual argTypes: [java.lang.Class, java.lang.String, java.lang.ClassCastException] and taint: [false, false, false, false]",
+            "<com.mysql.cj.exceptions.ExceptionFactory: com.mysql.cj.exceptions.CJException createException(java.lang.Class,java.lang.String)> with actual argTypes: [java.lang.Class, java.lang.String] and taint: [false, false, false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.mysql.cj.jdbc.MysqlDataSource: java.sql.Connection getConnection(java.lang.String,java.lang.String)> with actual argTypes: [java.lang.String, java.lang.String] and taint: [true, true, true]",
+            "<com.mysql.cj.jdbc.MysqlDataSource: java.sql.Connection getConnection(java.util.Properties)> with actual argTypes: [java.util.Properties] and taint: [true, true]",
+            "<com.mysql.cj.conf.ConnectionUrl: com.mysql.cj.conf.ConnectionUrl getConnectionUrlInstance(java.lang.String,java.util.Properties)> with actual argTypes: [java.lang.String, null] and taint: [false, true, false]",
+            "<com.mysql.cj.conf.ConnectionUrl$Type: com.mysql.cj.conf.ConnectionUrl getConnectionUrlInstance(com.mysql.cj.conf.ConnectionUrlParser,java.util.Properties)> with actual argTypes: [com.mysql.cj.conf.ConnectionUrlParser, java.util.Properties] and taint: [false, true, false]",
+            "<com.mysql.cj.conf.ConnectionUrl$Type: com.mysql.cj.conf.ConnectionUrl getImplementingInstance(com.mysql.cj.conf.ConnectionUrlParser,java.util.Properties)> with actual argTypes: [com.mysql.cj.conf.ConnectionUrlParser, java.util.Properties] and taint: [true, true, false]",
+            "<com.mysql.cj.util.Util: java.lang.Object getInstance(java.lang.Class,java.lang.String,java.lang.Class[],java.lang.Object[],com.mysql.cj.exceptions.ExceptionInterceptor)> with actual argTypes: [java.lang.Class, java.lang.String, java.lang.Class[], java.lang.Object[], null] and taint: [false, false, true, false, true, false]",
+            "<com.mysql.cj.util.Util: java.lang.Object handleNewInstance(java.lang.reflect.Constructor,java.lang.Object[],com.mysql.cj.exceptions.ExceptionInterceptor)> with actual argTypes: [java.lang.reflect.Constructor, java.lang.Object[], com.mysql.cj.exceptions.ExceptionInterceptor] and taint: [false, true, true, false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, true]"
+        ]
+    ]
+}

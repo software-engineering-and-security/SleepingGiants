@@ -1,0 +1,13 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+15976,org.jetbrains.kotlinx.kotlinx-datetime,0.2.0,2021-04-27,https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-datetime/0.2.0/kotlinx-datetime-0.2.0.jar,,,,,,,,
+15977,org.jetbrains.kotlinx.kotlinx-datetime,0.2.1,2021-05-26,https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-datetime/0.2.1/kotlinx-datetime-0.2.1.jar,,,,,,,,
+15978,org.jetbrains.kotlinx.kotlinx-datetime,0.3.0,2021-09-27,https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-datetime/0.3.0/kotlinx-datetime-0.3.0.jar,,,,,,,,
+15979,org.jetbrains.kotlinx.kotlinx-datetime,0.3.1,2021-10-27,https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-datetime/0.3.1/kotlinx-datetime-0.3.1.jar,,,,,,,,
+15980,org.jetbrains.kotlinx.kotlinx-datetime,0.3.2,2022-01-12,https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-datetime/0.3.2/kotlinx-datetime-0.3.2.jar,,,,,,,,
+15981,org.jetbrains.kotlinx.kotlinx-datetime,0.3.3,2022-05-05,https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-datetime/0.3.3/kotlinx-datetime-0.3.3.jar,,,,,,,,
+15982,org.jetbrains.kotlinx.kotlinx-datetime,0.4.0,2022-06-24,https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-datetime/0.4.0/kotlinx-datetime-0.4.0.jar,,,,,,,,
+15983,org.jetbrains.kotlinx.kotlinx-datetime,0.4.1,2023-09-01,https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-datetime/0.4.1/kotlinx-datetime-0.4.1.jar,,,,,,,,
+15984,org.jetbrains.kotlinx.kotlinx-datetime,0.5.0,2023-12-01,https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-datetime/0.5.0/kotlinx-datetime-0.5.0.jar,,,,,,,,
+15985,org.jetbrains.kotlinx.kotlinx-datetime,0.6.0,2024-05-14,https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-datetime/0.6.0/kotlinx-datetime-0.6.0.jar,,,,,,,,
+15986,org.jetbrains.kotlinx.kotlinx-datetime,0.6.1,2024-08-20,https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-datetime/0.6.1/kotlinx-datetime-0.6.1.jar,,,,,,,,
+15987,org.jetbrains.kotlinx.kotlinx-datetime,0.6.2,2025-02-10,https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-datetime/0.6.2/kotlinx-datetime-0.6.2.jar,,,,,,,,

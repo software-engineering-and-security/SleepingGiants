@@ -1,0 +1,7 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+2947,javax.sip.jain-sip-api,1.2,2008-09-30,https://repo1.maven.org/maven2/javax/sip/jain-sip-api/1.2/jain-sip-api-1.2.jar,70,,,,,,,1.2.0
+2948,javax.sip.jain-sip-api,1.2.0,2012-03-29,https://repo1.maven.org/maven2/javax/sip/jain-sip-api/1.2.0/jain-sip-api-1.2.0.jar,70,0,0,0,0,0,0,1.2.1
+2949,javax.sip.jain-sip-api,1.2.1,2008-03-24,https://repo1.maven.org/maven2/javax/sip/jain-sip-api/1.2.1/jain-sip-api-1.2.1.jar,70,0,0,0,0,0,0,1.2.1.3
+2950,javax.sip.jain-sip-api,1.2.1.3,2010-05-20,https://repo1.maven.org/maven2/javax/sip/jain-sip-api/1.2.1.3/jain-sip-api-1.2.1.3.jar,70,0,0,0,0,0,0,1.2.1.4
+2930,javax.sip.jain-sip-api,1.2.1.4,2010-05-20,https://repo1.maven.org/maven2/javax/sip/jain-sip-api/1.2.1.4/jain-sip-api-1.2.1.4.jar,70,0,0,0,0,0,0,1.2.2007.07
+2946,javax.sip.jain-sip-api,1.2.2007.07,2010-05-20,https://repo1.maven.org/maven2/javax/sip/jain-sip-api/1.2-2007-07-25/jain-sip-api-1.2-2007-07-25.jar,: 70,0,0,0,0,0,0,

@@ -1,0 +1,14 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+103286,jakarta.jms.jakarta.jms-api,1.0,2006-01-06,https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.0/geronimo-jms_1.1_spec-1.0.jar,,,,,,,,1.0.0
+105532,jakarta.jms.jakarta.jms-api,1.0.0,2013-10-09,https://repo1.maven.org/maven2/org/jboss/spec/javax/jms/jboss-jms-api_2.0_spec/1.0.0.Final/jboss-jms-api_2.0_spec-1.0.0.Final.jar,,,,,,,,1.0.1
+103244,jakarta.jms.jakarta.jms-api,1.0.1,2006-06-28,https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.0.1/geronimo-jms_1.1_spec-1.0.1.jar,,,,,,,,1.0.2
+105531,jakarta.jms.jakarta.jms-api,1.0.2,2018-01-22,https://repo1.maven.org/maven2/org/jboss/spec/javax/jms/jboss-jms-api_2.0_spec/1.0.2.Final/jboss-jms-api_2.0_spec-1.0.2.Final.jar,,,,,,,,1.1
+103243,jakarta.jms.jakarta.jms-api,1.1,2006-12-17,https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1/geronimo-jms_1.1_spec-1.1.jar,,,,,,,,1.1.1
+103242,jakarta.jms.jakarta.jms-api,1.1.1,2008-02-07,https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1.jar,,,,,,,,2.0
+103302,jakarta.jms.jakarta.jms-api,2.0,2013-04-12,https://repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0/javax.jms-api-2.0.jar,,,,,,,,2.0.0
+105530,jakarta.jms.jakarta.jms-api,2.0.0,2019-09-11,https://repo1.maven.org/maven2/org/jboss/spec/javax/jms/jboss-jms-api_2.0_spec/2.0.0.Final/jboss-jms-api_2.0_spec-2.0.0.Final.jar,,,,,,,,2.0.1
+103324,jakarta.jms.jakarta.jms-api,2.0.1,2015-03-11,https://repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar,,,,,,,,2.0.2
+3003,jakarta.jms.jakarta.jms-api,2.0.2,2019-01-14,https://repo1.maven.org/maven2/jakarta/jms/jakarta.jms-api/2.0.2/jakarta.jms-api-2.0.2.jar,,,,,,,,2.0.3
+3004,jakarta.jms.jakarta.jms-api,2.0.3,2019-09-10,https://repo1.maven.org/maven2/jakarta/jms/jakarta.jms-api/2.0.3/jakarta.jms-api-2.0.3.jar,,,,,,,,3.0.0
+3005,jakarta.jms.jakarta.jms-api,3.0.0,2020-11-06,https://repo1.maven.org/maven2/jakarta/jms/jakarta.jms-api/3.0.0/jakarta.jms-api-3.0.0.jar,,,,,,,,3.1.0
+3006,jakarta.jms.jakarta.jms-api,3.1.0,2022-05-18,https://repo1.maven.org/maven2/jakarta/jms/jakarta.jms-api/3.1.0/jakarta.jms-api-3.1.0.jar,,,,,,,,

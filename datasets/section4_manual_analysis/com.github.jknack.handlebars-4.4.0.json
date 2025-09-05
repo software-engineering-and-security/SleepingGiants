@@ -1,0 +1,12 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<com.github.jknack.handlebars.io.ReloadableTemplateSource: boolean equals(java.lang.Object)> with actual argTypes: [java.lang.Class] and taint: [true, true]",
+            "<com.github.jknack.handlebars.io.URLTemplateSource: long lastModified()> with actual argTypes: [] and taint: [true]",
+            "<com.github.jknack.handlebars.io.URLTemplateSource: long lastModified(java.net.URL)> with actual argTypes: [java.net.URL] and taint: [true, true]",
+            "<java.net.URL: java.net.URLConnection openConnection()> with actual argTypes: [] and taint: [true]"
+        ]
+    ]
+}

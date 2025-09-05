@@ -1,0 +1,34 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<reactor.core.publisher.BlockingIterable$SubscriberIterator: java.lang.Object next()> with actual argTypes: [] and taint: [true]",
+            "<reactor.core.publisher.FluxPeekFuseable$PeekFuseableConditionalSubscriber: java.lang.Object poll()> with actual argTypes: [] and taint: [true]",
+            "<javax.swing.JFormattedTextField$FocusLostHandler: void run()> with actual argTypes: [] and taint: [true]",
+            "<javax.swing.JFormattedTextField: void commitEdit()> with actual argTypes: [] and taint: [true]",
+            "<javax.swing.text.DefaultFormatter: java.lang.Object stringToValue(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, true]"
+        ],
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<reactor.core.publisher.BlockingIterable$SubscriberIterator: java.lang.Object next()> with actual argTypes: [] and taint: [true]",
+            "<reactor.core.publisher.FluxPeekFuseable$PeekFuseableConditionalSubscriber: java.lang.Object poll()> with actual argTypes: [] and taint: [true]",
+            "<java.util.concurrent.ForkJoinTask$AdaptedRunnableAction: void run()> with actual argTypes: [] and taint: [true]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Object invoke()> with actual argTypes: [] and taint: [true]",
+            "<java.util.concurrent.ForkJoinTask: void reportException(int)> with actual argTypes: [int] and taint: [true, true]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Throwable getThrowableException()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, true]"
+        ],
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<reactor.core.publisher.BlockingIterable$SubscriberIterator: java.lang.Object next()> with actual argTypes: [] and taint: [true]",
+            "<reactor.core.publisher.FluxPeekFuseable$PeekFuseableConditionalSubscriber: java.lang.Object poll()> with actual argTypes: [] and taint: [true]",
+            "<java.util.concurrent.ForkJoinTask$AdaptedRunnableAction: void run()> with actual argTypes: [] and taint: [true]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Object invoke()> with actual argTypes: [] and taint: [true]",
+            "<java.util.concurrent.ForkJoinTask: void reportException(int)> with actual argTypes: [int] and taint: [true, true]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Throwable getThrowableException()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, false]"
+        ]
+    ]
+}

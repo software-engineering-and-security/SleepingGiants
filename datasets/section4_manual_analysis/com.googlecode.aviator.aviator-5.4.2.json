@@ -1,0 +1,23 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.googlecode.aviator.runtime.function.AbstractVariadicFunction: void run()> with actual argTypes: [] and taint: [true]",
+            "<com.googlecode.aviator.runtime.function.AbstractVariadicFunction: com.googlecode.aviator.runtime.type.AviatorObject call(java.util.Map)> with actual argTypes: [java.util.Map] and taint: [true, false]",
+            "<com.googlecode.aviator.runtime.function.internal.NewInstanceFunction: com.googlecode.aviator.runtime.type.AviatorObject variadicCall(java.util.Map,com.googlecode.aviator.runtime.type.AviatorObject[])> with actual argTypes: [java.util.Map, com.googlecode.aviator.runtime.type.AviatorObject[]] and taint: [true, false, false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.googlecode.aviator.runtime.function.AbstractVariadicFunction: void run()> with actual argTypes: [] and taint: [true]",
+            "<com.googlecode.aviator.runtime.function.AbstractVariadicFunction: com.googlecode.aviator.runtime.type.AviatorObject call(java.util.Map)> with actual argTypes: [java.util.Map] and taint: [true, false]",
+            "<com.googlecode.aviator.runtime.function.ClassMethodFunction: com.googlecode.aviator.runtime.type.AviatorObject variadicCall(java.util.Map,com.googlecode.aviator.runtime.type.AviatorObject[])> with actual argTypes: [java.util.Map, com.googlecode.aviator.runtime.type.AviatorObject[]] and taint: [true, false, false]",
+            "<com.googlecode.aviator.utils.Reflector: java.lang.Object invokeStaticMethod(java.lang.Class,java.lang.String,java.util.List,java.lang.Object[])> with actual argTypes: [java.lang.Class, java.lang.String, java.util.List, java.lang.Object[]] and taint: [false, true, true, true, false]",
+            "<com.googlecode.aviator.utils.Reflector: java.lang.Object invokeMatchingMethod(java.lang.String,java.util.List,java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.String, java.util.List, null, java.lang.Object[]] and taint: [false, true, true, false, false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [true, false, true]"
+        ]
+    ]
+}

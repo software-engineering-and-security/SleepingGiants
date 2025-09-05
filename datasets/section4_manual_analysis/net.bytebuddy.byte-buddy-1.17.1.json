@@ -1,0 +1,315 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<net.bytebuddy.description.annotation.AnnotationDescription$AbstractBase: boolean equals(java.lang.Object)> with actual argTypes: [java.lang.Class] and taint: [true, true]",
+            "<net.bytebuddy.description.annotation.AnnotationDescription$ForLoadedAnnotation: net.bytebuddy.description.annotation.AnnotationValue getValue(net.bytebuddy.description.method.MethodDescription$InDefinedShape)> with actual argTypes: [net.bytebuddy.description.method.MethodDescription$InDefinedShape] and taint: [true, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.annotation.Annotation, java.lang.Object[]] and taint: [true, true, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<net.bytebuddy.ClassFileVersion$VersionLocator$Resolver: java.lang.Object run()> with actual argTypes: [] and taint: [true]",
+            "<net.bytebuddy.ClassFileVersion$VersionLocator$Resolver: net.bytebuddy.ClassFileVersion$VersionLocator run()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [null, java.lang.Object[]] and taint: [true, false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<net.bytebuddy.ClassFileVersion$VersionLocator$Resolver: java.lang.Object run()> with actual argTypes: [] and taint: [true]",
+            "<net.bytebuddy.ClassFileVersion$VersionLocator$Resolver: net.bytebuddy.ClassFileVersion$VersionLocator run()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [true, true, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<net.bytebuddy.dynamic.loading.ClassInjector$UsingUnsafe$Dispatcher$CreationAction: java.lang.Object run()> with actual argTypes: [] and taint: [true]",
+            "<net.bytebuddy.dynamic.loading.ClassInjector$UsingUnsafe$Dispatcher$CreationAction: net.bytebuddy.dynamic.loading.ClassInjector$UsingUnsafe$Dispatcher$Initializable run()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [true, false, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<net.bytebuddy.dynamic.loading.ByteArrayClassLoader$SynchronizationStrategy$CreationAction: java.lang.Object run()> with actual argTypes: [] and taint: [true]",
+            "<net.bytebuddy.dynamic.loading.ByteArrayClassLoader$SynchronizationStrategy$CreationAction: net.bytebuddy.dynamic.loading.ByteArrayClassLoader$SynchronizationStrategy$Initializable run()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [null, java.lang.Object[]] and taint: [false, false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<net.bytebuddy.dynamic.loading.ByteArrayClassLoader$SynchronizationStrategy$CreationAction: java.lang.Object run()> with actual argTypes: [] and taint: [true]",
+            "<net.bytebuddy.dynamic.loading.ByteArrayClassLoader$SynchronizationStrategy$CreationAction: net.bytebuddy.dynamic.loading.ByteArrayClassLoader$SynchronizationStrategy$Initializable run()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [false, false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<net.bytebuddy.utility.GraalImageCode$ImageCodeContextAction: java.lang.Object run()> with actual argTypes: [] and taint: [true]",
+            "<net.bytebuddy.utility.GraalImageCode$ImageCodeContextAction: net.bytebuddy.utility.GraalImageCode run()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [null, java.lang.Object[]] and taint: [true, false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<net.bytebuddy.utility.GraalImageCode$ImageCodeContextAction: java.lang.Object run()> with actual argTypes: [] and taint: [true]",
+            "<net.bytebuddy.utility.GraalImageCode$ImageCodeContextAction: net.bytebuddy.utility.GraalImageCode run()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [true, true, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<net.bytebuddy.dynamic.NexusAccessor$Dispatcher$CreationAction: java.lang.Object run()> with actual argTypes: [] and taint: [true]",
+            "<net.bytebuddy.dynamic.NexusAccessor$Dispatcher$CreationAction: net.bytebuddy.dynamic.NexusAccessor$Dispatcher run()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [false, false, false]"
+        ],
+        [
+            "<javax.management.ImmutableDescriptor: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<net.bytebuddy.build.HashCodeAndEqualsPlugin$AnnotationOrderComparator: int compare(java.lang.Object,java.lang.Object)> with actual argTypes: [java.lang.String, java.lang.String] and taint: [false, true, true]",
+            "<net.bytebuddy.build.HashCodeAndEqualsPlugin$AnnotationOrderComparator: int compare(net.bytebuddy.description.field.FieldDescription$InDefinedShape,net.bytebuddy.description.field.FieldDescription$InDefinedShape)> with actual argTypes: [net.bytebuddy.description.field.FieldDescription$InDefinedShape, net.bytebuddy.description.field.FieldDescription$InDefinedShape] and taint: [false, true, true]",
+            "<net.bytebuddy.description.annotation.AnnotationDescription$ForLoadedAnnotation: net.bytebuddy.description.annotation.AnnotationValue getValue(net.bytebuddy.description.method.MethodDescription$InDefinedShape)> with actual argTypes: [net.bytebuddy.description.method.MethodDescription$InDefinedShape] and taint: [true, false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.annotation.Annotation, java.lang.Object[]] and taint: [true, true, false]"
+        ],
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<net.bytebuddy.description.annotation.AnnotationDescription$AbstractBase: boolean equals(java.lang.Object)> with actual argTypes: [java.lang.Class] and taint: [true, true]",
+            "<net.bytebuddy.description.annotation.AnnotationDescription$ForLoadedAnnotation: net.bytebuddy.description.annotation.AnnotationValue getValue(net.bytebuddy.description.method.MethodDescription$InDefinedShape)> with actual argTypes: [net.bytebuddy.description.method.MethodDescription$InDefinedShape] and taint: [true, true]",
+            "<net.bytebuddy.description.annotation.AnnotationDescription$ForLoadedAnnotation: net.bytebuddy.description.annotation.AnnotationValue asValue(java.lang.Object,java.lang.Class)> with actual argTypes: [java.lang.Object, java.lang.Class] and taint: [false, true, true]",
+            "<net.bytebuddy.description.annotation.AnnotationDescription$ForLoadedAnnotation: java.util.Map asValue(java.lang.annotation.Annotation)> with actual argTypes: [java.lang.annotation.Annotation] and taint: [false, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.annotation.Annotation, java.lang.Object[]] and taint: [true, true, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<net.bytebuddy.dynamic.loading.ClassInjector$UsingReflection$Dispatcher$CreationAction: java.lang.Object run()> with actual argTypes: [] and taint: [true]",
+            "<net.bytebuddy.dynamic.loading.ClassInjector$UsingReflection$Dispatcher$CreationAction: net.bytebuddy.dynamic.loading.ClassInjector$UsingReflection$Dispatcher$Initializable run()> with actual argTypes: [] and taint: [true]",
+            "<net.bytebuddy.dynamic.loading.ClassInjector$UsingReflection$Dispatcher$UsingUnsafeInjection: net.bytebuddy.dynamic.loading.ClassInjector$UsingReflection$Dispatcher$Initializable make()> with actual argTypes: [] and taint: [false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [false, false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<net.bytebuddy.dynamic.loading.ClassInjector$UsingReflection$Dispatcher$CreationAction: java.lang.Object run()> with actual argTypes: [] and taint: [true]",
+            "<net.bytebuddy.dynamic.loading.ClassInjector$UsingReflection$Dispatcher$CreationAction: net.bytebuddy.dynamic.loading.ClassInjector$UsingReflection$Dispatcher$Initializable run()> with actual argTypes: [] and taint: [true]",
+            "<net.bytebuddy.dynamic.loading.ClassInjector$UsingReflection$Dispatcher$UsingUnsafeOverride: net.bytebuddy.dynamic.loading.ClassInjector$UsingReflection$Dispatcher$Initializable make()> with actual argTypes: [] and taint: [false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [false, false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<net.bytebuddy.dynamic.loading.ByteArrayClassLoader$SynchronizationStrategy$CreationAction: java.lang.Object run()> with actual argTypes: [] and taint: [true]",
+            "<net.bytebuddy.dynamic.loading.ByteArrayClassLoader$SynchronizationStrategy$CreationAction: net.bytebuddy.dynamic.loading.ByteArrayClassLoader$SynchronizationStrategy$Initializable run()> with actual argTypes: [] and taint: [true]",
+            "<net.bytebuddy.dynamic.loading.ByteArrayClassLoader: java.lang.Object access$000()> with actual argTypes: [] and taint: [false]",
+            "<net.bytebuddy.dynamic.loading.ByteArrayClassLoader: java.lang.Object methodHandle()> with actual argTypes: [] and taint: [false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [null, java.lang.Object[]] and taint: [false, false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<net.bytebuddy.dynamic.NexusAccessor$Dispatcher$CreationAction: java.lang.Object run()> with actual argTypes: [] and taint: [true]",
+            "<net.bytebuddy.dynamic.NexusAccessor$Dispatcher$CreationAction: net.bytebuddy.dynamic.NexusAccessor$Dispatcher run()> with actual argTypes: [] and taint: [true]",
+            "<net.bytebuddy.dynamic.loading.ClassInjector$AbstractBase: java.util.Map inject(java.util.Map)> with actual argTypes: [java.util.Map] and taint: [false, false]",
+            "<net.bytebuddy.dynamic.loading.ClassInjector$AbstractBase: java.util.Map injectRaw(java.util.Map)> with actual argTypes: [java.util.LinkedHashMap] and taint: [false, false]",
+            "<net.bytebuddy.dynamic.loading.ClassInjector$UsingInstrumentation: java.util.Map injectRaw(java.util.Set,net.bytebuddy.dynamic.ClassFileLocator)> with actual argTypes: [java.util.Set, net.bytebuddy.dynamic.ClassFileLocator$Simple] and taint: [false, false, false]",
+            "<java.io.FileOutputStream: void <init>(java.io.File)> with actual argTypes: [java.io.File] and taint: [false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<net.bytebuddy.dynamic.NexusAccessor$Dispatcher$CreationAction: java.lang.Object run()> with actual argTypes: [] and taint: [true]",
+            "<net.bytebuddy.dynamic.NexusAccessor$Dispatcher$CreationAction: net.bytebuddy.dynamic.NexusAccessor$Dispatcher run()> with actual argTypes: [] and taint: [true]",
+            "<net.bytebuddy.dynamic.loading.ClassInjector$AbstractBase: java.util.Map inject(java.util.Map)> with actual argTypes: [java.util.Map] and taint: [false, false]",
+            "<net.bytebuddy.dynamic.loading.ClassInjector$AbstractBase: java.util.Map injectRaw(java.util.Map)> with actual argTypes: [java.util.LinkedHashMap] and taint: [false, false]",
+            "<net.bytebuddy.dynamic.loading.ClassInjector$UsingInstrumentation: java.util.Map injectRaw(java.util.Set,net.bytebuddy.dynamic.ClassFileLocator)> with actual argTypes: [java.util.Set, net.bytebuddy.dynamic.ClassFileLocator$Simple] and taint: [false, false, false]",
+            "<java.io.File: boolean delete()> with actual argTypes: [] and taint: [false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<net.bytebuddy.dynamic.NexusAccessor$Dispatcher$CreationAction: java.lang.Object run()> with actual argTypes: [] and taint: [true]",
+            "<net.bytebuddy.dynamic.NexusAccessor$Dispatcher$CreationAction: net.bytebuddy.dynamic.NexusAccessor$Dispatcher run()> with actual argTypes: [] and taint: [true]",
+            "<net.bytebuddy.dynamic.loading.ClassInjector$AbstractBase: java.util.Map inject(java.util.Map)> with actual argTypes: [java.util.Map] and taint: [false, false]",
+            "<net.bytebuddy.dynamic.loading.ClassInjector$AbstractBase: java.util.Map injectRaw(java.util.Map)> with actual argTypes: [java.util.LinkedHashMap] and taint: [false, false]",
+            "<net.bytebuddy.dynamic.loading.ClassInjector$UsingUnsafe: java.util.Map injectRaw(java.util.Set,net.bytebuddy.dynamic.ClassFileLocator)> with actual argTypes: [java.util.Set, net.bytebuddy.dynamic.ClassFileLocator$Simple] and taint: [false, false, false]",
+            "<net.bytebuddy.dynamic.loading.ClassInjector$UsingUnsafe$Dispatcher$Enabled: net.bytebuddy.dynamic.loading.ClassInjector$UsingUnsafe$Dispatcher initialize()> with actual argTypes: [] and taint: [false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [false, false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<net.bytebuddy.dynamic.NexusAccessor$Dispatcher$CreationAction: java.lang.Object run()> with actual argTypes: [] and taint: [true]",
+            "<net.bytebuddy.dynamic.NexusAccessor$Dispatcher$CreationAction: net.bytebuddy.dynamic.NexusAccessor$Dispatcher run()> with actual argTypes: [] and taint: [true]",
+            "<net.bytebuddy.dynamic.loading.ClassInjector$AbstractBase: java.util.Map inject(java.util.Map)> with actual argTypes: [java.util.Map] and taint: [false, false]",
+            "<net.bytebuddy.dynamic.loading.ClassInjector$AbstractBase: java.util.Map injectRaw(java.util.Map)> with actual argTypes: [java.util.LinkedHashMap] and taint: [false, false]",
+            "<net.bytebuddy.dynamic.loading.ClassInjector$UsingUnsafe: java.util.Map injectRaw(java.util.Set,net.bytebuddy.dynamic.ClassFileLocator)> with actual argTypes: [java.util.Set, net.bytebuddy.dynamic.ClassFileLocator$Simple] and taint: [false, false, false]",
+            "<net.bytebuddy.dynamic.loading.ClassInjector$UsingUnsafe$Dispatcher$Enabled: java.lang.Class defineClass(java.lang.ClassLoader,java.lang.String,byte[],java.security.ProtectionDomain)> with actual argTypes: [java.lang.ClassLoader, java.lang.String, byte[], java.security.ProtectionDomain] and taint: [false, false, false, false, false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [false, false, false]"
+        ],
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<net.bytebuddy.description.type.TypeDescription$AbstractBase: boolean equals(java.lang.Object)> with actual argTypes: [java.lang.Class] and taint: [true, true]",
+            "<net.bytebuddy.description.type.TypeDescription$SuperTypeLoading$ClassLoadingTypeProjection: net.bytebuddy.description.type.TypeDescription asErasure()> with actual argTypes: [] and taint: [true]",
+            "<net.bytebuddy.agent.builder.AgentBuilder$DescriptionStrategy$SuperTypeLoading$Asynchronous$ThreadSwitchingClassLoadingDelegate: java.lang.Class load(java.lang.String,java.lang.ClassLoader)> with actual argTypes: [java.lang.String, java.lang.ClassLoader] and taint: [true, true, true]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Object get()> with actual argTypes: [] and taint: [true]",
+            "<java.util.concurrent.ForkJoinTask: void reportExecutionException(int)> with actual argTypes: [int] and taint: [true, true]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Throwable getThrowableException()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, true]"
+        ],
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<net.bytebuddy.description.type.TypeDescription$AbstractBase: boolean equals(java.lang.Object)> with actual argTypes: [java.lang.Class] and taint: [true, true]",
+            "<net.bytebuddy.description.type.TypeDescription$SuperTypeLoading$ClassLoadingTypeProjection: net.bytebuddy.description.type.TypeDescription asErasure()> with actual argTypes: [] and taint: [true]",
+            "<net.bytebuddy.agent.builder.AgentBuilder$DescriptionStrategy$SuperTypeLoading$Asynchronous$ThreadSwitchingClassLoadingDelegate: java.lang.Class load(java.lang.String,java.lang.ClassLoader)> with actual argTypes: [java.lang.String, java.lang.ClassLoader] and taint: [true, true, true]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Object get()> with actual argTypes: [] and taint: [true]",
+            "<java.util.concurrent.ForkJoinTask: void reportExecutionException(int)> with actual argTypes: [int] and taint: [true, true]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Throwable getThrowableException()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, false]"
+        ],
+        [
+            "<java.util.concurrent.atomic.AtomicReferenceArray: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<java.security.AccessController: java.lang.Object doPrivileged(java.security.PrivilegedAction)> with actual argTypes: [java.security.PrivilegedAction] and taint: [false, false]",
+            "<java.security.AccessController: java.lang.Object executePrivileged(java.security.PrivilegedAction,java.security.AccessControlContext,java.lang.Class)> with actual argTypes: [java.security.PrivilegedAction, null, java.lang.Class] and taint: [false, false, false, false]",
+            "<net.bytebuddy.dynamic.NexusAccessor$Dispatcher$CreationAction: java.lang.Object run()> with actual argTypes: [] and taint: [false]",
+            "<net.bytebuddy.dynamic.NexusAccessor$Dispatcher$CreationAction: net.bytebuddy.dynamic.NexusAccessor$Dispatcher run()> with actual argTypes: [] and taint: [false]",
+            "<net.bytebuddy.dynamic.loading.ClassInjector$AbstractBase: java.util.Map inject(java.util.Map)> with actual argTypes: [java.util.Map] and taint: [false, false]",
+            "<net.bytebuddy.dynamic.loading.ClassInjector$AbstractBase: java.util.Map injectRaw(java.util.Map)> with actual argTypes: [java.util.LinkedHashMap] and taint: [false, false]",
+            "<net.bytebuddy.dynamic.loading.ClassInjector$UsingInstrumentation: java.util.Map injectRaw(java.util.Set,net.bytebuddy.dynamic.ClassFileLocator)> with actual argTypes: [java.util.Set, net.bytebuddy.dynamic.ClassFileLocator$Simple] and taint: [false, false, false]",
+            "<java.io.FileOutputStream: void <init>(java.io.File)> with actual argTypes: [java.io.File] and taint: [false, false]"
+        ],
+        [
+            "<java.util.concurrent.atomic.AtomicReferenceArray: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<java.security.AccessController: java.lang.Object doPrivileged(java.security.PrivilegedAction)> with actual argTypes: [java.security.PrivilegedAction] and taint: [false, false]",
+            "<java.security.AccessController: java.lang.Object executePrivileged(java.security.PrivilegedAction,java.security.AccessControlContext,java.lang.Class)> with actual argTypes: [java.security.PrivilegedAction, null, java.lang.Class] and taint: [false, false, false, false]",
+            "<net.bytebuddy.dynamic.NexusAccessor$Dispatcher$CreationAction: java.lang.Object run()> with actual argTypes: [] and taint: [false]",
+            "<net.bytebuddy.dynamic.NexusAccessor$Dispatcher$CreationAction: net.bytebuddy.dynamic.NexusAccessor$Dispatcher run()> with actual argTypes: [] and taint: [false]",
+            "<net.bytebuddy.dynamic.loading.ClassInjector$AbstractBase: java.util.Map inject(java.util.Map)> with actual argTypes: [java.util.Map] and taint: [false, false]",
+            "<net.bytebuddy.dynamic.loading.ClassInjector$AbstractBase: java.util.Map injectRaw(java.util.Map)> with actual argTypes: [java.util.LinkedHashMap] and taint: [false, false]",
+            "<net.bytebuddy.dynamic.loading.ClassInjector$UsingInstrumentation: java.util.Map injectRaw(java.util.Set,net.bytebuddy.dynamic.ClassFileLocator)> with actual argTypes: [java.util.Set, net.bytebuddy.dynamic.ClassFileLocator$Simple] and taint: [false, false, false]",
+            "<java.io.File: boolean delete()> with actual argTypes: [] and taint: [false]"
+        ],
+        [
+            "<java.util.concurrent.atomic.AtomicReferenceArray: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<java.security.AccessController: java.lang.Object doPrivileged(java.security.PrivilegedAction)> with actual argTypes: [java.security.PrivilegedAction] and taint: [false, false]",
+            "<java.security.AccessController: java.lang.Object executePrivileged(java.security.PrivilegedAction,java.security.AccessControlContext,java.lang.Class)> with actual argTypes: [java.security.PrivilegedAction, null, java.lang.Class] and taint: [false, false, false, false]",
+            "<net.bytebuddy.dynamic.NexusAccessor$Dispatcher$CreationAction: java.lang.Object run()> with actual argTypes: [] and taint: [false]",
+            "<net.bytebuddy.dynamic.NexusAccessor$Dispatcher$CreationAction: net.bytebuddy.dynamic.NexusAccessor$Dispatcher run()> with actual argTypes: [] and taint: [false]",
+            "<net.bytebuddy.dynamic.loading.ClassInjector$AbstractBase: java.util.Map inject(java.util.Map)> with actual argTypes: [java.util.Map] and taint: [false, false]",
+            "<net.bytebuddy.dynamic.loading.ClassInjector$AbstractBase: java.util.Map injectRaw(java.util.Map)> with actual argTypes: [java.util.LinkedHashMap] and taint: [false, false]",
+            "<net.bytebuddy.dynamic.loading.ClassInjector$UsingUnsafe: java.util.Map injectRaw(java.util.Set,net.bytebuddy.dynamic.ClassFileLocator)> with actual argTypes: [java.util.Set, net.bytebuddy.dynamic.ClassFileLocator$Simple] and taint: [false, false, false]",
+            "<net.bytebuddy.dynamic.loading.ClassInjector$UsingUnsafe$Dispatcher$Enabled: net.bytebuddy.dynamic.loading.ClassInjector$UsingUnsafe$Dispatcher initialize()> with actual argTypes: [] and taint: [false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [false, false, false]"
+        ],
+        [
+            "<java.util.concurrent.atomic.AtomicReferenceArray: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<java.security.AccessController: java.lang.Object doPrivileged(java.security.PrivilegedAction)> with actual argTypes: [java.security.PrivilegedAction] and taint: [false, false]",
+            "<java.security.AccessController: java.lang.Object executePrivileged(java.security.PrivilegedAction,java.security.AccessControlContext,java.lang.Class)> with actual argTypes: [java.security.PrivilegedAction, null, java.lang.Class] and taint: [false, false, false, false]",
+            "<net.bytebuddy.dynamic.NexusAccessor$Dispatcher$CreationAction: java.lang.Object run()> with actual argTypes: [] and taint: [false]",
+            "<net.bytebuddy.dynamic.NexusAccessor$Dispatcher$CreationAction: net.bytebuddy.dynamic.NexusAccessor$Dispatcher run()> with actual argTypes: [] and taint: [false]",
+            "<net.bytebuddy.dynamic.loading.ClassInjector$AbstractBase: java.util.Map inject(java.util.Map)> with actual argTypes: [java.util.Map] and taint: [false, false]",
+            "<net.bytebuddy.dynamic.loading.ClassInjector$AbstractBase: java.util.Map injectRaw(java.util.Map)> with actual argTypes: [java.util.LinkedHashMap] and taint: [false, false]",
+            "<net.bytebuddy.dynamic.loading.ClassInjector$UsingUnsafe: java.util.Map injectRaw(java.util.Set,net.bytebuddy.dynamic.ClassFileLocator)> with actual argTypes: [java.util.Set, net.bytebuddy.dynamic.ClassFileLocator$Simple] and taint: [false, false, false]",
+            "<net.bytebuddy.dynamic.loading.ClassInjector$UsingUnsafe$Dispatcher$Enabled: java.lang.Class defineClass(java.lang.ClassLoader,java.lang.String,byte[],java.security.ProtectionDomain)> with actual argTypes: [java.lang.ClassLoader, java.lang.String, byte[], java.security.ProtectionDomain] and taint: [false, false, false, false, false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [false, false, false]"
+        ],
+        [
+            "<java.util.concurrent.atomic.AtomicReferenceArray: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<java.security.AccessController: java.lang.Object doPrivileged(java.security.PrivilegedAction)> with actual argTypes: [java.security.PrivilegedAction] and taint: [false, false]",
+            "<java.security.AccessController: java.lang.Object executePrivileged(java.security.PrivilegedAction,java.security.AccessControlContext,java.lang.Class)> with actual argTypes: [java.security.PrivilegedAction, null, java.lang.Class] and taint: [false, false, false, false]",
+            "<net.bytebuddy.agent.builder.ResettableClassFileTransformer$WithDelegation$Substitutable$Factory$CreationAction: java.lang.Object run()> with actual argTypes: [] and taint: [false]",
+            "<net.bytebuddy.agent.builder.ResettableClassFileTransformer$WithDelegation$Substitutable$Factory$CreationAction: net.bytebuddy.agent.builder.ResettableClassFileTransformer$WithDelegation$Substitutable$Factory run()> with actual argTypes: [] and taint: [false]",
+            "<net.bytebuddy.dynamic.DynamicType$Default$Unloaded: net.bytebuddy.dynamic.DynamicType$Loaded load(java.lang.ClassLoader,net.bytebuddy.dynamic.loading.ClassLoadingStrategy)> with actual argTypes: [java.lang.ClassLoader, net.bytebuddy.dynamic.loading.ClassLoadingStrategy$Configurable] and taint: [false, false, false]",
+            "<net.bytebuddy.dynamic.TypeResolutionStrategy$Active$Resolved: java.util.Map initialize(net.bytebuddy.dynamic.DynamicType,java.lang.ClassLoader,net.bytebuddy.dynamic.loading.ClassLoadingStrategy)> with actual argTypes: [net.bytebuddy.dynamic.DynamicType$Default$Unloaded, java.lang.ClassLoader, net.bytebuddy.dynamic.loading.ClassLoadingStrategy] and taint: [false, false, false, false]",
+            "<net.bytebuddy.dynamic.loading.InjectionClassLoader$Strategy: java.util.Map load(java.lang.ClassLoader,java.util.Map)> with actual argTypes: [java.lang.ClassLoader, java.util.Map] and taint: [false, false, false]",
+            "<net.bytebuddy.dynamic.loading.InjectionClassLoader$Strategy: java.util.Map load(net.bytebuddy.dynamic.loading.InjectionClassLoader,java.util.Map)> with actual argTypes: [net.bytebuddy.dynamic.loading.InjectionClassLoader, java.util.Map] and taint: [false, false, false]",
+            "<net.bytebuddy.dynamic.loading.InjectionClassLoader: java.util.Map defineClasses(java.util.Map)> with actual argTypes: [java.util.LinkedHashMap] and taint: [false, false]",
+            "<net.bytebuddy.dynamic.loading.MultipleParentClassLoader: java.util.Map doDefineClasses(java.util.Map)> with actual argTypes: [java.util.Map] and taint: [false, false]",
+            "<java.lang.ClassLoader: java.lang.Class defineClass(java.lang.String,byte[],int,int)> with actual argTypes: [java.lang.String, byte[], int, int] and taint: [false, false, false, false, false]"
+        ],
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<net.bytebuddy.pool.TypePool$Default$LazyTypeDescription$LazyAnnotationValue: boolean equals(java.lang.Object)> with actual argTypes: [java.lang.Class] and taint: [true, true]",
+            "<net.bytebuddy.pool.TypePool$Default$LazyTypeDescription$LazyAnnotationValue$ForArray: net.bytebuddy.description.annotation.AnnotationValue doResolve()> with actual argTypes: [] and taint: [true]",
+            "<net.bytebuddy.pool.TypePool$AbstractBase: net.bytebuddy.pool.TypePool$Resolution describe(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<net.bytebuddy.pool.TypePool$CacheProvider$Discriminating: net.bytebuddy.pool.TypePool$Resolution find(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<net.bytebuddy.matcher.ElementMatcher$Junction$ForNonNullValues: boolean matches(java.lang.Object)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<net.bytebuddy.build.HashCodeAndEqualsPlugin$ValueMatcher: boolean doMatch(java.lang.Object)> with actual argTypes: [java.lang.Object] and taint: [true, true]",
+            "<net.bytebuddy.build.HashCodeAndEqualsPlugin$ValueMatcher: boolean doMatch(net.bytebuddy.description.field.FieldDescription)> with actual argTypes: [net.bytebuddy.description.field.FieldDescription] and taint: [true, true]",
+            "<net.bytebuddy.description.annotation.AnnotationValue$ForAnnotationDescription: net.bytebuddy.description.annotation.AnnotationValue$Loaded load(java.lang.ClassLoader)> with actual argTypes: [java.lang.ClassLoader] and taint: [true, false]",
+            "<net.bytebuddy.description.annotation.AnnotationDescription$ForLoadedAnnotation: java.lang.annotation.Annotation load()> with actual argTypes: [] and taint: [true]",
+            "<net.bytebuddy.description.annotation.AnnotationDescription$AnnotationInvocationHandler: java.lang.annotation.Annotation of(java.lang.ClassLoader,java.lang.Class,java.util.Map)> with actual argTypes: [java.lang.ClassLoader, java.lang.Class, java.util.Map] and taint: [false, true, true, true]",
+            "<java.lang.reflect.Proxy: java.lang.Object newProxyInstance(java.lang.ClassLoader,java.lang.Class[],java.lang.reflect.InvocationHandler)> with actual argTypes: [java.lang.ClassLoader, java.lang.Class[], net.bytebuddy.description.annotation.AnnotationDescription$AnnotationInvocationHandler] and taint: [false, true, true, false]",
+            "<java.lang.reflect.Proxy: java.lang.Object newProxyInstance(java.lang.Class,java.lang.reflect.Constructor,java.lang.reflect.InvocationHandler)> with actual argTypes: [java.lang.Class, java.lang.reflect.Constructor, java.lang.reflect.InvocationHandler] and taint: [false, false, true, false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, false]"
+        ],
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<net.bytebuddy.pool.TypePool$Default$LazyTypeDescription$LazyAnnotationValue: boolean equals(java.lang.Object)> with actual argTypes: [java.lang.Class] and taint: [true, true]",
+            "<net.bytebuddy.pool.TypePool$Default$LazyTypeDescription$LazyAnnotationValue$ForArray: net.bytebuddy.description.annotation.AnnotationValue doResolve()> with actual argTypes: [] and taint: [true]",
+            "<net.bytebuddy.pool.TypePool$AbstractBase: net.bytebuddy.pool.TypePool$Resolution describe(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<net.bytebuddy.pool.TypePool$CacheProvider$Discriminating: net.bytebuddy.pool.TypePool$Resolution find(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<net.bytebuddy.matcher.ElementMatcher$Junction$ForNonNullValues: boolean matches(java.lang.Object)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<net.bytebuddy.build.HashCodeAndEqualsPlugin$ValueMatcher: boolean doMatch(java.lang.Object)> with actual argTypes: [java.lang.Object] and taint: [true, true]",
+            "<net.bytebuddy.build.HashCodeAndEqualsPlugin$ValueMatcher: boolean doMatch(net.bytebuddy.description.field.FieldDescription)> with actual argTypes: [net.bytebuddy.description.field.FieldDescription] and taint: [true, true]",
+            "<net.bytebuddy.description.annotation.AnnotationValue$ForEnumerationDescription: net.bytebuddy.description.annotation.AnnotationValue$Loaded load(java.lang.ClassLoader)> with actual argTypes: [java.lang.ClassLoader] and taint: [true, false]",
+            "<net.bytebuddy.description.enumeration.EnumerationDescription$Latent: java.lang.Enum load(java.lang.Class)> with actual argTypes: [java.lang.Class] and taint: [true, true]",
+            "<java.lang.Enum: java.lang.Enum valueOf(java.lang.Class,java.lang.String)> with actual argTypes: [java.lang.Class, java.lang.String] and taint: [false, true, true]",
+            "<java.lang.Class: java.util.Map enumConstantDirectory()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.Class: java.lang.Object[] getEnumConstantsShared()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [null, java.lang.Object[]] and taint: [true, false, false]"
+        ],
+        [
+            "<javax.swing.JCheckBox: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<javax.swing.JCheckBox: void updateUI()> with actual argTypes: [] and taint: [true]",
+            "<javax.swing.UIManager: javax.swing.plaf.ComponentUI getUI(javax.swing.JComponent)> with actual argTypes: [javax.swing.JCheckBox] and taint: [false, true]",
+            "<javax.swing.plaf.synth.SynthLookAndFeel: javax.swing.UIDefaults getDefaults()> with actual argTypes: [] and taint: [false]",
+            "<sun.swing.SwingUtilities2: java.lang.Object makeIcon(java.lang.Class,java.lang.Class,java.lang.String)> with actual argTypes: [java.lang.Class, java.lang.Class, java.lang.String] and taint: [false, false, false, false]",
+            "<sun.swing.SwingUtilities2: java.lang.Object makeIcon(java.lang.Class,java.lang.Class,java.lang.String,boolean)> with actual argTypes: [java.lang.Class, java.lang.Class, java.lang.String, int] and taint: [false, false, false, false, false]",
+            "<sun.swing.SwingUtilities2: java.lang.Object lambda$makeIcon$1(boolean,java.lang.Class,java.lang.Class,java.lang.String,javax.swing.UIDefaults)> with actual argTypes: [boolean, java.lang.Class, java.lang.Class, java.lang.String, javax.swing.UIDefaults] and taint: [false, false, false, false, false, false]",
+            "<sun.swing.SwingUtilities2: byte[] getIconBytes(java.lang.Class,java.lang.Class,java.lang.String)> with actual argTypes: [java.lang.Class, java.lang.Class, java.lang.String] and taint: [false, false, false, false]",
+            "<java.lang.Class: java.io.InputStream getResourceAsStream(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<java.lang.ClassLoader: java.io.InputStream getSystemResourceAsStream(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<java.lang.ClassLoader: java.net.URL getSystemResource(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<net.bytebuddy.dynamic.loading.ByteArrayClassLoader$ChildFirst: java.net.URL getResource(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<net.bytebuddy.dynamic.loading.ByteArrayClassLoader$ChildFirst: boolean isShadowed(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<net.bytebuddy.dynamic.loading.ByteArrayClassLoader$SynchronizationStrategy$ForJava7CapableVm: java.lang.Object getClassLoadingLock(net.bytebuddy.dynamic.loading.ByteArrayClassLoader,java.lang.String)> with actual argTypes: [net.bytebuddy.dynamic.loading.ByteArrayClassLoader$ChildFirst, java.lang.String] and taint: [false, false, false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [net.bytebuddy.dynamic.loading.ByteArrayClassLoader, java.lang.Object[]] and taint: [false, false, false]"
+        ],
+        [
+            "<javax.swing.JCheckBox: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<javax.swing.JCheckBox: void updateUI()> with actual argTypes: [] and taint: [true]",
+            "<javax.swing.UIManager: javax.swing.plaf.ComponentUI getUI(javax.swing.JComponent)> with actual argTypes: [javax.swing.JCheckBox] and taint: [false, true]",
+            "<javax.swing.plaf.synth.SynthLookAndFeel: javax.swing.UIDefaults getDefaults()> with actual argTypes: [] and taint: [false]",
+            "<sun.swing.SwingUtilities2: java.lang.Object makeIcon(java.lang.Class,java.lang.Class,java.lang.String)> with actual argTypes: [java.lang.Class, java.lang.Class, java.lang.String] and taint: [false, false, false, false]",
+            "<sun.swing.SwingUtilities2: java.lang.Object makeIcon(java.lang.Class,java.lang.Class,java.lang.String,boolean)> with actual argTypes: [java.lang.Class, java.lang.Class, java.lang.String, int] and taint: [false, false, false, false, false]",
+            "<sun.swing.SwingUtilities2: java.lang.Object lambda$makeIcon$1(boolean,java.lang.Class,java.lang.Class,java.lang.String,javax.swing.UIDefaults)> with actual argTypes: [boolean, java.lang.Class, java.lang.Class, java.lang.String, javax.swing.UIDefaults] and taint: [false, false, false, false, false, false]",
+            "<sun.swing.SwingUtilities2: byte[] getIconBytes(java.lang.Class,java.lang.Class,java.lang.String)> with actual argTypes: [java.lang.Class, java.lang.Class, java.lang.String] and taint: [false, false, false, false]",
+            "<java.lang.Class: java.io.InputStream getResourceAsStream(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<java.lang.ClassLoader: java.io.InputStream getSystemResourceAsStream(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<java.lang.ClassLoader: java.net.URL getSystemResource(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<net.bytebuddy.dynamic.loading.ByteArrayClassLoader$ChildFirst: java.net.URL getResource(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<net.bytebuddy.dynamic.loading.ByteArrayClassLoader$ChildFirst: boolean isShadowed(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<net.bytebuddy.dynamic.loading.ByteArrayClassLoader$SynchronizationStrategy$ForJava8CapableVm: java.lang.Object getClassLoadingLock(net.bytebuddy.dynamic.loading.ByteArrayClassLoader,java.lang.String)> with actual argTypes: [net.bytebuddy.dynamic.loading.ByteArrayClassLoader$ChildFirst, java.lang.String] and taint: [false, false, false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [false, false, false]"
+        ],
+        [
+            "<java.util.concurrent.atomic.AtomicReferenceArray: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<java.security.AccessController: java.lang.Object doPrivileged(java.security.PrivilegedAction)> with actual argTypes: [java.security.PrivilegedAction] and taint: [false, false]",
+            "<java.security.AccessController: java.lang.Object executePrivileged(java.security.PrivilegedAction,java.security.AccessControlContext,java.lang.Class)> with actual argTypes: [java.security.PrivilegedAction, null, java.lang.Class] and taint: [false, false, false, false]",
+            "<net.bytebuddy.dynamic.loading.ClassInjector$UsingUnsafe$Dispatcher$CreationAction: java.lang.Object run()> with actual argTypes: [] and taint: [false]",
+            "<net.bytebuddy.dynamic.loading.ClassInjector$UsingUnsafe$Dispatcher$CreationAction: net.bytebuddy.dynamic.loading.ClassInjector$UsingUnsafe$Dispatcher$Initializable run()> with actual argTypes: [] and taint: [false]",
+            "<net.bytebuddy.dynamic.DynamicType$Builder$AbstractBase: net.bytebuddy.dynamic.DynamicType$Unloaded make()> with actual argTypes: [] and taint: [false]",
+            "<net.bytebuddy.dynamic.DynamicType$Builder$AbstractBase$UsingTypeWriter: net.bytebuddy.dynamic.DynamicType$Unloaded make(net.bytebuddy.dynamic.TypeResolutionStrategy)> with actual argTypes: [net.bytebuddy.dynamic.TypeResolutionStrategy$Passive] and taint: [false, false]",
+            "<net.bytebuddy.dynamic.scaffold.TypeWriter$Default: net.bytebuddy.dynamic.DynamicType$Unloaded make(net.bytebuddy.dynamic.TypeResolutionStrategy$Resolved)> with actual argTypes: [net.bytebuddy.dynamic.TypeResolutionStrategy$Resolved] and taint: [false, false]",
+            "<net.bytebuddy.dynamic.scaffold.TypeWriter$Default$ForCreation: net.bytebuddy.dynamic.scaffold.TypeWriter$Default$UnresolvedType create(net.bytebuddy.dynamic.scaffold.TypeInitializer,net.bytebuddy.dynamic.scaffold.TypeWriter$Default$ClassDumpAction$Dispatcher)> with actual argTypes: [net.bytebuddy.dynamic.scaffold.TypeInitializer, net.bytebuddy.dynamic.scaffold.TypeWriter$Default$ClassDumpAction$Dispatcher] and taint: [false, false, false]",
+            "<net.bytebuddy.dynamic.scaffold.TypeWriter$MethodPool$Record$ForDefinedMethod: void apply(net.bytebuddy.jar.asm.ClassVisitor,net.bytebuddy.implementation.Implementation$Context,net.bytebuddy.implementation.attribute.AnnotationValueFilter$Factory)> with actual argTypes: [net.bytebuddy.jar.asm.ClassVisitor, net.bytebuddy.implementation.Implementation$Context$ExtractableView, net.bytebuddy.implementation.attribute.AnnotationValueFilter$Factory] and taint: [false, false, false, false]",
+            "<net.bytebuddy.dynamic.scaffold.TypeWriter$MethodPool$Record$ForDefinedMethod$WithBody: void applyBody(net.bytebuddy.jar.asm.MethodVisitor,net.bytebuddy.implementation.Implementation$Context,net.bytebuddy.implementation.attribute.AnnotationValueFilter$Factory)> with actual argTypes: [net.bytebuddy.jar.asm.MethodVisitor, net.bytebuddy.implementation.Implementation$Context, net.bytebuddy.implementation.attribute.AnnotationValueFilter$Factory] and taint: [false, false, false, false]",
+            "<net.bytebuddy.dynamic.scaffold.TypeWriter$MethodPool$Record$ForDefinedMethod$WithBody: net.bytebuddy.implementation.bytecode.ByteCodeAppender$Size applyCode(net.bytebuddy.jar.asm.MethodVisitor,net.bytebuddy.implementation.Implementation$Context)> with actual argTypes: [net.bytebuddy.jar.asm.MethodVisitor, net.bytebuddy.implementation.Implementation$Context] and taint: [false, false, false]",
+            "<net.bytebuddy.implementation.MethodDelegation$Appender: net.bytebuddy.implementation.bytecode.ByteCodeAppender$Size apply(net.bytebuddy.jar.asm.MethodVisitor,net.bytebuddy.implementation.Implementation$Context,net.bytebuddy.description.method.MethodDescription)> with actual argTypes: [net.bytebuddy.jar.asm.MethodVisitor, net.bytebuddy.implementation.Implementation$Context, net.bytebuddy.description.method.MethodDescription] and taint: [false, false, false, false]",
+            "<net.bytebuddy.implementation.bind.annotation.TargetMethodAnnotationDrivenBinder$Record: net.bytebuddy.implementation.bind.MethodDelegationBinder$MethodBinding bind(net.bytebuddy.implementation.Implementation$Target,net.bytebuddy.description.method.MethodDescription,net.bytebuddy.implementation.bind.MethodDelegationBinder$TerminationHandler,net.bytebuddy.implementation.bind.MethodDelegationBinder$MethodInvoker,net.bytebuddy.implementation.bytecode.assign.Assigner)> with actual argTypes: [net.bytebuddy.implementation.Implementation$Target, net.bytebuddy.description.method.MethodDescription, net.bytebuddy.implementation.bind.MethodDelegationBinder$TerminationHandler, net.bytebuddy.implementation.bind.MethodDelegationBinder$MethodInvoker, net.bytebuddy.implementation.bytecode.assign.Assigner] and taint: [false, false, false, false, false, false]",
+            "<net.bytebuddy.implementation.bind.annotation.TargetMethodAnnotationDrivenBinder$DelegationProcessor$Handler$Bound: net.bytebuddy.implementation.bind.MethodDelegationBinder$ParameterBinding bind(net.bytebuddy.description.method.MethodDescription,net.bytebuddy.implementation.Implementation$Target,net.bytebuddy.implementation.bytecode.assign.Assigner)> with actual argTypes: [net.bytebuddy.description.method.MethodDescription, net.bytebuddy.implementation.Implementation$Target, net.bytebuddy.implementation.bytecode.assign.Assigner] and taint: [false, false, false, false]",
+            "<net.bytebuddy.implementation.bind.annotation.Super$Binder: net.bytebuddy.implementation.bind.MethodDelegationBinder$ParameterBinding bind(net.bytebuddy.description.annotation.AnnotationDescription$Loadable,net.bytebuddy.description.method.MethodDescription,net.bytebuddy.description.method.ParameterDescription,net.bytebuddy.implementation.Implementation$Target,net.bytebuddy.implementation.bytecode.assign.Assigner,net.bytebuddy.implementation.bytecode.assign.Assigner$Typing)> with actual argTypes: [net.bytebuddy.description.annotation.AnnotationDescription$Loadable, net.bytebuddy.description.method.MethodDescription, net.bytebuddy.description.method.ParameterDescription, net.bytebuddy.implementation.Implementation$Target, net.bytebuddy.implementation.bytecode.assign.Assigner, net.bytebuddy.implementation.bytecode.assign.Assigner$Typing] and taint: [false, false, false, false, false, false, false]",
+            "<net.bytebuddy.implementation.bind.annotation.Super$Instantiation$1: net.bytebuddy.implementation.bytecode.StackManipulation proxyFor(net.bytebuddy.description.type.TypeDescription,net.bytebuddy.implementation.Implementation$Target,net.bytebuddy.description.annotation.AnnotationDescription$Loadable)> with actual argTypes: [net.bytebuddy.description.type.TypeDescription, net.bytebuddy.implementation.Implementation$Target, net.bytebuddy.description.annotation.AnnotationDescription$Loadable] and taint: [false, false, false, false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, false]"
+        ]
+    ]
+}

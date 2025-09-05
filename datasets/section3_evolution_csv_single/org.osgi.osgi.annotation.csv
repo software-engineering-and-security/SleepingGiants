@@ -1,0 +1,7 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+27615,org.osgi.osgi.annotation,6.0.0,2015-01-18,https://repo1.maven.org/maven2/org/osgi/osgi.annotation/6.0.0/osgi.annotation-6.0.0.jar,,,,,,,,6.0.1
+27552,org.osgi.osgi.annotation,6.0.1,2015-03-16,https://repo1.maven.org/maven2/org/osgi/osgi.annotation/6.0.1/osgi.annotation-6.0.1.jar,,,,,,,,7.0.0
+27595,org.osgi.osgi.annotation,7.0.0,2018-04-20,https://repo1.maven.org/maven2/org/osgi/osgi.annotation/7.0.0/osgi.annotation-7.0.0.jar,,,,,,,,8.0.0
+27551,org.osgi.osgi.annotation,8.0.0,2020-12-07,https://repo1.maven.org/maven2/org/osgi/osgi.annotation/8.0.0/osgi.annotation-8.0.0.jar,,,,,,,,8.0.1
+27500,org.osgi.osgi.annotation,8.0.1,2021-10-13,https://repo1.maven.org/maven2/org/osgi/osgi.annotation/8.0.1/osgi.annotation-8.0.1.jar,,,,,,,,8.1.0
+27477,org.osgi.osgi.annotation,8.1.0,2022-02-09,https://repo1.maven.org/maven2/org/osgi/osgi.annotation/8.1.0/osgi.annotation-8.1.0.jar,,,,,,,,

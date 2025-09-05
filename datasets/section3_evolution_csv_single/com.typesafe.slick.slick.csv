@@ -1,0 +1,9 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+27271,com.typesafe.slick.slick,3.3.0,2024-06-14,https://repo1.maven.org/maven2/com/typesafe/slick/slick_2.12/3.3.0/slick_2.12-3.3.0.jar,,,,,,,,3.3.2
+27272,com.typesafe.slick.slick,3.3.2,2024-06-14,https://repo1.maven.org/maven2/com/typesafe/slick/slick_2.13/3.3.2/slick_2.13-3.3.2.jar,424,,,,,,,3.3.3
+27273,com.typesafe.slick.slick,3.3.3,2023-09-21,https://repo1.maven.org/maven2/com/typesafe/slick/slick_2.13/3.3.3/slick_2.13-3.3.3.jar,424,0,0,0,0,0,0,3.4.0
+27274,com.typesafe.slick.slick,3.4.0,2024-09-24,https://repo1.maven.org/maven2/com/typesafe/slick/slick_2.13/3.4.0/slick_2.13-3.4.0.jar,424,0,0,0,0,1,1,3.4.1
+27275,com.typesafe.slick.slick,3.4.1,2023-07-20,https://repo1.maven.org/maven2/com/typesafe/slick/slick_2.13/3.4.1/slick_2.13-3.4.1.jar,424,0,0,0,0,0,0,3.5.0
+27259,com.typesafe.slick.slick,3.5.0,2024-09-25,https://repo1.maven.org/maven2/com/typesafe/slick/slick_3/3.5.0/slick_3-3.5.0.jar,668,237,0,0,0,140,133,3.5.1
+27258,com.typesafe.slick.slick,3.5.1,2024-05-09,https://repo1.maven.org/maven2/com/typesafe/slick/slick_3/3.5.1/slick_3-3.5.1.jar,668,0,0,0,0,0,0,3.5.2
+27235,com.typesafe.slick.slick,3.5.2,2024-09-30,https://repo1.maven.org/maven2/com/typesafe/slick/slick_3/3.5.2/slick_3-3.5.2.jar,: 668,0,0,0,0,0,0,

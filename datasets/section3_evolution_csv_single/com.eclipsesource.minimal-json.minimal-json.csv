@@ -1,0 +1,6 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+2029,com.eclipsesource.minimal-json.minimal-json,0.9.1,2013-11-23,https://repo1.maven.org/maven2/com/eclipsesource/minimal-json/minimal-json/0.9.1/minimal-json-0.9.1.jar,6,,,,,,,0.9.2
+2030,com.eclipsesource.minimal-json.minimal-json,0.9.2,2014-12-30,https://repo1.maven.org/maven2/com/eclipsesource/minimal-json/minimal-json/0.9.2/minimal-json-0.9.2.jar,6,0,0,0,0,0,0,0.9.3
+2031,com.eclipsesource.minimal-json.minimal-json,0.9.3,2015-05-14,https://repo1.maven.org/maven2/com/eclipsesource/minimal-json/minimal-json/0.9.3/minimal-json-0.9.3.jar,6,0,0,0,0,0,0,0.9.4
+2032,com.eclipsesource.minimal-json.minimal-json,0.9.4,2015-07-19,https://repo1.maven.org/maven2/com/eclipsesource/minimal-json/minimal-json/0.9.4/minimal-json-0.9.4.jar,6,0,0,0,0,0,0,0.9.5
+2013,com.eclipsesource.minimal-json.minimal-json,0.9.5,2017-12-09,https://repo1.maven.org/maven2/com/eclipsesource/minimal-json/minimal-json/0.9.5/minimal-json-0.9.5.jar,: 6,0,0,0,0,0,0,

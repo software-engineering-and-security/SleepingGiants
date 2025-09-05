@@ -1,0 +1,6 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+49942,org.apache.felix.org.apache.felix.scr.ds-annotations,1.2.0,2012-08-15,https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.scr.ds-annotations/1.2.0/org.apache.felix.scr.ds-annotations-1.2.0.jar,,,,,,,,1.2.2
+49943,org.apache.felix.org.apache.felix.scr.ds-annotations,1.2.2,2013-02-13,https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.scr.ds-annotations/1.2.2/org.apache.felix.scr.ds-annotations-1.2.2.jar,,,,,,,,1.2.4
+49944,org.apache.felix.org.apache.felix.scr.ds-annotations,1.2.4,2013-07-29,https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.scr.ds-annotations/1.2.4/org.apache.felix.scr.ds-annotations-1.2.4.jar,,,,,,,,1.2.8
+49945,org.apache.felix.org.apache.felix.scr.ds-annotations,1.2.8,2014-07-28,https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.scr.ds-annotations/1.2.8/org.apache.felix.scr.ds-annotations-1.2.8.jar,,,,,,,,1.2.10
+49925,org.apache.felix.org.apache.felix.scr.ds-annotations,1.2.10,2017-09-08,https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.scr.ds-annotations/1.2.10/org.apache.felix.scr.ds-annotations-1.2.10.jar,,,,,,,,

@@ -1,0 +1,17 @@
+{
+    "tabby": [
+        [
+            "java.util.concurrent.ConcurrentSkipListMap#readObject",
+            "-[CALL]-> java.util.concurrent.ConcurrentSkipListMap#cpr",
+            "-[CALL]-> java.util.Comparator#compare -[ALIAS]-> java.util.Comparator$lambda_comparing_77a9974f_1__379#compare",
+            "-[CALL]-> java.util.Comparator#lambda$comparing$77a9974f$1",
+            "-[CALL]-> java.util.function.Function#apply -[ALIAS]-> java.util.stream.Collectors$get__433#apply",
+            "-[CALL]-> java.util.stream.Collectors$1PairBox#get",
+            "-[CALL]-> java.util.function.BiFunction#apply -[ALIAS]-> org.xbill.DNS.DohResolver$lambda_sendAsync8_1__13#apply",
+            "-[CALL]-> org.xbill.DNS.DohResolver#lambda$sendAsync8$1",
+            "-[CALL]-> org.xbill.DNS.DohResolver#sendAndGetMessageBytes",
+            "-[CALL]-> java.net.URL#openConnection"
+        ]
+    ],
+    "androChain": []
+}

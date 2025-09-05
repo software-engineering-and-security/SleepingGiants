@@ -1,0 +1,113 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.alibaba.druid.pool.xa.DruidXADataSource: javax.sql.XAConnection getXAConnection()> with actual argTypes: [] and taint: [true]",
+            "<com.alibaba.druid.pool.xa.DruidXADataSource: javax.sql.XAConnection createPhysicalXAConnection(java.sql.Connection)> with actual argTypes: [java.sql.Connection] and taint: [true, true]",
+            "<com.alibaba.druid.util.H2Utils: javax.sql.XAConnection createXAConnection(java.lang.Object,java.sql.Connection)> with actual argTypes: [java.lang.Object, java.sql.Connection] and taint: [false, true, true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.alibaba.druid.pool.xa.DruidXADataSource: javax.sql.XAConnection getXAConnection()> with actual argTypes: [] and taint: [true]",
+            "<com.alibaba.druid.pool.xa.DruidXADataSource: javax.sql.XAConnection createPhysicalXAConnection(java.sql.Connection)> with actual argTypes: [java.sql.Connection] and taint: [true, true]",
+            "<com.alibaba.druid.util.MySqlUtils: javax.sql.XAConnection createXAConnection(java.sql.Driver,java.sql.Connection)> with actual argTypes: [java.sql.Driver, java.sql.Connection] and taint: [false, true, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [null, java.lang.Object[]] and taint: [false, false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.alibaba.druid.pool.xa.DruidXADataSource: javax.sql.XAConnection getXAConnection()> with actual argTypes: [] and taint: [true]",
+            "<com.alibaba.druid.pool.xa.DruidXADataSource: javax.sql.XAConnection createPhysicalXAConnection(java.sql.Connection)> with actual argTypes: [java.sql.Connection] and taint: [true, true]",
+            "<com.alibaba.druid.util.MySqlUtils: javax.sql.XAConnection createXAConnection(java.sql.Driver,java.sql.Connection)> with actual argTypes: [java.sql.Driver, java.sql.Connection] and taint: [false, true, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.sql.Connection, java.lang.Object[]] and taint: [false, true, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.alibaba.druid.pool.xa.DruidXADataSource: javax.sql.XAConnection getXAConnection()> with actual argTypes: [] and taint: [true]",
+            "<com.alibaba.druid.pool.xa.DruidXADataSource: javax.sql.XAConnection createPhysicalXAConnection(java.sql.Connection)> with actual argTypes: [java.sql.Connection] and taint: [true, true]",
+            "<com.alibaba.druid.util.MySqlUtils: javax.sql.XAConnection createXAConnection(java.sql.Driver,java.sql.Connection)> with actual argTypes: [java.sql.Driver, java.sql.Connection] and taint: [false, true, true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.alibaba.druid.pool.xa.DruidXADataSource: javax.sql.XAConnection getXAConnection()> with actual argTypes: [] and taint: [true]",
+            "<com.alibaba.druid.pool.xa.DruidXADataSource: javax.sql.XAConnection createPhysicalXAConnection(java.sql.Connection)> with actual argTypes: [java.sql.Connection] and taint: [true, true]",
+            "<com.alibaba.druid.util.MySqlUtils: javax.sql.XAConnection createXAConnection(java.sql.Driver,java.sql.Connection)> with actual argTypes: [java.sql.Driver, java.sql.Connection] and taint: [false, true, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [false, true, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.alibaba.druid.pool.xa.DruidXADataSource: javax.sql.XAConnection getXAConnection()> with actual argTypes: [] and taint: [true]",
+            "<com.alibaba.druid.pool.xa.DruidXADataSource: javax.sql.XAConnection createPhysicalXAConnection(java.sql.Connection)> with actual argTypes: [java.sql.Connection] and taint: [true, true]",
+            "<com.alibaba.druid.util.MySqlUtils: javax.sql.XAConnection createXAConnection(java.sql.Driver,java.sql.Connection)> with actual argTypes: [java.sql.Driver, java.sql.Connection] and taint: [false, true, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [null, java.lang.Object[]] and taint: [false, false, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.alibaba.druid.pool.xa.DruidXADataSource: javax.sql.XAConnection getXAConnection()> with actual argTypes: [] and taint: [true]",
+            "<com.alibaba.druid.pool.xa.DruidXADataSource: javax.sql.XAConnection createPhysicalXAConnection(java.sql.Connection)> with actual argTypes: [java.sql.Connection] and taint: [true, true]",
+            "<com.alibaba.druid.util.H2Utils: javax.sql.XAConnection createXAConnection(java.lang.Object,java.sql.Connection)> with actual argTypes: [java.lang.Object, java.sql.Connection] and taint: [false, true, true]",
+            "<com.alibaba.druid.util.H2Utils: int getNextId(int)> with actual argTypes: [int] and taint: [false, false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [null, java.lang.Object[]] and taint: [false, false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.sun.rowset.JdbcRowSetImpl: java.sql.ResultSetMetaData getMetaData()> with actual argTypes: [] and taint: [true]",
+            "<com.sun.rowset.JdbcRowSetImpl: java.sql.PreparedStatement prepare()> with actual argTypes: [] and taint: [false]",
+            "<com.sun.rowset.JdbcRowSetImpl: java.sql.Connection connect()> with actual argTypes: [] and taint: [false]",
+            "<javax.naming.InitialContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.alibaba.druid.mock.MockDriver: java.sql.Connection connect(java.lang.String,java.util.Properties)> with actual argTypes: [java.lang.String, java.util.Properties] and taint: [true, true, true]",
+            "<com.alibaba.druid.mock.MockDriver: com.alibaba.druid.support.logging.Log getLog()> with actual argTypes: [] and taint: [false]",
+            "<com.alibaba.druid.support.logging.LogFactory: com.alibaba.druid.support.logging.Log getLog(java.lang.Class)> with actual argTypes: [java.lang.Class] and taint: [false, false]",
+            "<com.alibaba.druid.support.logging.LogFactory: com.alibaba.druid.support.logging.Log getLog(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.alibaba.druid.proxy.DruidDriver: java.sql.DriverPropertyInfo[] getPropertyInfo(java.lang.String,java.util.Properties)> with actual argTypes: [java.lang.String, java.util.Properties] and taint: [true, true, true]",
+            "<com.alibaba.druid.proxy.DruidDriver: com.alibaba.druid.proxy.jdbc.DataSourceProxyImpl getDataSource(java.lang.String,java.util.Properties)> with actual argTypes: [java.lang.String, java.util.Properties] and taint: [false, true, true]",
+            "<com.alibaba.druid.filter.config.ConfigFilter: void init(com.alibaba.druid.proxy.jdbc.DataSourceProxy)> with actual argTypes: [com.alibaba.druid.proxy.jdbc.DataSourceProxyImpl] and taint: [true, false]",
+            "<com.alibaba.druid.filter.config.ConfigFilter: java.util.Properties loadPropertyFromConfigFile(java.util.Properties)> with actual argTypes: [java.util.Properties] and taint: [true, false]",
+            "<com.alibaba.druid.filter.config.ConfigFilter: java.util.Properties loadConfig(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<java.net.URL: java.io.InputStream openStream()> with actual argTypes: [] and taint: [false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.alibaba.druid.proxy.DruidDriver: java.sql.Connection connect(java.lang.String,java.util.Properties)> with actual argTypes: [java.lang.String, java.util.Properties] and taint: [true, true, true]",
+            "<com.alibaba.druid.proxy.jdbc.DataSourceProxyImpl: com.alibaba.druid.proxy.jdbc.ConnectionProxy connect(java.util.Properties)> with actual argTypes: [java.util.Properties] and taint: [true, true]",
+            "<com.alibaba.druid.filter.FilterChainImpl: com.alibaba.druid.proxy.jdbc.ConnectionProxy connection_connect(java.util.Properties)> with actual argTypes: [java.util.Properties] and taint: [false, true]",
+            "<com.alibaba.druid.filter.FilterEventAdapter: com.alibaba.druid.proxy.jdbc.ConnectionProxy connection_connect(com.alibaba.druid.filter.FilterChain,java.util.Properties)> with actual argTypes: [com.alibaba.druid.filter.FilterChainImpl, java.util.Properties] and taint: [false, false, true]",
+            "<com.alibaba.druid.filter.logging.LogFilter: void connection_connectAfter(com.alibaba.druid.proxy.jdbc.ConnectionProxy)> with actual argTypes: [com.alibaba.druid.proxy.jdbc.ConnectionProxy] and taint: [false, true]",
+            "<com.alibaba.druid.util.MySqlUtils: java.lang.Long getId(java.lang.Object)> with actual argTypes: [java.sql.Connection] and taint: [false, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [false, true, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.alibaba.druid.pool.xa.DruidXADataSource: javax.sql.XAConnection getXAConnection()> with actual argTypes: [] and taint: [true]",
+            "<com.alibaba.druid.pool.xa.DruidXADataSource: javax.sql.XAConnection createPhysicalXAConnection(java.sql.Connection)> with actual argTypes: [java.sql.Connection] and taint: [true, true]",
+            "<com.alibaba.druid.DbType: com.alibaba.druid.DbType of(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<com.alibaba.druid.DbType: com.alibaba.druid.DbType valueOf(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<java.lang.Enum: java.lang.Enum valueOf(java.lang.Class,java.lang.String)> with actual argTypes: [java.lang.Class, java.lang.String] and taint: [false, false, true]",
+            "<java.lang.Class: java.util.Map enumConstantDirectory()> with actual argTypes: [] and taint: [false]",
+            "<java.lang.Class: java.lang.Object[] getEnumConstantsShared()> with actual argTypes: [] and taint: [false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [null, java.lang.Object[]] and taint: [false, false, false]"
+        ]
+    ]
+}

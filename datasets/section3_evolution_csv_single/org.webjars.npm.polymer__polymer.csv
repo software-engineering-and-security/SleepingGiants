@@ -1,0 +1,12 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+36312,org.webjars.npm.polymer__polymer,2.0.2,2017-08-14,https://repo1.maven.org/maven2/org/webjars/npm/polymer__polymer/2.0.2/polymer__polymer-2.0.2.jar,,,,,,,,
+36313,org.webjars.npm.polymer__polymer,3.0.2,2018-07-03,https://repo1.maven.org/maven2/org/webjars/npm/polymer__polymer/3.0.2/polymer__polymer-3.0.2.jar,,,,,,,,
+36314,org.webjars.npm.polymer__polymer,3.0.5,2018-08-24,https://repo1.maven.org/maven2/org/webjars/npm/polymer__polymer/3.0.5/polymer__polymer-3.0.5.jar,,,,,,,,
+36315,org.webjars.npm.polymer__polymer,3.1.0,2018-12-01,https://repo1.maven.org/maven2/org/webjars/npm/polymer__polymer/3.1.0/polymer__polymer-3.1.0.jar,,,,,,,,
+36316,org.webjars.npm.polymer__polymer,3.2.0,2019-04-19,https://repo1.maven.org/maven2/org/webjars/npm/polymer__polymer/3.2.0/polymer__polymer-3.2.0.jar,,,,,,,,
+36317,org.webjars.npm.polymer__polymer,3.3.0,2019-06-26,https://repo1.maven.org/maven2/org/webjars/npm/polymer__polymer/3.3.0/polymer__polymer-3.3.0.jar,,,,,,,,
+36318,org.webjars.npm.polymer__polymer,3.3.1,2019-11-13,https://repo1.maven.org/maven2/org/webjars/npm/polymer__polymer/3.3.1/polymer__polymer-3.3.1.jar,,,,,,,,
+36319,org.webjars.npm.polymer__polymer,3.4.0,2020-04-29,https://repo1.maven.org/maven2/org/webjars/npm/polymer__polymer/3.4.0/polymer__polymer-3.4.0.jar,,,,,,,,
+36320,org.webjars.npm.polymer__polymer,3.4.1,2020-06-03,https://repo1.maven.org/maven2/org/webjars/npm/polymer__polymer/3.4.1/polymer__polymer-3.4.1.jar,,,,,,,,
+36321,org.webjars.npm.polymer__polymer,3.5.1,2022-09-19,https://repo1.maven.org/maven2/org/webjars/npm/polymer__polymer/3.5.1/polymer__polymer-3.5.1.jar,,,,,,,,
+36322,org.webjars.npm.polymer__polymer,3.5.2,2024-12-13,https://repo1.maven.org/maven2/org/webjars/npm/polymer__polymer/3.5.2/polymer__polymer-3.5.2.jar,,,,,,,,

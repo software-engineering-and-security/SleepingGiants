@@ -1,0 +1,33 @@
+name: "deser"
+type: "gadget"
+source:
+  type: "source"
+  cypher: "match (source:Method {NAME:\"readObject\",IS_SERIALIZABLE:true})"
+sink:
+  type: "sink"
+  sink: true
+depth: 12
+limit: 10000000
+direct: "-"
+depthFirst: false
+procedure: "tabby.algo.findPath"
+sourceBlacklists: []
+pathBlacklists:
+  - java.io.ObjectInputStream#defaultReadObject
+  - java.io.ObjectInputStream#readObject
+  - java.io.ObjectInputStream#readInt
+  - java.io.ObjectInputStream#readChar
+  - java.io.ObjectInputStream#readLong
+  - java.io.ObjectInputStream#readFully
+  - java.io.ObjectInputStream#readByte
+  - java.io.ObjectInputStream#readDouble
+  - java.io.ObjectInputStream#readFloat
+  - java.io.ObjectInputStream#read
+  - java.io.ObjectInputStream#readUnsignedByte
+  - java.io.ObjectInputStream#readUnsignedShort
+  - java.io.ObjectInputStream#readUTF
+  - java.io.ObjectInputStream#readFields
+  - java.io.ObjectInputStream#skipBytes
+  - java.io.ObjectInputStream#readFully
+  - java.io.ObjectInputStream#readClassDescriptor
+  - java.io.ObjectInputStream#readBoolean

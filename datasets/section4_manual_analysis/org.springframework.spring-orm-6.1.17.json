@@ -1,0 +1,65 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [jakarta.persistence.EntityManagerFactory, java.lang.Object[]] and taint: [true, true, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [jakarta.persistence.EntityManager, java.lang.Object[]] and taint: [true, true, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [jakarta.persistence.EntityManager, java.lang.Object[]] and taint: [true, true, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: java.lang.Object invokeProxyMethod(java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean, java.lang.Object[]] and taint: [true, true, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: java.lang.Object invokeProxyMethod(java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [jakarta.persistence.EntityManagerFactory, java.lang.Object[]] and taint: [true, true, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<java.lang.reflect.Proxy: java.lang.Object newProxyInstance(java.lang.ClassLoader,java.lang.Class[],java.lang.reflect.InvocationHandler)> with actual argTypes: [java.lang.ClassLoader, java.lang.Class[], org.springframework.orm.jpa.SharedEntityManagerCreator$DeferredQueryInvocationHandler] and taint: [false, true, true, false]",
+            "<java.lang.reflect.Proxy: java.lang.Object newProxyInstance(java.lang.Class,java.lang.reflect.Constructor,java.lang.reflect.InvocationHandler)> with actual argTypes: [java.lang.Class, java.lang.reflect.Constructor, java.lang.reflect.InvocationHandler] and taint: [false, false, true, false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: jakarta.persistence.EntityManagerFactory getNativeEntityManagerFactory()> with actual argTypes: [] and taint: [true]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Object get()> with actual argTypes: [] and taint: [true]",
+            "<java.util.concurrent.ForkJoinTask: void reportExecutionException(int)> with actual argTypes: [int] and taint: [true, true]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Throwable getThrowableException()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: jakarta.persistence.EntityManagerFactory getNativeEntityManagerFactory()> with actual argTypes: [] and taint: [true]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Object get()> with actual argTypes: [] and taint: [true]",
+            "<java.util.concurrent.ForkJoinTask: void reportExecutionException(int)> with actual argTypes: [int] and taint: [true, true]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Throwable getThrowableException()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, false]"
+        ]
+    ]
+}

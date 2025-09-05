@@ -1,0 +1,25 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<org.immutables.value.internal.$guava$.collect.$Multimaps$CustomSortedSetMultimap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<org.immutables.value.internal.$generator$.$ExtensionLoader$1: java.lang.Object get()> with actual argTypes: [] and taint: [true]",
+            "<org.immutables.value.internal.$generator$.$ExtensionLoader$1: org.immutables.value.internal.$guava$.collect.$ImmutableSet get()> with actual argTypes: [] and taint: [true]",
+            "<org.immutables.value.internal.$generator$.$ExtensionLoader: java.lang.String access$200(java.net.URL)> with actual argTypes: [java.net.URL] and taint: [false, true]",
+            "<org.immutables.value.internal.$generator$.$ExtensionLoader: java.lang.String getClasspathResourceText(java.net.URL)> with actual argTypes: [java.net.URL] and taint: [false, true]",
+            "<java.net.URL: java.net.URLConnection openConnection()> with actual argTypes: [] and taint: [true]"
+        ],
+        [
+            "<org.immutables.value.internal.$guava$.collect.$Multimaps$CustomSortedSetMultimap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<org.immutables.value.internal.$guava$.base.$Suppliers$SupplierComposition: java.lang.Object get()> with actual argTypes: [] and taint: [true]",
+            "<org.immutables.value.internal.$processor$.encode.$Inflater: java.lang.Object apply(java.lang.Object)> with actual argTypes: [java.lang.Object] and taint: [true, true]",
+            "<org.immutables.value.internal.$processor$.encode.$Inflater: org.immutables.value.internal.$processor$.encode.$EncodingInfo apply(org.immutables.value.internal.$processor$.encode.$Mirrors$EncMetadata)> with actual argTypes: [org.immutables.value.internal.$processor$.encode.$Mirrors$EncMetadata] and taint: [true, true]",
+            "<org.immutables.value.internal.$processor$.encode.$Inflater: org.immutables.value.internal.$processor$.encode.$EncodedElement elementFor(org.immutables.value.internal.$processor$.encode.$Mirrors$EncElement,org.immutables.value.internal.$processor$.encode.$Type$Parameters)> with actual argTypes: [org.immutables.value.internal.$processor$.encode.$Mirrors$EncElement, org.immutables.value.internal.$processor$.encode.$Type$Parameters] and taint: [true, true, true]",
+            "<org.immutables.value.internal.$processor$.encode.$StandardNaming: org.immutables.value.internal.$processor$.encode.$StandardNaming valueOf(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<java.lang.Enum: java.lang.Enum valueOf(java.lang.Class,java.lang.String)> with actual argTypes: [java.lang.Class, java.lang.String] and taint: [false, false, true]",
+            "<java.lang.Class: java.util.Map enumConstantDirectory()> with actual argTypes: [] and taint: [false]",
+            "<java.lang.Class: java.lang.Object[] getEnumConstantsShared()> with actual argTypes: [] and taint: [false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [null, java.lang.Object[]] and taint: [false, false, false]"
+        ]
+    ]
+}

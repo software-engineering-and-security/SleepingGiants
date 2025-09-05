@@ -1,0 +1,7 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+52094,com.google.jsinterop.jsinterop-annotations,1.0.0,2016-07-28,https://repo1.maven.org/maven2/com/google/jsinterop/jsinterop-annotations/1.0.0/jsinterop-annotations-1.0.0.jar,,,,,,,,1.0.1
+52095,com.google.jsinterop.jsinterop-annotations,1.0.1,2016-10-19,https://repo1.maven.org/maven2/com/google/jsinterop/jsinterop-annotations/1.0.1/jsinterop-annotations-1.0.1.jar,,,,,,,,1.0.2
+52096,com.google.jsinterop.jsinterop-annotations,1.0.2,2017-10-18,https://repo1.maven.org/maven2/com/google/jsinterop/jsinterop-annotations/1.0.2/jsinterop-annotations-1.0.2.jar,,,,,,,,2.0.0
+52097,com.google.jsinterop.jsinterop-annotations,2.0.0,2019-09-18,https://repo1.maven.org/maven2/com/google/jsinterop/jsinterop-annotations/2.0.0/jsinterop-annotations-2.0.0.jar,,,,,,,,2.0.2
+52076,com.google.jsinterop.jsinterop-annotations,2.0.2,2023-07-19,https://repo1.maven.org/maven2/com/google/jsinterop/jsinterop-annotations/2.0.2/jsinterop-annotations-2.0.2.jar,,,,,,,,2.1.0
+52075,com.google.jsinterop.jsinterop-annotations,2.1.0,2023-07-18,https://repo1.maven.org/maven2/com/google/jsinterop/jsinterop-annotations/2.1.0/jsinterop-annotations-2.1.0.jar,,,,,,,,

@@ -1,0 +1,9 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+92067,jakarta.websocket.jakarta.websocket-api,1.0,2013-05-10,https://repo1.maven.org/maven2/javax/websocket/javax.websocket-api/1.0/javax.websocket-api-1.0.jar,,,,,,,,1.1
+92068,jakarta.websocket.jakarta.websocket-api,1.1,2014-08-06,https://repo1.maven.org/maven2/javax/websocket/javax.websocket-api/1.1/javax.websocket-api-1.1.jar,,,,,,,,1.1.1
+3100,jakarta.websocket.jakarta.websocket-api,1.1.1,2019-01-09,https://repo1.maven.org/maven2/jakarta/websocket/jakarta.websocket-api/1.1.1/jakarta.websocket-api-1.1.1.jar,,,,,,,,1.1.2
+3101,jakarta.websocket.jakarta.websocket-api,1.1.2,2019-09-04,https://repo1.maven.org/maven2/jakarta/websocket/jakarta.websocket-api/1.1.2/jakarta.websocket-api-1.1.2.jar,,,,,,,,2.0.0
+3102,jakarta.websocket.jakarta.websocket-api,2.0.0,2020-11-23,https://repo1.maven.org/maven2/jakarta/websocket/jakarta.websocket-api/2.0.0/jakarta.websocket-api-2.0.0.jar,,,,,,,,2.1.0
+3103,jakarta.websocket.jakarta.websocket-api,2.1.0,2022-05-04,https://repo1.maven.org/maven2/jakarta/websocket/jakarta.websocket-api/2.1.0/jakarta.websocket-api-2.1.0.jar,,,,,,,,2.1.1
+3104,jakarta.websocket.jakarta.websocket-api,2.1.1,2023-06-29,https://repo1.maven.org/maven2/jakarta/websocket/jakarta.websocket-api/2.1.1/jakarta.websocket-api-2.1.1.jar,,,,,,,,2.2.0
+3105,jakarta.websocket.jakarta.websocket-api,2.2.0,2024-05-22,https://repo1.maven.org/maven2/jakarta/websocket/jakarta.websocket-api/2.2.0/jakarta.websocket-api-2.2.0.jar,,,,,,,,

@@ -1,0 +1,13 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<java.util.Collections$SetFromMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<io.vertx.core.shareddata.impl.LocalMapImpl: java.util.Set keySet()> with actual argTypes: [] and taint: [true]",
+            "<io.vertx.core.shareddata.impl.Checker: java.lang.Object copyIfRequired(java.lang.Object)> with actual argTypes: [java.lang.Object] and taint: [false, true]",
+            "<io.vertx.core.shareddata.impl.Checker: io.vertx.core.shareddata.impl.ClusterSerializable copyClusterSerializable(io.vertx.core.shareddata.impl.ClusterSerializable)> with actual argTypes: [io.vertx.core.shareddata.impl.ClusterSerializable] and taint: [false, true]",
+            "<io.vertx.core.impl.ClusterSerializableUtils: io.vertx.core.shareddata.impl.ClusterSerializable copy(io.vertx.core.shareddata.impl.ClusterSerializable)> with actual argTypes: [io.vertx.core.shareddata.impl.ClusterSerializable] and taint: [false, true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, false]"
+        ]
+    ]
+}

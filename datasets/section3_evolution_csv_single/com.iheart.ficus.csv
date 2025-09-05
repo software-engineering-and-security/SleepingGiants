@@ -1,0 +1,14 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+79106,com.iheart.ficus,1.3.4,2016-11-21,https://repo1.maven.org/maven2/com/iheart/ficus_2.12/1.3.4/ficus_2.12-1.3.4.jar,,,,,,,,1.3.5
+79107,com.iheart.ficus,1.3.5,2016-11-28,https://repo1.maven.org/maven2/com/iheart/ficus_2.12/1.3.5/ficus_2.12-1.3.5.jar,,,,,,,,1.4.0
+79108,com.iheart.ficus,1.4.0,2016-11-30,https://repo1.maven.org/maven2/com/iheart/ficus_2.12/1.4.0/ficus_2.12-1.4.0.jar,,,,,,,,1.4.1
+79109,com.iheart.ficus,1.4.1,2017-06-06,https://repo1.maven.org/maven2/com/iheart/ficus_2.12/1.4.1/ficus_2.12-1.4.1.jar,,,,,,,,1.4.2
+79110,com.iheart.ficus,1.4.2,2017-08-29,https://repo1.maven.org/maven2/com/iheart/ficus_2.12/1.4.2/ficus_2.12-1.4.2.jar,,,,,,,,1.4.3
+79111,com.iheart.ficus,1.4.3,2017-10-18,https://repo1.maven.org/maven2/com/iheart/ficus_2.12/1.4.3/ficus_2.12-1.4.3.jar,,,,,,,,1.4.4
+79112,com.iheart.ficus,1.4.4,2018-10-12,https://repo1.maven.org/maven2/com/iheart/ficus_2.12/1.4.4/ficus_2.12-1.4.4.jar,,,,,,,,1.4.5
+79113,com.iheart.ficus,1.4.5,2019-03-14,https://repo1.maven.org/maven2/com/iheart/ficus_2.12/1.4.5/ficus_2.12-1.4.5.jar,,,,,,,,1.4.6
+79114,com.iheart.ficus,1.4.6,2019-05-07,https://repo1.maven.org/maven2/com/iheart/ficus_2.12/1.4.6/ficus_2.12-1.4.6.jar,,,,,,,,1.4.7
+79115,com.iheart.ficus,1.4.7,2019-06-18,https://repo1.maven.org/maven2/com/iheart/ficus_2.13/1.4.7/ficus_2.13-1.4.7.jar,9,,,,,,,1.5.0
+79116,com.iheart.ficus,1.5.0,2020-08-18,https://repo1.maven.org/maven2/com/iheart/ficus_2.13/1.5.0/ficus_2.13-1.5.0.jar,11,0,0,0,0,2,0,1.5.1
+79117,com.iheart.ficus,1.5.1,2021-09-11,https://repo1.maven.org/maven2/com/iheart/ficus_2.13/1.5.1/ficus_2.13-1.5.1.jar,11,0,0,0,0,0,0,1.5.2
+79118,com.iheart.ficus,1.5.2,2022-03-06,https://repo1.maven.org/maven2/com/iheart/ficus_3/1.5.2/ficus_3-1.5.2.jar,: 38,28,0,0,0,3,4,

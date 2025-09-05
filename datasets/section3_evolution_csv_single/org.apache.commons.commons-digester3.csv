@@ -1,0 +1,14 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+99932,org.apache.commons.commons-digester3,1.2,2005-11-08,https://repo1.maven.org/maven2/commons-digester/commons-digester/1.2/commons-digester-1.2.jar,,,,,,,,1.3
+99881,org.apache.commons.commons-digester3,1.3,2005-11-24,https://repo1.maven.org/maven2/commons-digester/commons-digester/1.3/commons-digester-1.3.jar,,,,,,,,1.4.1
+99880,org.apache.commons.commons-digester3,1.4.1,2005-11-24,https://repo1.maven.org/maven2/commons-digester/commons-digester/1.4.1/commons-digester-1.4.1.jar,,,,,,,,1.5
+99879,org.apache.commons.commons-digester3,1.5,2005-11-24,https://repo1.maven.org/maven2/commons-digester/commons-digester/1.5/commons-digester-1.5.jar,,,,,,,,1.6
+99878,org.apache.commons.commons-digester3,1.6,2005-11-08,https://repo1.maven.org/maven2/commons-digester/commons-digester/1.6/commons-digester-1.6.jar,,,,,,,,1.7
+99871,org.apache.commons.commons-digester3,1.7,2005-11-24,https://repo1.maven.org/maven2/commons-digester/commons-digester/1.7/commons-digester-1.7.jar,,,,,,,,1.8
+99872,org.apache.commons.commons-digester3,1.8,2006-12-03,https://repo1.maven.org/maven2/commons-digester/commons-digester/1.8/commons-digester-1.8.jar,,,,,,,,1.8.1
+99873,org.apache.commons.commons-digester3,1.8.1,2009-01-03,https://repo1.maven.org/maven2/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar,,,,,,,,2.0
+99874,org.apache.commons.commons-digester3,2.0,2009-01-03,https://repo1.maven.org/maven2/commons-digester/commons-digester/2.0/commons-digester-2.0.jar,,,,,,,,2.1
+99875,org.apache.commons.commons-digester3,2.1,2010-09-24,https://repo1.maven.org/maven2/commons-digester/commons-digester/2.1/commons-digester-2.1.jar,,,,,,,,3.0
+79133,org.apache.commons.commons-digester3,3.0,2011-07-02,https://repo1.maven.org/maven2/org/apache/commons/commons-digester3/3.0/commons-digester3-3.0.jar,,,,,,,,3.1
+79134,org.apache.commons.commons-digester3,3.1,2011-10-25,https://repo1.maven.org/maven2/org/apache/commons/commons-digester3/3.1/commons-digester3-3.1.jar,,,,,,,,3.2
+79135,org.apache.commons.commons-digester3,3.2,2011-12-10,https://repo1.maven.org/maven2/org/apache/commons/commons-digester3/3.2/commons-digester3-3.2.jar,,,,,,,,

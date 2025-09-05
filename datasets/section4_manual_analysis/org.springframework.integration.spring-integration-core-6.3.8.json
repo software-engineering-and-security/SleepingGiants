@@ -1,0 +1,12 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.springframework.integration.metadata.PropertiesPersistingMetadataStore: void flush()> with actual argTypes: [] and taint: [true]",
+            "<org.springframework.integration.metadata.PropertiesPersistingMetadataStore: void saveMetadata()> with actual argTypes: [] and taint: [true]",
+            "<java.io.FileOutputStream: void <init>(java.io.File)> with actual argTypes: [java.io.File] and taint: [false, true]"
+        ]
+    ]
+}

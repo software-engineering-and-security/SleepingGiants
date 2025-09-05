@@ -1,0 +1,16 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+110981,org.apache.commons.commons-jexl3,1.0,2005-11-08,https://repo1.maven.org/maven2/commons-jexl/commons-jexl/1.0/commons-jexl-1.0.jar,,,,,,,,1.1
+110980,org.apache.commons.commons-jexl3,1.1,2006-09-11,https://repo1.maven.org/maven2/commons-jexl/commons-jexl/1.1/commons-jexl-1.1.jar,,,,,,,,2.0
+108725,org.apache.commons.commons-jexl3,2.0,2010-02-02,https://repo1.maven.org/maven2/org/apache/commons/commons-jexl/2.0/commons-jexl-2.0.jar,1,,,,,,,2.0.1
+108726,org.apache.commons.commons-jexl3,2.0.1,2010-04-06,https://repo1.maven.org/maven2/org/apache/commons/commons-jexl/2.0.1/commons-jexl-2.0.1.jar,1,0,0,0,0,0,0,2.1
+108727,org.apache.commons.commons-jexl3,2.1,2011-12-08,https://repo1.maven.org/maven2/org/apache/commons/commons-jexl/2.1/commons-jexl-2.1.jar,1,0,0,0,0,0,0,2.1.1
+108728,org.apache.commons.commons-jexl3,2.1.1,2011-12-19,https://repo1.maven.org/maven2/org/apache/commons/commons-jexl/2.1.1/commons-jexl-2.1.1.jar,1,0,0,0,0,0,0,3.0
+19698,org.apache.commons.commons-jexl3,3.0,2015-12-18,https://repo1.maven.org/maven2/org/apache/commons/commons-jexl3/3.0/commons-jexl3-3.0.jar,1,0,0,0,0,1,1,3.1
+19699,org.apache.commons.commons-jexl3,3.1,2017-04-07,https://repo1.maven.org/maven2/org/apache/commons/commons-jexl3/3.1/commons-jexl3-3.1.jar,1,0,0,0,0,0,0,3.2
+19700,org.apache.commons.commons-jexl3,3.2,2021-06-07,https://repo1.maven.org/maven2/org/apache/commons/commons-jexl3/3.2/commons-jexl3-3.2.jar,85,2,0,73,0,9,0,3.2.1
+19701,org.apache.commons.commons-jexl3,3.2.1,2021-06-25,https://repo1.maven.org/maven2/org/apache/commons/commons-jexl3/3.2.1/commons-jexl3-3.2.1.jar,85,0,0,0,0,0,0,3.3
+19702,org.apache.commons.commons-jexl3,3.3,2023-03-27,https://repo1.maven.org/maven2/org/apache/commons/commons-jexl3/3.3/commons-jexl3-3.3.jar,98,1,0,0,0,12,0,3.4.0
+19703,org.apache.commons.commons-jexl3,3.4.0,2024-06-06,https://repo1.maven.org/maven2/org/apache/commons/commons-jexl3/3.4.0/commons-jexl3-3.4.0.jar,,0,0,0,0,8,0,20030307.151331
+110984,org.apache.commons.commons-jexl3,20030307.151331,2005-11-08,https://repo1.maven.org/maven2/commons-jexl/commons-jexl/20030307.151331/commons-jexl-20030307.151331.jar,,,,,,,,20040821.000101
+110983,org.apache.commons.commons-jexl3,20040821.000101,2005-11-24,https://repo1.maven.org/maven2/commons-jexl/commons-jexl/20040821.000101/commons-jexl-20040821.000101.jar,,,,,,,,20040901.055348
+110982,org.apache.commons.commons-jexl3,20040901.055348,2005-11-24,https://repo1.maven.org/maven2/commons-jexl/commons-jexl/20040901.055348/commons-jexl-20040901.055348.jar,,,,,,,,

@@ -1,0 +1,13 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.springframework.scheduling.support.ScheduledMethodRunnable: void run()> with actual argTypes: [] and taint: [true]",
+            "<org.springframework.scheduling.support.ScheduledMethodRunnable: void lambda$run$2(org.springframework.scheduling.support.ScheduledTaskObservationContext)> with actual argTypes: [org.springframework.scheduling.support.ScheduledTaskObservationContext] and taint: [false, false]",
+            "<org.springframework.scheduling.support.ScheduledMethodRunnable: void runInternal(org.springframework.scheduling.support.ScheduledTaskObservationContext)> with actual argTypes: [org.springframework.scheduling.support.ScheduledTaskObservationContext] and taint: [false, false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [false, false, false]"
+        ]
+    ]
+}

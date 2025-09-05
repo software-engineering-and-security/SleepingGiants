@@ -1,0 +1,27 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+19607,org.apache.sshd.sshd-sftp,0.9.0,2013-07-26,https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/0.9.0/sshd-sftp-0.9.0.jar,,,,,,,,0.10.0
+19608,org.apache.sshd.sshd-sftp,0.10.0,2014-02-13,https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/0.10.0/sshd-sftp-0.10.0.jar,,,,,,,,0.10.1
+19609,org.apache.sshd.sshd-sftp,0.10.1,2014-02-26,https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/0.10.1/sshd-sftp-0.10.1.jar,,,,,,,,0.11.0
+19610,org.apache.sshd.sshd-sftp,0.11.0,2014-04-14,https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/0.11.0/sshd-sftp-0.11.0.jar,,,,,,,,2.0.0
+19611,org.apache.sshd.sshd-sftp,2.0.0,2018-05-28,https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.0.0/sshd-sftp-2.0.0.jar,3,,,,,,,2.1.0
+19612,org.apache.sshd.sshd-sftp,2.1.0,2018-10-02,https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.1.0/sshd-sftp-2.1.0.jar,3,0,0,0,0,0,0,2.2.0
+19613,org.apache.sshd.sshd-sftp,2.2.0,2019-02-11,https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.2.0/sshd-sftp-2.2.0.jar,3,0,0,0,0,0,0,2.3.0
+19614,org.apache.sshd.sshd-sftp,2.3.0,2019-07-15,https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.3.0/sshd-sftp-2.3.0.jar,3,0,0,0,0,0,0,2.4.0
+19615,org.apache.sshd.sshd-sftp,2.4.0,2020-02-04,https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.4.0/sshd-sftp-2.4.0.jar,3,0,0,0,0,0,0,2.5.0
+19616,org.apache.sshd.sshd-sftp,2.5.0,2020-06-22,https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.5.0/sshd-sftp-2.5.0.jar,3,0,0,0,0,0,0,2.5.1
+19617,org.apache.sshd.sshd-sftp,2.5.1,2020-07-01,https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.5.1/sshd-sftp-2.5.1.jar,3,0,0,0,0,0,0,2.6.0
+19618,org.apache.sshd.sshd-sftp,2.6.0,2021-01-04,https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.6.0/sshd-sftp-2.6.0.jar,3,0,0,0,0,3,3,2.7.0
+19619,org.apache.sshd.sshd-sftp,2.7.0,2021-05-31,https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.7.0/sshd-sftp-2.7.0.jar,4,0,0,0,0,1,0,2.8.0
+19620,org.apache.sshd.sshd-sftp,2.8.0,2021-12-03,https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.8.0/sshd-sftp-2.8.0.jar,4,0,0,0,0,0,0,2.9.0
+19622,org.apache.sshd.sshd-sftp,2.9.0,2022-07-22,https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.9.0/sshd-sftp-2.9.0.jar,4,0,0,0,0,0,0,2.9.1
+19637,org.apache.sshd.sshd-sftp,2.9.1,2022-09-07,https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.9.1/sshd-sftp-2.9.1.jar,4,0,0,0,0,0,0,2.9.2
+19661,org.apache.sshd.sshd-sftp,2.9.2,2022-11-15,https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.9.2/sshd-sftp-2.9.2.jar,4,0,0,0,0,0,0,2.9.3
+19638,org.apache.sshd.sshd-sftp,2.9.3,2023-10-20,https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.9.3/sshd-sftp-2.9.3.jar,4,0,0,0,0,0,0,2.10.0
+19664,org.apache.sshd.sshd-sftp,2.10.0,2023-05-14,https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.10.0/sshd-sftp-2.10.0.jar,4,0,0,0,0,0,0,2.11.0
+19665,org.apache.sshd.sshd-sftp,2.11.0,2023-10-20,https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.11.0/sshd-sftp-2.11.0.jar,4,0,0,0,0,0,0,2.12.0
+19666,org.apache.sshd.sshd-sftp,2.12.0,2024-01-18,https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.12.0/sshd-sftp-2.12.0.jar,4,0,0,0,0,0,0,2.12.1
+19667,org.apache.sshd.sshd-sftp,2.12.1,2024-02-16,https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.12.1/sshd-sftp-2.12.1.jar,4,0,0,0,0,0,0,2.13.0
+19668,org.apache.sshd.sshd-sftp,2.13.0,2024-06-19,https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.13.0/sshd-sftp-2.13.0.jar,4,0,0,0,0,0,0,2.13.1
+19669,org.apache.sshd.sshd-sftp,2.13.1,2024-06-24,https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.13.1/sshd-sftp-2.13.1.jar,4,0,0,0,0,0,0,2.13.2
+19670,org.apache.sshd.sshd-sftp,2.13.2,2024-07-31,https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.13.2/sshd-sftp-2.13.2.jar,4,0,0,0,0,0,0,2.14.0
+19671,org.apache.sshd.sshd-sftp,2.14.0,2024-09-24,https://repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.14.0/sshd-sftp-2.14.0.jar,: 4,0,0,0,0,0,0,

@@ -1,0 +1,25 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+53616,org.scala-lang.scala-actors,2.3.1,2008-11-24,https://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.3.1/scala-actors-2.3.1.jar,39,,,,,,,2.3.3
+53617,org.scala-lang.scala-actors,2.3.3,2008-11-24,https://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.3.3/scala-actors-2.3.3.jar,36,0,0,0,0,11,14,2.4.0
+53598,org.scala-lang.scala-actors,2.4.0,2008-11-24,https://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.4.0/scala-actors-2.4.0.jar,58,0,0,0,0,27,5,2.10.0
+53588,org.scala-lang.scala-actors,2.10.0,2012-12-20,https://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.jar,28,0,9,0,0,31,49,2.10.1
+53589,org.scala-lang.scala-actors,2.10.1,2013-03-12,https://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.1/scala-actors-2.10.1.jar,28,0,0,0,0,0,0,2.10.2
+53590,org.scala-lang.scala-actors,2.10.2,2013-06-06,https://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.2/scala-actors-2.10.2.jar,28,0,0,0,0,0,0,2.10.3
+53591,org.scala-lang.scala-actors,2.10.3,2013-09-27,https://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.3/scala-actors-2.10.3.jar,28,0,0,0,0,0,0,2.10.4
+53592,org.scala-lang.scala-actors,2.10.4,2014-03-18,https://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.4/scala-actors-2.10.4.jar,28,0,0,0,0,0,0,2.10.5
+53593,org.scala-lang.scala-actors,2.10.5,2015-02-27,https://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.5/scala-actors-2.10.5.jar,28,0,0,0,0,0,0,2.10.6
+53594,org.scala-lang.scala-actors,2.10.6,2015-09-18,https://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.6/scala-actors-2.10.6.jar,28,0,0,0,0,0,0,2.10.7
+53595,org.scala-lang.scala-actors,2.10.7,2017-11-03,https://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.7/scala-actors-2.10.7.jar,28,0,0,0,0,0,0,2.11.0
+53596,org.scala-lang.scala-actors,2.11.0,2014-04-16,https://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.11.0/scala-actors-2.11.0.jar,28,0,0,0,0,0,0,2.11.1
+53597,org.scala-lang.scala-actors,2.11.1,2014-05-20,https://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.11.1/scala-actors-2.11.1.jar,28,0,0,0,0,0,0,2.11.2
+53538,org.scala-lang.scala-actors,2.11.2,2014-07-23,https://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.11.2/scala-actors-2.11.2.jar,28,0,0,0,0,0,0,2.11.3
+53537,org.scala-lang.scala-actors,2.11.3,2014-10-10,https://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.11.3/scala-actors-2.11.3.jar,28,0,0,0,0,0,0,2.11.4
+53536,org.scala-lang.scala-actors,2.11.4,2014-10-23,https://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.11.4/scala-actors-2.11.4.jar,28,0,0,0,0,0,0,2.11.5
+53535,org.scala-lang.scala-actors,2.11.5,2015-01-07,https://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.11.5/scala-actors-2.11.5.jar,28,0,0,0,0,0,0,2.11.6
+53479,org.scala-lang.scala-actors,2.11.6,2015-02-26,https://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.11.6/scala-actors-2.11.6.jar,28,0,0,0,0,0,0,2.11.7
+53480,org.scala-lang.scala-actors,2.11.7,2015-06-22,https://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.11.7/scala-actors-2.11.7.jar,28,0,0,0,0,0,0,2.11.8
+53481,org.scala-lang.scala-actors,2.11.8,2016-03-04,https://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.11.8/scala-actors-2.11.8.jar,28,0,0,0,0,0,0,2.11.9
+53482,org.scala-lang.scala-actors,2.11.9,2017-03-28,https://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.11.9/scala-actors-2.11.9.jar,28,0,0,0,0,0,0,2.11.10
+53483,org.scala-lang.scala-actors,2.11.10,2017-04-05,https://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.11.10/scala-actors-2.11.10.jar,28,0,0,0,0,0,0,2.11.11
+53484,org.scala-lang.scala-actors,2.11.11,2017-04-13,https://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.11.11/scala-actors-2.11.11.jar,28,0,0,0,0,0,0,2.11.12
+53485,org.scala-lang.scala-actors,2.11.12,2017-11-03,https://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.11.12/scala-actors-2.11.12.jar,: 28,0,0,0,0,0,0,

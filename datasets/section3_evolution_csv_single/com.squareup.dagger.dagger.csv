@@ -1,0 +1,10 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+17750,com.squareup.dagger.dagger,1.0.0,2013-05-07,https://repo1.maven.org/maven2/com/squareup/dagger/dagger/1.0.0/dagger-1.0.0.jar,,,,,,,,1.0.1
+17751,com.squareup.dagger.dagger,1.0.1,2013-06-04,https://repo1.maven.org/maven2/com/squareup/dagger/dagger/1.0.1/dagger-1.0.1.jar,,,,,,,,1.1.0
+17752,com.squareup.dagger.dagger,1.1.0,2013-08-05,https://repo1.maven.org/maven2/com/squareup/dagger/dagger/1.1.0/dagger-1.1.0.jar,,,,,,,,1.2.0
+17753,com.squareup.dagger.dagger,1.2.0,2013-12-14,https://repo1.maven.org/maven2/com/squareup/dagger/dagger/1.2.0/dagger-1.2.0.jar,,,,,,,,1.2.1
+17754,com.squareup.dagger.dagger,1.2.1,2014-02-17,https://repo1.maven.org/maven2/com/squareup/dagger/dagger/1.2.1/dagger-1.2.1.jar,1,,,,,,,1.2.2
+17755,com.squareup.dagger.dagger,1.2.2,2014-07-22,https://repo1.maven.org/maven2/com/squareup/dagger/dagger/1.2.2/dagger-1.2.2.jar,1,0,0,0,0,0,0,1.2.3
+17756,com.squareup.dagger.dagger,1.2.3,2016-05-03,https://repo1.maven.org/maven2/com/squareup/dagger/dagger/1.2.3/dagger-1.2.3.jar,1,0,0,0,0,0,0,1.2.4
+17757,com.squareup.dagger.dagger,1.2.4,2016-05-03,https://repo1.maven.org/maven2/com/squareup/dagger/dagger/1.2.4/dagger-1.2.4.jar,1,0,0,0,0,0,0,1.2.5
+17734,com.squareup.dagger.dagger,1.2.5,2016-05-10,https://repo1.maven.org/maven2/com/squareup/dagger/dagger/1.2.5/dagger-1.2.5.jar,: 1,0,0,0,0,0,0,

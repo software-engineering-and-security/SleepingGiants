@@ -1,0 +1,9 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<org.rogach.scallop.SerializationProxy: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, false]"
+        ]
+    ]
+}

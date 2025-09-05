@@ -1,0 +1,15 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+110295,jakarta.json.jakarta.json-api,1.0,2013-04-24,https://repo1.maven.org/maven2/javax/json/javax.json-api/1.0/javax.json-api-1.0.jar,,,,,,,,1.1
+110296,jakarta.json.jakarta.json-api,1.1,2017-05-18,https://repo1.maven.org/maven2/javax/json/javax.json-api/1.1/javax.json-api-1.1.jar,1,,,,,,,1.1.2
+110297,jakarta.json.jakarta.json-api,1.1.2,2017-11-02,https://repo1.maven.org/maven2/javax/json/javax.json-api/1.1.2/javax.json-api-1.1.2.jar,3,0,0,0,0,2,0,1.1.3
+110298,jakarta.json.jakarta.json-api,1.1.3,2018-10-04,https://repo1.maven.org/maven2/javax/json/javax.json-api/1.1.3/javax.json-api-1.1.3.jar,3,0,0,0,0,0,0,1.1.4
+110299,jakarta.json.jakarta.json-api,1.1.4,2018-11-07,https://repo1.maven.org/maven2/javax/json/javax.json-api/1.1.4/javax.json-api-1.1.4.jar,3,0,0,0,0,0,0,1.1.5
+3024,jakarta.json.jakarta.json-api,1.1.5,2019-01-07,https://repo1.maven.org/maven2/jakarta/json/jakarta.json-api/1.1.5/jakarta.json-api-1.1.5.jar,3,0,0,0,0,0,0,1.1.6
+3025,jakarta.json.jakarta.json-api,1.1.6,2019-08-30,https://repo1.maven.org/maven2/jakarta/json/jakarta.json-api/1.1.6/jakarta.json-api-1.1.6.jar,3,0,0,0,0,0,0,2.0.0
+3026,jakarta.json.jakarta.json-api,2.0.0,2020-10-26,https://repo1.maven.org/maven2/jakarta/json/jakarta.json-api/2.0.0/jakarta.json-api-2.0.0.jar,3,0,0,0,0,3,3,2.0.1
+3027,jakarta.json.jakarta.json-api,2.0.1,2021-05-26,https://repo1.maven.org/maven2/jakarta/json/jakarta.json-api/2.0.1/jakarta.json-api-2.0.1.jar,3,0,0,0,0,0,0,2.0.2
+3028,jakarta.json.jakarta.json-api,2.0.2,2022-06-15,https://repo1.maven.org/maven2/jakarta/json/jakarta.json-api/2.0.2/jakarta.json-api-2.0.2.jar,3,0,0,0,0,0,0,2.1.0
+3029,jakarta.json.jakarta.json-api,2.1.0,2022-04-07,https://repo1.maven.org/maven2/jakarta/json/jakarta.json-api/2.1.0/jakarta.json-api-2.1.0.jar,3,0,0,0,0,0,0,2.1.1
+3030,jakarta.json.jakarta.json-api,2.1.1,2022-07-21,https://repo1.maven.org/maven2/jakarta/json/jakarta.json-api/2.1.1/jakarta.json-api-2.1.1.jar,3,0,0,0,0,0,0,2.1.2
+3031,jakarta.json.jakarta.json-api,2.1.2,2023-05-22,https://repo1.maven.org/maven2/jakarta/json/jakarta.json-api/2.1.2/jakarta.json-api-2.1.2.jar,3,0,0,0,0,0,0,2.1.3
+3032,jakarta.json.jakarta.json-api,2.1.3,2023-10-20,https://repo1.maven.org/maven2/jakarta/json/jakarta.json-api/2.1.3/jakarta.json-api-2.1.3.jar,: 3,0,0,0,0,0,0,

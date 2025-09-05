@@ -1,0 +1,4 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+50249,org.jspecify.jspecify,0.2.0,2021-07-21,https://repo1.maven.org/maven2/org/jspecify/jspecify/0.2.0/jspecify-0.2.0.jar,,,,,,,,0.3.0
+50248,org.jspecify.jspecify,0.3.0,2022-12-13,https://repo1.maven.org/maven2/org/jspecify/jspecify/0.3.0/jspecify-0.3.0.jar,,,,,,,,1.0.0
+50229,org.jspecify.jspecify,1.0.0,2024-07-16,https://repo1.maven.org/maven2/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar,,,,,,,,

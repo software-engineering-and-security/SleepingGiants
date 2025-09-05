@@ -1,0 +1,9 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+53494,org.apache.pekko.pekko-actor,1.0.0,2023-07-14,https://repo1.maven.org/maven2/org/apache/pekko/pekko-actor_3/1.0.0/pekko-actor_3-1.0.0.jar,1065,,,,,,,1.0.1
+53495,org.apache.pekko.pekko-actor,1.0.1,2023-07-26,https://repo1.maven.org/maven2/org/apache/pekko/pekko-actor_3/1.0.1/pekko-actor_3-1.0.1.jar,1065,0,0,0,0,0,0,1.0.2
+53478,org.apache.pekko.pekko-actor,1.0.2,2023-12-01,https://repo1.maven.org/maven2/org/apache/pekko/pekko-actor_3/1.0.2/pekko-actor_3-1.0.2.jar,1065,0,0,0,0,0,0,1.0.3
+53525,org.apache.pekko.pekko-actor,1.0.3,2024-06-24,https://repo1.maven.org/maven2/org/apache/pekko/pekko-actor_3/1.0.3/pekko-actor_3-1.0.3.jar,1065,0,0,0,0,0,0,1.1.0
+53526,org.apache.pekko.pekko-actor,1.1.0,2024-09-03,https://repo1.maven.org/maven2/org/apache/pekko/pekko-actor_3/1.1.0/pekko-actor_3-1.1.0.jar,1066,0,0,0,0,2,1,1.1.1
+53527,org.apache.pekko.pekko-actor,1.1.1,2024-09-13,https://repo1.maven.org/maven2/org/apache/pekko/pekko-actor_3/1.1.1/pekko-actor_3-1.1.1.jar,1066,0,0,0,0,0,0,1.1.2
+53528,org.apache.pekko.pekko-actor,1.1.2,2024-10-08,https://repo1.maven.org/maven2/org/apache/pekko/pekko-actor_3/1.1.2/pekko-actor_3-1.1.2.jar,1066,0,0,0,0,0,0,1.1.3
+53529,org.apache.pekko.pekko-actor,1.1.3,2025-01-08,https://repo1.maven.org/maven2/org/apache/pekko/pekko-actor_3/1.1.3/pekko-actor_3-1.1.3.jar,: 1066,0,0,0,0,0,0,

@@ -1,0 +1,25 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<javax.management.openmbean.OpenType: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<dotty.tools.dotc.core.TypeError: java.lang.String getMessage()> with actual argTypes: [] and taint: [false]",
+            "<dotty.tools.dotc.core.MissingType: dotty.tools.dotc.reporting.Message toMessage(dotty.tools.dotc.core.Contexts$Context)> with actual argTypes: [dotty.tools.dotc.core.Contexts$Context] and taint: [false, false]",
+            "<dotty.tools.dotc.core.MissingType: java.lang.String reason(dotty.tools.dotc.core.Contexts$Context)> with actual argTypes: [dotty.tools.dotc.core.Contexts$Context] and taint: [false, false]",
+            "<dotty.tools.dotc.core.SymDenotations$ClassDenotation: dotty.tools.dotc.core.Types$Type givenSelfType(dotty.tools.dotc.core.Contexts$Context)> with actual argTypes: [dotty.tools.dotc.core.Contexts$Context] and taint: [false, false]",
+            "<dotty.tools.dotc.core.SymDenotations$ClassDenotation: dotty.tools.dotc.core.Types$ClassInfo classInfo(dotty.tools.dotc.core.Contexts$Context)> with actual argTypes: [dotty.tools.dotc.core.Contexts$Context] and taint: [false, false]",
+            "<dotty.tools.dotc.core.Denotations$Denotation: dotty.tools.dotc.core.Types$Type info(dotty.tools.dotc.core.Contexts$Context)> with actual argTypes: [dotty.tools.dotc.core.Contexts$Context] and taint: [false, false]",
+            "<dotty.tools.dotc.core.Denotations$Denotation: dotty.tools.dotc.core.Types$Type completeInfo$1(dotty.tools.dotc.core.Contexts$Context)> with actual argTypes: [dotty.tools.dotc.core.Contexts$Context] and taint: [false, false]",
+            "<dotty.tools.dotc.core.SymDenotations$SymDenotation: void completeFrom(dotty.tools.dotc.core.SymDenotations$LazyType,dotty.tools.dotc.core.Contexts$Context)> with actual argTypes: [dotty.tools.dotc.core.SymDenotations$LazyType, dotty.tools.dotc.core.Contexts$Context] and taint: [false, false, false]",
+            "<dotty.tools.dotc.core.SymbolLoader: void complete(dotty.tools.dotc.core.SymDenotations$SymDenotation,dotty.tools.dotc.core.Contexts$Context)> with actual argTypes: [dotty.tools.dotc.core.SymDenotations$SymDenotation, dotty.tools.dotc.core.Contexts$Context] and taint: [false, false, false]",
+            "<dotty.tools.dotc.core.SymbolLoaders$PackageLoader: void doComplete(dotty.tools.dotc.core.SymDenotations$SymDenotation,dotty.tools.dotc.core.Contexts$Context)> with actual argTypes: [dotty.tools.dotc.core.SymDenotations$SymDenotation, dotty.tools.dotc.core.Contexts$Context] and taint: [false, false, false]",
+            "<dotty.tools.dotc.core.SymbolLoaders$PackageLoader: void enterClasses(dotty.tools.dotc.core.SymDenotations$SymDenotation,java.lang.String,boolean,dotty.tools.dotc.core.Contexts$Context)> with actual argTypes: [dotty.tools.dotc.core.SymDenotations$SymDenotation, java.lang.String, int, dotty.tools.dotc.core.Contexts$Context] and taint: [false, false, false, false, false]",
+            "<dotty.tools.io.ClassPath: dotty.tools.dotc.classpath.ClassPathEntries list(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<dotty.tools.dotc.classpath.CtSymClassPath: dotty.tools.dotc.classpath.ClassPathEntries list(dotty.tools.dotc.classpath.PackageName)> with actual argTypes: [dotty.tools.dotc.classpath.PackageName] and taint: [false, false]",
+            "<dotty.tools.dotc.classpath.CtSymClassPath: scala.collection.immutable.Seq classes(dotty.tools.dotc.classpath.PackageName)> with actual argTypes: [dotty.tools.dotc.classpath.PackageName] and taint: [false, false]",
+            "<dotty.tools.io.ManifestResources: scala.collection.Iterator iterator()> with actual argTypes: [] and taint: [false]",
+            "<dotty.tools.io.ManifestResources: java.io.InputStream input()> with actual argTypes: [] and taint: [false]",
+            "<java.net.URL: java.io.InputStream openStream()> with actual argTypes: [] and taint: [false]"
+        ]
+    ]
+}

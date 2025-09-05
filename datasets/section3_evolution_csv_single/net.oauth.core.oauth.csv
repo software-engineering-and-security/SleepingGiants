@@ -1,0 +1,5 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+45079,net.oauth.core.oauth,20090531,2016-05-26,https://repo1.maven.org/maven2/net/oauth/core/oauth/20090531/oauth-20090531.jar,3,,,,,,,20090617
+45080,net.oauth.core.oauth,20090617,2016-05-26,https://repo1.maven.org/maven2/net/oauth/core/oauth/20090617/oauth-20090617.jar,3,0,0,0,0,0,0,20090825
+45081,net.oauth.core.oauth,20090825,2016-05-25,https://repo1.maven.org/maven2/net/oauth/core/oauth/20090825/oauth-20090825.jar,3,0,0,0,0,0,0,20100527
+45082,net.oauth.core.oauth,20100527,2011-03-15,https://repo1.maven.org/maven2/net/oauth/core/oauth/20100527/oauth-20100527.jar,: 3,0,0,0,0,0,0,

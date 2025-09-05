@@ -1,0 +1,11 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+103461,androidx.sqlite.sqlite-framework,1.0.0,2017-11-06,https://maven.google.com/android/arch/persistence/db-framework/1.0.0/db-framework-1.0.0.aar,,,,,,,,1.1.0
+103462,androidx.sqlite.sqlite-framework,1.1.0,2018-05-06,https://maven.google.com/android/arch/persistence/db-framework/1.1.0/db-framework-1.1.0.aar,,,,,,,,1.1.1
+103463,androidx.sqlite.sqlite-framework,1.1.1,2018-06-19,https://maven.google.com/android/arch/persistence/db-framework/1.1.1/db-framework-1.1.1.aar,,,,,,,,2.0.0
+37727,androidx.sqlite.sqlite-framework,2.0.0,2018-10-01,https://maven.google.com/androidx/sqlite/sqlite-framework/2.0.0/sqlite-framework-2.0.0.aar,,,,,,,,2.0.1
+37728,androidx.sqlite.sqlite-framework,2.0.1,2019-03-13,https://maven.google.com/androidx/sqlite/sqlite-framework/2.0.1/sqlite-framework-2.0.1.aar,,,,,,,,2.1.0
+37729,androidx.sqlite.sqlite-framework,2.1.0,2020-01-22,https://maven.google.com/androidx/sqlite/sqlite-framework/2.1.0/sqlite-framework-2.1.0.aar,,,,,,,,2.2.0
+37730,androidx.sqlite.sqlite-framework,2.2.0,2021-12-15,https://maven.google.com/androidx/sqlite/sqlite-framework/2.2.0/sqlite-framework-2.2.0.aar,,,,,,,,2.3.0
+37731,androidx.sqlite.sqlite-framework,2.3.0,2023-01-11,https://maven.google.com/androidx/sqlite/sqlite-framework/2.3.0/sqlite-framework-2.3.0.aar,,,,,,,,2.3.1
+37732,androidx.sqlite.sqlite-framework,2.3.1,2023-03-22,https://maven.google.com/androidx/sqlite/sqlite-framework/2.3.1/sqlite-framework-2.3.1.aar,,,,,,,,2.4.0
+37733,androidx.sqlite.sqlite-framework,2.4.0,2023-10-18,https://maven.google.com/androidx/sqlite/sqlite-framework/2.4.0/sqlite-framework-2.4.0.aar,,,,,,,,

@@ -1,0 +1,4 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+60306,net.iharder.base64,2.3.7,2010-02-23,https://repo1.maven.org/maven2/net/iharder/base64/2.3.7/base64-2.3.7.jar,,,,,,,,2.3.8
+60307,net.iharder.base64,2.3.8,2010-03-27,https://repo1.maven.org/maven2/net/iharder/base64/2.3.8/base64-2.3.8.jar,,,,,,,,2.3.9
+60308,net.iharder.base64,2.3.9,2016-01-14,https://repo1.maven.org/maven2/net/iharder/base64/2.3.9/base64-2.3.9.jar,,,,,,,,

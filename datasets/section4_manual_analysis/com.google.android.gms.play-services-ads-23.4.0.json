@@ -1,0 +1,58 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.google.android.gms.internal.ads.zzgea: void run()> with actual argTypes: [] and taint: [true]",
+            "<com.google.android.gms.internal.ads.zzgdy: java.lang.Object zze(java.lang.Object,java.lang.Throwable)> with actual argTypes: [java.lang.Object, java.lang.Throwable] and taint: [true, true, true]",
+            "<com.google.android.gms.internal.ads.zzeab: com.google.common.util.concurrent.ListenableFuture zza(java.lang.Object)> with actual argTypes: [java.lang.Throwable] and taint: [true, true]",
+            "<com.google.android.gms.internal.ads.zzdrv: java.lang.Object zzb()> with actual argTypes: [] and taint: [true]",
+            "<com.google.android.gms.internal.ads.zzcmo: com.google.android.gms.internal.ads.zzfhy zza()> with actual argTypes: [] and taint: [true]",
+            "<com.google.android.gms.internal.ads.zzfhy: com.google.android.gms.internal.ads.zzfhy zzd(android.content.Context)> with actual argTypes: [android.content.Context] and taint: [false, true]",
+            "<com.google.android.gms.internal.ads.zzfhy: com.google.android.gms.ads.internal.client.zzcw zza(android.content.Context)> with actual argTypes: [android.content.Context] and taint: [false, true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, true]"
+        ],
+        [
+            "<java.beans.beancontext.BeanContextSupport: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<java.beans.beancontext.BeanContextSupport: void readChildren(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<java.beans.beancontext.BeanContextChildSupport: void setBeanContext(java.beans.beancontext.BeanContext)> with actual argTypes: [java.beans.beancontext.BeanContext] and taint: [true, true]",
+            "<java.beans.beancontext.BeanContextChildSupport: void firePropertyChange(java.lang.String,java.lang.Object,java.lang.Object)> with actual argTypes: [java.lang.String, java.beans.beancontext.BeanContext, java.beans.beancontext.BeanContext] and taint: [true, false, true, true]",
+            "<java.beans.PropertyChangeSupport: void firePropertyChange(java.lang.String,java.lang.Object,java.lang.Object)> with actual argTypes: [java.lang.String, java.lang.Object, java.lang.Object] and taint: [true, false, true, true]",
+            "<java.beans.PropertyChangeSupport: void firePropertyChange(java.beans.PropertyChangeEvent)> with actual argTypes: [java.beans.PropertyChangeEvent] and taint: [true, false]",
+            "<java.beans.PropertyChangeSupport: void fire(java.beans.PropertyChangeListener[],java.beans.PropertyChangeEvent)> with actual argTypes: [java.beans.PropertyChangeListener[], java.beans.PropertyChangeEvent] and taint: [false, true, false]",
+            "<sun.tools.jconsole.MBeansTab: void propertyChange(java.beans.PropertyChangeEvent)> with actual argTypes: [java.beans.PropertyChangeEvent] and taint: [true, false]",
+            "<sun.tools.jconsole.MBeansTab: void buildMBeanServerView()> with actual argTypes: [] and taint: [true]",
+            "<javax.swing.SwingWorker: void execute()> with actual argTypes: [] and taint: [false]",
+            "<com.google.android.gms.internal.ads.zzcam: void execute(java.lang.Runnable)> with actual argTypes: [javax.swing.SwingWorker] and taint: [false, false]",
+            "<com.google.android.gms.internal.ads.zzgfc: void execute(java.lang.Runnable)> with actual argTypes: [java.lang.Runnable] and taint: [false, false]",
+            "<java.util.concurrent.ForkJoinTask$AdaptedRunnableAction: void run()> with actual argTypes: [] and taint: [false]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Object invoke()> with actual argTypes: [] and taint: [false]",
+            "<java.util.concurrent.ForkJoinTask: void reportException(int)> with actual argTypes: [int] and taint: [false, false]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Throwable getThrowableException()> with actual argTypes: [] and taint: [false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, false]"
+        ],
+        [
+            "<java.beans.beancontext.BeanContextSupport: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<java.beans.beancontext.BeanContextSupport: void readChildren(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<java.beans.beancontext.BeanContextChildSupport: void setBeanContext(java.beans.beancontext.BeanContext)> with actual argTypes: [java.beans.beancontext.BeanContext] and taint: [true, true]",
+            "<java.beans.beancontext.BeanContextChildSupport: void firePropertyChange(java.lang.String,java.lang.Object,java.lang.Object)> with actual argTypes: [java.lang.String, java.beans.beancontext.BeanContext, java.beans.beancontext.BeanContext] and taint: [true, false, true, true]",
+            "<java.beans.PropertyChangeSupport: void firePropertyChange(java.lang.String,java.lang.Object,java.lang.Object)> with actual argTypes: [java.lang.String, java.lang.Object, java.lang.Object] and taint: [true, false, true, true]",
+            "<java.beans.PropertyChangeSupport: void firePropertyChange(java.beans.PropertyChangeEvent)> with actual argTypes: [java.beans.PropertyChangeEvent] and taint: [true, false]",
+            "<java.beans.PropertyChangeSupport: void fire(java.beans.PropertyChangeListener[],java.beans.PropertyChangeEvent)> with actual argTypes: [java.beans.PropertyChangeListener[], java.beans.PropertyChangeEvent] and taint: [false, true, false]",
+            "<sun.tools.jconsole.MBeansTab: void propertyChange(java.beans.PropertyChangeEvent)> with actual argTypes: [java.beans.PropertyChangeEvent] and taint: [true, false]",
+            "<sun.tools.jconsole.MBeansTab: void buildMBeanServerView()> with actual argTypes: [] and taint: [true]",
+            "<javax.swing.SwingWorker: void execute()> with actual argTypes: [] and taint: [false]",
+            "<com.google.android.gms.internal.ads.zzcam: void execute(java.lang.Runnable)> with actual argTypes: [javax.swing.SwingWorker] and taint: [false, false]",
+            "<com.google.android.gms.internal.ads.zzgfc: void execute(java.lang.Runnable)> with actual argTypes: [java.lang.Runnable] and taint: [false, false]",
+            "<com.google.android.gms.internal.ads.zzgea: void run()> with actual argTypes: [] and taint: [false]",
+            "<com.google.android.gms.internal.ads.zzgdy: java.lang.Object zze(java.lang.Object,java.lang.Throwable)> with actual argTypes: [java.lang.Object, java.lang.Throwable] and taint: [false, false, false]",
+            "<com.google.android.gms.internal.ads.zzeab: com.google.common.util.concurrent.ListenableFuture zza(java.lang.Object)> with actual argTypes: [java.lang.Throwable] and taint: [false, false]",
+            "<com.google.android.gms.internal.ads.zzdrv: java.lang.Object zzb()> with actual argTypes: [] and taint: [false]",
+            "<com.google.android.gms.internal.ads.zzcmo: com.google.android.gms.internal.ads.zzfhy zza()> with actual argTypes: [] and taint: [false]",
+            "<com.google.android.gms.internal.ads.zzfhy: com.google.android.gms.internal.ads.zzfhy zzd(android.content.Context)> with actual argTypes: [android.content.Context] and taint: [false, false]",
+            "<com.google.android.gms.internal.ads.zzfhy: com.google.android.gms.ads.internal.client.zzcw zza(android.content.Context)> with actual argTypes: [android.content.Context] and taint: [false, false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, false]"
+        ]
+    ]
+}

@@ -1,0 +1,21 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+92288,org.playframework.play,2.7.3,2024-11-29,https://repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.7.3/play_2.13-2.7.3.jar,310,,,,,,,2.8.0
+92287,org.playframework.play,2.8.0,2024-11-08,https://repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.0/play_2.13-2.8.0.jar,312,0,0,0,0,37,35,2.8.2
+92286,org.playframework.play,2.8.2,2024-02-21,https://repo1.maven.org/maven2/com/typesafe/play/play_2.12/2.8.2/play_2.12-2.8.2.jar,1,0,308,0,3,0,0,2.8.3
+92285,org.playframework.play,2.8.3,2024-11-29,https://repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.3/play_2.13-2.8.3.jar,328,310,0,3,0,14,0,2.8.8
+92284,org.playframework.play,2.8.8,2024-02-20,https://repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.8/play_2.13-2.8.8.jar,328,0,0,0,0,1,1,2.8.11
+92283,org.playframework.play,2.8.11,2024-02-21,https://repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.11/play_2.13-2.8.11.jar,328,0,0,0,0,0,0,2.8.21
+92282,org.playframework.play,2.8.21,2023-11-27,https://repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.21/play_2.13-2.8.21.jar,331,0,0,0,0,4,1,2.9.1
+92280,org.playframework.play,2.9.1,2024-09-02,https://repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.9.1/play_2.13-2.9.1.jar,323,0,0,0,0,4,12,2.9.2
+92279,org.playframework.play,2.9.2,2024-05-06,https://repo1.maven.org/maven2/com/typesafe/play/play_3/2.9.2/play_3-2.9.2.jar,529,261,0,0,0,28,83,2.9.3
+92278,org.playframework.play,2.9.3,2024-06-19,https://repo1.maven.org/maven2/com/typesafe/play/play_3/2.9.3/play_3-2.9.3.jar,529,0,0,0,0,0,0,2.9.4
+92255,org.playframework.play,2.9.4,2024-06-19,https://repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.9.4/play_2.13-2.9.4.jar,323,0,261,0,0,83,28,2.9.5
+92254,org.playframework.play,2.9.5,2024-07-28,https://repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.9.5/play_2.13-2.9.5.jar,325,0,0,0,0,2,0,2.9.6
+92253,org.playframework.play,2.9.6,2024-11-29,https://repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.9.6/play_2.13-2.9.6.jar,325,0,0,0,0,0,0,3.0.0
+48331,org.playframework.play,3.0.0,2023-10-25,https://repo1.maven.org/maven2/org/playframework/play_3/3.0.0/play_3-3.0.0.jar,529,260,0,0,0,29,85,3.0.1
+48332,org.playframework.play,3.0.1,2023-12-19,https://repo1.maven.org/maven2/org/playframework/play_3/3.0.1/play_3-3.0.1.jar,529,0,0,0,0,0,0,3.0.2
+48333,org.playframework.play,3.0.2,2024-03-01,https://repo1.maven.org/maven2/org/playframework/play_3/3.0.2/play_3-3.0.2.jar,529,0,0,0,0,0,0,3.0.3
+48334,org.playframework.play,3.0.3,2024-05-07,https://repo1.maven.org/maven2/org/playframework/play_3/3.0.3/play_3-3.0.3.jar,529,0,0,0,0,0,0,3.0.4
+48315,org.playframework.play,3.0.4,2024-06-17,https://repo1.maven.org/maven2/org/playframework/play_3/3.0.4/play_3-3.0.4.jar,529,0,0,0,0,0,0,3.0.5
+48267,org.playframework.play,3.0.5,2024-07-24,https://repo1.maven.org/maven2/org/playframework/play_3/3.0.5/play_3-3.0.5.jar,531,1,0,0,0,1,0,3.0.6
+48244,org.playframework.play,3.0.6,2024-11-28,https://repo1.maven.org/maven2/org/playframework/play_3/3.0.6/play_3-3.0.6.jar,: 531,0,0,0,0,0,0,

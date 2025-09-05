@@ -1,0 +1,9 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+36119,org.mvnpm.react,0.14.0,2024-12-06,https://repo1.maven.org/maven2/org/mvnpm/react/0.14.0/react-0.14.0.jar,,,,,,,,
+36120,org.mvnpm.react,15.7.0,2025-01-21,https://repo1.maven.org/maven2/org/mvnpm/react/15.7.0/react-15.7.0.jar,,,,,,,,
+36122,org.mvnpm.react,16.14.0,2024-11-12,https://repo1.maven.org/maven2/org/mvnpm/react/16.14.0/react-16.14.0.jar,,,,,,,,
+36150,org.mvnpm.react,18.1.0,2024-01-20,https://repo1.maven.org/maven2/org/mvnpm/react/18.1.0/react-18.1.0.jar,,,,,,,,
+36176,org.mvnpm.react,18.2.0,2023-05-26,https://repo1.maven.org/maven2/org/mvnpm/react/18.2.0/react-18.2.0.jar,,,,,,,,
+36151,org.mvnpm.react,18.3.0,2024-04-25,https://repo1.maven.org/maven2/org/mvnpm/react/18.3.0/react-18.3.0.jar,,,,,,,,
+36179,org.mvnpm.react,18.3.1,2024-04-26,https://repo1.maven.org/maven2/org/mvnpm/react/18.3.1/react-18.3.1.jar,,,,,,,,
+36180,org.mvnpm.react,19.0.0,2024-12-05,https://repo1.maven.org/maven2/org/mvnpm/react/19.0.0/react-19.0.0.jar,,,,,,,,

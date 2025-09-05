@@ -1,0 +1,22 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+90303,jakarta.enterprise.jakarta.enterprise.cdi-api,1.0,2009-11-08,https://repo1.maven.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar,2,,,,,,,1.0.1
+100342,jakarta.enterprise.jakarta.enterprise.cdi-api,1.0.1,2017-08-31,https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jcdi_2.0_spec/1.0.1/geronimo-jcdi_2.0_spec-1.0.1.jar,23,0,0,0,0,21,0,1.1
+89497,jakarta.enterprise.jakarta.enterprise.cdi-api,1.1,2013-04-10,https://repo1.maven.org/maven2/javax/enterprise/cdi-api/1.1/cdi-api-1.1.jar,2,0,0,0,0,0,21,1.1.20120910
+90288,jakarta.enterprise.jakarta.enterprise.cdi-api,1.1.20120910,2012-09-10,https://repo1.maven.org/maven2/javax/enterprise/cdi-api/1.1-20120910/cdi-api-1.1-20120910.jar,2,0,0,0,0,0,0,1.1.20120918
+89949,jakarta.enterprise.jakarta.enterprise.cdi-api,1.1.20120918,2012-09-18,https://repo1.maven.org/maven2/javax/enterprise/cdi-api/1.1-20120918/cdi-api-1.1-20120918.jar,2,0,0,0,0,0,0,1.1.20121030
+89503,jakarta.enterprise.jakarta.enterprise.cdi-api,1.1.20121030,2012-10-30,https://repo1.maven.org/maven2/javax/enterprise/cdi-api/1.1-20121030/cdi-api-1.1-20121030.jar,2,0,0,0,0,0,0,1.1.20130121
+89502,jakarta.enterprise.jakarta.enterprise.cdi-api,1.1.20130121,2013-01-21,https://repo1.maven.org/maven2/javax/enterprise/cdi-api/1.1-20130121/cdi-api-1.1-20130121.jar,2,0,0,0,0,0,0,1.1.20130222
+89501,jakarta.enterprise.jakarta.enterprise.cdi-api,1.1.20130222,2013-02-22,https://repo1.maven.org/maven2/javax/enterprise/cdi-api/1.1-20130222/cdi-api-1.1-20130222.jar,2,0,0,0,0,0,0,1.1.20130305
+89500,jakarta.enterprise.jakarta.enterprise.cdi-api,1.1.20130305,2013-03-05,https://repo1.maven.org/maven2/javax/enterprise/cdi-api/1.1-20130305/cdi-api-1.1-20130305.jar,2,0,0,0,0,0,0,1.1.20130403
+89499,jakarta.enterprise.jakarta.enterprise.cdi-api,1.1.20130403,2013-04-03,https://repo1.maven.org/maven2/javax/enterprise/cdi-api/1.1-20130403/cdi-api-1.1-20130403.jar,2,0,0,0,0,0,0,1.1.20130918
+89498,jakarta.enterprise.jakarta.enterprise.cdi-api,1.1.20130918,2013-09-18,https://repo1.maven.org/maven2/javax/enterprise/cdi-api/1.1-20130918/cdi-api-1.1-20130918.jar,2,0,0,0,0,0,0,1.2
+89495,jakarta.enterprise.jakarta.enterprise.cdi-api,1.2,2014-04-11,https://repo1.maven.org/maven2/javax/enterprise/cdi-api/1.2/cdi-api-1.2.jar,2,0,0,0,0,0,0,1.3
+100263,jakarta.enterprise.jakarta.enterprise.cdi-api,1.3,2020-10-19,https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jcdi_2.0_spec/1.3/geronimo-jcdi_2.0_spec-1.3.jar,23,0,0,0,0,21,0,2.0
+91091,jakarta.enterprise.jakarta.enterprise.cdi-api,2.0,2017-05-09,https://repo1.maven.org/maven2/javax/enterprise/cdi-api/2.0/cdi-api-2.0.jar,23,0,0,0,0,0,0,2.0.1
+4065,jakarta.enterprise.jakarta.enterprise.cdi-api,2.0.1,2018-12-19,https://repo1.maven.org/maven2/jakarta/enterprise/jakarta.enterprise.cdi-api/2.0.1/jakarta.enterprise.cdi-api-2.0.1.jar,23,0,0,0,0,0,0,2.0.2
+4066,jakarta.enterprise.jakarta.enterprise.cdi-api,2.0.2,2019-09-03,https://repo1.maven.org/maven2/jakarta/enterprise/jakarta.enterprise.cdi-api/2.0.2/jakarta.enterprise.cdi-api-2.0.2.jar,23,0,0,0,0,0,0,3.0.0
+4067,jakarta.enterprise.jakarta.enterprise.cdi-api,3.0.0,2020-09-16,https://repo1.maven.org/maven2/jakarta/enterprise/jakarta.enterprise.cdi-api/3.0.0/jakarta.enterprise.cdi-api-3.0.0.jar,23,0,0,0,0,23,23,3.0.1
+4068,jakarta.enterprise.jakarta.enterprise.cdi-api,3.0.1,2022-01-25,https://repo1.maven.org/maven2/jakarta/enterprise/jakarta.enterprise.cdi-api/3.0.1/jakarta.enterprise.cdi-api-3.0.1.jar,23,0,0,0,0,0,0,4.0.0
+4069,jakarta.enterprise.jakarta.enterprise.cdi-api,4.0.0,2022-04-19,https://repo1.maven.org/maven2/jakarta/enterprise/jakarta.enterprise.cdi-api/4.0.0/jakarta.enterprise.cdi-api-4.0.0.jar,22,0,0,0,0,0,1,4.0.1
+4070,jakarta.enterprise.jakarta.enterprise.cdi-api,4.0.1,2022-05-18,https://repo1.maven.org/maven2/jakarta/enterprise/jakarta.enterprise.cdi-api/4.0.1/jakarta.enterprise.cdi-api-4.0.1.jar,22,0,0,0,0,0,0,4.1.0
+4071,jakarta.enterprise.jakarta.enterprise.cdi-api,4.1.0,2024-04-16,https://repo1.maven.org/maven2/jakarta/enterprise/jakarta.enterprise.cdi-api/4.1.0/jakarta.enterprise.cdi-api-4.1.0.jar,: 22,0,0,0,0,0,0,

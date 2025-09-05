@@ -1,0 +1,17 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.jboss.mx.util.MBeanProxyExt: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [org.jboss.mx.util.MBeanProxyExt, java.lang.Object[]] and taint: [true, true, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.jboss.mx.util.JMXInvocationHandler: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [org.jboss.mx.util.JMXInvocationHandler, java.lang.Object[]] and taint: [true, true, true]"
+        ]
+    ]
+}

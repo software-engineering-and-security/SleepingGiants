@@ -1,0 +1,20 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+29155,com.fasterxml.classmate,0.5.2,2010-11-16,https://repo1.maven.org/maven2/com/fasterxml/classmate/0.5.2/classmate-0.5.2.jar,,,,,,,,0.5.3
+29156,com.fasterxml.classmate,0.5.3,2011-01-20,https://repo1.maven.org/maven2/com/fasterxml/classmate/0.5.3/classmate-0.5.3.jar,,,,,,,,0.5.4
+29157,com.fasterxml.classmate,0.5.4,2011-03-05,https://repo1.maven.org/maven2/com/fasterxml/classmate/0.5.4/classmate-0.5.4.jar,,,,,,,,0.7.0
+29158,com.fasterxml.classmate,0.7.0,2012-11-21,https://repo1.maven.org/maven2/com/fasterxml/classmate/0.7.0/classmate-0.7.0.jar,11,,,,,,,0.8.0
+29159,com.fasterxml.classmate,0.8.0,2012-11-21,https://repo1.maven.org/maven2/com/fasterxml/classmate/0.8.0/classmate-0.8.0.jar,11,0,0,0,0,0,0,0.9.0
+29160,com.fasterxml.classmate,0.9.0,2013-09-10,https://repo1.maven.org/maven2/com/fasterxml/classmate/0.9.0/classmate-0.9.0.jar,11,0,0,0,0,0,0,1.0.0
+29161,com.fasterxml.classmate,1.0.0,2013-10-16,https://repo1.maven.org/maven2/com/fasterxml/classmate/1.0.0/classmate-1.0.0.jar,11,0,0,0,0,0,0,1.1.0
+29162,com.fasterxml.classmate,1.1.0,2014-08-20,https://repo1.maven.org/maven2/com/fasterxml/classmate/1.1.0/classmate-1.1.0.jar,11,0,0,0,0,0,0,1.2.0
+29163,com.fasterxml.classmate,1.2.0,2015-05-23,https://repo1.maven.org/maven2/com/fasterxml/classmate/1.2.0/classmate-1.2.0.jar,11,0,0,0,0,0,0,1.3.0
+29164,com.fasterxml.classmate,1.3.0,2015-09-16,https://repo1.maven.org/maven2/com/fasterxml/classmate/1.3.0/classmate-1.3.0.jar,11,0,0,0,0,0,0,1.3.1
+29165,com.fasterxml.classmate,1.3.1,2015-10-26,https://repo1.maven.org/maven2/com/fasterxml/classmate/1.3.1/classmate-1.3.1.jar,11,0,0,0,0,0,0,1.3.2
+29166,com.fasterxml.classmate,1.3.2,2016-09-25,https://repo1.maven.org/maven2/com/fasterxml/classmate/1.3.2/classmate-1.3.2.jar,11,0,0,0,0,0,0,1.3.3
+29167,com.fasterxml.classmate,1.3.3,2016-09-28,https://repo1.maven.org/maven2/com/fasterxml/classmate/1.3.3/classmate-1.3.3.jar,11,0,0,0,0,0,0,1.3.4
+29168,com.fasterxml.classmate,1.3.4,2017-09-09,https://repo1.maven.org/maven2/com/fasterxml/classmate/1.3.4/classmate-1.3.4.jar,11,0,0,0,0,0,0,1.4.0
+29169,com.fasterxml.classmate,1.4.0,2018-03-28,https://repo1.maven.org/maven2/com/fasterxml/classmate/1.4.0/classmate-1.4.0.jar,13,0,0,0,0,2,0,1.5.0
+29170,com.fasterxml.classmate,1.5.0,2019-03-23,https://repo1.maven.org/maven2/com/fasterxml/classmate/1.5.0/classmate-1.5.0.jar,13,0,0,0,0,0,0,1.5.1
+29171,com.fasterxml.classmate,1.5.1,2019-10-19,https://repo1.maven.org/maven2/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar,13,0,0,0,0,0,0,1.6.0
+29172,com.fasterxml.classmate,1.6.0,2023-10-11,https://repo1.maven.org/maven2/com/fasterxml/classmate/1.6.0/classmate-1.6.0.jar,12,0,1,0,0,0,0,1.7.0
+29173,com.fasterxml.classmate,1.7.0,2024-01-03,https://repo1.maven.org/maven2/com/fasterxml/classmate/1.7.0/classmate-1.7.0.jar,: 12,0,0,0,0,0,0,

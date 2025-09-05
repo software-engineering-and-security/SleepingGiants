@@ -1,0 +1,4 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+27605,org.osgi.org.osgi.framework,1.8.0,2016-11-15,https://repo1.maven.org/maven2/org/osgi/org.osgi.framework/1.8.0/org.osgi.framework-1.8.0.jar,,,,,,,,1.9.0
+27606,org.osgi.org.osgi.framework,1.9.0,2018-04-20,https://repo1.maven.org/maven2/org/osgi/org.osgi.framework/1.9.0/org.osgi.framework-1.9.0.jar,,,,,,,,1.10.0
+27607,org.osgi.org.osgi.framework,1.10.0,2020-12-07,https://repo1.maven.org/maven2/org/osgi/org.osgi.framework/1.10.0/org.osgi.framework-1.10.0.jar,,,,,,,,

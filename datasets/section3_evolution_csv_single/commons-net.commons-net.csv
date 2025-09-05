@@ -1,0 +1,26 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+19672,commons-net.commons-net,1.0.0,2005-11-24,https://repo1.maven.org/maven2/commons-net/commons-net/1.0.0/commons-net-1.0.0.jar,3,,,,,,,1.1.0
+19673,commons-net.commons-net,1.1.0,2005-11-24,https://repo1.maven.org/maven2/commons-net/commons-net/1.1.0/commons-net-1.1.0.jar,3,0,0,0,0,0,0,1.2.1
+19674,commons-net.commons-net,1.2.1,2005-11-24,https://repo1.maven.org/maven2/commons-net/commons-net/1.2.1/commons-net-1.2.1.jar,3,0,0,0,0,0,0,1.2.2
+19675,commons-net.commons-net,1.2.2,2005-11-08,https://repo1.maven.org/maven2/commons-net/commons-net/1.2.2/commons-net-1.2.2.jar,3,0,0,0,0,0,0,1.3.0
+19676,commons-net.commons-net,1.3.0,2005-11-24,https://repo1.maven.org/maven2/commons-net/commons-net/1.3.0/commons-net-1.3.0.jar,4,0,0,0,0,1,0,1.4.0
+19677,commons-net.commons-net,1.4.0,2005-11-24,https://repo1.maven.org/maven2/commons-net/commons-net/1.4.0/commons-net-1.4.0.jar,4,0,0,0,0,0,0,1.4.1
+19678,commons-net.commons-net,1.4.1,2005-12-21,https://repo1.maven.org/maven2/commons-net/commons-net/1.4.1/commons-net-1.4.1.jar,4,0,0,0,0,0,0,2.0
+19679,commons-net.commons-net,2.0,2008-10-30,https://repo1.maven.org/maven2/commons-net/commons-net/2.0/commons-net-2.0.jar,4,0,0,0,0,0,0,2.2
+19680,commons-net.commons-net,2.2,2010-11-17,https://repo1.maven.org/maven2/commons-net/commons-net/2.2/commons-net-2.2.jar,4,0,0,0,0,0,0,3.0
+19681,commons-net.commons-net,3.0,2011-05-10,https://repo1.maven.org/maven2/commons-net/commons-net/3.0/commons-net-3.0.jar,4,0,0,0,0,0,0,3.0.1
+19682,commons-net.commons-net,3.0.1,2011-06-02,https://repo1.maven.org/maven2/commons-net/commons-net/3.0.1/commons-net-3.0.1.jar,4,0,0,0,0,0,0,3.1
+19663,commons-net.commons-net,3.1,2012-02-14,https://repo1.maven.org/maven2/commons-net/commons-net/3.1/commons-net-3.1.jar,4,0,0,0,0,0,0,3.2
+19683,commons-net.commons-net,3.2,2012-11-26,https://repo1.maven.org/maven2/commons-net/commons-net/3.2/commons-net-3.2.jar,4,0,0,0,0,0,0,3.3
+19662,commons-net.commons-net,3.3,2013-06-07,https://repo1.maven.org/maven2/commons-net/commons-net/3.3/commons-net-3.3.jar,4,0,0,0,0,0,0,3.4
+19660,commons-net.commons-net,3.4,2015-11-19,https://repo1.maven.org/maven2/commons-net/commons-net/3.4/commons-net-3.4.jar,4,0,0,0,0,0,0,3.5
+19639,commons-net.commons-net,3.5,2016-05-01,https://repo1.maven.org/maven2/commons-net/commons-net/3.5/commons-net-3.5.jar,4,0,0,0,0,0,0,3.6
+19640,commons-net.commons-net,3.6,2017-02-11,https://repo1.maven.org/maven2/commons-net/commons-net/3.6/commons-net-3.6.jar,4,0,0,0,0,0,0,3.7
+19641,commons-net.commons-net,3.7,2020-08-05,https://repo1.maven.org/maven2/commons-net/commons-net/3.7/commons-net-3.7.jar,4,0,0,0,0,0,0,3.7.1
+19642,commons-net.commons-net,3.7.1,2020-10-03,https://repo1.maven.org/maven2/commons-net/commons-net/3.7.1/commons-net-3.7.1.jar,4,0,0,0,0,0,0,3.7.2
+19643,commons-net.commons-net,3.7.2,2020-10-18,https://repo1.maven.org/maven2/commons-net/commons-net/3.7.2/commons-net-3.7.2.jar,4,0,0,0,0,0,0,3.8.0
+19644,commons-net.commons-net,3.8.0,2021-02-19,https://repo1.maven.org/maven2/commons-net/commons-net/3.8.0/commons-net-3.8.0.jar,4,0,0,0,0,0,0,3.9.0
+19645,commons-net.commons-net,3.9.0,2022-11-26,https://repo1.maven.org/maven2/commons-net/commons-net/3.9.0/commons-net-3.9.0.jar,4,0,0,0,0,0,0,3.10.0
+19646,commons-net.commons-net,3.10.0,2023-10-05,https://repo1.maven.org/maven2/commons-net/commons-net/3.10.0/commons-net-3.10.0.jar,4,0,0,0,0,0,0,3.11.0
+19647,commons-net.commons-net,3.11.0,2024-05-31,https://repo1.maven.org/maven2/commons-net/commons-net/3.11.0/commons-net-3.11.0.jar,4,0,0,0,0,0,0,3.11.1
+19648,commons-net.commons-net,3.11.1,2024-06-10,https://repo1.maven.org/maven2/commons-net/commons-net/3.11.1/commons-net-3.11.1.jar,: 4,0,0,0,0,0,0,

@@ -1,0 +1,21 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.mchange.v2.c3p0.debug.AfterCloseLoggingComboPooledDataSource: java.sql.Connection getConnection()> with actual argTypes: [] and taint: [true]",
+            "<com.mchange.v2.c3p0.debug.AfterCloseLoggingConnectionWrapper: java.sql.Connection wrap(java.sql.Connection)> with actual argTypes: [java.sql.Connection] and taint: [false, true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.mchange.v2.c3p0.WrapperConnectionPoolDataSource: javax.sql.PooledConnection getPooledConnection()> with actual argTypes: [] and taint: [true]",
+            "<com.mchange.v2.c3p0.WrapperConnectionPoolDataSource: javax.sql.PooledConnection getPooledConnection(com.mchange.v2.c3p0.ConnectionCustomizer,java.lang.String)> with actual argTypes: [com.mchange.v2.c3p0.ConnectionCustomizer, null] and taint: [true, false, false]",
+            "<com.mchange.v2.c3p0.WrapperConnectionPoolDataSource: java.lang.String getUser()> with actual argTypes: [] and taint: [true]",
+            "<com.mchange.v2.c3p0.impl.C3P0ImplUtils: com.mchange.v2.c3p0.impl.DbAuth findAuth(java.lang.Object)> with actual argTypes: [javax.sql.DataSource] and taint: [false, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [true, true, false]"
+        ]
+    ]
+}

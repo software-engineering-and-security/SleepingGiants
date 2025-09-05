@@ -1,0 +1,9 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+27367,com.github.zafarkhaja.java-semver,0.7.0,2013-11-16,https://repo1.maven.org/maven2/com/github/zafarkhaja/java-semver/0.7.0/java-semver-0.7.0.jar,,,,,,,,0.7.1
+27368,com.github.zafarkhaja.java-semver,0.7.1,2013-12-01,https://repo1.maven.org/maven2/com/github/zafarkhaja/java-semver/0.7.1/java-semver-0.7.1.jar,,,,,,,,0.7.2
+27369,com.github.zafarkhaja.java-semver,0.7.2,2013-12-30,https://repo1.maven.org/maven2/com/github/zafarkhaja/java-semver/0.7.2/java-semver-0.7.2.jar,,,,,,,,0.8.0
+27370,com.github.zafarkhaja.java-semver,0.8.0,2014-08-18,https://repo1.maven.org/maven2/com/github/zafarkhaja/java-semver/0.8.0/java-semver-0.8.0.jar,,,,,,,,0.9.0
+27371,com.github.zafarkhaja.java-semver,0.9.0,2015-03-19,https://repo1.maven.org/maven2/com/github/zafarkhaja/java-semver/0.9.0/java-semver-0.9.0.jar,,,,,,,,0.10.0
+27372,com.github.zafarkhaja.java-semver,0.10.0,2024-01-10,https://repo1.maven.org/maven2/com/github/zafarkhaja/java-semver/0.10.0/java-semver-0.10.0.jar,2,,,,,,,0.10.1
+27373,com.github.zafarkhaja.java-semver,0.10.1,2024-01-12,https://repo1.maven.org/maven2/com/github/zafarkhaja/java-semver/0.10.1/java-semver-0.10.1.jar,2,0,0,0,0,0,0,0.10.2
+27374,com.github.zafarkhaja.java-semver,0.10.2,2024-01-14,https://repo1.maven.org/maven2/com/github/zafarkhaja/java-semver/0.10.2/java-semver-0.10.2.jar,: 2,0,0,0,0,0,0,

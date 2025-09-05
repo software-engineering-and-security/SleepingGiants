@@ -1,0 +1,838 @@
+{
+    "tabby": [
+        [
+            "java.util.Hashtable#readObject",
+            "-[CALL]-> java.util.Hashtable#readHashtable",
+            "-[CALL]-> java.util.Hashtable#reconstitutionPut",
+            "-[CALL]-> java.lang.Object#equals -[ALIAS]-> java.util.WeakHashMap$Entry#equals",
+            "-[CALL]-> java.util.Map$Entry#getValue -[ALIAS]-> org.apache.openejb.config.typed.util.ObjectMap$MethodEntry#getValue",
+            "-[CALL]-> org.apache.openejb.config.typed.util.ObjectMap$MethodEntry#invoke",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ],
+        [
+            "java.util.logging.LogRecord#readObject",
+            "-[CALL]-> java.util.ResourceBundle#getBundle",
+            "-[CALL]-> java.util.ResourceBundle#getBundleImpl",
+            "-[CALL]-> java.util.ResourceBundle#getBundleImpl",
+            "-[CALL]-> java.util.ResourceBundle#findBundle",
+            "-[CALL]-> java.util.ResourceBundle#loadBundle",
+            "-[CALL]-> java.util.ResourceBundle$Control#newBundle",
+            "-[CALL]-> java.util.ResourceBundle$Control#newBundle0",
+            "-[CALL]-> java.lang.ClassLoader#loadClass",
+            "-[CALL]-> java.lang.ClassLoader#loadClass -[ALIAS]-> org.apache.openejb.core.TempClassLoader#loadClass",
+            "-[CALL]-> java.lang.ClassLoader#defineClass",
+            "-[CALL]-> java.lang.ClassLoader#defineClass"
+        ],
+        [
+            "java.lang.Throwable#readObject",
+            "-[CALL]-> java.lang.Throwable#validateSuppressedExceptionsList",
+            "-[CALL]-> java.lang.Object#equals -[ALIAS]-> java.util.concurrent.ConcurrentHashMap#equals",
+            "-[CALL]-> java.util.Map$Entry#getValue -[ALIAS]-> org.apache.openejb.config.typed.util.ObjectMap$MethodEntry#getValue",
+            "-[CALL]-> org.apache.openejb.config.typed.util.ObjectMap$MethodEntry#invoke",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ],
+        [
+            "java.net.URL#readObject",
+            "-[CALL]-> java.net.URL#getURLStreamHandler",
+            "-[CALL]-> java.util.Hashtable#get",
+            "-[CALL]-> java.lang.Object#equals -[ALIAS]-> java.util.concurrent.ConcurrentHashMap#equals",
+            "-[CALL]-> java.util.Map$Entry#getValue -[ALIAS]-> org.apache.openejb.config.typed.util.ObjectMap$MethodEntry#getValue",
+            "-[CALL]-> org.apache.openejb.config.typed.util.ObjectMap$MethodEntry#invoke",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ],
+        [
+            "java.net.URL#readObject",
+            "-[CALL]-> java.net.URL#getURLStreamHandler",
+            "-[CALL]-> java.util.Hashtable#put",
+            "-[CALL]-> java.lang.Object#equals -[ALIAS]-> java.util.TreeMap$Entry#equals",
+            "-[CALL]-> java.util.Map$Entry#getValue -[ALIAS]-> org.apache.openejb.config.typed.util.ObjectMap$MethodEntry#getValue",
+            "-[CALL]-> org.apache.openejb.config.typed.util.ObjectMap$MethodEntry#invoke",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ]
+    ],
+    "androChain": [
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.resource.jdbc.logging.LoggingSqlDataSource: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [javax.sql.CommonDataSource, java.lang.Object[]] and taint: [true, true, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.resource.jdbc.FlushableDataSourceHandler: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [javax.sql.CommonDataSource, java.lang.Object[]] and taint: [true, true, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.resource.jdbc.ResettableDataSourceHandler: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [javax.sql.CommonDataSource, java.lang.Object[]] and taint: [true, true, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.assembler.classic.LazyValidator: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [jakarta.validation.Validator, java.lang.Object[]] and taint: [true, true, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.threads.impl.ContextServiceImpl$CUHandler: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [org.apache.openejb.threads.impl.ContextServiceImpl$CUHandler, java.lang.Object[]] and taint: [true, true, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.assembler.classic.EntityManagerFactoryCallable$BmHandler: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [true, true, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.assembler.classic.LazyValidatorFactory: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [jakarta.validation.ValidatorFactory, java.lang.Object[]] and taint: [true, true, true]"
+        ],
+        [
+            "<ses.ginject.pattern.Caller: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.IntraVmJndiReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.IntraVmJndiReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.JaxWsServiceReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, true]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.JndiReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.util.PojoExternalization: void readExternal(java.io.ObjectInput)> with actual argTypes: [java.io.ObjectInput] and taint: [true, true]",
+            "<org.apache.openejb.util.PojoSerialization: void read(java.io.ObjectInput)> with actual argTypes: [java.io.ObjectInput] and taint: [true, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [false, false, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.threads.impl.ContextServiceImpl$CUHandler: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<org.apache.openejb.threads.impl.ContextServiceImpl$CUHandler: java.lang.Object lambda$invoke$0(java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.reflect.Method, java.lang.Object[]] and taint: [false, false, false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [false, false, false]"
+        ],
+        [
+            "<ses.ginject.pattern.Caller: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.IntraVmJndiReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.IntraVmJndiReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.JndiUrlReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<javax.naming.InitialContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.JndiReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.JndiReference: javax.naming.Context getContext()> with actual argTypes: [] and taint: [true]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.JndiReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.util.proxy.ProxyEJB$Handler: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<org.apache.openejb.core.cmp.CmpContainer: java.lang.Object invoke(java.lang.Object,org.apache.openejb.InterfaceType,java.lang.Class,java.lang.reflect.Method,java.lang.Object[],java.lang.Object)> with actual argTypes: [java.lang.Object, org.apache.openejb.InterfaceType, java.lang.Class, java.lang.reflect.Method, java.lang.Object[], null] and taint: [true, true, true, true, true, true, false]",
+            "<org.apache.openejb.core.cmp.CmpContainer: org.apache.openejb.ProxyInfo createEJBObject(java.lang.reflect.Method,java.lang.Object[],org.apache.openejb.core.ThreadContext,org.apache.openejb.InterfaceType)> with actual argTypes: [java.lang.reflect.Method, java.lang.Object[], org.apache.openejb.core.ThreadContext, org.apache.openejb.InterfaceType] and taint: [true, true, true, false, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [jakarta.ejb.EntityBean, java.lang.Object[]] and taint: [true, true, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.util.proxy.ProxyEJB$Handler: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<org.apache.openejb.core.cmp.CmpContainer: java.lang.Object invoke(java.lang.Object,org.apache.openejb.InterfaceType,java.lang.Class,java.lang.reflect.Method,java.lang.Object[],java.lang.Object)> with actual argTypes: [java.lang.Object, org.apache.openejb.InterfaceType, java.lang.Class, java.lang.reflect.Method, java.lang.Object[], null] and taint: [true, true, true, true, true, true, false]",
+            "<org.apache.openejb.core.cmp.CmpContainer: java.lang.Object homeMethod(java.lang.reflect.Method,java.lang.Object[],org.apache.openejb.core.ThreadContext,org.apache.openejb.InterfaceType)> with actual argTypes: [java.lang.reflect.Method, java.lang.Object[], org.apache.openejb.core.ThreadContext, org.apache.openejb.InterfaceType] and taint: [true, true, true, false, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [jakarta.ejb.EntityBean, java.lang.Object[]] and taint: [true, true, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.util.proxy.ProxyEJB$Handler: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<org.apache.openejb.core.cmp.CmpContainer: java.lang.Object invoke(java.lang.Object,org.apache.openejb.InterfaceType,java.lang.Class,java.lang.reflect.Method,java.lang.Object[],java.lang.Object)> with actual argTypes: [java.lang.Object, org.apache.openejb.InterfaceType, java.lang.Class, java.lang.reflect.Method, java.lang.Object[], null] and taint: [true, true, true, true, true, true, false]",
+            "<org.apache.openejb.core.cmp.CmpContainer: java.lang.Object businessMethod(java.lang.reflect.Method,java.lang.reflect.Method,java.lang.Object[],org.apache.openejb.core.ThreadContext,org.apache.openejb.InterfaceType)> with actual argTypes: [java.lang.reflect.Method, java.lang.reflect.Method, java.lang.Object[], org.apache.openejb.core.ThreadContext, org.apache.openejb.InterfaceType] and taint: [true, true, true, true, false, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [jakarta.ejb.EntityBean, java.lang.Object[]] and taint: [true, true, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.util.proxy.ProxyEJB$Handler: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<org.apache.openejb.core.entity.EntityContainer: java.lang.Object invoke(java.lang.Object,org.apache.openejb.InterfaceType,java.lang.Class,java.lang.reflect.Method,java.lang.Object[],java.lang.Object)> with actual argTypes: [java.lang.Object, org.apache.openejb.InterfaceType, java.lang.Class, java.lang.reflect.Method, java.lang.Object[], null] and taint: [true, true, true, true, true, true, false]",
+            "<org.apache.openejb.core.entity.EntityContainer: org.apache.openejb.ProxyInfo createEJBObject(java.lang.reflect.Method,java.lang.Object[],org.apache.openejb.core.ThreadContext,org.apache.openejb.InterfaceType)> with actual argTypes: [java.lang.reflect.Method, java.lang.Object[], org.apache.openejb.core.ThreadContext, org.apache.openejb.InterfaceType] and taint: [true, true, true, false, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [jakarta.ejb.EntityBean, java.lang.Object[]] and taint: [true, true, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.util.proxy.ProxyEJB$Handler: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<org.apache.openejb.core.entity.EntityContainer: java.lang.Object invoke(java.lang.Object,org.apache.openejb.InterfaceType,java.lang.Class,java.lang.reflect.Method,java.lang.Object[],java.lang.Object)> with actual argTypes: [java.lang.Object, org.apache.openejb.InterfaceType, java.lang.Class, java.lang.reflect.Method, java.lang.Object[], null] and taint: [true, true, true, true, true, true, false]",
+            "<org.apache.openejb.core.entity.EntityContainer: java.lang.Object invoke(org.apache.openejb.InterfaceType,java.lang.reflect.Method,java.lang.reflect.Method,java.lang.Object[],org.apache.openejb.core.ThreadContext)> with actual argTypes: [org.apache.openejb.InterfaceType, java.lang.reflect.Method, java.lang.reflect.Method, java.lang.Object[], org.apache.openejb.core.ThreadContext] and taint: [true, true, true, true, true, false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [jakarta.ejb.EntityBean, java.lang.Object[]] and taint: [true, true, true]"
+        ],
+        [
+            "<ses.ginject.pattern.Caller: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.IntraVmJndiReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.IntraVmJndiReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.ContextualJndiReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.ContextualJndiReference: java.lang.Object findDelegate()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.ContextualJndiReference: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.ContextualJndiReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.ContextualJndiReference: java.lang.Object findDelegate()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.ContextualJndiReference: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.JndiUrlReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<javax.naming.InitialContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.JndiReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.JndiReference: javax.naming.Context getContext()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.JndiReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.util.proxy.ProxyEJB$Handler: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<org.apache.openejb.core.cmp.CmpContainer: java.lang.Object invoke(java.lang.Object,org.apache.openejb.InterfaceType,java.lang.Class,java.lang.reflect.Method,java.lang.Object[],java.lang.Object)> with actual argTypes: [java.lang.Object, org.apache.openejb.InterfaceType, java.lang.Class, java.lang.reflect.Method, java.lang.Object[], null] and taint: [true, true, true, true, true, true, false]",
+            "<org.apache.openejb.core.cmp.CmpContainer: void removeEJBObject(java.lang.reflect.Method,org.apache.openejb.core.ThreadContext,org.apache.openejb.InterfaceType)> with actual argTypes: [java.lang.reflect.Method, org.apache.openejb.core.ThreadContext, org.apache.openejb.InterfaceType] and taint: [true, true, false, true]",
+            "<org.apache.openejb.core.cmp.CmpContainer: void ejbRemove(jakarta.ejb.EntityBean)> with actual argTypes: [jakarta.ejb.EntityBean] and taint: [true, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [jakarta.ejb.EntityBean, java.lang.Object[]] and taint: [true, true, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.util.proxy.ProxyEJB$Handler: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<org.apache.openejb.core.cmp.CmpContainer: java.lang.Object invoke(java.lang.Object,org.apache.openejb.InterfaceType,java.lang.Class,java.lang.reflect.Method,java.lang.Object[],java.lang.Object)> with actual argTypes: [java.lang.Object, org.apache.openejb.InterfaceType, java.lang.Class, java.lang.reflect.Method, java.lang.Object[], null] and taint: [true, true, true, true, true, true, false]",
+            "<org.apache.openejb.core.cmp.CmpContainer: void removeEJBObject(java.lang.reflect.Method,org.apache.openejb.core.ThreadContext,org.apache.openejb.InterfaceType)> with actual argTypes: [java.lang.reflect.Method, org.apache.openejb.core.ThreadContext, org.apache.openejb.InterfaceType] and taint: [true, true, false, true]",
+            "<org.apache.openejb.core.cmp.CmpContainer: void ejbRemove(jakarta.ejb.EntityBean)> with actual argTypes: [jakarta.ejb.EntityBean] and taint: [true, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [jakarta.ejb.EntityBean, java.lang.Object[]] and taint: [false, false, false]"
+        ],
+        [
+            "<ses.ginject.pattern.Caller: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.IntraVmJndiReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.IntraVmJndiReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.ContextualJndiReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.ContextualJndiReference: java.lang.Object findDelegate()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.ContextualJndiReference: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.ContextualJndiReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.ContextualJndiReference: java.lang.Object findDelegate()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.ContextualJndiReference: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.JndiUrlReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<javax.naming.InitialContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.JndiReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.JndiReference: javax.naming.Context getContext()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.JndiReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.util.proxy.ProxyEJB$Handler: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<org.apache.openejb.core.cmp.CmpContainer: java.lang.Object invoke(java.lang.Object,org.apache.openejb.InterfaceType,java.lang.Class,java.lang.reflect.Method,java.lang.Object[],java.lang.Object)> with actual argTypes: [java.lang.Object, org.apache.openejb.InterfaceType, java.lang.Class, java.lang.reflect.Method, java.lang.Object[], null] and taint: [true, true, true, true, true, true, false]",
+            "<org.apache.openejb.core.cmp.CmpContainer: org.apache.openejb.ProxyInfo createEJBObject(java.lang.reflect.Method,java.lang.Object[],org.apache.openejb.core.ThreadContext,org.apache.openejb.InterfaceType)> with actual argTypes: [java.lang.reflect.Method, java.lang.Object[], org.apache.openejb.core.ThreadContext, org.apache.openejb.InterfaceType] and taint: [true, true, true, false, true]",
+            "<org.apache.openejb.core.cmp.jpa.JpaCmpEngine: java.lang.Object createBean(jakarta.ejb.EntityBean,org.apache.openejb.core.ThreadContext)> with actual argTypes: [jakarta.ejb.EntityBean, org.apache.openejb.core.ThreadContext] and taint: [true, true, false]",
+            "<org.apache.openejb.core.cmp.jpa.JpaCmpEngine: jakarta.persistence.EntityManager getEntityManager(org.apache.openejb.BeanContext)> with actual argTypes: [org.apache.openejb.BeanContext] and taint: [true, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.util.proxy.ProxyEJB$Handler: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<org.apache.openejb.core.cmp.CmpContainer: java.lang.Object invoke(java.lang.Object,org.apache.openejb.InterfaceType,java.lang.Class,java.lang.reflect.Method,java.lang.Object[],java.lang.Object)> with actual argTypes: [java.lang.Object, org.apache.openejb.InterfaceType, java.lang.Class, java.lang.reflect.Method, java.lang.Object[], null] and taint: [true, true, true, true, true, true, false]",
+            "<org.apache.openejb.core.cmp.CmpContainer: void removeEJBObject(java.lang.reflect.Method,org.apache.openejb.core.ThreadContext,org.apache.openejb.InterfaceType)> with actual argTypes: [java.lang.reflect.Method, org.apache.openejb.core.ThreadContext, org.apache.openejb.InterfaceType] and taint: [true, true, false, true]",
+            "<org.apache.openejb.core.cmp.CmpContainer: void ejbRemove(jakarta.ejb.EntityBean)> with actual argTypes: [jakarta.ejb.EntityBean] and taint: [true, true]",
+            "<org.apache.openejb.core.cmp.CmpContainer: boolean isDeleted(jakarta.ejb.EntityBean)> with actual argTypes: [jakarta.ejb.EntityBean] and taint: [true, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [jakarta.ejb.EntityBean, java.lang.Object[]] and taint: [true, true, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.assembler.classic.LazyValidator: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<org.apache.openejb.assembler.classic.LazyValidator: void ensureDelegate()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.assembler.classic.LazyValidator: jakarta.validation.ValidatorFactory findFactory()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.bval.ValidatorUtil: jakarta.validation.ValidatorFactory lookupFactory()> with actual argTypes: [] and taint: [false]",
+            "<javax.naming.InitialContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<ses.ginject.pattern.Caller: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.IntraVmJndiReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.IntraVmJndiReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.ContextualJndiReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.ContextualJndiReference: java.lang.Object findDelegate()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.ContextualJndiReference: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.ContextualJndiReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.ContextualJndiReference: java.lang.Object findDelegate()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.ContextualJndiReference: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.JndiUrlReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<javax.naming.InitialContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.JndiReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.JndiReference: javax.naming.Context getContext()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.JndiReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.util.proxy.ProxyEJB$Handler: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<org.apache.openejb.core.cmp.CmpContainer: java.lang.Object invoke(java.lang.Object,org.apache.openejb.InterfaceType,java.lang.Class,java.lang.reflect.Method,java.lang.Object[],java.lang.Object)> with actual argTypes: [java.lang.Object, org.apache.openejb.InterfaceType, java.lang.Class, java.lang.reflect.Method, java.lang.Object[], null] and taint: [true, true, true, true, true, true, false]",
+            "<org.apache.openejb.core.cmp.CmpContainer: org.apache.openejb.ProxyInfo createEJBObject(java.lang.reflect.Method,java.lang.Object[],org.apache.openejb.core.ThreadContext,org.apache.openejb.InterfaceType)> with actual argTypes: [java.lang.reflect.Method, java.lang.Object[], org.apache.openejb.core.ThreadContext, org.apache.openejb.InterfaceType] and taint: [true, true, true, false, true]",
+            "<org.apache.openejb.core.cmp.jpa.JpaCmpEngine: java.lang.Object createBean(jakarta.ejb.EntityBean,org.apache.openejb.core.ThreadContext)> with actual argTypes: [jakarta.ejb.EntityBean, org.apache.openejb.core.ThreadContext] and taint: [true, true, false]",
+            "<org.apache.openejb.core.cmp.jpa.JpaCmpEngine: jakarta.persistence.EntityManager getEntityManager(org.apache.openejb.BeanContext)> with actual argTypes: [org.apache.openejb.BeanContext] and taint: [true, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.util.proxy.ProxyEJB$Handler: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<org.apache.openejb.core.cmp.CmpContainer: java.lang.Object invoke(java.lang.Object,org.apache.openejb.InterfaceType,java.lang.Class,java.lang.reflect.Method,java.lang.Object[],java.lang.Object)> with actual argTypes: [java.lang.Object, org.apache.openejb.InterfaceType, java.lang.Class, java.lang.reflect.Method, java.lang.Object[], null] and taint: [true, true, true, true, true, true, false]",
+            "<org.apache.openejb.core.cmp.CmpContainer: org.apache.openejb.ProxyInfo createEJBObject(java.lang.reflect.Method,java.lang.Object[],org.apache.openejb.core.ThreadContext,org.apache.openejb.InterfaceType)> with actual argTypes: [java.lang.reflect.Method, java.lang.Object[], org.apache.openejb.core.ThreadContext, org.apache.openejb.InterfaceType] and taint: [true, true, true, false, true]",
+            "<org.apache.openejb.core.cmp.jpa.JpaCmpEngine: java.lang.Object createBean(jakarta.ejb.EntityBean,org.apache.openejb.core.ThreadContext)> with actual argTypes: [jakarta.ejb.EntityBean, org.apache.openejb.core.ThreadContext] and taint: [true, true, false]",
+            "<org.apache.openejb.core.cmp.jpa.JpaCmpEngine: jakarta.persistence.EntityManager getEntityManager(org.apache.openejb.BeanContext)> with actual argTypes: [org.apache.openejb.BeanContext] and taint: [true, false]",
+            "<javax.naming.InitialContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.util.proxy.ProxyEJB$Handler: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<org.apache.openejb.core.cmp.CmpContainer: java.lang.Object invoke(java.lang.Object,org.apache.openejb.InterfaceType,java.lang.Class,java.lang.reflect.Method,java.lang.Object[],java.lang.Object)> with actual argTypes: [java.lang.Object, org.apache.openejb.InterfaceType, java.lang.Class, java.lang.reflect.Method, java.lang.Object[], null] and taint: [true, true, true, true, true, true, false]",
+            "<org.apache.openejb.core.cmp.CmpContainer: org.apache.openejb.ProxyInfo createEJBObject(java.lang.reflect.Method,java.lang.Object[],org.apache.openejb.core.ThreadContext,org.apache.openejb.InterfaceType)> with actual argTypes: [java.lang.reflect.Method, java.lang.Object[], org.apache.openejb.core.ThreadContext, org.apache.openejb.InterfaceType] and taint: [true, true, true, false, true]",
+            "<org.apache.openejb.core.transaction.EjbTransactionUtil: void handleSystemException(org.apache.openejb.core.transaction.TransactionPolicy,java.lang.Throwable,org.apache.openejb.core.ThreadContext)> with actual argTypes: [org.apache.openejb.core.transaction.TransactionPolicy, java.lang.Throwable, org.apache.openejb.core.ThreadContext] and taint: [false, false, false, false]",
+            "<org.apache.openejb.core.transaction.JtaTransactionPolicy: void setRollbackOnly(java.lang.Throwable)> with actual argTypes: [java.lang.Throwable] and taint: [false, false]",
+            "<org.apache.openejb.core.transaction.JtaTransactionPolicy: void setRollbackOnly(jakarta.transaction.Transaction,java.lang.Throwable)> with actual argTypes: [jakarta.transaction.Transaction, java.lang.Throwable] and taint: [false, false, false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [jakarta.transaction.Transaction, java.lang.Object[]] and taint: [false, false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.assembler.classic.LazyValidator: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<org.apache.openejb.assembler.classic.LazyValidator: void ensureDelegate()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.assembler.classic.LazyValidator: jakarta.validation.ValidatorFactory findFactory()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.bval.ValidatorUtil: jakarta.validation.ValidatorFactory lookupFactory()> with actual argTypes: [] and taint: [false]",
+            "<javax.naming.InitialContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<ses.ginject.pattern.Caller: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.IntraVmJndiReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.IntraVmJndiReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.ContextualJndiReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.ContextualJndiReference: java.lang.Object findDelegate()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.ContextualJndiReference: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.ContextualJndiReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.ContextualJndiReference: java.lang.Object findDelegate()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.ContextualJndiReference: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.JndiUrlReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<javax.naming.InitialContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.JndiReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.JndiReference: javax.naming.Context getContext()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.JndiReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.util.proxy.ProxyEJB$Handler: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<org.apache.openejb.core.cmp.CmpContainer: java.lang.Object invoke(java.lang.Object,org.apache.openejb.InterfaceType,java.lang.Class,java.lang.reflect.Method,java.lang.Object[],java.lang.Object)> with actual argTypes: [java.lang.Object, org.apache.openejb.InterfaceType, java.lang.Class, java.lang.reflect.Method, java.lang.Object[], null] and taint: [true, true, true, true, true, true, false]",
+            "<org.apache.openejb.core.cmp.CmpContainer: org.apache.openejb.ProxyInfo createEJBObject(java.lang.reflect.Method,java.lang.Object[],org.apache.openejb.core.ThreadContext,org.apache.openejb.InterfaceType)> with actual argTypes: [java.lang.reflect.Method, java.lang.Object[], org.apache.openejb.core.ThreadContext, org.apache.openejb.InterfaceType] and taint: [true, true, true, false, true]",
+            "<org.apache.openejb.core.cmp.jpa.JpaCmpEngine: java.lang.Object createBean(jakarta.ejb.EntityBean,org.apache.openejb.core.ThreadContext)> with actual argTypes: [jakarta.ejb.EntityBean, org.apache.openejb.core.ThreadContext] and taint: [true, true, false]",
+            "<org.apache.openejb.core.cmp.jpa.JpaCmpEngine: jakarta.persistence.EntityManager getEntityManager(org.apache.openejb.BeanContext)> with actual argTypes: [org.apache.openejb.BeanContext] and taint: [true, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.util.proxy.ProxyEJB$Handler: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<org.apache.openejb.core.cmp.CmpContainer: java.lang.Object invoke(java.lang.Object,org.apache.openejb.InterfaceType,java.lang.Class,java.lang.reflect.Method,java.lang.Object[],java.lang.Object)> with actual argTypes: [java.lang.Object, org.apache.openejb.InterfaceType, java.lang.Class, java.lang.reflect.Method, java.lang.Object[], null] and taint: [true, true, true, true, true, true, false]",
+            "<org.apache.openejb.core.cmp.CmpContainer: org.apache.openejb.ProxyInfo createEJBObject(java.lang.reflect.Method,java.lang.Object[],org.apache.openejb.core.ThreadContext,org.apache.openejb.InterfaceType)> with actual argTypes: [java.lang.reflect.Method, java.lang.Object[], org.apache.openejb.core.ThreadContext, org.apache.openejb.InterfaceType] and taint: [true, true, true, false, true]",
+            "<org.apache.openejb.core.cmp.jpa.JpaCmpEngine: java.lang.Object createBean(jakarta.ejb.EntityBean,org.apache.openejb.core.ThreadContext)> with actual argTypes: [jakarta.ejb.EntityBean, org.apache.openejb.core.ThreadContext] and taint: [true, true, false]",
+            "<org.apache.openejb.core.cmp.jpa.JpaCmpEngine: jakarta.persistence.EntityManager getEntityManager(org.apache.openejb.BeanContext)> with actual argTypes: [org.apache.openejb.BeanContext] and taint: [true, false]",
+            "<javax.naming.InitialContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.util.proxy.ProxyEJB$Handler: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<org.apache.openejb.core.managed.ManagedContainer: java.lang.Object invoke(java.lang.Object,org.apache.openejb.InterfaceType,java.lang.Class,java.lang.reflect.Method,java.lang.Object[],java.lang.Object)> with actual argTypes: [java.lang.Object, org.apache.openejb.InterfaceType, java.lang.Class, java.lang.reflect.Method, java.lang.Object[], null] and taint: [true, true, true, true, true, true, false]",
+            "<org.apache.openejb.core.managed.ManagedContainer: java.lang.Object businessMethod(org.apache.openejb.BeanContext,java.lang.Object,java.lang.Class,java.lang.reflect.Method,java.lang.Object[],org.apache.openejb.InterfaceType)> with actual argTypes: [org.apache.openejb.BeanContext, java.lang.Object, java.lang.Class, java.lang.reflect.Method, java.lang.Object[], org.apache.openejb.InterfaceType] and taint: [true, true, false, true, true, true, true]",
+            "<org.apache.openejb.core.managed.ManagedContainer: org.apache.openejb.core.managed.Instance obtainInstance(java.lang.Object,org.apache.openejb.core.ThreadContext)> with actual argTypes: [java.lang.Object, org.apache.openejb.core.ThreadContext] and taint: [true, false, false]",
+            "<org.apache.openejb.core.managed.SimpleCache: java.lang.Object checkOut(java.lang.Object)> with actual argTypes: [java.lang.Object] and taint: [true, false]",
+            "<org.apache.openejb.core.managed.SimpleCache: org.apache.openejb.core.managed.SimpleCache$Entry loadEntry(java.lang.Object)> with actual argTypes: [java.lang.Object] and taint: [true, false]",
+            "<org.apache.openejb.core.managed.SimplePassivater: java.lang.Object activate(java.lang.Object)> with actual argTypes: [java.lang.Object] and taint: [true, false]",
+            "<java.io.File: boolean delete()> with actual argTypes: [] and taint: [false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.assembler.classic.LazyValidator: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<org.apache.openejb.assembler.classic.LazyValidator: void ensureDelegate()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.assembler.classic.LazyValidator: jakarta.validation.ValidatorFactory findFactory()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.bval.ValidatorUtil: jakarta.validation.ValidatorFactory lookupFactory()> with actual argTypes: [] and taint: [false]",
+            "<javax.naming.InitialContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<ses.ginject.pattern.Caller: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.IntraVmJndiReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.IntraVmJndiReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.ContextualJndiReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.ContextualJndiReference: java.lang.Object findDelegate()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.ContextualJndiReference: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.ContextualJndiReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.ContextualJndiReference: java.lang.Object findDelegate()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.ContextualJndiReference: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.JndiUrlReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<javax.naming.InitialContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.JndiReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.JndiReference: javax.naming.Context getContext()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.JndiReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<org.apache.openejb.core.ivm.naming.JndiEncArtifact: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.core.ivm.naming.IvmContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.apache.openejb.core.ivm.naming.LazyObjectReference: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.threads.task.CUCallable: java.lang.Object call()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.openejb.threads.task.CUTask: java.lang.Object invoke(java.util.concurrent.Callable)> with actual argTypes: [java.util.concurrent.Callable] and taint: [true, true]",
+            "<org.apache.openejb.threads.task.CUTask$Context: void exit()> with actual argTypes: [] and taint: [true]",
+            "<javax.swing.JFormattedTextField$FocusLostHandler: void run()> with actual argTypes: [] and taint: [true]",
+            "<javax.swing.JFormattedTextField: void commitEdit()> with actual argTypes: [] and taint: [true]",
+            "<javax.swing.text.DefaultFormatter: java.lang.Object stringToValue(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, true]"
+        ]
+    ]
+}

@@ -1,0 +1,5 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+32065,net.sf.kxml.kxml2,2.1.7,2007-03-20,https://repo1.maven.org/maven2/net/sf/kxml/kxml2/2.1.7/kxml2-2.1.7.jar,,,,,,,,2.1.8
+32066,net.sf.kxml.kxml2,2.1.8,2007-03-20,https://repo1.maven.org/maven2/net/sf/kxml/kxml2/2.1.8/kxml2-2.1.8.jar,,,,,,,,2.2.2
+32067,net.sf.kxml.kxml2,2.2.2,2007-03-20,https://repo1.maven.org/maven2/net/sf/kxml/kxml2/2.2.2/kxml2-2.2.2.jar,,,,,,,,2.3.0
+32068,net.sf.kxml.kxml2,2.3.0,2009-04-21,https://repo1.maven.org/maven2/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar,,,,,,,,

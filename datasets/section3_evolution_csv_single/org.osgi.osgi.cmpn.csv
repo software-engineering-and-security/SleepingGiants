@@ -1,0 +1,14 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+110857,org.osgi.osgi.cmpn,1.0.0,2008-01-25,https://repo1.maven.org/maven2/org/apache/felix/org.osgi.compendium/1.0.0/org.osgi.compendium-1.0.0.jar,,,,,,,,1.0.1
+110858,org.osgi.osgi.cmpn,1.0.1,2008-04-25,https://repo1.maven.org/maven2/org/apache/felix/org.osgi.compendium/1.0.1/org.osgi.compendium-1.0.1.jar,,,,,,,,1.2.0
+110859,org.osgi.osgi.cmpn,1.2.0,2008-08-24,https://repo1.maven.org/maven2/org/apache/felix/org.osgi.compendium/1.2.0/org.osgi.compendium-1.2.0.jar,,,,,,,,1.4.0
+110861,org.osgi.osgi.cmpn,1.4.0,2009-09-06,https://repo1.maven.org/maven2/org/apache/felix/org.osgi.compendium/1.4.0/org.osgi.compendium-1.4.0.jar,,,,,,,,4.0.0
+89486,org.osgi.osgi.cmpn,4.0.0,2009-08-11,https://repo1.maven.org/maven2/org/osgi/org.osgi.compendium/4.0.0/org.osgi.compendium-4.0.0.jar,,,,,,,,4.0.1
+89496,org.osgi.osgi.cmpn,4.0.1,2009-08-11,https://repo1.maven.org/maven2/org/osgi/org.osgi.compendium/4.0.1/org.osgi.compendium-4.0.1.jar,,,,,,,,4.1.0
+89483,org.osgi.osgi.cmpn,4.1.0,2009-08-11,https://repo1.maven.org/maven2/org/osgi/org.osgi.compendium/4.1.0/org.osgi.compendium-4.1.0.jar,,,,,,,,4.2.0
+89482,org.osgi.osgi.cmpn,4.2.0,2009-09-17,https://repo1.maven.org/maven2/org/osgi/org.osgi.compendium/4.2.0/org.osgi.compendium-4.2.0.jar,,,,,,,,4.3.0
+89481,org.osgi.osgi.cmpn,4.3.0,2012-05-17,https://repo1.maven.org/maven2/org/osgi/org.osgi.compendium/4.3.0/org.osgi.compendium-4.3.0.jar,,,,,,,,4.3.1
+27465,org.osgi.osgi.cmpn,4.3.1,2016-11-18,https://repo1.maven.org/maven2/org/osgi/osgi.cmpn/4.3.1/osgi.cmpn-4.3.1.jar,,,,,,,,5.0.0
+27466,org.osgi.osgi.cmpn,5.0.0,2016-11-18,https://repo1.maven.org/maven2/org/osgi/osgi.cmpn/5.0.0/osgi.cmpn-5.0.0.jar,,,,,,,,6.0.0
+27467,org.osgi.osgi.cmpn,6.0.0,2015-08-05,https://repo1.maven.org/maven2/org/osgi/osgi.cmpn/6.0.0/osgi.cmpn-6.0.0.jar,,,,,,,,7.0.0
+27468,org.osgi.osgi.cmpn,7.0.0,2018-04-20,https://repo1.maven.org/maven2/org/osgi/osgi.cmpn/7.0.0/osgi.cmpn-7.0.0.jar,,,,,,,,

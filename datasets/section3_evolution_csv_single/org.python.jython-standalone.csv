@@ -1,0 +1,9 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+6392,org.python.jython-standalone,2.5.1,2011-06-23,https://repo1.maven.org/maven2/org/python/jython-standalone/2.5.1/jython-standalone-2.5.1.jar,2172,,,,,,,2.5.2
+6393,org.python.jython-standalone,2.5.2,2011-06-26,https://repo1.maven.org/maven2/org/python/jython-standalone/2.5.2/jython-standalone-2.5.2.jar,2543,3,0,1,0,383,15,2.5.3
+6394,org.python.jython-standalone,2.5.3,2012-08-13,https://repo1.maven.org/maven2/org/python/jython-standalone/2.5.3/jython-standalone-2.5.3.jar,2991,0,0,0,0,448,0,2.7.0
+6395,org.python.jython-standalone,2.7.0,2015-04-29,https://repo1.maven.org/maven2/org/python/jython-standalone/2.7.0/jython-standalone-2.7.0.jar,3390,3,1,5,0,918,516,2.7.1
+6396,org.python.jython-standalone,2.7.1,2017-06-30,https://repo1.maven.org/maven2/org/python/jython-standalone/2.7.1/jython-standalone-2.7.1.jar,3420,6,0,7,4,110,93,2.7.2
+6397,org.python.jython-standalone,2.7.2,2020-03-23,https://repo1.maven.org/maven2/org/python/jython-standalone/2.7.2/jython-standalone-2.7.2.jar,3490,6,0,2,1,95,13,2.7.3
+6329,org.python.jython-standalone,2.7.3,2022-09-13,https://repo1.maven.org/maven2/org/python/jython-standalone/2.7.3/jython-standalone-2.7.3.jar,3493,0,0,0,0,30,46,2.7.4
+6292,org.python.jython-standalone,2.7.4,2024-08-20,https://repo1.maven.org/maven2/org/python/jython-standalone/2.7.4/jython-standalone-2.7.4.jar,: 3527,0,0,0,0,38,4,

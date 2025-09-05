@@ -1,0 +1,17 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.hc.core5.reactor.ssl.SSLIOSession: void close()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.hc.core5.reactor.ssl.SSLIOSession: void close(org.apache.hc.core5.io.CloseMode)> with actual argTypes: [org.apache.hc.core5.io.CloseMode] and taint: [true, false]",
+            "<org.apache.hc.core5.reactor.ssl.SSLIOSession: void doHandshake(org.apache.hc.core5.reactor.IOSession)> with actual argTypes: [org.apache.hc.core5.reactor.ssl.SSLIOSession] and taint: [true, true]",
+            "<org.apache.hc.core5.reactor.ssl.SSLIOSession: void doRunTask()> with actual argTypes: [] and taint: [true]",
+            "<javax.swing.JFormattedTextField$FocusLostHandler: void run()> with actual argTypes: [] and taint: [true]",
+            "<javax.swing.JFormattedTextField: void commitEdit()> with actual argTypes: [] and taint: [true]",
+            "<javax.swing.text.DefaultFormatter: java.lang.Object stringToValue(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, true]"
+        ]
+    ]
+}

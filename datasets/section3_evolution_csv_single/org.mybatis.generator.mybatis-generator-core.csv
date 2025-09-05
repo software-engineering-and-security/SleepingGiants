@@ -1,0 +1,12 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+80911,org.mybatis.generator.mybatis-generator-core,1.3.0,2010-10-16,https://repo1.maven.org/maven2/org/mybatis/generator/mybatis-generator-core/1.3.0/mybatis-generator-core-1.3.0.jar,,,,,,,,1.3.1
+80912,org.mybatis.generator.mybatis-generator-core,1.3.1,2011-01-03,https://repo1.maven.org/maven2/org/mybatis/generator/mybatis-generator-core/1.3.1/mybatis-generator-core-1.3.1.jar,,,,,,,,1.3.2
+80913,org.mybatis.generator.mybatis-generator-core,1.3.2,2012-07-16,https://repo1.maven.org/maven2/org/mybatis/generator/mybatis-generator-core/1.3.2/mybatis-generator-core-1.3.2.jar,,,,,,,,1.3.3
+80914,org.mybatis.generator.mybatis-generator-core,1.3.3,2016-06-24,https://repo1.maven.org/maven2/org/mybatis/generator/mybatis-generator-core/1.3.3/mybatis-generator-core-1.3.3.jar,,,,,,,,1.3.4
+80915,org.mybatis.generator.mybatis-generator-core,1.3.4,2016-08-19,https://repo1.maven.org/maven2/org/mybatis/generator/mybatis-generator-core/1.3.4/mybatis-generator-core-1.3.4.jar,,,,,,,,1.3.5
+80916,org.mybatis.generator.mybatis-generator-core,1.3.5,2016-09-06,https://repo1.maven.org/maven2/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar,,,,,,,,1.3.6
+80917,org.mybatis.generator.mybatis-generator-core,1.3.6,2017-12-21,https://repo1.maven.org/maven2/org/mybatis/generator/mybatis-generator-core/1.3.6/mybatis-generator-core-1.3.6.jar,,,,,,,,1.3.7
+80918,org.mybatis.generator.mybatis-generator-core,1.3.7,2018-07-04,https://repo1.maven.org/maven2/org/mybatis/generator/mybatis-generator-core/1.3.7/mybatis-generator-core-1.3.7.jar,,,,,,,,1.4.0
+80919,org.mybatis.generator.mybatis-generator-core,1.4.0,2019-11-25,https://repo1.maven.org/maven2/org/mybatis/generator/mybatis-generator-core/1.4.0/mybatis-generator-core-1.4.0.jar,,,,,,,,1.4.1
+80920,org.mybatis.generator.mybatis-generator-core,1.4.1,2022-03-09,https://repo1.maven.org/maven2/org/mybatis/generator/mybatis-generator-core/1.4.1/mybatis-generator-core-1.4.1.jar,,,,,,,,1.4.2
+80921,org.mybatis.generator.mybatis-generator-core,1.4.2,2023-02-20,https://repo1.maven.org/maven2/org/mybatis/generator/mybatis-generator-core/1.4.2/mybatis-generator-core-1.4.2.jar,,,,,,,,

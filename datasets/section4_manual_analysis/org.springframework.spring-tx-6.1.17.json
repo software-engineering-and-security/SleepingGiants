@@ -1,0 +1,23 @@
+{
+    "tabby": [
+        [
+            "org.springframework.transaction.support.AbstractPlatformTransactionManager#readObject -[ALIAS]-> org.springframework.transaction.jta.JtaTransactionManager#readObject",
+            "-[CALL]-> org.springframework.transaction.jta.JtaTransactionManager#initUserTransactionAndTransactionManager",
+            "-[CALL]-> org.springframework.transaction.jta.JtaTransactionManager#lookupUserTransaction",
+            "-[CALL]-> org.springframework.jndi.JndiTemplate#lookup"
+        ],
+        [
+            "org.springframework.transaction.jta.JtaTransactionManager#readObject",
+            "-[CALL]-> org.springframework.transaction.jta.JtaTransactionManager#initUserTransactionAndTransactionManager",
+            "-[CALL]-> org.springframework.transaction.jta.JtaTransactionManager#lookupUserTransaction",
+            "-[CALL]-> org.springframework.jndi.JndiTemplate#lookup"
+        ],
+        [
+            "org.springframework.transaction.support.AbstractPlatformTransactionManager#readObject -[ALIAS]-> org.springframework.transaction.jta.JtaTransactionManager#readObject",
+            "-[CALL]-> org.springframework.transaction.jta.JtaTransactionManager#initUserTransactionAndTransactionManager",
+            "-[CALL]-> org.springframework.transaction.jta.JtaTransactionManager#lookupTransactionManager",
+            "-[CALL]-> org.springframework.jndi.JndiTemplate#lookup"
+        ]
+    ],
+    "androChain": []
+}

@@ -1,0 +1,14 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+90608,org.apache.commons.commons-vfs2,1.0,2006-12-28,https://repo1.maven.org/maven2/commons-vfs/commons-vfs/1.0/commons-vfs-1.0.jar,3,,,,,,,2.0
+34392,org.apache.commons.commons-vfs2,2.0,2011-08-18,https://repo1.maven.org/maven2/org/apache/commons/commons-vfs2/2.0/commons-vfs2-2.0.jar,3,0,0,0,0,3,3,2.1
+34393,org.apache.commons.commons-vfs2,2.1,2016-05-12,https://repo1.maven.org/maven2/org/apache/commons/commons-vfs2/2.1/commons-vfs2-2.1.jar,3,0,0,0,0,0,0,2.2
+34394,org.apache.commons.commons-vfs2,2.2,2017-10-02,https://repo1.maven.org/maven2/org/apache/commons/commons-vfs2/2.2/commons-vfs2-2.2.jar,3,0,0,0,0,0,0,2.3
+34395,org.apache.commons.commons-vfs2,2.3,2019-02-04,https://repo1.maven.org/maven2/org/apache/commons/commons-vfs2/2.3/commons-vfs2-2.3.jar,3,0,0,0,0,0,0,2.4
+34396,org.apache.commons.commons-vfs2,2.4,2019-07-17,https://repo1.maven.org/maven2/org/apache/commons/commons-vfs2/2.4/commons-vfs2-2.4.jar,24,0,0,0,0,21,0,2.4.1
+34397,org.apache.commons.commons-vfs2,2.4.1,2019-08-14,https://repo1.maven.org/maven2/org/apache/commons/commons-vfs2/2.4.1/commons-vfs2-2.4.1.jar,24,0,0,0,0,0,0,2.5.0
+34399,org.apache.commons.commons-vfs2,2.5.0,2019-12-25,https://repo1.maven.org/maven2/org/apache/commons/commons-vfs2/2.5.0/commons-vfs2-2.5.0.jar,24,0,0,0,0,0,0,2.6.0
+34408,org.apache.commons.commons-vfs2,2.6.0,2020-01-06,https://repo1.maven.org/maven2/org/apache/commons/commons-vfs2/2.6.0/commons-vfs2-2.6.0.jar,24,0,0,0,0,0,0,2.7.0
+34400,org.apache.commons.commons-vfs2,2.7.0,2020-11-01,https://repo1.maven.org/maven2/org/apache/commons/commons-vfs2/2.7.0/commons-vfs2-2.7.0.jar,24,0,0,0,0,0,0,2.8.0
+34401,org.apache.commons.commons-vfs2,2.8.0,2021-03-10,https://repo1.maven.org/maven2/org/apache/commons/commons-vfs2/2.8.0/commons-vfs2-2.8.0.jar,24,0,0,0,0,0,0,2.9.0
+34402,org.apache.commons.commons-vfs2,2.9.0,2021-07-20,https://repo1.maven.org/maven2/org/apache/commons/commons-vfs2/2.9.0/commons-vfs2-2.9.0.jar,24,0,0,0,0,0,0,2.10.0
+34403,org.apache.commons.commons-vfs2,2.10.0,2025-02-14,https://repo1.maven.org/maven2/org/apache/commons/commons-vfs2/2.10.0/commons-vfs2-2.10.0.jar,: 24,0,0,0,0,0,0,

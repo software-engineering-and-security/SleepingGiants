@@ -1,0 +1,11 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+53604,com.google.android.android,1.53,2015-12-28,https://repo1.maven.org/maven2/com/google/android/android/1.5_r3/android-1.5_r3.jar,1,,,,,,,1.54
+53605,com.google.android.android,1.54,2015-12-28,https://repo1.maven.org/maven2/com/google/android/android/1.5_r4/android-1.5_r4.jar,1,0,0,0,0,0,0,1.62
+53606,com.google.android.android,1.62,2015-12-28,https://repo1.maven.org/maven2/com/google/android/android/1.6_r2/android-1.6_r2.jar,1,0,0,0,0,0,0,2.1.2
+53608,com.google.android.android,2.1.2,2015-12-28,https://repo1.maven.org/maven2/com/google/android/android/2.1.2/android-2.1.2.jar,1,0,0,0,0,0,0,2.2.1
+53609,com.google.android.android,2.2.1,2015-12-28,https://repo1.maven.org/maven2/com/google/android/android/2.2.1/android-2.2.1.jar,1,0,0,0,0,0,0,2.3.1
+53610,com.google.android.android,2.3.1,2015-12-28,https://repo1.maven.org/maven2/com/google/android/android/2.3.1/android-2.3.1.jar,2,0,0,0,0,1,0,2.3.3
+53611,com.google.android.android,2.3.3,2015-12-28,https://repo1.maven.org/maven2/com/google/android/android/2.3.3/android-2.3.3.jar,2,0,0,0,0,0,0,2.11
+53607,com.google.android.android,2.11,2015-12-28,https://repo1.maven.org/maven2/com/google/android/android/2.1_r1/android-2.1_r1.jar,1,0,0,0,0,0,1,4.0.1.2
+53612,com.google.android.android,4.0.1.2,2015-12-28,https://repo1.maven.org/maven2/com/google/android/android/4.0.1.2/android-4.0.1.2.jar,2,0,0,0,0,1,0,4.1.1.4
+53613,com.google.android.android,4.1.1.4,2015-12-28,https://repo1.maven.org/maven2/com/google/android/android/4.1.1.4/android-4.1.1.4.jar,: 2,0,0,0,0,0,0,

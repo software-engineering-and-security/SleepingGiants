@@ -1,0 +1,4 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+54785,androidx.localbroadcastmanager.localbroadcastmanager,1.0.0,2018-09-21,https://maven.google.com/androidx/localbroadcastmanager/localbroadcastmanager/1.0.0/localbroadcastmanager-1.0.0.aar,,,,,,,,1.1.0
+54778,androidx.localbroadcastmanager.localbroadcastmanager,1.1.0,2022-01-12,https://maven.google.com/androidx/localbroadcastmanager/localbroadcastmanager/1.1.0/localbroadcastmanager-1.1.0.aar,,,,,,,,28.0.0
+103383,androidx.localbroadcastmanager.localbroadcastmanager,28.0.0,2018-09-21,https://maven.google.com/com/android/support/localbroadcastmanager/28.0.0/localbroadcastmanager-28.0.0.aar,,,,,,,,

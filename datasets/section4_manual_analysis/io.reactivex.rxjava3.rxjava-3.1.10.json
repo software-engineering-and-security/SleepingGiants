@@ -1,0 +1,36 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<io.reactivex.rxjava3.internal.operators.flowable.BlockingFlowableIterable$BlockingFlowableIterator: java.lang.Object next()> with actual argTypes: [] and taint: [true]",
+            "<io.reactivex.rxjava3.subscribers.SafeSubscriber: void request(long)> with actual argTypes: [long] and taint: [true, true]",
+            "<io.reactivex.rxjava3.plugins.RxJavaPlugins: void onError(java.lang.Throwable)> with actual argTypes: [io.reactivex.rxjava3.exceptions.CompositeException] and taint: [false, false]",
+            "<javax.xml.transform.TransformerException: void printStackTrace()> with actual argTypes: [] and taint: [false]",
+            "<javax.xml.transform.TransformerException: void printStackTrace(java.io.PrintWriter)> with actual argTypes: [java.io.PrintWriter] and taint: [false, false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Throwable, java.lang.Object[]] and taint: [false, false, false]"
+        ],
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<io.reactivex.rxjava3.internal.operators.observable.BlockingObservableIterable$BlockingObservableIterator: boolean hasNext()> with actual argTypes: [] and taint: [true]",
+            "<io.reactivex.rxjava3.internal.disposables.DisposableHelper: boolean dispose(java.util.concurrent.atomic.AtomicReference)> with actual argTypes: [io.reactivex.rxjava3.internal.operators.observable.BlockingObservableIterable$BlockingObservableIterator] and taint: [false, false]",
+            "<io.reactivex.rxjava3.subjects.UnicastSubject$UnicastQueueDisposable: void dispose()> with actual argTypes: [] and taint: [false]",
+            "<io.reactivex.rxjava3.subjects.UnicastSubject: void doTerminate()> with actual argTypes: [] and taint: [false]",
+            "<javax.swing.JFormattedTextField$FocusLostHandler: void run()> with actual argTypes: [] and taint: [false]",
+            "<javax.swing.JFormattedTextField: void commitEdit()> with actual argTypes: [] and taint: [false]",
+            "<javax.swing.text.DefaultFormatter: java.lang.Object stringToValue(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, false]"
+        ],
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<io.reactivex.rxjava3.internal.operators.observable.BlockingObservableIterable$BlockingObservableIterator: boolean hasNext()> with actual argTypes: [] and taint: [true]",
+            "<io.reactivex.rxjava3.internal.disposables.DisposableHelper: boolean dispose(java.util.concurrent.atomic.AtomicReference)> with actual argTypes: [io.reactivex.rxjava3.internal.operators.observable.BlockingObservableIterable$BlockingObservableIterator] and taint: [false, false]",
+            "<io.reactivex.rxjava3.internal.operators.single.SingleDoOnLifecycle$SingleLifecycleObserver: void dispose()> with actual argTypes: [] and taint: [false]",
+            "<io.reactivex.rxjava3.internal.functions.Functions$FutureAction: void run()> with actual argTypes: [] and taint: [false]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Object get()> with actual argTypes: [] and taint: [false]",
+            "<java.util.concurrent.ForkJoinTask: void reportExecutionException(int)> with actual argTypes: [int] and taint: [false, false]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Throwable getThrowableException()> with actual argTypes: [] and taint: [false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, false]"
+        ]
+    ]
+}

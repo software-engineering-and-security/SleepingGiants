@@ -1,0 +1,22 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+103473,com.sun.mail.jakarta.mail,1.4.4,2011-01-27,https://repo1.maven.org/maven2/com/sun/mail/javax.mail/1.4.4/javax.mail-1.4.4.jar,31,,,,,,,1.4.5
+103472,com.sun.mail.jakarta.mail,1.4.5,2012-03-23,https://repo1.maven.org/maven2/com/sun/mail/javax.mail/1.4.5/javax.mail-1.4.5.jar,31,0,0,0,0,0,0,1.4.6
+103471,com.sun.mail.jakarta.mail,1.4.6,2013-02-07,https://repo1.maven.org/maven2/com/sun/mail/javax.mail/1.4.6/javax.mail-1.4.6.jar,31,0,0,0,0,0,0,1.4.7
+103459,com.sun.mail.jakarta.mail,1.4.7,2013-03-09,https://repo1.maven.org/maven2/com/sun/mail/javax.mail/1.4.7/javax.mail-1.4.7.jar,31,0,0,0,0,0,0,1.5.0
+103458,com.sun.mail.jakarta.mail,1.5.0,2013-04-05,https://repo1.maven.org/maven2/com/sun/mail/javax.mail/1.5.0/javax.mail-1.5.0.jar,31,0,0,0,0,0,0,1.5.1
+103440,com.sun.mail.jakarta.mail,1.5.1,2013-11-13,https://repo1.maven.org/maven2/com/sun/mail/javax.mail/1.5.1/javax.mail-1.5.1.jar,34,0,0,0,0,3,0,1.5.2
+103439,com.sun.mail.jakarta.mail,1.5.2,2014-05-02,https://repo1.maven.org/maven2/com/sun/mail/javax.mail/1.5.2/javax.mail-1.5.2.jar,35,0,0,0,0,1,0,1.5.3
+103438,com.sun.mail.jakarta.mail,1.5.3,2015-04-15,https://repo1.maven.org/maven2/com/sun/mail/javax.mail/1.5.3/javax.mail-1.5.3.jar,35,0,0,0,0,0,0,1.5.4
+103437,com.sun.mail.jakarta.mail,1.5.4,2015-06-22,https://repo1.maven.org/maven2/com/sun/mail/javax.mail/1.5.4/javax.mail-1.5.4.jar,35,0,0,0,0,0,0,1.5.5
+103436,com.sun.mail.jakarta.mail,1.5.5,2015-12-16,https://repo1.maven.org/maven2/com/sun/mail/javax.mail/1.5.5/javax.mail-1.5.5.jar,35,0,0,0,0,0,0,1.5.6
+103435,com.sun.mail.jakarta.mail,1.5.6,2016-08-10,https://repo1.maven.org/maven2/com/sun/mail/javax.mail/1.5.6/javax.mail-1.5.6.jar,35,0,0,0,0,0,0,1.6.0
+103441,com.sun.mail.jakarta.mail,1.6.0,2017-07-17,https://repo1.maven.org/maven2/com/sun/mail/javax.mail/1.6.0/javax.mail-1.6.0.jar,35,0,0,0,0,0,0,1.6.1
+103434,com.sun.mail.jakarta.mail,1.6.1,2018-02-09,https://repo1.maven.org/maven2/com/sun/mail/javax.mail/1.6.1/javax.mail-1.6.1.jar,35,0,0,0,0,0,0,1.6.2
+103432,com.sun.mail.jakarta.mail,1.6.2,2018-08-29,https://repo1.maven.org/maven2/com/sun/mail/javax.mail/1.6.2/javax.mail-1.6.2.jar,35,0,0,0,0,0,0,1.6.3
+7828,com.sun.mail.jakarta.mail,1.6.3,2018-11-21,https://repo1.maven.org/maven2/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar,35,0,0,0,0,0,0,1.6.4
+7829,com.sun.mail.jakarta.mail,1.6.4,2019-08-29,https://repo1.maven.org/maven2/com/sun/mail/jakarta.mail/1.6.4/jakarta.mail-1.6.4.jar,35,0,0,0,0,0,0,1.6.5
+7818,com.sun.mail.jakarta.mail,1.6.5,2020-03-11,https://repo1.maven.org/maven2/com/sun/mail/jakarta.mail/1.6.5/jakarta.mail-1.6.5.jar,35,0,0,0,0,0,0,1.6.6
+7830,com.sun.mail.jakarta.mail,1.6.6,2021-02-26,https://repo1.maven.org/maven2/com/sun/mail/jakarta.mail/1.6.6/jakarta.mail-1.6.6.jar,35,0,0,0,0,0,0,1.6.7
+7817,com.sun.mail.jakarta.mail,1.6.7,2021-04-08,https://repo1.maven.org/maven2/com/sun/mail/jakarta.mail/1.6.7/jakarta.mail-1.6.7.jar,35,0,0,0,0,0,0,2.0.0
+7815,com.sun.mail.jakarta.mail,2.0.0,2020-10-23,https://repo1.maven.org/maven2/com/sun/mail/jakarta.mail/2.0.0/jakarta.mail-2.0.0.jar,35,0,0,0,0,29,29,2.0.1
+7794,com.sun.mail.jakarta.mail,2.0.1,2021-04-06,https://repo1.maven.org/maven2/com/sun/mail/jakarta.mail/2.0.1/jakarta.mail-2.0.1.jar,: 35,0,0,0,0,0,0,

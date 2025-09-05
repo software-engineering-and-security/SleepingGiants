@@ -1,0 +1,5 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+53113,androidx.savedstate.savedstate,1.0.0,2019-09-05,https://maven.google.com/androidx/savedstate/savedstate/1.0.0/savedstate-1.0.0.aar,,,,,,,,1.1.0
+53114,androidx.savedstate.savedstate,1.1.0,2021-02-10,https://maven.google.com/androidx/savedstate/savedstate/1.1.0/savedstate-1.1.0.aar,,,,,,,,1.2.0
+53115,androidx.savedstate.savedstate,1.2.0,2022-06-29,https://maven.google.com/androidx/savedstate/savedstate/1.2.0/savedstate-1.2.0.aar,,,,,,,,1.2.1
+53116,androidx.savedstate.savedstate,1.2.1,2023-03-22,https://maven.google.com/androidx/savedstate/savedstate/1.2.1/savedstate-1.2.1.aar,,,,,,,,

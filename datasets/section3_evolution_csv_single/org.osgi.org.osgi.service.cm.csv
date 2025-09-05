@@ -1,0 +1,4 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+27602,org.osgi.org.osgi.service.cm,1.5.0,2015-08-18,https://repo1.maven.org/maven2/org/osgi/org.osgi.service.cm/1.5.0/org.osgi.service.cm-1.5.0.jar,,,,,,,,1.6.0
+27603,org.osgi.org.osgi.service.cm,1.6.0,2018-04-20,https://repo1.maven.org/maven2/org/osgi/org.osgi.service.cm/1.6.0/org.osgi.service.cm-1.6.0.jar,,,,,,,,1.6.1
+27604,org.osgi.org.osgi.service.cm,1.6.1,2021-10-13,https://repo1.maven.org/maven2/org/osgi/org.osgi.service.cm/1.6.1/org.osgi.service.cm-1.6.1.jar,,,,,,,,

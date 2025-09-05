@@ -1,0 +1,9 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+110053,jakarta.platform.jakarta.jakartaee-web-api,6.0,2010-01-28,https://repo1.maven.org/maven2/javax/javaee-web-api/6.0/javaee-web-api-6.0.jar,111,,,,,,,7.0
+110054,jakarta.platform.jakarta.jakartaee-web-api,7.0,2013-05-20,https://repo1.maven.org/maven2/javax/javaee-web-api/7.0/javaee-web-api-7.0.jar,49,0,0,0,0,2,66,8.0
+110055,jakarta.platform.jakarta.jakartaee-web-api,8.0,2017-09-06,https://repo1.maven.org/maven2/javax/javaee-web-api/8.0/javaee-web-api-8.0.jar,76,0,0,0,0,27,0,8.0.0
+48259,jakarta.platform.jakarta.jakartaee-web-api,8.0.0,2019-09-10,https://repo1.maven.org/maven2/jakarta/platform/jakarta.jakartaee-web-api/8.0.0/jakarta.jakartaee-web-api-8.0.0.jar,74,0,0,0,0,2,6,8.0.1
+110056,jakarta.platform.jakarta.jakartaee-web-api,8.0.1,2019-04-09,https://repo1.maven.org/maven2/javax/javaee-web-api/8.0.1/javaee-web-api-8.0.1.jar,78,0,0,0,0,6,0,9.0.0
+48260,jakarta.platform.jakarta.jakartaee-web-api,9.0.0,2020-11-21,https://repo1.maven.org/maven2/jakarta/platform/jakarta.jakartaee-web-api/9.0.0/jakarta.jakartaee-web-api-9.0.0.jar,76,0,0,0,0,77,80,9.1.0
+48261,jakarta.platform.jakarta.jakartaee-web-api,9.1.0,2021-05-25,https://repo1.maven.org/maven2/jakarta/platform/jakarta.jakartaee-web-api/9.1.0/jakarta.jakartaee-web-api-9.1.0.jar,76,0,0,0,0,0,0,10.0.0
+48262,jakarta.platform.jakarta.jakartaee-web-api,10.0.0,2022-09-13,https://repo1.maven.org/maven2/jakarta/platform/jakarta.jakartaee-web-api/10.0.0/jakarta.jakartaee-web-api-10.0.0.jar,: 99,1,0,0,0,29,7,

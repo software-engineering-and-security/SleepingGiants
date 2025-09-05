@@ -1,0 +1,9 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+27577,org.osgi.org.osgi.test.common,0.9.0,2020-06-30,https://repo1.maven.org/maven2/org/osgi/org.osgi.test.common/0.9.0/org.osgi.test.common-0.9.0.jar,,,,,,,,0.10.0
+27578,org.osgi.org.osgi.test.common,0.10.0,2020-09-16,https://repo1.maven.org/maven2/org/osgi/org.osgi.test.common/0.10.0/org.osgi.test.common-0.10.0.jar,,,,,,,,1.0.0
+27579,org.osgi.org.osgi.test.common,1.0.0,2021-06-23,https://repo1.maven.org/maven2/org/osgi/org.osgi.test.common/1.0.0/org.osgi.test.common-1.0.0.jar,,,,,,,,1.0.1
+27580,org.osgi.org.osgi.test.common,1.0.1,2021-08-05,https://repo1.maven.org/maven2/org/osgi/org.osgi.test.common/1.0.1/org.osgi.test.common-1.0.1.jar,,,,,,,,1.1.0
+27581,org.osgi.org.osgi.test.common,1.1.0,2022-03-12,https://repo1.maven.org/maven2/org/osgi/org.osgi.test.common/1.1.0/org.osgi.test.common-1.1.0.jar,,,,,,,,1.2.0
+27582,org.osgi.org.osgi.test.common,1.2.0,2022-07-12,https://repo1.maven.org/maven2/org/osgi/org.osgi.test.common/1.2.0/org.osgi.test.common-1.2.0.jar,,,,,,,,1.2.1
+27583,org.osgi.org.osgi.test.common,1.2.1,2022-07-13,https://repo1.maven.org/maven2/org/osgi/org.osgi.test.common/1.2.1/org.osgi.test.common-1.2.1.jar,,,,,,,,1.3.0
+27584,org.osgi.org.osgi.test.common,1.3.0,2024-03-25,https://repo1.maven.org/maven2/org/osgi/org.osgi.test.common/1.3.0/org.osgi.test.common-1.3.0.jar,,,,,,,,

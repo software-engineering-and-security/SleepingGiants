@@ -1,0 +1,13 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+26319,com.typesafe.play.twirl-api,1.4.0,2024-11-04,https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.12/1.4.0/twirl-api_2.12-1.4.0.jar,,,,,,,,1.4.2
+26320,com.typesafe.play.twirl-api,1.4.2,2024-11-29,https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.13/1.4.2/twirl-api_2.13-1.4.2.jar,4,,,,,,,1.5.0
+26321,com.typesafe.play.twirl-api,1.5.0,2024-11-08,https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.13/1.5.0/twirl-api_2.13-1.5.0.jar,4,0,0,0,0,0,0,1.5.1
+26322,com.typesafe.play.twirl-api,1.5.1,2024-02-20,https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.13/1.5.1/twirl-api_2.13-1.5.1.jar,4,0,0,0,0,0,0,1.5.2
+26323,com.typesafe.play.twirl-api,1.5.2,2023-07-23,https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.13/1.5.2/twirl-api_2.13-1.5.2.jar,,0,0,0,0,0,0,1.6.1
+26324,com.typesafe.play.twirl-api,1.6.1,2023-10-18,https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.12/1.6.1/twirl-api_2.12-1.6.1.jar,,,,,,,,1.6.2
+26325,com.typesafe.play.twirl-api,1.6.2,2023-11-06,https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.12/1.6.2/twirl-api_2.12-1.6.2.jar,,,,,,,,1.6.4
+26326,com.typesafe.play.twirl-api,1.6.4,2024-09-02,https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.13/1.6.4/twirl-api_2.13-1.6.4.jar,2,,,,,,,1.6.5
+26327,com.typesafe.play.twirl-api,1.6.5,2024-05-06,https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_3/1.6.5/twirl-api_3-1.6.5.jar,17,15,0,0,0,0,0,1.6.6
+26328,com.typesafe.play.twirl-api,1.6.6,2024-06-19,https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_3/1.6.6/twirl-api_3-1.6.6.jar,17,0,0,0,0,0,0,1.6.7
+26329,com.typesafe.play.twirl-api,1.6.7,2024-06-19,https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.13/1.6.7/twirl-api_2.13-1.6.7.jar,2,0,15,0,0,0,0,1.6.8
+26330,com.typesafe.play.twirl-api,1.6.8,2024-09-19,https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.13/1.6.8/twirl-api_2.13-1.6.8.jar,: 2,0,0,0,0,0,0,

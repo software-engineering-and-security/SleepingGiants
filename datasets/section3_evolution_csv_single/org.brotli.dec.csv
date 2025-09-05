@@ -1,0 +1,4 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+82020,org.brotli.dec,0.1.0,2017-02-20,https://repo1.maven.org/maven2/org/brotli/dec/0.1.0/dec-0.1.0.jar,,,,,,,,0.1.1
+82021,org.brotli.dec,0.1.1,2017-03-01,https://repo1.maven.org/maven2/org/brotli/dec/0.1.1/dec-0.1.1.jar,,,,,,,,0.1.2
+82003,org.brotli.dec,0.1.2,2017-05-07,https://repo1.maven.org/maven2/org/brotli/dec/0.1.2/dec-0.1.2.jar,,,,,,,,

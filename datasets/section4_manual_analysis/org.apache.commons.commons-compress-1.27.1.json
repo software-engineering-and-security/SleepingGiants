@@ -1,0 +1,63 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.commons.compress.compressors.pack200.Pack200CompressorOutputStream: void close()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.commons.compress.compressors.pack200.Pack200CompressorOutputStream: void finish()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.commons.compress.java.util.jar.Pack200: org.apache.commons.compress.java.util.jar.Pack200$Packer newPacker()> with actual argTypes: [] and taint: [false]",
+            "<org.apache.commons.compress.java.util.jar.Pack200: java.lang.Object newInstance(java.lang.String,java.lang.String)> with actual argTypes: [java.lang.String, java.lang.String] and taint: [false, false, false]",
+            "<org.apache.commons.compress.java.util.jar.Pack200: java.lang.Object lambda$newInstance$0(java.lang.String,java.lang.String)> with actual argTypes: [java.lang.String, java.lang.String] and taint: [false, false, false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.commons.compress.archivers.zip.ZipSplitOutputStream: void close()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.commons.compress.archivers.zip.ZipSplitOutputStream: void finish()> with actual argTypes: [] and taint: [true]",
+            "<java.nio.file.Files: java.nio.file.Path move(java.nio.file.Path,java.nio.file.Path,java.nio.file.CopyOption[])> with actual argTypes: [java.nio.file.Path, java.nio.file.Path, java.nio.file.CopyOption[]] and taint: [false, true, true, false]",
+            "<java.nio.file.CopyMoveHelper: void moveToForeignTarget(java.nio.file.Path,java.nio.file.Path,java.nio.file.CopyOption[])> with actual argTypes: [java.nio.file.Path, java.nio.file.Path, java.nio.file.CopyOption[]] and taint: [false, true, true, false]",
+            "<java.nio.file.CopyMoveHelper: void copyToForeignTarget(java.nio.file.Path,java.nio.file.Path,java.nio.file.CopyOption[])> with actual argTypes: [java.nio.file.Path, java.nio.file.Path, java.nio.file.CopyOption[]] and taint: [false, true, true, false]",
+            "<java.nio.file.Files: long copy(java.io.InputStream,java.nio.file.Path,java.nio.file.CopyOption[])> with actual argTypes: [java.io.InputStream, java.nio.file.Path, java.nio.file.CopyOption[]] and taint: [false, true, true, false]",
+            "<java.nio.file.Files: java.io.OutputStream newOutputStream(java.nio.file.Path,java.nio.file.OpenOption[])> with actual argTypes: [java.nio.file.Path, java.nio.file.OpenOption[]] and taint: [false, true, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<java.time.chrono.ChronoLocalDateImpl: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<java.time.chrono.HijrahDate: long toEpochDay()> with actual argTypes: [] and taint: [true]",
+            "<java.time.chrono.HijrahChronology: long getEpochDay(int,int,int)> with actual argTypes: [int, int, int] and taint: [true, true, true, true]",
+            "<java.time.chrono.HijrahChronology: void checkCalendarInit()> with actual argTypes: [] and taint: [true]",
+            "<java.time.chrono.HijrahChronology: void loadCalendarData()> with actual argTypes: [] and taint: [true]",
+            "<java.time.chrono.HijrahChronology: java.util.Properties readConfigProperties(java.lang.String,java.lang.String)> with actual argTypes: [java.lang.String, java.lang.String] and taint: [false, true, true]",
+            "<org.apache.commons.compress.compressors.pack200.Pack200CompressorInputStream: void close()> with actual argTypes: [] and taint: [false]",
+            "<org.apache.commons.compress.compressors.pack200.AbstractStreamBridge: void stop()> with actual argTypes: [] and taint: [false]",
+            "<java.io.FilterOutputStream: void close()> with actual argTypes: [] and taint: [false]",
+            "<org.apache.commons.compress.compressors.pack200.Pack200CompressorOutputStream: void close()> with actual argTypes: [] and taint: [false]",
+            "<org.apache.commons.compress.compressors.pack200.Pack200CompressorOutputStream: void finish()> with actual argTypes: [] and taint: [false]",
+            "<org.apache.commons.compress.java.util.jar.Pack200: org.apache.commons.compress.java.util.jar.Pack200$Packer newPacker()> with actual argTypes: [] and taint: [false]",
+            "<org.apache.commons.compress.java.util.jar.Pack200: java.lang.Object newInstance(java.lang.String,java.lang.String)> with actual argTypes: [java.lang.String, java.lang.String] and taint: [false, false, false]",
+            "<org.apache.commons.compress.java.util.jar.Pack200: java.lang.Object lambda$newInstance$0(java.lang.String,java.lang.String)> with actual argTypes: [java.lang.String, java.lang.String] and taint: [false, false, false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<java.time.chrono.ChronoLocalDateImpl: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<java.time.chrono.HijrahDate: long toEpochDay()> with actual argTypes: [] and taint: [true]",
+            "<java.time.chrono.HijrahChronology: long getEpochDay(int,int,int)> with actual argTypes: [int, int, int] and taint: [true, true, true, true]",
+            "<java.time.chrono.HijrahChronology: void checkCalendarInit()> with actual argTypes: [] and taint: [true]",
+            "<java.time.chrono.HijrahChronology: void loadCalendarData()> with actual argTypes: [] and taint: [true]",
+            "<java.time.chrono.HijrahChronology: java.util.Properties readConfigProperties(java.lang.String,java.lang.String)> with actual argTypes: [java.lang.String, java.lang.String] and taint: [false, true, true]",
+            "<org.apache.commons.compress.compressors.pack200.Pack200CompressorInputStream: void close()> with actual argTypes: [] and taint: [false]",
+            "<org.apache.commons.compress.compressors.pack200.AbstractStreamBridge: void stop()> with actual argTypes: [] and taint: [false]",
+            "<java.io.FilterOutputStream: void close()> with actual argTypes: [] and taint: [false]",
+            "<org.apache.commons.compress.archivers.zip.ZipSplitOutputStream: void close()> with actual argTypes: [] and taint: [false]",
+            "<org.apache.commons.compress.archivers.zip.ZipSplitOutputStream: void finish()> with actual argTypes: [] and taint: [false]",
+            "<java.nio.file.Files: java.nio.file.Path move(java.nio.file.Path,java.nio.file.Path,java.nio.file.CopyOption[])> with actual argTypes: [java.nio.file.Path, java.nio.file.Path, java.nio.file.CopyOption[]] and taint: [false, false, false, false]",
+            "<java.nio.file.CopyMoveHelper: void moveToForeignTarget(java.nio.file.Path,java.nio.file.Path,java.nio.file.CopyOption[])> with actual argTypes: [java.nio.file.Path, java.nio.file.Path, java.nio.file.CopyOption[]] and taint: [false, false, false, false]",
+            "<java.nio.file.CopyMoveHelper: void copyToForeignTarget(java.nio.file.Path,java.nio.file.Path,java.nio.file.CopyOption[])> with actual argTypes: [java.nio.file.Path, java.nio.file.Path, java.nio.file.CopyOption[]] and taint: [false, false, false, false]",
+            "<java.nio.file.Files: long copy(java.io.InputStream,java.nio.file.Path,java.nio.file.CopyOption[])> with actual argTypes: [java.io.InputStream, java.nio.file.Path, java.nio.file.CopyOption[]] and taint: [false, false, false, false]",
+            "<java.nio.file.Files: java.io.OutputStream newOutputStream(java.nio.file.Path,java.nio.file.OpenOption[])> with actual argTypes: [java.nio.file.Path, java.nio.file.OpenOption[]] and taint: [false, false, false]"
+        ]
+    ]
+}

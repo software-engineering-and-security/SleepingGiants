@@ -1,0 +1,17 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+91513,org.jets3t.jets3t,0.5.0,2007-03-19,https://repo1.maven.org/maven2/net/java/dev/jets3t/jets3t/0.5.0/jets3t-0.5.0.jar,35,,,,,,,0.6.0
+91531,org.jets3t.jets3t,0.6.0,2008-04-01,https://repo1.maven.org/maven2/net/java/dev/jets3t/jets3t/0.6.0/jets3t-0.6.0.jar,35,0,0,0,0,0,0,0.6.1
+91530,org.jets3t.jets3t,0.6.1,2008-08-10,https://repo1.maven.org/maven2/net/java/dev/jets3t/jets3t/0.6.1/jets3t-0.6.1.jar,37,0,0,1,0,2,1,0.7.0
+91529,org.jets3t.jets3t,0.7.0,2009-05-06,https://repo1.maven.org/maven2/net/java/dev/jets3t/jets3t/0.7.0/jets3t-0.7.0.jar,39,0,0,0,0,2,0,0.7.1
+91528,org.jets3t.jets3t,0.7.1,2009-05-10,https://repo1.maven.org/maven2/net/java/dev/jets3t/jets3t/0.7.1/jets3t-0.7.1.jar,39,0,0,0,0,0,0,0.7.2
+91527,org.jets3t.jets3t,0.7.2,2009-12-21,https://repo1.maven.org/maven2/net/java/dev/jets3t/jets3t/0.7.2/jets3t-0.7.2.jar,39,0,0,0,1,1,0,0.7.3
+91526,org.jets3t.jets3t,0.7.3,2010-03-21,https://repo1.maven.org/maven2/net/java/dev/jets3t/jets3t/0.7.3/jets3t-0.7.3.jar,39,0,0,0,0,0,0,0.7.4
+91525,org.jets3t.jets3t,0.7.4,2010-07-17,https://repo1.maven.org/maven2/net/java/dev/jets3t/jets3t/0.7.4/jets3t-0.7.4.jar,39,0,0,0,0,0,0,0.8.0
+91524,org.jets3t.jets3t,0.8.0,2010-10-26,https://repo1.maven.org/maven2/net/java/dev/jets3t/jets3t/0.8.0/jets3t-0.8.0.jar,4,0,5,0,5,1,33,0.8.1
+91523,org.jets3t.jets3t,0.8.1,2011-04-09,https://repo1.maven.org/maven2/net/java/dev/jets3t/jets3t/0.8.1/jets3t-0.8.1.jar,4,0,0,0,0,0,0,0.9.0
+91522,org.jets3t.jets3t,0.9.0,2012-03-12,https://repo1.maven.org/maven2/net/java/dev/jets3t/jets3t/0.9.0/jets3t-0.9.0.jar,4,0,0,0,0,0,0,0.9.1
+91521,org.jets3t.jets3t,0.9.1,2014-06-07,https://repo1.maven.org/maven2/net/java/dev/jets3t/jets3t/0.9.1/jets3t-0.9.1.jar,5,0,0,0,0,1,0,0.9.2
+91520,org.jets3t.jets3t,0.9.2,2014-07-22,https://repo1.maven.org/maven2/net/java/dev/jets3t/jets3t/0.9.2/jets3t-0.9.2.jar,5,0,0,0,0,0,0,0.9.3
+91519,org.jets3t.jets3t,0.9.3,2015-01-31,https://repo1.maven.org/maven2/net/java/dev/jets3t/jets3t/0.9.3/jets3t-0.9.3.jar,5,0,0,0,0,0,0,0.9.4
+91518,org.jets3t.jets3t,0.9.4,2015-08-23,https://repo1.maven.org/maven2/net/java/dev/jets3t/jets3t/0.9.4/jets3t-0.9.4.jar,5,0,0,0,0,0,0,0.9.7
+24874,org.jets3t.jets3t,0.9.7,2021-01-12,https://repo1.maven.org/maven2/org/jets3t/jets3t/0.9.7/jets3t-0.9.7.jar,: 4,0,0,0,0,0,1,

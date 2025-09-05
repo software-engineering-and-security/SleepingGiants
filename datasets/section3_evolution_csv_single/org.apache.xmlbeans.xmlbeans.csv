@@ -1,0 +1,21 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+31774,org.apache.xmlbeans.xmlbeans,2.2.0,2007-07-04,https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/2.2.0/xmlbeans-2.2.0.jar,309,,,,,,,2.3.0
+31775,org.apache.xmlbeans.xmlbeans,2.3.0,2007-07-04,https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.jar,308,0,0,0,0,0,1,2.4.0
+31776,org.apache.xmlbeans.xmlbeans,2.4.0,2008-07-09,https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/2.4.0/xmlbeans-2.4.0.jar,312,0,0,0,0,4,0,2.5.0
+31777,org.apache.xmlbeans.xmlbeans,2.5.0,2011-11-15,https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/2.5.0/xmlbeans-2.5.0.jar,313,0,0,0,0,1,0,2.6.0
+31778,org.apache.xmlbeans.xmlbeans,2.6.0,2013-06-05,https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar,313,0,0,0,0,0,0,3.0.0
+31779,org.apache.xmlbeans.xmlbeans,3.0.0,2018-06-20,https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/3.0.0/xmlbeans-3.0.0.jar,311,0,0,0,0,0,2,3.0.1
+31780,org.apache.xmlbeans.xmlbeans,3.0.1,2018-08-20,https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/3.0.1/xmlbeans-3.0.1.jar,311,0,0,0,0,0,0,3.0.2
+31781,org.apache.xmlbeans.xmlbeans,3.0.2,2018-10-23,https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/3.0.2/xmlbeans-3.0.2.jar,311,0,0,0,0,0,0,3.1.0
+31782,org.apache.xmlbeans.xmlbeans,3.1.0,2019-03-26,https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar,311,0,0,0,0,0,0,4.0.0
+31783,org.apache.xmlbeans.xmlbeans,4.0.0,2020-10-16,https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/4.0.0/xmlbeans-4.0.0.jar,311,0,0,0,0,0,0,5.0.0
+31784,org.apache.xmlbeans.xmlbeans,5.0.0,2021-03-14,https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/5.0.0/xmlbeans-5.0.0.jar,310,0,0,0,0,0,1,5.0.1
+31785,org.apache.xmlbeans.xmlbeans,5.0.1,2021-07-11,https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/5.0.1/xmlbeans-5.0.1.jar,314,0,0,0,0,4,0,5.0.2
+31786,org.apache.xmlbeans.xmlbeans,5.0.2,2021-10-21,https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/5.0.2/xmlbeans-5.0.2.jar,314,0,0,0,0,0,0,5.0.3
+31787,org.apache.xmlbeans.xmlbeans,5.0.3,2021-12-30,https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/5.0.3/xmlbeans-5.0.3.jar,314,0,0,0,0,0,0,5.1.0
+31788,org.apache.xmlbeans.xmlbeans,5.1.0,2022-06-13,https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/5.1.0/xmlbeans-5.1.0.jar,314,0,0,0,0,0,0,5.1.1
+31790,org.apache.xmlbeans.xmlbeans,5.1.1,2022-08-30,https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/5.1.1/xmlbeans-5.1.1.jar,314,0,0,0,0,0,0,5.2.0
+31816,org.apache.xmlbeans.xmlbeans,5.2.0,2023-11-16,https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/5.2.0/xmlbeans-5.2.0.jar,314,0,0,0,0,0,0,5.2.1
+31838,org.apache.xmlbeans.xmlbeans,5.2.1,2024-05-26,https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/5.2.1/xmlbeans-5.2.1.jar,314,0,0,0,0,0,0,5.2.2
+31817,org.apache.xmlbeans.xmlbeans,5.2.2,2024-10-30,https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/5.2.2/xmlbeans-5.2.2.jar,314,0,0,0,0,0,0,5.3.0
+31841,org.apache.xmlbeans.xmlbeans,5.3.0,2024-12-13,https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/5.3.0/xmlbeans-5.3.0.jar,: 314,0,0,0,0,0,0,

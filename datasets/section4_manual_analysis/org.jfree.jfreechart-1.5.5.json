@@ -1,0 +1,72 @@
+{
+    "tabby": [
+        [
+            "org.jfree.chart.plot.CategoryPlot#readObject",
+            "-[CALL]-> org.jfree.chart.axis.Axis#setPlot",
+            "-[CALL]-> org.jfree.chart.axis.Axis#configure -[ALIAS]-> org.jfree.chart.axis.PeriodAxis#configure",
+            "-[CALL]-> org.jfree.chart.axis.PeriodAxis#autoAdjustRange",
+            "-[CALL]-> org.jfree.chart.axis.PeriodAxis#createInstance",
+            "-[CALL]-> java.lang.reflect.Constructor#newInstance"
+        ]
+    ],
+    "androChain": [
+        [
+            "<org.jfree.chart.plot.CombinedRangeCategoryPlot: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<org.jfree.chart.axis.PeriodAxis: void configure()> with actual argTypes: [] and taint: [true]",
+            "<org.jfree.chart.axis.PeriodAxis: void autoAdjustRange()> with actual argTypes: [] and taint: [true]",
+            "<org.jfree.chart.axis.PeriodAxis: org.jfree.data.time.RegularTimePeriod createInstance(java.lang.Class,java.util.Date,java.util.TimeZone,java.util.Locale)> with actual argTypes: [java.lang.Class, java.util.Date, java.util.TimeZone, java.util.Locale] and taint: [true, true, false, true, true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.jfree.chart.ChartPanel: void actionPerformed(java.awt.event.ActionEvent)> with actual argTypes: [java.awt.event.ActionEvent] and taint: [true, true]",
+            "<org.jfree.chart.ChartPanel: void saveAsSVG(java.io.File)> with actual argTypes: [null] and taint: [true, false]",
+            "<org.jfree.chart.ChartPanel: java.lang.String generateSVG(int,int)> with actual argTypes: [int, int] and taint: [true, true, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.awt.Graphics2D, java.lang.Object[]] and taint: [true, true, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.jfree.chart.ChartPanel: void actionPerformed(java.awt.event.ActionEvent)> with actual argTypes: [java.awt.event.ActionEvent] and taint: [true, true]",
+            "<org.jfree.chart.ChartPanel: void saveAsPDF(java.io.File)> with actual argTypes: [null] and taint: [true, false]",
+            "<org.jfree.chart.ChartPanel: void writeAsPDF(java.io.File,int,int)> with actual argTypes: [java.io.File, int, int] and taint: [true, false, true, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [true, true, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.jfree.chart.ChartPanel: void actionPerformed(java.awt.event.ActionEvent)> with actual argTypes: [java.awt.event.ActionEvent] and taint: [true, true]",
+            "<org.jfree.chart.ChartPanel: void doSaveAs()> with actual argTypes: [] and taint: [true]",
+            "<org.jfree.chart.ChartUtils: void saveChartAsPNG(java.io.File,org.jfree.chart.JFreeChart,int,int)> with actual argTypes: [java.io.File, org.jfree.chart.JFreeChart, int, int] and taint: [false, false, true, true, true]",
+            "<org.jfree.chart.ChartUtils: void saveChartAsPNG(java.io.File,org.jfree.chart.JFreeChart,int,int,org.jfree.chart.ChartRenderingInfo)> with actual argTypes: [java.io.File, org.jfree.chart.JFreeChart, int, int, null] and taint: [false, false, true, true, true, false]",
+            "<java.io.FileOutputStream: void <init>(java.io.File)> with actual argTypes: [java.io.File] and taint: [false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.jfree.chart.ChartPanel: void actionPerformed(java.awt.event.ActionEvent)> with actual argTypes: [java.awt.event.ActionEvent] and taint: [true, true]",
+            "<org.jfree.chart.ChartPanel: void saveAsSVG(java.io.File)> with actual argTypes: [null] and taint: [true, false]",
+            "<org.jfree.chart.ChartPanel: java.lang.String generateSVG(int,int)> with actual argTypes: [int, int] and taint: [true, true, true]",
+            "<org.jfree.chart.ChartPanel: java.awt.Graphics2D createSVGGraphics2D(int,int)> with actual argTypes: [int, int] and taint: [true, true, true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.jfree.chart.ChartPanel: void actionPerformed(java.awt.event.ActionEvent)> with actual argTypes: [java.awt.event.ActionEvent] and taint: [true, true]",
+            "<org.jfree.chart.ChartPanel: void saveAsPDF(java.io.File)> with actual argTypes: [null] and taint: [true, false]",
+            "<org.jfree.chart.ChartPanel: void writeAsPDF(java.io.File,int,int)> with actual argTypes: [java.io.File, int, int] and taint: [true, false, true, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [false, false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.jfree.chart.ChartPanel: void actionPerformed(java.awt.event.ActionEvent)> with actual argTypes: [java.awt.event.ActionEvent] and taint: [true, true]",
+            "<org.jfree.chart.ChartPanel: void saveAsSVG(java.io.File)> with actual argTypes: [null] and taint: [true, false]",
+            "<org.jfree.chart.ChartPanel: java.lang.String generateSVG(int,int)> with actual argTypes: [int, int] and taint: [true, true, true]",
+            "<org.jfree.chart.ChartPanel: java.awt.Graphics2D createSVGGraphics2D(int,int)> with actual argTypes: [int, int] and taint: [true, true, true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, true]"
+        ]
+    ]
+}

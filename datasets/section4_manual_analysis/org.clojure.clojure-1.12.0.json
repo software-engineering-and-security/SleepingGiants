@@ -1,0 +1,330 @@
+{
+    "tabby": [
+        [
+            "javax.swing.JMenuBar#readObject",
+            "-[CALL]-> java.lang.Object#equals -[ALIAS]-> java.util.jar.Attributes#equals",
+            "-[CALL]-> java.util.Map#equals -[ALIAS]-> clojure.reflect.Constructor#equals",
+            "-[CALL]-> clojure.lang.APersistentMap#mapEquals",
+            "-[CALL]-> clojure.lang.Counted#count -[ALIAS]-> clojure.core.proxy$clojure.lang.APersistentMap$ff19274a#count",
+            "-[CALL]-> clojure.lang.IFn#invoke -[ALIAS]-> clojure.lang.AFn#invoke -[ALIAS]-> clojure.core$bean#invoke",
+            "-[CALL]-> clojure.core$bean#invokeStatic",
+            "-[CALL]-> java.beans.Introspector#getBeanInfo"
+        ],
+        [
+            "javax.swing.JMenuBar#readObject",
+            "-[CALL]-> java.lang.Object#equals -[ALIAS]-> java.util.jar.Attributes#equals",
+            "-[CALL]-> java.util.Map#equals -[ALIAS]-> clojure.lang.APersistentMap#equals -[ALIAS]-> clojure.core.proxy$clojure.lang.APersistentMap$ff19274a#equals",
+            "-[CALL]-> clojure.lang.IFn#invoke -[ALIAS]-> clojure.lang.AFn#invoke -[ALIAS]-> clojure.core$bean$fn__7323#invoke",
+            "-[CALL]-> clojure.lang.IFn#invoke -[ALIAS]-> clojure.lang.AFn#invoke -[ALIAS]-> clojure.core$bean$fn__7301$fn__7302#invoke",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ]
+    ],
+    "androChain": [
+        [
+            "<java.security.SignedObject: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91: java.lang.Object clone()> with actual argTypes: [] and taint: [true]",
+            "<clojure.core$bean$v__7306: java.lang.Object invoke(java.lang.Object)> with actual argTypes: [clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91] and taint: [false, true]",
+            "<clojure.java.browse$browse_url$fn__11877: java.lang.Object invoke()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.ProcessBuilder: void <init>(java.util.List)> with actual argTypes: [java.util.List] and taint: [false, true]"
+        ],
+        [
+            "<java.security.SignedObject: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91: java.lang.Object clone()> with actual argTypes: [] and taint: [true]",
+            "<clojure.core$bean$v__7306: java.lang.Object invoke(java.lang.Object)> with actual argTypes: [clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91] and taint: [false, true]",
+            "<clojure.core$bean$fn__7301$fn__7302: java.lang.Object invoke()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [true, true, false]"
+        ],
+        [
+            "<java.security.SignedObject: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91: java.lang.Object clone()> with actual argTypes: [] and taint: [true]",
+            "<clojure.lang.FnLoaderThunk: java.lang.Object invoke(java.lang.Object)> with actual argTypes: [clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91] and taint: [false, true]",
+            "<clojure.lang.FnLoaderThunk: void load()> with actual argTypes: [] and taint: [false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, false]"
+        ],
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91: boolean equals(java.lang.Object)> with actual argTypes: [java.lang.Class] and taint: [true, true]",
+            "<clojure.java.io$fn__11659: java.lang.Object invoke(java.lang.Object,java.lang.Object)> with actual argTypes: [clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91, java.lang.Object] and taint: [false, true, true]",
+            "<clojure.java.io$fn__11659: java.lang.Object invokeStatic(java.lang.Object,java.lang.Object)> with actual argTypes: [java.lang.Object, java.lang.Object] and taint: [false, true, true]",
+            "<java.net.URL: java.io.InputStream openStream()> with actual argTypes: [] and taint: [true]"
+        ],
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91: boolean equals(java.lang.Object)> with actual argTypes: [java.lang.Class] and taint: [true, true]",
+            "<clojure.java.io$fn__11657: java.lang.Object invoke(java.lang.Object,java.lang.Object)> with actual argTypes: [clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91, java.lang.Object] and taint: [false, true, true]",
+            "<clojure.java.io$fn__11657: java.lang.Object invokeStatic(java.lang.Object,java.lang.Object)> with actual argTypes: [java.lang.Object, java.lang.Object] and taint: [false, true, true]",
+            "<java.io.FileOutputStream: void <init>(java.io.File,boolean)> with actual argTypes: [java.io.File, boolean] and taint: [false, true, true]"
+        ],
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91: boolean equals(java.lang.Object)> with actual argTypes: [java.lang.Class] and taint: [true, true]",
+            "<clojure.core$load_data_reader_file: java.lang.Object invoke(java.lang.Object,java.lang.Object)> with actual argTypes: [clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91, java.lang.Object] and taint: [false, true, true]",
+            "<clojure.core$load_data_reader_file: java.lang.Object invokeStatic(java.lang.Object,java.lang.Object)> with actual argTypes: [java.lang.Object, java.lang.Object] and taint: [false, true, true]",
+            "<java.net.URL: java.io.InputStream openStream()> with actual argTypes: [] and taint: [true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<clojure.lang.AFn: java.lang.Object call()> with actual argTypes: [] and taint: [true]",
+            "<clojure.java.browse$browse_url$fn__11877: java.lang.Object invoke()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.ProcessBuilder: void <init>(java.util.List)> with actual argTypes: [java.util.List] and taint: [false, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<clojure.lang.AFn: java.lang.Object call()> with actual argTypes: [] and taint: [true]",
+            "<clojure.core$bean$fn__7301$fn__7302: java.lang.Object invoke()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [true, true, false]"
+        ],
+        [
+            "<java.security.SignedObject: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91: java.lang.Object clone()> with actual argTypes: [] and taint: [true]",
+            "<clojure.core$bean$v__7306: java.lang.Object invoke(java.lang.Object)> with actual argTypes: [clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91] and taint: [false, true]",
+            "<clojure.java.browse$xdg_open_loc$fn__11871: java.lang.Object invoke()> with actual argTypes: [] and taint: [true]",
+            "<clojure.java.shell$sh: java.lang.Object invokeStatic(clojure.lang.ISeq)> with actual argTypes: [clojure.lang.ArraySeq] and taint: [false, true]",
+            "<java.lang.Runtime: java.lang.Process exec(java.lang.String[],java.lang.String[],java.io.File)> with actual argTypes: [java.lang.String[], java.lang.String[], java.io.File] and taint: [false, true, true, true]"
+        ],
+        [
+            "<java.security.SignedObject: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91: java.lang.Object clone()> with actual argTypes: [] and taint: [true]",
+            "<clojure.lang.RestFn: java.lang.Object invoke(java.lang.Object)> with actual argTypes: [clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91] and taint: [false, true]",
+            "<clojure.java.io$delete_file: java.lang.Object doInvoke(java.lang.Object,java.lang.Object)> with actual argTypes: [java.lang.Object, null] and taint: [false, true, false]",
+            "<clojure.java.io$delete_file: java.lang.Object invokeStatic(java.lang.Object,clojure.lang.ISeq)> with actual argTypes: [java.lang.Object, clojure.lang.ISeq] and taint: [false, true, false]",
+            "<java.io.File: boolean delete()> with actual argTypes: [] and taint: [true]"
+        ],
+        [
+            "<java.security.SignedObject: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91: java.lang.Object clone()> with actual argTypes: [] and taint: [true]",
+            "<clojure.lang.RestFn: java.lang.Object invoke(java.lang.Object)> with actual argTypes: [clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91] and taint: [false, true]",
+            "<clojure.java.process$start: java.lang.Object doInvoke(java.lang.Object)> with actual argTypes: [clojure.lang.ArraySeq] and taint: [false, true]",
+            "<clojure.java.process$start: java.lang.Object invokeStatic(clojure.lang.ISeq)> with actual argTypes: [clojure.lang.ISeq] and taint: [false, true]",
+            "<java.lang.ProcessBuilder: void <init>(java.util.List)> with actual argTypes: [java.util.List] and taint: [false, true]"
+        ],
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91: boolean equals(java.lang.Object)> with actual argTypes: [java.lang.Class] and taint: [true, true]",
+            "<clojure.java.browse_ui$open_url_in_swing$fn__11966: java.lang.Object invoke(java.lang.Object,java.lang.Object)> with actual argTypes: [clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91, java.lang.Object] and taint: [false, true, true]",
+            "<javax.swing.JEditorPane: void setPage(java.net.URL)> with actual argTypes: [java.net.URL] and taint: [true, true]",
+            "<javax.swing.JEditorPane: java.io.InputStream getStream(java.net.URL)> with actual argTypes: [java.net.URL] and taint: [true, true]",
+            "<java.net.URL: java.net.URLConnection openConnection()> with actual argTypes: [] and taint: [true]"
+        ],
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91: boolean equals(java.lang.Object)> with actual argTypes: [java.lang.Class] and taint: [true, true]",
+            "<clojure.java.browse_ui$open_url_in_swing$fn__11966: java.lang.Object invoke(java.lang.Object,java.lang.Object)> with actual argTypes: [clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91, java.lang.Object] and taint: [false, true, true]",
+            "<javax.swing.JEditorPane: void setPage(java.net.URL)> with actual argTypes: [java.net.URL] and taint: [true, true]",
+            "<javax.swing.JEditorPane: void read(java.io.InputStream,javax.swing.text.Document)> with actual argTypes: [java.io.InputStream, javax.swing.text.Document] and taint: [true, true, true]",
+            "<java.net.URL: java.net.URLConnection openConnection()> with actual argTypes: [] and taint: [false]"
+        ],
+        [
+            "<java.security.SignedObject: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91: java.lang.Object clone()> with actual argTypes: [] and taint: [true]",
+            "<clojure.core$emit_protocol$fn__8113$resolve_class_symbol__8117: java.lang.Object invoke(java.lang.Object)> with actual argTypes: [clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91] and taint: [false, true]",
+            "<clojure.lang.Reflector: java.lang.Object invokeNoArgInstanceMember(java.lang.Object,java.lang.String,boolean)> with actual argTypes: [java.lang.Object, java.lang.String, int] and taint: [false, true, false, false]",
+            "<clojure.lang.Reflector: java.lang.Object invokeMatchingMethod(java.lang.String,java.util.List,java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.String, java.util.List, java.lang.Object, java.lang.Object[]] and taint: [false, false, true, true, false]",
+            "<clojure.lang.Reflector: java.lang.Object invokeMatchingMethod(java.lang.String,java.util.List,java.lang.Class,java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.String, java.util.List, null, java.lang.Object, java.lang.Object[]] and taint: [false, false, true, false, true, false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [true, true, true]"
+        ],
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91: boolean equals(java.lang.Object)> with actual argTypes: [java.lang.Class] and taint: [true, true]",
+            "<clojure.lang.RestFn: java.lang.Object invoke(java.lang.Object,java.lang.Object)> with actual argTypes: [clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91, java.lang.Object] and taint: [false, true, true]",
+            "<clojure.core$gen_interface: java.lang.Object doInvoke(java.lang.Object,java.lang.Object,java.lang.Object)> with actual argTypes: [java.lang.Object, java.lang.Object, null] and taint: [false, true, true, false]",
+            "<clojure.core$gen_interface: java.lang.Object invokeStatic(java.lang.Object,java.lang.Object,clojure.lang.ISeq)> with actual argTypes: [java.lang.Object, java.lang.Object, clojure.lang.ISeq] and taint: [false, true, true, false]",
+            "<clojure.lang.Compiler: void writeClassFile(java.lang.String,byte[])> with actual argTypes: [java.lang.String, byte[]] and taint: [false, false, false]",
+            "<java.io.FileOutputStream: void <init>(java.io.File)> with actual argTypes: [java.io.File] and taint: [false, false]"
+        ],
+        [
+            "<java.security.SignedObject: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91: java.lang.Object clone()> with actual argTypes: [] and taint: [true]",
+            "<clojure.lang.RT$3: java.lang.Object invoke(java.lang.Object)> with actual argTypes: [clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91] and taint: [false, true]",
+            "<clojure.lang.Compiler: java.lang.Object loadFile(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<clojure.lang.Compiler: java.lang.Object load(java.io.Reader,java.lang.String,java.lang.String)> with actual argTypes: [java.io.InputStreamReader, java.lang.String, java.lang.String] and taint: [false, false, false, false]",
+            "<clojure.lang.Compiler: java.lang.Object eval(java.lang.Object,boolean)> with actual argTypes: [java.lang.Object, int] and taint: [false, false, false]",
+            "<clojure.lang.Compiler$ObjExpr: java.lang.Object eval()> with actual argTypes: [] and taint: [false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, false]"
+        ],
+        [
+            "<java.security.SignedObject: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91: java.lang.Object clone()> with actual argTypes: [] and taint: [true]",
+            "<clojure.lang.RT$3: java.lang.Object invoke(java.lang.Object)> with actual argTypes: [clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91] and taint: [false, true]",
+            "<clojure.lang.Compiler: java.lang.Object loadFile(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<clojure.lang.Compiler: java.lang.Object load(java.io.Reader,java.lang.String,java.lang.String)> with actual argTypes: [java.io.InputStreamReader, java.lang.String, java.lang.String] and taint: [false, false, false, false]",
+            "<clojure.lang.Compiler: java.lang.Object eval(java.lang.Object,boolean)> with actual argTypes: [java.lang.Object, int] and taint: [false, false, false]",
+            "<clojure.lang.Compiler$NewExpr: java.lang.Object eval()> with actual argTypes: [] and taint: [false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, false]"
+        ],
+        [
+            "<java.security.SignedObject: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91: java.lang.Object clone()> with actual argTypes: [] and taint: [true]",
+            "<clojure.core$bean$v__7306: java.lang.Object invoke(java.lang.Object)> with actual argTypes: [clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91] and taint: [false, true]",
+            "<clojure.core$load$fn__6929: java.lang.Object invoke()> with actual argTypes: [] and taint: [true]",
+            "<clojure.lang.RT: void load(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<clojure.lang.RT: void load(java.lang.String,boolean)> with actual argTypes: [java.lang.String, int] and taint: [false, true, false]",
+            "<clojure.lang.RT: long lastModified(java.net.URL,java.lang.String)> with actual argTypes: [java.net.URL, java.lang.String] and taint: [false, true, true]",
+            "<java.net.URL: java.net.URLConnection openConnection()> with actual argTypes: [] and taint: [true]"
+        ],
+        [
+            "<java.security.SignedObject: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91: java.lang.Object clone()> with actual argTypes: [] and taint: [true]",
+            "<clojure.core$resultset_seq: java.lang.Object invoke(java.lang.Object)> with actual argTypes: [clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91] and taint: [false, true]",
+            "<clojure.core$resultset_seq: java.lang.Object invokeStatic(java.lang.Object)> with actual argTypes: [java.lang.Object] and taint: [false, true]",
+            "<com.sun.rowset.JdbcRowSetImpl: java.sql.ResultSetMetaData getMetaData()> with actual argTypes: [] and taint: [true]",
+            "<com.sun.rowset.JdbcRowSetImpl: java.sql.PreparedStatement prepare()> with actual argTypes: [] and taint: [false]",
+            "<com.sun.rowset.JdbcRowSetImpl: java.sql.Connection connect()> with actual argTypes: [] and taint: [false]",
+            "<javax.naming.InitialContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<java.security.SignedObject: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91: java.lang.Object clone()> with actual argTypes: [] and taint: [true]",
+            "<clojure.core$bean$v__7306: java.lang.Object invoke(java.lang.Object)> with actual argTypes: [clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91] and taint: [false, true]",
+            "<clojure.xml$sax_parser: java.lang.Object invoke()> with actual argTypes: [] and taint: [true]",
+            "<clojure.xml$sax_parser: java.lang.Object invokeStatic()> with actual argTypes: [] and taint: [false]",
+            "<javax.xml.parsers.SAXParserFactory: javax.xml.parsers.SAXParserFactory newInstance()> with actual argTypes: [] and taint: [false]",
+            "<javax.xml.parsers.FactoryFinder: java.lang.Object find(java.lang.Class,java.lang.String)> with actual argTypes: [java.lang.Class, java.lang.String] and taint: [false, false, false]",
+            "<javax.xml.parsers.FactoryFinder: java.lang.Object newInstance(java.lang.Class,java.lang.String,java.lang.ClassLoader,boolean)> with actual argTypes: [java.lang.Class, java.lang.String, null, int] and taint: [false, false, false, false, false]",
+            "<javax.xml.parsers.FactoryFinder: java.lang.Object newInstance(java.lang.Class,java.lang.String,java.lang.ClassLoader,boolean,boolean)> with actual argTypes: [java.lang.Class, java.lang.String, java.lang.ClassLoader, boolean, int] and taint: [false, false, false, false, false, false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, false]"
+        ],
+        [
+            "<java.security.SignedObject: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91: java.lang.Object clone()> with actual argTypes: [] and taint: [true]",
+            "<clojure.core$bean$v__7306: java.lang.Object invoke(java.lang.Object)> with actual argTypes: [clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91] and taint: [false, true]",
+            "<clojure.core$load$fn__6929: java.lang.Object invoke()> with actual argTypes: [] and taint: [true]",
+            "<clojure.lang.RT: void load(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<clojure.lang.RT: void load(java.lang.String,boolean)> with actual argTypes: [java.lang.String, int] and taint: [false, true, false]",
+            "<clojure.lang.RT: void compile(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<clojure.lang.RT: java.io.InputStream resourceAsStream(java.lang.ClassLoader,java.lang.String)> with actual argTypes: [java.lang.ClassLoader, java.lang.String] and taint: [false, false, true]",
+            "<java.lang.ClassLoader: java.io.InputStream getSystemResourceAsStream(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<java.net.URL: java.io.InputStream openStream()> with actual argTypes: [] and taint: [true]"
+        ],
+        [
+            "<java.security.SignedObject: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91: java.lang.Object clone()> with actual argTypes: [] and taint: [true]",
+            "<clojure.core$bean$v__7306: java.lang.Object invoke(java.lang.Object)> with actual argTypes: [clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91] and taint: [false, true]",
+            "<clojure.java.browse$xdg_open_loc$fn__11871: java.lang.Object invoke()> with actual argTypes: [] and taint: [true]",
+            "<clojure.java.shell$sh: java.lang.Object invokeStatic(clojure.lang.ISeq)> with actual argTypes: [clojure.lang.ArraySeq] and taint: [false, false]",
+            "<java.lang.Runtime: java.lang.Process exec(java.lang.String[],java.lang.String[],java.io.File)> with actual argTypes: [java.lang.String[], java.lang.String[], java.io.File] and taint: [false, false, false, false]"
+        ],
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91: boolean equals(java.lang.Object)> with actual argTypes: [java.lang.Class] and taint: [true, true]",
+            "<clojure.pprint$capitalize_word_writer$fn__10777: java.lang.Object invoke(java.lang.Object,java.lang.Object)> with actual argTypes: [clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91, java.lang.Object] and taint: [false, true, true]",
+            "<clojure.lang.LockingTransaction: java.lang.Object runInTransaction(java.util.concurrent.Callable)> with actual argTypes: [java.util.concurrent.Callable] and taint: [false, false]",
+            "<clojure.lang.AFn: java.lang.Object call()> with actual argTypes: [] and taint: [false]",
+            "<clojure.java.browse$browse_url$fn__11877: java.lang.Object invoke()> with actual argTypes: [] and taint: [false]",
+            "<java.lang.ProcessBuilder: void <init>(java.util.List)> with actual argTypes: [java.util.List] and taint: [false, false]"
+        ],
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91: boolean equals(java.lang.Object)> with actual argTypes: [java.lang.Class] and taint: [true, true]",
+            "<clojure.pprint$capitalize_word_writer$fn__10777: java.lang.Object invoke(java.lang.Object,java.lang.Object)> with actual argTypes: [clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91, java.lang.Object] and taint: [false, true, true]",
+            "<clojure.lang.LockingTransaction: java.lang.Object runInTransaction(java.util.concurrent.Callable)> with actual argTypes: [java.util.concurrent.Callable] and taint: [false, false]",
+            "<clojure.lang.AFn: java.lang.Object call()> with actual argTypes: [] and taint: [false]",
+            "<clojure.core$bean$fn__7301$fn__7302: java.lang.Object invoke()> with actual argTypes: [] and taint: [false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [false, false, false]"
+        ],
+        [
+            "<java.security.SignedObject: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91: java.lang.Object clone()> with actual argTypes: [] and taint: [true]",
+            "<clojure.core$deref_future: java.lang.Object invoke(java.lang.Object)> with actual argTypes: [clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91] and taint: [false, true]",
+            "<clojure.core$deref_future: java.lang.Object invokeStatic(java.lang.Object)> with actual argTypes: [java.lang.Object] and taint: [false, true]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Object get()> with actual argTypes: [] and taint: [true]",
+            "<java.util.concurrent.ForkJoinTask: void reportExecutionException(int)> with actual argTypes: [int] and taint: [true, true]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Throwable getThrowableException()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, true]"
+        ],
+        [
+            "<java.security.SignedObject: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91: java.lang.Object clone()> with actual argTypes: [] and taint: [true]",
+            "<clojure.core$deref_future: java.lang.Object invoke(java.lang.Object)> with actual argTypes: [clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91] and taint: [false, true]",
+            "<clojure.core$deref_future: java.lang.Object invokeStatic(java.lang.Object)> with actual argTypes: [java.lang.Object] and taint: [false, true]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Object get()> with actual argTypes: [] and taint: [true]",
+            "<java.util.concurrent.ForkJoinTask: void reportExecutionException(int)> with actual argTypes: [int] and taint: [true, true]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Throwable getThrowableException()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, false]"
+        ],
+        [
+            "<java.security.SignedObject: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91: java.lang.Object clone()> with actual argTypes: [] and taint: [true]",
+            "<clojure.core$emit_protocol$fn__8113$resolve_class_symbol__8117: java.lang.Object invoke(java.lang.Object)> with actual argTypes: [clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91] and taint: [false, true]",
+            "<clojure.lang.Reflector: java.lang.Object invokeNoArgInstanceMember(java.lang.Object,java.lang.String,boolean)> with actual argTypes: [java.lang.Object, java.lang.String, int] and taint: [false, true, false, false]",
+            "<clojure.lang.Reflector: java.lang.Object invokeMatchingMethod(java.lang.String,java.util.List,java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.String, java.util.List, java.lang.Object, java.lang.Object[]] and taint: [false, false, true, true, false]",
+            "<clojure.lang.Reflector: java.lang.Object invokeMatchingMethod(java.lang.String,java.util.List,java.lang.Class,java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.String, java.util.List, null, java.lang.Object, java.lang.Object[]] and taint: [false, false, true, false, true, false]",
+            "<clojure.lang.Reflector: java.lang.Object[] boxArgs(java.lang.Class[],java.lang.Object[])> with actual argTypes: [java.lang.Class[], java.lang.Object[]] and taint: [false, true, false]",
+            "<clojure.lang.Reflector: java.lang.Object boxArg(java.lang.Class,java.lang.Object)> with actual argTypes: [java.lang.Class, java.lang.Object] and taint: [false, true, false]",
+            "<java.lang.reflect.Proxy: java.lang.Object newProxyInstance(java.lang.ClassLoader,java.lang.Class[],java.lang.reflect.InvocationHandler)> with actual argTypes: [java.lang.ClassLoader, java.lang.Class[], java.lang.reflect.InvocationHandler] and taint: [false, false, true, false]",
+            "<java.lang.reflect.Proxy: java.lang.Object newProxyInstance(java.lang.Class,java.lang.reflect.Constructor,java.lang.reflect.InvocationHandler)> with actual argTypes: [java.lang.Class, java.lang.reflect.Constructor, java.lang.reflect.InvocationHandler] and taint: [false, false, true, false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, false]"
+        ],
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91: boolean equals(java.lang.Object)> with actual argTypes: [java.lang.Class] and taint: [true, true]",
+            "<clojure.java.browse_ui$open_url_in_swing$fn__11966: java.lang.Object invoke(java.lang.Object,java.lang.Object)> with actual argTypes: [clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91, java.lang.Object] and taint: [false, true, true]",
+            "<javax.swing.JEditorPane: void setPage(java.net.URL)> with actual argTypes: [java.net.URL] and taint: [true, true]",
+            "<javax.swing.JEditorPane: void read(java.io.InputStream,javax.swing.text.Document)> with actual argTypes: [java.io.InputStream, javax.swing.text.Document] and taint: [true, true, true]",
+            "<javax.swing.text.AbstractDocument: void remove(int,int)> with actual argTypes: [int, int] and taint: [false, false, false]",
+            "<javax.swing.text.DefaultFormatter$DefaultDocumentFilter: void remove(javax.swing.text.DocumentFilter$FilterBypass,int,int)> with actual argTypes: [javax.swing.text.DocumentFilter$FilterBypass, int, int] and taint: [false, false, false, false]",
+            "<javax.swing.text.NumberFormatter: void replace(javax.swing.text.DocumentFilter$FilterBypass,int,int,java.lang.String,javax.swing.text.AttributeSet)> with actual argTypes: [javax.swing.text.DocumentFilter$FilterBypass, int, int, null, null] and taint: [false, false, false, false, false, false]",
+            "<javax.swing.text.NumberFormatter: boolean toggleSignIfNecessary(javax.swing.text.DocumentFilter$FilterBypass,int,char)> with actual argTypes: [javax.swing.text.DocumentFilter$FilterBypass, int, char] and taint: [false, false, false, false]",
+            "<javax.swing.text.NumberFormatter: java.lang.Object toggleSign(boolean)> with actual argTypes: [boolean] and taint: [false, false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, false]"
+        ],
+        [
+            "<java.security.SignedObject: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91: java.lang.Object clone()> with actual argTypes: [] and taint: [true]",
+            "<clojure.inspector$inspect: java.lang.Object invoke(java.lang.Object)> with actual argTypes: [clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91] and taint: [false, true]",
+            "<clojure.inspector$inspect: java.lang.Object invokeStatic(java.lang.Object)> with actual argTypes: [java.lang.Object] and taint: [false, true]",
+            "<java.awt.Container: java.awt.Component add(java.awt.Component)> with actual argTypes: [java.awt.Component] and taint: [false, false]",
+            "<java.awt.Container: void addImpl(java.awt.Component,java.lang.Object,int)> with actual argTypes: [java.awt.Component, null, int] and taint: [false, false, false, false]",
+            "<java.awt.Component: void dispatchEvent(java.awt.AWTEvent)> with actual argTypes: [java.awt.event.ContainerEvent] and taint: [false, false]",
+            "<java.awt.Component: void dispatchEventImpl(java.awt.AWTEvent)> with actual argTypes: [java.awt.AWTEvent] and taint: [false, false]",
+            "<java.awt.List: void processEvent(java.awt.AWTEvent)> with actual argTypes: [java.awt.AWTEvent] and taint: [false, false]",
+            "<java.awt.List: void processActionEvent(java.awt.event.ActionEvent)> with actual argTypes: [java.awt.event.ActionEvent] and taint: [false, false]",
+            "<javax.swing.plaf.basic.BasicFileChooserUI$ApproveSelectionAction: void actionPerformed(java.awt.event.ActionEvent)> with actual argTypes: [java.awt.event.ActionEvent] and taint: [false, false]",
+            "<sun.print.ServiceDialog$ValidatingFileChooser: void approveSelection()> with actual argTypes: [] and taint: [false]",
+            "<java.io.File: boolean delete()> with actual argTypes: [] and taint: [false]"
+        ],
+        [
+            "<java.security.SignedObject: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91: java.lang.Object clone()> with actual argTypes: [] and taint: [true]",
+            "<clojure.inspector$inspect: java.lang.Object invoke(java.lang.Object)> with actual argTypes: [clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91] and taint: [false, true]",
+            "<clojure.inspector$inspect: java.lang.Object invokeStatic(java.lang.Object)> with actual argTypes: [java.lang.Object] and taint: [false, true]",
+            "<java.awt.Container: java.awt.Component add(java.awt.Component)> with actual argTypes: [java.awt.Component] and taint: [false, false]",
+            "<java.awt.Container: void addImpl(java.awt.Component,java.lang.Object,int)> with actual argTypes: [java.awt.Component, null, int] and taint: [false, false, false, false]",
+            "<java.awt.Component: void dispatchEvent(java.awt.AWTEvent)> with actual argTypes: [java.awt.event.ContainerEvent] and taint: [false, false]",
+            "<java.awt.Component: void dispatchEventImpl(java.awt.AWTEvent)> with actual argTypes: [java.awt.AWTEvent] and taint: [false, false]",
+            "<java.awt.Component: void processEvent(java.awt.AWTEvent)> with actual argTypes: [java.awt.AWTEvent] and taint: [false, false]",
+            "<javax.swing.JFormattedTextField: void processFocusEvent(java.awt.event.FocusEvent)> with actual argTypes: [java.awt.event.FocusEvent] and taint: [false, false]",
+            "<javax.swing.JFormattedTextField$FocusLostHandler: void run()> with actual argTypes: [] and taint: [false]",
+            "<javax.swing.JFormattedTextField: void commitEdit()> with actual argTypes: [] and taint: [false]",
+            "<javax.swing.text.DefaultFormatter: java.lang.Object stringToValue(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, false]"
+        ],
+        [
+            "<java.security.SignedObject: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91: java.lang.Object clone()> with actual argTypes: [] and taint: [true]",
+            "<clojure.inspector$inspect: java.lang.Object invoke(java.lang.Object)> with actual argTypes: [clojure.inspector.proxy$java.lang.Object$TableModel$ab7d0f91] and taint: [false, true]",
+            "<clojure.inspector$inspect: java.lang.Object invokeStatic(java.lang.Object)> with actual argTypes: [java.lang.Object] and taint: [false, true]",
+            "<java.awt.Container: java.awt.Component add(java.awt.Component)> with actual argTypes: [java.awt.Component] and taint: [false, false]",
+            "<java.awt.Container: void addImpl(java.awt.Component,java.lang.Object,int)> with actual argTypes: [java.awt.Component, null, int] and taint: [false, false, false, false]",
+            "<java.awt.Component: void dispatchEvent(java.awt.AWTEvent)> with actual argTypes: [java.awt.event.ContainerEvent] and taint: [false, false]",
+            "<java.awt.Component: void dispatchEventImpl(java.awt.AWTEvent)> with actual argTypes: [java.awt.AWTEvent] and taint: [false, false]",
+            "<java.awt.List: void processEvent(java.awt.AWTEvent)> with actual argTypes: [java.awt.AWTEvent] and taint: [false, false]",
+            "<java.awt.List: void processActionEvent(java.awt.event.ActionEvent)> with actual argTypes: [java.awt.event.ActionEvent] and taint: [false, false]",
+            "<sun.tools.jconsole.Plotter: void actionPerformed(java.awt.event.ActionEvent)> with actual argTypes: [java.awt.event.ActionEvent] and taint: [false, false]",
+            "<sun.tools.jconsole.Plotter: void saveAs()> with actual argTypes: [] and taint: [false]",
+            "<sun.tools.jconsole.Plotter: void saveDataToFile(java.io.File)> with actual argTypes: [java.io.File] and taint: [false, false]",
+            "<java.io.FileOutputStream: void <init>(java.io.File)> with actual argTypes: [java.io.File] and taint: [false, false]"
+        ],
+        [
+            "<java.security.SignedObject: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<clojure.inspector.proxy$javax.swing.table.AbstractTableModel$ff19274a: java.lang.Object clone()> with actual argTypes: [] and taint: [true]",
+            "<clojure.core$bean$v__7306: java.lang.Object invoke(java.lang.Object)> with actual argTypes: [clojure.inspector.proxy$javax.swing.table.AbstractTableModel$ff19274a] and taint: [false, true]",
+            "<clojure.java.browse$xdg_open_loc$fn__11871: java.lang.Object invoke()> with actual argTypes: [] and taint: [true]",
+            "<clojure.java.shell$sh: java.lang.Object invokeStatic(clojure.lang.ISeq)> with actual argTypes: [clojure.lang.ArraySeq] and taint: [false, true]",
+            "<java.lang.Runtime: java.lang.Process exec(java.lang.String[],java.lang.String[],java.io.File)> with actual argTypes: [java.lang.String[], java.lang.String[], java.io.File] and taint: [false, true, true, true]"
+        ]
+    ]
+}

@@ -1,0 +1,24 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+16033,org.apache.parquet.parquet-column,1.7.0,2015-05-15,https://repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.7.0/parquet-column-1.7.0.jar,68,,,,,,,1.8.0
+16034,org.apache.parquet.parquet-column,1.8.0,2015-07-12,https://repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.8.0/parquet-column-1.8.0.jar,68,0,0,0,0,0,0,1.8.1
+16035,org.apache.parquet.parquet-column,1.8.1,2015-07-17,https://repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.8.1/parquet-column-1.8.1.jar,68,0,0,0,0,0,0,1.8.2
+16036,org.apache.parquet.parquet-column,1.8.2,2017-01-19,https://repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.8.2/parquet-column-1.8.2.jar,69,0,0,0,0,1,0,1.8.3
+16037,org.apache.parquet.parquet-column,1.8.3,2018-05-04,https://repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.8.3/parquet-column-1.8.3.jar,69,0,0,0,0,0,0,1.9.0
+16038,org.apache.parquet.parquet-column,1.9.0,2016-10-19,https://repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.9.0/parquet-column-1.9.0.jar,69,0,0,0,0,0,0,1.10.0
+16039,org.apache.parquet.parquet-column,1.10.0,2018-04-05,https://repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.10.0/parquet-column-1.10.0.jar,68,0,0,0,0,0,1,1.10.1
+16040,org.apache.parquet.parquet-column,1.10.1,2019-01-28,https://repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.10.1/parquet-column-1.10.1.jar,68,0,0,0,0,0,0,1.11.0
+16041,org.apache.parquet.parquet-column,1.11.0,2019-11-13,https://repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.11.0/parquet-column-1.11.0.jar,216,1,0,12,0,352,60,1.11.1
+16042,org.apache.parquet.parquet-column,1.11.1,2020-08-12,https://repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.11.1/parquet-column-1.11.1.jar,216,0,0,0,0,0,0,1.11.2
+16043,org.apache.parquet.parquet-column,1.11.2,2021-10-06,https://repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.11.2/parquet-column-1.11.2.jar,216,0,0,0,0,0,0,1.12.0
+16044,org.apache.parquet.parquet-column,1.12.0,2021-03-25,https://repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.12.0/parquet-column-1.12.0.jar,266,0,0,0,0,50,0,1.12.1
+15969,org.apache.parquet.parquet-column,1.12.1,2021-09-15,https://repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.12.1/parquet-column-1.12.1.jar,266,0,0,0,0,0,0,1.12.2
+16020,org.apache.parquet.parquet-column,1.12.2,2021-10-06,https://repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.12.2/parquet-column-1.12.2.jar,266,0,0,0,0,0,0,1.12.3
+15968,org.apache.parquet.parquet-column,1.12.3,2022-05-27,https://repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.12.3/parquet-column-1.12.3.jar,269,0,0,0,0,3,0,1.13.0
+15914,org.apache.parquet.parquet-column,1.13.0,2023-04-06,https://repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.13.0/parquet-column-1.13.0.jar,269,0,0,0,0,0,0,1.13.1
+15891,org.apache.parquet.parquet-column,1.13.1,2023-05-18,https://repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.13.1/parquet-column-1.13.1.jar,269,0,0,0,0,0,0,1.14.0
+15892,org.apache.parquet.parquet-column,1.14.0,2024-05-07,https://repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.14.0/parquet-column-1.14.0.jar,351,0,0,0,0,108,2,1.14.1
+15893,org.apache.parquet.parquet-column,1.14.1,2024-06-16,https://repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.14.1/parquet-column-1.14.1.jar,351,0,0,0,0,0,0,1.14.2
+15894,org.apache.parquet.parquet-column,1.14.2,2024-08-21,https://repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.14.2/parquet-column-1.14.2.jar,351,0,0,0,0,0,0,1.14.3
+15895,org.apache.parquet.parquet-column,1.14.3,2024-10-05,https://repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.14.3/parquet-column-1.14.3.jar,351,0,0,0,0,0,0,1.14.4
+15896,org.apache.parquet.parquet-column,1.14.4,2024-11-11,https://repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.14.4/parquet-column-1.14.4.jar,351,0,0,0,0,0,0,1.15.0
+15897,org.apache.parquet.parquet-column,1.15.0,2024-12-02,https://repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.15.0/parquet-column-1.15.0.jar,: 356,0,0,0,0,5,0,

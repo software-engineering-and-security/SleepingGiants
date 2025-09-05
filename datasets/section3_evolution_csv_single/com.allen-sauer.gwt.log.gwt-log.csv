@@ -1,0 +1,9 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+8083,com.allen-sauer.gwt.log.gwt-log,3.1.6,2011-10-18,https://repo1.maven.org/maven2/com/allen-sauer/gwt/log/gwt-log/3.1.6/gwt-log-3.1.6.jar,2,,,,,,,3.1.7
+8084,com.allen-sauer.gwt.log.gwt-log,3.1.7,2011-12-15,https://repo1.maven.org/maven2/com/allen-sauer/gwt/log/gwt-log/3.1.7/gwt-log-3.1.7.jar,2,0,0,0,0,0,0,3.1.8
+8085,com.allen-sauer.gwt.log.gwt-log,3.1.8,2012-02-09,https://repo1.maven.org/maven2/com/allen-sauer/gwt/log/gwt-log/3.1.8/gwt-log-3.1.8.jar,2,0,0,0,0,0,0,3.2.0
+8062,com.allen-sauer.gwt.log.gwt-log,3.2.0,2012-11-29,https://repo1.maven.org/maven2/com/allen-sauer/gwt/log/gwt-log/3.2.0/gwt-log-3.2.0.jar,2,0,0,0,0,0,0,3.2.1
+8061,com.allen-sauer.gwt.log.gwt-log,3.2.1,2013-01-29,https://repo1.maven.org/maven2/com/allen-sauer/gwt/log/gwt-log/3.2.1/gwt-log-3.2.1.jar,2,0,0,0,0,0,0,3.3.0
+8060,com.allen-sauer.gwt.log.gwt-log,3.3.0,2014-02-06,https://repo1.maven.org/maven2/com/allen-sauer/gwt/log/gwt-log/3.3.0/gwt-log-3.3.0.jar,2,0,0,0,0,0,0,3.3.1
+8059,com.allen-sauer.gwt.log.gwt-log,3.3.1,2014-07-03,https://repo1.maven.org/maven2/com/allen-sauer/gwt/log/gwt-log/3.3.1/gwt-log-3.3.1.jar,2,0,0,0,0,0,0,3.3.2
+8038,com.allen-sauer.gwt.log.gwt-log,3.3.2,2014-08-20,https://repo1.maven.org/maven2/com/allen-sauer/gwt/log/gwt-log/3.3.2/gwt-log-3.3.2.jar,: 2,0,0,0,0,0,0,

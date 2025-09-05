@@ -1,0 +1,7 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+53824,androidx.versionedparcelable.versionedparcelable,1.0.0,2018-09-21,https://maven.google.com/androidx/versionedparcelable/versionedparcelable/1.0.0/versionedparcelable-1.0.0.aar,,,,,,,,1.1.0
+53825,androidx.versionedparcelable.versionedparcelable,1.1.0,2019-08-07,https://maven.google.com/androidx/versionedparcelable/versionedparcelable/1.1.0/versionedparcelable-1.1.0.aar,,,,,,,,1.1.1
+53826,androidx.versionedparcelable.versionedparcelable,1.1.1,2020-04-15,https://maven.google.com/androidx/versionedparcelable/versionedparcelable/1.1.1/versionedparcelable-1.1.1.aar,,,,,,,,1.2.0
+53827,androidx.versionedparcelable.versionedparcelable,1.2.0,2024-01-10,https://maven.google.com/androidx/versionedparcelable/versionedparcelable/1.2.0/versionedparcelable-1.2.0.aar,,,,,,,,1.2.1
+53829,androidx.versionedparcelable.versionedparcelable,1.2.1,2025-01-29,https://maven.google.com/androidx/versionedparcelable/versionedparcelable/1.2.1/versionedparcelable-1.2.1.aar,,,,,,,,28.0.0
+103386,androidx.versionedparcelable.versionedparcelable,28.0.0,2018-09-21,https://maven.google.com/com/android/support/versionedparcelable/28.0.0/versionedparcelable-28.0.0.aar,,,,,,,,

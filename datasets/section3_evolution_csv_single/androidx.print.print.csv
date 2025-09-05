@@ -1,0 +1,3 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+53037,androidx.print.print,1.0.0,2018-09-21,https://maven.google.com/androidx/print/print/1.0.0/print-1.0.0.aar,,,,,,,,28.0.0
+103428,androidx.print.print,28.0.0,2018-09-21,https://maven.google.com/com/android/support/print/28.0.0/print-28.0.0.aar,,,,,,,,

@@ -1,0 +1,12 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+73247,org.reflections.reflections,0.9.5,2011-08-17,https://repo1.maven.org/maven2/org/reflections/reflections/0.9.5/reflections-0.9.5.jar,,,,,,,,0.9.6
+73249,org.reflections.reflections,0.9.6,2011-10-25,https://repo1.maven.org/maven2/org/reflections/reflections/0.9.6/reflections-0.9.6.jar,,,,,,,,0.9.7
+73250,org.reflections.reflections,0.9.7,2012-05-21,https://repo1.maven.org/maven2/org/reflections/reflections/0.9.7/reflections-0.9.7.jar,,,,,,,,0.9.8
+73263,org.reflections.reflections,0.9.8,2012-05-24,https://repo1.maven.org/maven2/org/reflections/reflections/0.9.8/reflections-0.9.8.jar,,,,,,,,0.9.9
+73262,org.reflections.reflections,0.9.9,2014-09-25,https://repo1.maven.org/maven2/org/reflections/reflections/0.9.9/reflections-0.9.9.jar,,,,,,,,0.9.10
+73261,org.reflections.reflections,0.9.10,2015-05-16,https://repo1.maven.org/maven2/org/reflections/reflections/0.9.10/reflections-0.9.10.jar,,,,,,,,0.9.11
+73260,org.reflections.reflections,0.9.11,2017-03-09,https://repo1.maven.org/maven2/org/reflections/reflections/0.9.11/reflections-0.9.11.jar,,,,,,,,0.9.12
+73259,org.reflections.reflections,0.9.12,2020-01-07,https://repo1.maven.org/maven2/org/reflections/reflections/0.9.12/reflections-0.9.12.jar,,,,,,,,0.10
+73258,org.reflections.reflections,0.10,2021-10-04,https://repo1.maven.org/maven2/org/reflections/reflections/0.10/reflections-0.10.jar,,,,,,,,0.10.1
+73257,org.reflections.reflections,0.10.1,2021-10-07,https://repo1.maven.org/maven2/org/reflections/reflections/0.10.1/reflections-0.10.1.jar,,,,,,,,0.10.2
+73256,org.reflections.reflections,0.10.2,2021-10-25,https://repo1.maven.org/maven2/org/reflections/reflections/0.10.2/reflections-0.10.2.jar,,,,,,,,

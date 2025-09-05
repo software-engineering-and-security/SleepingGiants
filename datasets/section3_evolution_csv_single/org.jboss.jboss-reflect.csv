@@ -1,0 +1,7 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+29302,org.jboss.jboss-reflect,2.0.0,2008-10-21,https://repo1.maven.org/maven2/org/jboss/jboss-reflect/2.0.0.GA/jboss-reflect-2.0.0.GA.jar,55,,,,,,,2.0.1
+29303,org.jboss.jboss-reflect,2.0.1,2008-11-21,https://repo1.maven.org/maven2/org/jboss/jboss-reflect/2.0.1.GA/jboss-reflect-2.0.1.GA.jar,55,0,0,0,0,0,0,2.0.2
+29304,org.jboss.jboss-reflect,2.0.2,2008-11-25,https://repo1.maven.org/maven2/org/jboss/jboss-reflect/2.0.2.GA/jboss-reflect-2.0.2.GA.jar,55,0,0,0,0,0,0,2.0.3
+29282,org.jboss.jboss-reflect,2.0.3,2010-05-20,https://repo1.maven.org/maven2/org/jboss/jboss-reflect/2.0.3.GA/jboss-reflect-2.0.3.GA.jar,55,0,0,0,0,0,0,2.2.0
+29281,org.jboss.jboss-reflect,2.2.0,2010-12-21,https://repo1.maven.org/maven2/org/jboss/jboss-reflect/2.2.0.GA/jboss-reflect-2.2.0.GA.jar,77,0,0,0,0,47,0,2.2.1
+29280,org.jboss.jboss-reflect,2.2.1,2011-02-04,https://repo1.maven.org/maven2/org/jboss/jboss-reflect/2.2.1.GA/jboss-reflect-2.2.1.GA.jar,: 77,0,0,0,0,0,0,

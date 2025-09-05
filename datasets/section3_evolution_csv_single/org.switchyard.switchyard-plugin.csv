@@ -1,0 +1,9 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+327,org.switchyard.switchyard-plugin,0.4.0,2012-02-27,https://repo1.maven.org/maven2/org/switchyard/switchyard-plugin/0.4.0.OS1/switchyard-plugin-0.4.0.OS1.jar,,,,,,,,0.5.0
+328,org.switchyard.switchyard-plugin,0.5.0,2012-07-11,https://repo1.maven.org/maven2/org/switchyard/switchyard-plugin/0.5.0.Final/switchyard-plugin-0.5.0.Final.jar,,,,,,,,0.6.0
+329,org.switchyard.switchyard-plugin,0.6.0,2012-11-07,https://repo1.maven.org/maven2/org/switchyard/switchyard-plugin/0.6.0.Final/switchyard-plugin-0.6.0.Final.jar,,,,,,,,0.7.0
+330,org.switchyard.switchyard-plugin,0.7.0,2013-01-02,https://repo1.maven.org/maven2/org/switchyard/switchyard-plugin/0.7.0.Final/switchyard-plugin-0.7.0.Final.jar,,,,,,,,0.8.0
+331,org.switchyard.switchyard-plugin,0.8.0,2013-03-21,https://repo1.maven.org/maven2/org/switchyard/switchyard-plugin/0.8.0.Final/switchyard-plugin-0.8.0.Final.jar,,,,,,,,1.1.0
+314,org.switchyard.switchyard-plugin,1.1.0,2013-11-19,https://repo1.maven.org/maven2/org/switchyard/switchyard-plugin/1.1.0.Final/switchyard-plugin-1.1.0.Final.jar,2,,,,,,,2.0.0
+306,org.switchyard.switchyard-plugin,2.0.0,2015-06-02,https://repo1.maven.org/maven2/org/switchyard/switchyard-plugin/2.0.0.Final/switchyard-plugin-2.0.0.Final.jar,2,0,0,0,0,0,0,2.1.0
+307,org.switchyard.switchyard-plugin,2.1.0,2016-08-14,https://repo1.maven.org/maven2/org/switchyard/switchyard-plugin/2.1.0.Final/switchyard-plugin-2.1.0.Final.jar,: 2,0,0,0,0,0,0,

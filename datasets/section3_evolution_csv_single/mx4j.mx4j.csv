@@ -1,0 +1,5 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+488,mx4j.mx4j,2.0.1,2005-11-08,https://repo1.maven.org/maven2/mx4j/mx4j/2.0.1/mx4j-2.0.1.jar,61,,,,,,,2.1.1
+489,mx4j.mx4j,2.1.1,2005-11-08,https://repo1.maven.org/maven2/mx4j/mx4j/2.1.1/mx4j-2.1.1.jar,61,0,0,0,0,0,0,3.0.1
+490,mx4j.mx4j,3.0.1,2005-11-08,https://repo1.maven.org/maven2/mx4j/mx4j/3.0.1/mx4j-3.0.1.jar,61,0,0,0,0,0,0,3.0.2
+491,mx4j.mx4j,3.0.2,2007-02-14,https://repo1.maven.org/maven2/mx4j/mx4j/3.0.2/mx4j-3.0.2.jar,: 61,0,0,0,0,0,0,

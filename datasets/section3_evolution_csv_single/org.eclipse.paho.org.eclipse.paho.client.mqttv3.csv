@@ -1,0 +1,10 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+21782,org.eclipse.paho.org.eclipse.paho.client.mqttv3,1.0.2,2015-12-07,https://repo1.maven.org/maven2/org/eclipse/paho/org.eclipse.paho.client.mqttv3/1.0.2/org.eclipse.paho.client.mqttv3-1.0.2.jar,,,,,,,,1.1.0
+21783,org.eclipse.paho.org.eclipse.paho.client.mqttv3,1.1.0,2016-06-18,https://repo1.maven.org/maven2/org/eclipse/paho/org.eclipse.paho.client.mqttv3/1.1.0/org.eclipse.paho.client.mqttv3-1.1.0.jar,,,,,,,,1.1.1
+21784,org.eclipse.paho.org.eclipse.paho.client.mqttv3,1.1.1,2017-03-23,https://repo1.maven.org/maven2/org/eclipse/paho/org.eclipse.paho.client.mqttv3/1.1.1/org.eclipse.paho.client.mqttv3-1.1.1.jar,,,,,,,,1.2.0
+21785,org.eclipse.paho.org.eclipse.paho.client.mqttv3,1.2.0,2017-08-14,https://repo1.maven.org/maven2/org/eclipse/paho/org.eclipse.paho.client.mqttv3/1.2.0/org.eclipse.paho.client.mqttv3-1.2.0.jar,,,,,,,,1.2.1
+21786,org.eclipse.paho.org.eclipse.paho.client.mqttv3,1.2.1,2019-02-20,https://repo1.maven.org/maven2/org/eclipse/paho/org.eclipse.paho.client.mqttv3/1.2.1/org.eclipse.paho.client.mqttv3-1.2.1.jar,,,,,,,,1.2.2
+21787,org.eclipse.paho.org.eclipse.paho.client.mqttv3,1.2.2,2019-09-23,https://repo1.maven.org/maven2/org/eclipse/paho/org.eclipse.paho.client.mqttv3/1.2.2/org.eclipse.paho.client.mqttv3-1.2.2.jar,,,,,,,,1.2.3
+21788,org.eclipse.paho.org.eclipse.paho.client.mqttv3,1.2.3,2020-04-09,https://repo1.maven.org/maven2/org/eclipse/paho/org.eclipse.paho.client.mqttv3/1.2.3/org.eclipse.paho.client.mqttv3-1.2.3.jar,,,,,,,,1.2.4
+21789,org.eclipse.paho.org.eclipse.paho.client.mqttv3,1.2.4,2020-04-16,https://repo1.maven.org/maven2/org/eclipse/paho/org.eclipse.paho.client.mqttv3/1.2.4/org.eclipse.paho.client.mqttv3-1.2.4.jar,,,,,,,,1.2.5
+21790,org.eclipse.paho.org.eclipse.paho.client.mqttv3,1.2.5,2020-07-14,https://repo1.maven.org/maven2/org/eclipse/paho/org.eclipse.paho.client.mqttv3/1.2.5/org.eclipse.paho.client.mqttv3-1.2.5.jar,,,,,,,,

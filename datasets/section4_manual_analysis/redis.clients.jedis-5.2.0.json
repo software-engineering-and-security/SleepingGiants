@@ -1,0 +1,23 @@
+{
+    "tabby": [
+        [
+            "redis.clients.jedis.resps.StreamEntry#readObject",
+            "-[CALL]-> java.io.ObjectInputStream#readUnshared",
+            "-[CALL]-> java.io.ObjectInputStream#readObject0",
+            "-[CALL]-> java.io.ObjectInputStream#readOrdinaryObject",
+            "-[CALL]-> java.io.ObjectInputStream#readSerialData",
+            "-[CALL]-> java.io.ObjectStreamClass#invokeReadObject",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ],
+        [
+            "redis.clients.jedis.resps.StreamPendingEntry#readObject",
+            "-[CALL]-> java.io.ObjectInputStream#readUnshared",
+            "-[CALL]-> java.io.ObjectInputStream#readObject0",
+            "-[CALL]-> java.io.ObjectInputStream#readOrdinaryObject",
+            "-[CALL]-> java.io.ObjectInputStream#readSerialData",
+            "-[CALL]-> java.io.ObjectStreamClass#invokeReadObject",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ]
+    ],
+    "androChain": []
+}

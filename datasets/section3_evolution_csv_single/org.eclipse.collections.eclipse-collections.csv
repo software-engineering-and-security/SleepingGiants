@@ -1,0 +1,24 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+81070,org.eclipse.collections.eclipse-collections,7.0.0,2015-12-24,https://repo1.maven.org/maven2/org/eclipse/collections/eclipse-collections/7.0.0/eclipse-collections-7.0.0.jar,761,,,,,,,7.0.1
+81064,org.eclipse.collections.eclipse-collections,7.0.1,2016-02-05,https://repo1.maven.org/maven2/org/eclipse/collections/eclipse-collections/7.0.1/eclipse-collections-7.0.1.jar,761,0,0,0,0,0,0,7.0.2
+81057,org.eclipse.collections.eclipse-collections,7.0.2,2016-02-23,https://repo1.maven.org/maven2/org/eclipse/collections/eclipse-collections/7.0.2/eclipse-collections-7.0.2.jar,761,0,0,0,0,0,0,7.0.3
+81058,org.eclipse.collections.eclipse-collections,7.0.3,2018-05-17,https://repo1.maven.org/maven2/org/eclipse/collections/eclipse-collections/7.0.3/eclipse-collections-7.0.3.jar,761,0,0,0,0,0,0,7.1.0
+81059,org.eclipse.collections.eclipse-collections,7.1.0,2016-04-08,https://repo1.maven.org/maven2/org/eclipse/collections/eclipse-collections/7.1.0/eclipse-collections-7.1.0.jar,762,0,0,0,0,1,0,7.1.1
+81060,org.eclipse.collections.eclipse-collections,7.1.1,2017-03-17,https://repo1.maven.org/maven2/org/eclipse/collections/eclipse-collections/7.1.1/eclipse-collections-7.1.1.jar,762,0,0,0,0,0,0,7.1.2
+81061,org.eclipse.collections.eclipse-collections,7.1.2,2018-05-17,https://repo1.maven.org/maven2/org/eclipse/collections/eclipse-collections/7.1.2/eclipse-collections-7.1.2.jar,762,0,0,0,0,0,0,8.0.0
+81062,org.eclipse.collections.eclipse-collections,8.0.0,2016-09-08,https://repo1.maven.org/maven2/org/eclipse/collections/eclipse-collections/8.0.0/eclipse-collections-8.0.0.jar,768,0,0,3,0,7,4,8.0.1
+81063,org.eclipse.collections.eclipse-collections,8.0.1,2017-03-17,https://repo1.maven.org/maven2/org/eclipse/collections/eclipse-collections/8.0.1/eclipse-collections-8.0.1.jar,768,0,0,0,0,0,0,8.0.2
+81065,org.eclipse.collections.eclipse-collections,8.0.2,2018-05-17,https://repo1.maven.org/maven2/org/eclipse/collections/eclipse-collections/8.0.2/eclipse-collections-8.0.2.jar,768,0,0,0,0,0,0,8.1.0
+81069,org.eclipse.collections.eclipse-collections,8.1.0,2017-03-16,https://repo1.maven.org/maven2/org/eclipse/collections/eclipse-collections/8.1.0/eclipse-collections-8.1.0.jar,768,0,0,1,0,0,1,8.2.0
+81066,org.eclipse.collections.eclipse-collections,8.2.0,2017-06-22,https://repo1.maven.org/maven2/org/eclipse/collections/eclipse-collections/8.2.0/eclipse-collections-8.2.0.jar,768,0,0,0,0,0,0,8.2.1
+81067,org.eclipse.collections.eclipse-collections,8.2.1,2018-05-17,https://repo1.maven.org/maven2/org/eclipse/collections/eclipse-collections/8.2.1/eclipse-collections-8.2.1.jar,768,0,0,0,0,0,0,9.0.0
+81068,org.eclipse.collections.eclipse-collections,9.0.0,2017-09-20,https://repo1.maven.org/maven2/org/eclipse/collections/eclipse-collections/9.0.0/eclipse-collections-9.0.0.jar,768,0,0,0,0,0,0,9.1.0
+81088,org.eclipse.collections.eclipse-collections,9.1.0,2017-12-31,https://repo1.maven.org/maven2/org/eclipse/collections/eclipse-collections/9.1.0/eclipse-collections-9.1.0.jar,768,0,0,0,0,0,0,9.2.0
+81089,org.eclipse.collections.eclipse-collections,9.2.0,2018-05-18,https://repo1.maven.org/maven2/org/eclipse/collections/eclipse-collections/9.2.0/eclipse-collections-9.2.0.jar,769,0,0,0,0,1,0,10.0.0
+81106,org.eclipse.collections.eclipse-collections,10.0.0,2019-07-12,https://repo1.maven.org/maven2/org/eclipse/collections/eclipse-collections/10.0.0/eclipse-collections-10.0.0.jar,770,0,0,0,0,1,0,10.1.0
+81107,org.eclipse.collections.eclipse-collections,10.1.0,2019-12-04,https://repo1.maven.org/maven2/org/eclipse/collections/eclipse-collections/10.1.0/eclipse-collections-10.1.0.jar,770,0,0,0,0,0,0,10.2.0
+81108,org.eclipse.collections.eclipse-collections,10.2.0,2020-02-11,https://repo1.maven.org/maven2/org/eclipse/collections/eclipse-collections/10.2.0/eclipse-collections-10.2.0.jar,770,0,0,0,0,0,0,10.3.0
+81109,org.eclipse.collections.eclipse-collections,10.3.0,2020-08-07,https://repo1.maven.org/maven2/org/eclipse/collections/eclipse-collections/10.3.0/eclipse-collections-10.3.0.jar,774,0,0,0,0,4,0,10.4.0
+81110,org.eclipse.collections.eclipse-collections,10.4.0,2020-08-20,https://repo1.maven.org/maven2/org/eclipse/collections/eclipse-collections/10.4.0/eclipse-collections-10.4.0.jar,774,0,0,0,0,0,0,11.0.0
+81105,org.eclipse.collections.eclipse-collections,11.0.0,2021-11-23,https://repo1.maven.org/maven2/org/eclipse/collections/eclipse-collections/11.0.0/eclipse-collections-11.0.0.jar,774,0,0,0,0,0,0,11.1.0
+81103,org.eclipse.collections.eclipse-collections,11.1.0,2022-07-05,https://repo1.maven.org/maven2/org/eclipse/collections/eclipse-collections/11.1.0/eclipse-collections-11.1.0.jar,: 774,0,0,0,0,0,0,

@@ -1,0 +1,17 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+102892,androidx.constraintlayout.constraintlayout,1.0.2,2017-05-09,https://maven.google.com/com/android/support/constraint/constraint-layout/1.0.2/constraint-layout-1.0.2.aar,,,,,,,,1.1.0
+75764,androidx.constraintlayout.constraintlayout,1.1.0,2018-04-17,https://maven.google.com/androidx/constraintlayout/constraintlayout/1.1.0/constraintlayout-1.1.0.aar,,,,,,,,1.1.1
+75763,androidx.constraintlayout.constraintlayout,1.1.1,2018-06-05,https://maven.google.com/androidx/constraintlayout/constraintlayout/1.1.1/constraintlayout-1.1.1.aar,,,,,,,,1.1.2
+75762,androidx.constraintlayout.constraintlayout,1.1.2,2018-06-12,https://maven.google.com/androidx/constraintlayout/constraintlayout/1.1.2/constraintlayout-1.1.2.aar,,,,,,,,1.1.3
+75761,androidx.constraintlayout.constraintlayout,1.1.3,2018-08-30,https://maven.google.com/androidx/constraintlayout/constraintlayout/1.1.3/constraintlayout-1.1.3.aar,,,,,,,,2.0.0
+75862,androidx.constraintlayout.constraintlayout,2.0.0,2020-08-21,https://maven.google.com/androidx/constraintlayout/constraintlayout/2.0.0/constraintlayout-2.0.0.aar,,,,,,,,2.0.1
+75861,androidx.constraintlayout.constraintlayout,2.0.1,2020-08-26,https://maven.google.com/androidx/constraintlayout/constraintlayout/2.0.1/constraintlayout-2.0.1.aar,,,,,,,,2.0.2
+75860,androidx.constraintlayout.constraintlayout,2.0.2,2020-10-06,https://maven.google.com/androidx/constraintlayout/constraintlayout/2.0.2/constraintlayout-2.0.2.aar,,,,,,,,2.0.3
+75859,androidx.constraintlayout.constraintlayout,2.0.3,2020-10-28,https://maven.google.com/androidx/constraintlayout/constraintlayout/2.0.3/constraintlayout-2.0.3.aar,,,,,,,,2.0.4
+75858,androidx.constraintlayout.constraintlayout,2.0.4,2020-10-29,https://maven.google.com/androidx/constraintlayout/constraintlayout/2.0.4/constraintlayout-2.0.4.aar,,,,,,,,2.1.0
+75857,androidx.constraintlayout.constraintlayout,2.1.0,2021-07-30,https://maven.google.com/androidx/constraintlayout/constraintlayout/2.1.0/constraintlayout-2.1.0.aar,,,,,,,,2.1.1
+75856,androidx.constraintlayout.constraintlayout,2.1.1,2021-09-25,https://maven.google.com/androidx/constraintlayout/constraintlayout/2.1.1/constraintlayout-2.1.1.aar,,,,,,,,2.1.2
+75863,androidx.constraintlayout.constraintlayout,2.1.2,2021-11-11,https://maven.google.com/androidx/constraintlayout/constraintlayout/2.1.2/constraintlayout-2.1.2.aar,,,,,,,,2.1.3
+75864,androidx.constraintlayout.constraintlayout,2.1.3,2022-01-13,https://maven.google.com/androidx/constraintlayout/constraintlayout/2.1.3/constraintlayout-2.1.3.aar,,,,,,,,2.1.4
+75867,androidx.constraintlayout.constraintlayout,2.1.4,2022-05-19,https://maven.google.com/androidx/constraintlayout/constraintlayout/2.1.4/constraintlayout-2.1.4.aar,,,,,,,,2.2.0
+75866,androidx.constraintlayout.constraintlayout,2.2.0,2024-10-30,https://maven.google.com/androidx/constraintlayout/constraintlayout/2.2.0/constraintlayout-2.2.0.aar,,,,,,,,

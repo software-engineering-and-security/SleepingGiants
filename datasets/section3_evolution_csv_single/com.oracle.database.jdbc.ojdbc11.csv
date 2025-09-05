@@ -1,0 +1,23 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+5560,com.oracle.database.jdbc.ojdbc11,21.1.0.0,2021-01-16,https://repo1.maven.org/maven2/com/oracle/database/jdbc/ojdbc11/21.1.0.0/ojdbc11-21.1.0.0.jar,102,,,,,,,21.3.0.0
+5561,com.oracle.database.jdbc.ojdbc11,21.3.0.0,2021-08-30,https://repo1.maven.org/maven2/com/oracle/database/jdbc/ojdbc11/21.3.0.0/ojdbc11-21.3.0.0.jar,102,0,0,0,0,0,0,21.4.0.0
+5562,com.oracle.database.jdbc.ojdbc11,21.4.0.0,2021-12-19,https://repo1.maven.org/maven2/com/oracle/database/jdbc/ojdbc11/21.4.0.0/ojdbc11-21.4.0.0.jar,102,0,0,0,0,0,0,21.5.0.0
+5563,com.oracle.database.jdbc.ojdbc11,21.5.0.0,2022-02-02,https://repo1.maven.org/maven2/com/oracle/database/jdbc/ojdbc11/21.5.0.0/ojdbc11-21.5.0.0.jar,102,0,0,0,0,0,0,21.6.0.0
+5564,com.oracle.database.jdbc.ojdbc11,21.6.0.0,2022-06-20,https://repo1.maven.org/maven2/com/oracle/database/jdbc/ojdbc11/21.6.0.0/ojdbc11-21.6.0.0.jar,102,0,0,0,0,0,0,21.7.0.0
+5565,com.oracle.database.jdbc.ojdbc11,21.7.0.0,2022-08-26,https://repo1.maven.org/maven2/com/oracle/database/jdbc/ojdbc11/21.7.0.0/ojdbc11-21.7.0.0.jar,102,0,0,0,0,0,0,21.8.0.0
+5566,com.oracle.database.jdbc.ojdbc11,21.8.0.0,2022-12-06,https://repo1.maven.org/maven2/com/oracle/database/jdbc/ojdbc11/21.8.0.0/ojdbc11-21.8.0.0.jar,102,0,0,0,0,0,0,21.9.0.0
+5567,com.oracle.database.jdbc.ojdbc11,21.9.0.0,2023-02-11,https://repo1.maven.org/maven2/com/oracle/database/jdbc/ojdbc11/21.9.0.0/ojdbc11-21.9.0.0.jar,102,0,0,0,0,0,0,21.10.0.0
+5325,com.oracle.database.jdbc.ojdbc11,21.10.0.0,2023-05-25,https://repo1.maven.org/maven2/com/oracle/database/jdbc/ojdbc11/21.10.0.0/ojdbc11-21.10.0.0.jar,102,0,0,0,0,0,0,21.11.0.0
+5324,com.oracle.database.jdbc.ojdbc11,21.11.0.0,2023-08-11,https://repo1.maven.org/maven2/com/oracle/database/jdbc/ojdbc11/21.11.0.0/ojdbc11-21.11.0.0.jar,102,0,0,0,0,0,0,21.12.0.0
+5323,com.oracle.database.jdbc.ojdbc11,21.12.0.0,2024-02-22,https://repo1.maven.org/maven2/com/oracle/database/jdbc/ojdbc11/21.12.0.0/ojdbc11-21.12.0.0.jar,102,0,0,0,0,0,0,21.13.0.0
+5309,com.oracle.database.jdbc.ojdbc11,21.13.0.0,2024-02-22,https://repo1.maven.org/maven2/com/oracle/database/jdbc/ojdbc11/21.13.0.0/ojdbc11-21.13.0.0.jar,102,0,0,0,0,0,0,21.14.0.0
+5038,com.oracle.database.jdbc.ojdbc11,21.14.0.0,2024-05-24,https://repo1.maven.org/maven2/com/oracle/database/jdbc/ojdbc11/21.14.0.0/ojdbc11-21.14.0.0.jar,102,0,0,0,0,0,0,21.15.0.0
+5039,com.oracle.database.jdbc.ojdbc11,21.15.0.0,2024-08-07,https://repo1.maven.org/maven2/com/oracle/database/jdbc/ojdbc11/21.15.0.0/ojdbc11-21.15.0.0.jar,102,0,0,0,0,0,0,21.16.0.0
+5040,com.oracle.database.jdbc.ojdbc11,21.16.0.0,2024-11-26,https://repo1.maven.org/maven2/com/oracle/database/jdbc/ojdbc11/21.16.0.0/ojdbc11-21.16.0.0.jar,102,0,0,0,0,0,0,21.17.0.0
+5041,com.oracle.database.jdbc.ojdbc11,21.17.0.0,2025-02-05,https://repo1.maven.org/maven2/com/oracle/database/jdbc/ojdbc11/21.17.0.0/ojdbc11-21.17.0.0.jar,102,0,0,0,0,0,0,23.2.0.0
+5042,com.oracle.database.jdbc.ojdbc11,23.2.0.0,2023-04-07,https://repo1.maven.org/maven2/com/oracle/database/jdbc/ojdbc11/23.2.0.0/ojdbc11-23.2.0.0.jar,100,0,0,0,0,12,18,23.3.0.23
+5043,com.oracle.database.jdbc.ojdbc11,23.3.0.23,2023-10-02,https://repo1.maven.org/maven2/com/oracle/database/jdbc/ojdbc11/23.3.0.23.09/ojdbc11-23.3.0.23.09.jar,100,0,0,0,0,1,1,23.4.0.24
+5044,com.oracle.database.jdbc.ojdbc11,23.4.0.24,2024-05-03,https://repo1.maven.org/maven2/com/oracle/database/jdbc/ojdbc11/23.4.0.24.05/ojdbc11-23.4.0.24.05.jar,101,0,0,0,0,1,0,23.5.0.24
+5045,com.oracle.database.jdbc.ojdbc11,23.5.0.24,2024-08-02,https://repo1.maven.org/maven2/com/oracle/database/jdbc/ojdbc11/23.5.0.24.07/ojdbc11-23.5.0.24.07.jar,101,0,0,0,0,0,0,23.6.0.24
+5046,com.oracle.database.jdbc.ojdbc11,23.6.0.24,2024-11-06,https://repo1.maven.org/maven2/com/oracle/database/jdbc/ojdbc11/23.6.0.24.10/ojdbc11-23.6.0.24.10.jar,101,0,0,0,0,0,0,23.7.0.25
+5047,com.oracle.database.jdbc.ojdbc11,23.7.0.25,2025-02-05,https://repo1.maven.org/maven2/com/oracle/database/jdbc/ojdbc11/23.7.0.25.01/ojdbc11-23.7.0.25.01.jar,: 101,0,0,0,0,0,0,

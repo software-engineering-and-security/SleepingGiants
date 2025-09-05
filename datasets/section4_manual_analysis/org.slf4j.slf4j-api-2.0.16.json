@@ -1,0 +1,18 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<org.slf4j.helpers.NamedLoggerBase: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<org.slf4j.LoggerFactory: org.slf4j.Logger getLogger(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<org.slf4j.LoggerFactory: org.slf4j.ILoggerFactory getILoggerFactory()> with actual argTypes: [] and taint: [false]",
+            "<org.slf4j.LoggerFactory: org.slf4j.spi.SLF4JServiceProvider getProvider()> with actual argTypes: [] and taint: [false]",
+            "<org.slf4j.LoggerFactory: void performInitialization()> with actual argTypes: [] and taint: [false]",
+            "<org.slf4j.LoggerFactory: void bind()> with actual argTypes: [] and taint: [false]",
+            "<org.slf4j.LoggerFactory: void postBindCleanUp()> with actual argTypes: [] and taint: [false]",
+            "<org.slf4j.LoggerFactory: void replayEvents()> with actual argTypes: [] and taint: [false]",
+            "<org.slf4j.LoggerFactory: void replaySingleEvent(org.slf4j.event.SubstituteLoggingEvent)> with actual argTypes: [org.slf4j.event.SubstituteLoggingEvent] and taint: [false, false]",
+            "<org.slf4j.helpers.SubstituteLogger: void log(org.slf4j.event.LoggingEvent)> with actual argTypes: [org.slf4j.event.SubstituteLoggingEvent] and taint: [false, false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [org.slf4j.Logger, java.lang.Object[]] and taint: [false, false, false]"
+        ]
+    ]
+}

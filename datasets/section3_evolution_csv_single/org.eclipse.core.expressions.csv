@@ -1,0 +1,3 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+19589,org.eclipse.core.expressions,3.2.1321,2007-11-27,https://repo1.maven.org/maven2/org/eclipse/core/expressions/3.2.1-r321_v20060721/expressions-3.2.1-r321_v20060721.jar,,,,,,,,3.3.0
+19590,org.eclipse.core.expressions,3.3.0,2007-11-27,https://repo1.maven.org/maven2/org/eclipse/core/expressions/3.3.0-v20070606-0010/expressions-3.3.0-v20070606-0010.jar,,,,,,,,

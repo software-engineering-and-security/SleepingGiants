@@ -1,0 +1,65 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<org.apache.wicket.page.PageStoreManager$SessionEntry: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<org.apache.wicket.pageStore.DefaultPageStore: java.lang.Object restoreAfterSerialization(java.io.Serializable)> with actual argTypes: [java.io.Serializable] and taint: [true, true]",
+            "<org.apache.wicket.pageStore.AbstractPageStore: void storePageData(java.lang.String,int,byte[])> with actual argTypes: [java.lang.String, int, byte[]] and taint: [true, true, true, true]",
+            "<org.apache.wicket.pageStore.memory.HttpSessionDataStore: void storeData(java.lang.String,int,byte[])> with actual argTypes: [java.lang.String, int, byte[]] and taint: [true, true, true, true]",
+            "<org.apache.wicket.pageStore.memory.MemorySizeEvictionStrategy: void evict(org.apache.wicket.pageStore.memory.PageTable)> with actual argTypes: [org.apache.wicket.pageStore.memory.PageTable] and taint: [true, true]",
+            "<org.apache.wicket.core.util.lang.WicketObjects: long sizeof(java.io.Serializable)> with actual argTypes: [java.io.Serializable] and taint: [false, true]",
+            "<org.apache.wicket.model.IModel$4: void detach()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.wicket.model.AbstractPropertyModel: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.wicket.core.util.lang.PropertyResolver: java.lang.Object getValue(java.lang.String,java.lang.Object)> with actual argTypes: [java.lang.String, java.lang.Object] and taint: [false, true, true]",
+            "<org.apache.wicket.core.util.lang.PropertyResolver: org.apache.wicket.core.util.lang.PropertyResolver$ObjectWithGetAndSet getObjectWithGetAndSet(java.lang.String,java.lang.Object,int)> with actual argTypes: [java.lang.String, java.lang.Object, int] and taint: [false, true, true, false]",
+            "<org.apache.wicket.core.util.lang.PropertyResolver: org.apache.wicket.core.util.lang.PropertyResolver$ObjectWithGetAndSet getObjectWithGetAndSet(java.lang.String,java.lang.Object,int,java.lang.Class)> with actual argTypes: [java.lang.String, java.lang.Object, int, java.lang.Class] and taint: [false, true, true, false, true]",
+            "<org.apache.wicket.core.util.lang.PropertyResolver$MethodGetAndSet: java.lang.Object getValue(java.lang.Object)> with actual argTypes: [java.lang.Object] and taint: [true, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [true, true, false]"
+        ],
+        [
+            "<org.apache.wicket.page.PageStoreManager$SessionEntry: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<org.apache.wicket.pageStore.DefaultPageStore: java.lang.Object restoreAfterSerialization(java.io.Serializable)> with actual argTypes: [java.io.Serializable] and taint: [true, true]",
+            "<org.apache.wicket.pageStore.AbstractPageStore: void storePageData(java.lang.String,int,byte[])> with actual argTypes: [java.lang.String, int, byte[]] and taint: [true, true, true, true]",
+            "<org.apache.wicket.pageStore.memory.HttpSessionDataStore: void storeData(java.lang.String,int,byte[])> with actual argTypes: [java.lang.String, int, byte[]] and taint: [true, true, true, true]",
+            "<org.apache.wicket.pageStore.memory.MemorySizeEvictionStrategy: void evict(org.apache.wicket.pageStore.memory.PageTable)> with actual argTypes: [org.apache.wicket.pageStore.memory.PageTable] and taint: [true, true]",
+            "<org.apache.wicket.core.util.lang.WicketObjects: long sizeof(java.io.Serializable)> with actual argTypes: [java.io.Serializable] and taint: [false, true]",
+            "<org.apache.wicket.model.IModel$4: void detach()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.wicket.model.AbstractPropertyModel: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.wicket.core.util.lang.PropertyResolver: java.lang.Object getValue(java.lang.String,java.lang.Object)> with actual argTypes: [java.lang.String, java.lang.Object] and taint: [false, true, true]",
+            "<org.apache.wicket.core.util.lang.PropertyResolver: org.apache.wicket.core.util.lang.PropertyResolver$ObjectWithGetAndSet getObjectWithGetAndSet(java.lang.String,java.lang.Object,int)> with actual argTypes: [java.lang.String, java.lang.Object, int] and taint: [false, true, true, false]",
+            "<org.apache.wicket.core.util.lang.PropertyResolver: org.apache.wicket.core.util.lang.PropertyResolver$ObjectWithGetAndSet getObjectWithGetAndSet(java.lang.String,java.lang.Object,int,java.lang.Class)> with actual argTypes: [java.lang.String, java.lang.Object, int, java.lang.Class] and taint: [false, true, true, false, true]",
+            "<org.apache.wicket.core.util.lang.PropertyResolver$IndexedPropertyGetAndSet: java.lang.Object getValue(java.lang.Object)> with actual argTypes: [java.lang.Object] and taint: [true, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [true, true, true]"
+        ],
+        [
+            "<org.apache.wicket.page.PageStoreManager$SessionEntry: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<org.apache.wicket.pageStore.DefaultPageStore: java.lang.Object restoreAfterSerialization(java.io.Serializable)> with actual argTypes: [java.io.Serializable] and taint: [true, true]",
+            "<org.apache.wicket.pageStore.AbstractPageStore: void storePageData(java.lang.String,int,byte[])> with actual argTypes: [java.lang.String, int, byte[]] and taint: [true, true, true, true]",
+            "<org.apache.wicket.pageStore.memory.HttpSessionDataStore: void storeData(java.lang.String,int,byte[])> with actual argTypes: [java.lang.String, int, byte[]] and taint: [true, true, true, true]",
+            "<org.apache.wicket.pageStore.memory.MemorySizeEvictionStrategy: void evict(org.apache.wicket.pageStore.memory.PageTable)> with actual argTypes: [org.apache.wicket.pageStore.memory.PageTable] and taint: [true, true]",
+            "<org.apache.wicket.core.util.lang.WicketObjects: long sizeof(java.io.Serializable)> with actual argTypes: [java.io.Serializable] and taint: [false, true]",
+            "<org.apache.wicket.model.IModel$4: void detach()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.wicket.model.AbstractPropertyModel: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.wicket.core.util.lang.PropertyResolver: java.lang.Object getValue(java.lang.String,java.lang.Object)> with actual argTypes: [java.lang.String, java.lang.Object] and taint: [false, true, true]",
+            "<org.apache.wicket.core.util.lang.PropertyResolver: org.apache.wicket.core.util.lang.PropertyResolver$ObjectWithGetAndSet getObjectWithGetAndSet(java.lang.String,java.lang.Object,int)> with actual argTypes: [java.lang.String, java.lang.Object, int] and taint: [false, true, true, false]",
+            "<org.apache.wicket.core.util.lang.PropertyResolver: org.apache.wicket.core.util.lang.PropertyResolver$ObjectWithGetAndSet getObjectWithGetAndSet(java.lang.String,java.lang.Object,int,java.lang.Class)> with actual argTypes: [java.lang.String, java.lang.Object, int, java.lang.Class] and taint: [false, true, true, false, true]",
+            "<org.apache.wicket.core.util.lang.PropertyResolver$MethodGetAndSet: java.lang.Object newValue(java.lang.Object)> with actual argTypes: [java.lang.Object] and taint: [true, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [true, true, true]"
+        ],
+        [
+            "<org.apache.wicket.page.PageStoreManager$SessionEntry: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<org.apache.wicket.pageStore.DefaultPageStore: java.lang.Object restoreAfterSerialization(java.io.Serializable)> with actual argTypes: [java.io.Serializable] and taint: [true, true]",
+            "<org.apache.wicket.pageStore.AbstractPageStore: void storePageData(java.lang.String,int,byte[])> with actual argTypes: [java.lang.String, int, byte[]] and taint: [true, true, true, true]",
+            "<org.apache.wicket.pageStore.memory.HttpSessionDataStore: void storeData(java.lang.String,int,byte[])> with actual argTypes: [java.lang.String, int, byte[]] and taint: [true, true, true, true]",
+            "<org.apache.wicket.pageStore.memory.MemorySizeEvictionStrategy: void evict(org.apache.wicket.pageStore.memory.PageTable)> with actual argTypes: [org.apache.wicket.pageStore.memory.PageTable] and taint: [true, true]",
+            "<org.apache.wicket.core.util.lang.WicketObjects: long sizeof(java.io.Serializable)> with actual argTypes: [java.io.Serializable] and taint: [false, true]",
+            "<org.apache.wicket.model.IModel$4: void detach()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.wicket.model.AbstractPropertyModel: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.wicket.core.util.lang.PropertyResolver: java.lang.Object getValue(java.lang.String,java.lang.Object)> with actual argTypes: [java.lang.String, java.lang.Object] and taint: [false, true, true]",
+            "<org.apache.wicket.core.util.lang.PropertyResolver: org.apache.wicket.core.util.lang.PropertyResolver$ObjectWithGetAndSet getObjectWithGetAndSet(java.lang.String,java.lang.Object,int)> with actual argTypes: [java.lang.String, java.lang.Object, int] and taint: [false, true, true, false]",
+            "<org.apache.wicket.core.util.lang.PropertyResolver: org.apache.wicket.core.util.lang.PropertyResolver$ObjectWithGetAndSet getObjectWithGetAndSet(java.lang.String,java.lang.Object,int,java.lang.Class)> with actual argTypes: [java.lang.String, java.lang.Object, int, java.lang.Class] and taint: [false, true, true, false, true]",
+            "<org.apache.wicket.core.util.lang.PropertyResolver$IndexedPropertyGetAndSet: java.lang.Object newValue(java.lang.Object)> with actual argTypes: [java.lang.Object] and taint: [true, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [true, true, true]"
+        ]
+    ]
+}

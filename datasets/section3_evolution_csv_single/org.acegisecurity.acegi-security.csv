@@ -1,0 +1,9 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+27375,org.acegisecurity.acegi-security,1.0.0,2006-05-30,https://repo1.maven.org/maven2/org/acegisecurity/acegi-security/1.0.0/acegi-security-1.0.0.jar,36,,,,,,,1.0.1
+27376,org.acegisecurity.acegi-security,1.0.1,2006-06-22,https://repo1.maven.org/maven2/org/acegisecurity/acegi-security/1.0.1/acegi-security-1.0.1.jar,37,0,0,0,0,1,0,1.0.2
+27377,org.acegisecurity.acegi-security,1.0.2,2006-10-04,https://repo1.maven.org/maven2/org/acegisecurity/acegi-security/1.0.2/acegi-security-1.0.2.jar,38,1,0,0,0,0,0,1.0.3
+27378,org.acegisecurity.acegi-security,1.0.3,2006-11-28,https://repo1.maven.org/maven2/org/acegisecurity/acegi-security/1.0.3/acegi-security-1.0.3.jar,46,0,0,0,0,11,0,1.0.4
+27379,org.acegisecurity.acegi-security,1.0.4,2007-06-03,https://repo1.maven.org/maven2/org/acegisecurity/acegi-security/1.0.4/acegi-security-1.0.4.jar,46,0,0,0,0,0,0,1.0.5
+27380,org.acegisecurity.acegi-security,1.0.5,2007-09-07,https://repo1.maven.org/maven2/org/acegisecurity/acegi-security/1.0.5/acegi-security-1.0.5.jar,47,1,0,0,0,0,0,1.0.6
+27381,org.acegisecurity.acegi-security,1.0.6,2007-12-24,https://repo1.maven.org/maven2/org/acegisecurity/acegi-security/1.0.6/acegi-security-1.0.6.jar,47,0,0,0,0,0,0,1.0.7
+27383,org.acegisecurity.acegi-security,1.0.7,2008-04-15,https://repo1.maven.org/maven2/org/acegisecurity/acegi-security/1.0.7/acegi-security-1.0.7.jar,: 47,0,0,0,0,0,0,

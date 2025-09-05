@@ -1,0 +1,21 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+74696,commons-beanutils.commons-beanutils,1.0,2005-11-08,https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.0/commons-beanutils-1.0.jar,,,,,,,,1.2
+74695,commons-beanutils.commons-beanutils,1.2,2005-11-08,https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.2/commons-beanutils-1.2.jar,,,,,,,,1.3
+74694,commons-beanutils.commons-beanutils,1.3,2005-11-08,https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.3/commons-beanutils-1.3.jar,,,,,,,,1.4
+74693,commons-beanutils.commons-beanutils,1.4,2005-11-24,https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.4/commons-beanutils-1.4.jar,1,,,,,,,1.4.1
+74692,commons-beanutils.commons-beanutils,1.4.1,2005-11-24,https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.4.1/commons-beanutils-1.4.1.jar,1,0,0,0,0,0,0,1.5
+74691,commons-beanutils.commons-beanutils,1.5,2005-11-24,https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.5/commons-beanutils-1.5.jar,2,0,0,0,0,1,0,1.6
+74690,commons-beanutils.commons-beanutils,1.6,2005-11-08,https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.6/commons-beanutils-1.6.jar,5,2,0,0,0,1,0,1.6.1
+74689,commons-beanutils.commons-beanutils,1.6.1,2005-11-08,https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.6.1/commons-beanutils-1.6.1.jar,5,0,0,0,0,0,0,1.7.0
+74688,commons-beanutils.commons-beanutils,1.7.0,2005-11-08,https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar,10,0,0,1,0,4,0,1.8.0
+74687,commons-beanutils.commons-beanutils,1.8.0,2008-08-28,https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.8.0/commons-beanutils-1.8.0.jar,12,1,0,1,0,0,0,1.8.1
+74686,commons-beanutils.commons-beanutils,1.8.1,2009-10-16,https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.8.1/commons-beanutils-1.8.1.jar,12,0,0,0,0,0,0,1.8.2
+74685,commons-beanutils.commons-beanutils,1.8.2,2009-11-09,https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.8.2/commons-beanutils-1.8.2.jar,12,0,0,0,0,0,0,1.8.3
+74684,commons-beanutils.commons-beanutils,1.8.3,2010-03-24,https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3.jar,12,0,0,0,0,0,0,1.9.0
+74606,commons-beanutils.commons-beanutils,1.9.0,2013-12-07,https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.9.0/commons-beanutils-1.9.0.jar,12,0,0,0,0,0,0,1.9.1
+74698,commons-beanutils.commons-beanutils,1.9.1,2014-01-06,https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.9.1/commons-beanutils-1.9.1.jar,12,0,0,0,0,0,0,1.9.2
+74605,commons-beanutils.commons-beanutils,1.9.2,2014-05-26,https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar,12,0,0,0,0,0,0,1.9.3
+74558,commons-beanutils.commons-beanutils,1.9.3,2016-09-21,https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar,12,0,0,0,0,0,0,1.9.4
+74494,commons-beanutils.commons-beanutils,1.9.4,2019-08-14,https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar,12,0,0,0,0,0,0,1.10.0
+74493,commons-beanutils.commons-beanutils,1.10.0,2025-01-07,https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.10.0/commons-beanutils-1.10.0.jar,12,0,0,0,0,0,0,1.10.1
+74492,commons-beanutils.commons-beanutils,1.10.1,2025-02-13,https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.10.1/commons-beanutils-1.10.1.jar,: 12,0,0,0,0,0,0,

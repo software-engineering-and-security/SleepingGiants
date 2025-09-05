@@ -1,0 +1,56 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.commons.dbcp2.BasicDataSource: java.io.PrintWriter getLogWriter()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.commons.dbcp2.BasicDataSource: javax.sql.DataSource createDataSource()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.commons.dbcp2.managed.BasicManagedDataSource: org.apache.commons.dbcp2.ConnectionFactory createConnectionFactory()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.commons.dbcp2.datasources.KeyedCPDSConnectionFactory: void connectionClosed(javax.sql.ConnectionEvent)> with actual argTypes: [javax.sql.ConnectionEvent] and taint: [true, true]",
+            "<javax.xml.transform.TransformerException: void printStackTrace()> with actual argTypes: [] and taint: [false]",
+            "<javax.xml.transform.TransformerException: void printStackTrace(java.io.PrintWriter)> with actual argTypes: [java.io.PrintWriter] and taint: [false, false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Throwable, java.lang.Object[]] and taint: [false, false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.commons.dbcp2.datasources.InstanceKeyDataSource: java.sql.Connection getConnection(java.lang.String,java.lang.String)> with actual argTypes: [java.lang.String, java.lang.String] and taint: [true, true, true]",
+            "<org.apache.commons.dbcp2.datasources.InstanceKeyDataSource: javax.sql.ConnectionPoolDataSource testCPDS(java.lang.String,java.lang.String)> with actual argTypes: [java.lang.String, java.lang.String] and taint: [true, true, true]",
+            "<javax.naming.InitialContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.commons.dbcp2.BasicDataSource: java.io.PrintWriter getLogWriter()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.commons.dbcp2.BasicDataSource: javax.sql.DataSource createDataSource()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.commons.dbcp2.BasicDataSource: org.apache.commons.dbcp2.ConnectionFactory createConnectionFactory()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.commons.dbcp2.DriverFactory: java.sql.Driver createDriver(org.apache.commons.dbcp2.BasicDataSource)> with actual argTypes: [org.apache.commons.dbcp2.BasicDataSource] and taint: [false, true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.commons.dbcp2.BasicDataSource: java.io.PrintWriter getLogWriter()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.commons.dbcp2.BasicDataSource: javax.sql.DataSource createDataSource()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.commons.dbcp2.BasicDataSource: org.apache.commons.dbcp2.ConnectionFactory createConnectionFactory()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.commons.dbcp2.ConnectionFactoryFactory: org.apache.commons.dbcp2.ConnectionFactory createConnectionFactory(org.apache.commons.dbcp2.BasicDataSource,java.sql.Driver)> with actual argTypes: [org.apache.commons.dbcp2.BasicDataSource, java.sql.Driver] and taint: [false, true, true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.commons.dbcp2.datasources.InstanceKeyDataSource: java.sql.Connection getConnection(java.lang.String,java.lang.String)> with actual argTypes: [java.lang.String, java.lang.String] and taint: [true, true, true]",
+            "<org.apache.commons.dbcp2.datasources.PerUserPoolDataSource: org.apache.commons.dbcp2.datasources.PooledConnectionAndInfo getPooledConnectionAndInfo(java.lang.String,java.lang.String)> with actual argTypes: [java.lang.String, java.lang.String] and taint: [true, true, true]",
+            "<org.apache.commons.dbcp2.datasources.InstanceKeyDataSource: javax.sql.ConnectionPoolDataSource testCPDS(java.lang.String,java.lang.String)> with actual argTypes: [java.lang.String, java.lang.String] and taint: [false, false, false]",
+            "<javax.naming.InitialContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ]
+    ]
+}

@@ -1,0 +1,13 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+91637,org.apache.commons.commons-fileupload2-javax,1.0,2005-11-08,https://repo1.maven.org/maven2/commons-fileupload/commons-fileupload/1.0/commons-fileupload-1.0.jar,2,,,,,,,1.1
+91636,org.apache.commons.commons-fileupload2-javax,1.1,2005-12-23,https://repo1.maven.org/maven2/commons-fileupload/commons-fileupload/1.1/commons-fileupload-1.1.jar,3,0,0,0,0,1,0,1.1.1
+91635,org.apache.commons.commons-fileupload2-javax,1.1.1,2006-06-22,https://repo1.maven.org/maven2/commons-fileupload/commons-fileupload/1.1.1/commons-fileupload-1.1.1.jar,3,0,0,0,0,0,0,1.2
+91634,org.apache.commons.commons-fileupload2-javax,1.2,2007-02-20,https://repo1.maven.org/maven2/commons-fileupload/commons-fileupload/1.2/commons-fileupload-1.2.jar,3,0,0,0,0,0,0,1.2.1
+91640,org.apache.commons.commons-fileupload2-javax,1.2.1,2008-02-11,https://repo1.maven.org/maven2/commons-fileupload/commons-fileupload/1.2.1/commons-fileupload-1.2.1.jar,4,0,0,0,0,1,0,1.2.2
+91633,org.apache.commons.commons-fileupload2-javax,1.2.2,2010-07-29,https://repo1.maven.org/maven2/commons-fileupload/commons-fileupload/1.2.2/commons-fileupload-1.2.2.jar,4,0,0,0,0,0,0,1.3
+91631,org.apache.commons.commons-fileupload2-javax,1.3,2013-03-24,https://repo1.maven.org/maven2/commons-fileupload/commons-fileupload/1.3/commons-fileupload-1.3.jar,4,0,0,0,0,0,0,1.3.1
+91630,org.apache.commons.commons-fileupload2-javax,1.3.1,2014-02-06,https://repo1.maven.org/maven2/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1.jar,4,0,0,0,0,0,0,1.3.2
+91629,org.apache.commons.commons-fileupload2-javax,1.3.2,2016-05-23,https://repo1.maven.org/maven2/commons-fileupload/commons-fileupload/1.3.2/commons-fileupload-1.3.2.jar,4,0,0,0,0,0,0,1.3.3
+91628,org.apache.commons.commons-fileupload2-javax,1.3.3,2017-06-09,https://repo1.maven.org/maven2/commons-fileupload/commons-fileupload/1.3.3/commons-fileupload-1.3.3.jar,4,0,0,0,0,0,0,1.4
+91627,org.apache.commons.commons-fileupload2-javax,1.4,2018-12-24,https://repo1.maven.org/maven2/commons-fileupload/commons-fileupload/1.4/commons-fileupload-1.4.jar,1,0,1,0,2,0,0,1.5
+91626,org.apache.commons.commons-fileupload2-javax,1.5,2023-02-13,https://repo1.maven.org/maven2/commons-fileupload/commons-fileupload/1.5/commons-fileupload-1.5.jar,: 1,0,0,0,0,0,0,

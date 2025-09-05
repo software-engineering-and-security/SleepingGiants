@@ -1,0 +1,8 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+45097,oauth.signpost.signpost-core,1.1,2009-10-28,https://repo1.maven.org/maven2/oauth/signpost/signpost-core/1.1/signpost-core-1.1.jar,8,,,,,,,1.2
+45095,oauth.signpost.signpost-core,1.2,2010-01-27,https://repo1.maven.org/maven2/oauth/signpost/signpost-core/1.2/signpost-core-1.2.jar,12,0,0,0,0,4,0,1.2.1
+45074,oauth.signpost.signpost-core,1.2.1,2010-03-13,https://repo1.maven.org/maven2/oauth/signpost/signpost-core/1.2.1/signpost-core-1.2.1.jar,13,0,0,0,0,1,0,1.2.1.1
+45075,oauth.signpost.signpost-core,1.2.1.1,2010-03-21,https://repo1.maven.org/maven2/oauth/signpost/signpost-core/1.2.1.1/signpost-core-1.2.1.1.jar,13,0,0,0,0,0,0,1.2.1.2
+45076,oauth.signpost.signpost-core,1.2.1.2,2012-02-26,https://repo1.maven.org/maven2/oauth/signpost/signpost-core/1.2.1.2/signpost-core-1.2.1.2.jar,13,0,0,0,0,0,0,2.0.0
+45077,oauth.signpost.signpost-core,2.0.0,2020-05-12,https://repo1.maven.org/maven2/oauth/signpost/signpost-core/2.0.0/signpost-core-2.0.0.jar,14,0,0,0,0,1,0,2.1.1
+45078,oauth.signpost.signpost-core,2.1.1,2020-08-02,https://repo1.maven.org/maven2/oauth/signpost/signpost-core/2.1.1/signpost-core-2.1.1.jar,: 14,0,0,0,0,0,0,

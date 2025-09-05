@@ -1,0 +1,6 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+191,org.onosproject.onos-yang-maven-plugin,1.7,2016-08-22,https://repo1.maven.org/maven2/org/onosproject/onos-yang-maven-plugin/1.7/onos-yang-maven-plugin-1.7.jar,2,,,,,,,1.8
+192,org.onosproject.onos-yang-maven-plugin,1.8,2016-09-06,https://repo1.maven.org/maven2/org/onosproject/onos-yang-maven-plugin/1.8/onos-yang-maven-plugin-1.8.jar,,0,0,0,0,0,0,1.9
+193,org.onosproject.onos-yang-maven-plugin,1.9,2016-10-18,https://repo1.maven.org/maven2/org/onosproject/onos-yang-maven-plugin/1.9/onos-yang-maven-plugin-1.9.jar,,,,,,,,1.10
+194,org.onosproject.onos-yang-maven-plugin,1.10,2016-11-22,https://repo1.maven.org/maven2/org/onosproject/onos-yang-maven-plugin/1.10/onos-yang-maven-plugin-1.10.jar,,,,,,,,1.11
+195,org.onosproject.onos-yang-maven-plugin,1.11,2016-12-01,https://repo1.maven.org/maven2/org/onosproject/onos-yang-maven-plugin/1.11/onos-yang-maven-plugin-1.11.jar,,,,,,,,

@@ -1,0 +1,121 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<java.security.SignedObject: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<liquibase.AbstractExtensibleObject: java.lang.Object clone()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, false]"
+        ],
+        [
+            "<java.security.SignedObject: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<liquibase.AbstractExtensibleObject: java.lang.Object clone()> with actual argTypes: [] and taint: [true]",
+            "<liquibase.AbstractExtensibleObject: java.lang.Object clone()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<liquibase.database.core.DerbyDatabase: void close()> with actual argTypes: [] and taint: [true]",
+            "<liquibase.database.core.DerbyDatabase: void shutdownDerby(java.lang.String,java.lang.String)> with actual argTypes: [java.lang.String, java.lang.String] and taint: [true, true, true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, false]"
+        ],
+        [
+            "<java.security.SignedObject: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<liquibase.AbstractExtensibleObject: java.lang.Object clone()> with actual argTypes: [] and taint: [true]",
+            "<liquibase.AbstractExtensibleObject: liquibase.ExtensibleObject set(java.lang.String,java.lang.Object)> with actual argTypes: [java.lang.String, java.lang.Object] and taint: [true, true, true]",
+            "<liquibase.util.ObjectUtil: java.lang.Object convert(java.lang.Object,java.lang.Class)> with actual argTypes: [java.lang.Object, java.lang.Class] and taint: [false, true, true]",
+            "<liquibase.util.ObjectUtil: java.lang.Object convert(java.lang.Object,java.lang.Class,java.lang.String)> with actual argTypes: [java.lang.Object, java.lang.Class, null] and taint: [false, true, true, false]",
+            "<java.lang.Class: java.lang.Object[] getEnumConstants()> with actual argTypes: [] and taint: [false]",
+            "<java.lang.Class: java.lang.Object[] getEnumConstantsShared()> with actual argTypes: [] and taint: [false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [null, java.lang.Object[]] and taint: [false, false, false]"
+        ],
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<liquibase.changelog.ChangeSet: boolean equals(java.lang.Object)> with actual argTypes: [java.lang.Class] and taint: [true, true]",
+            "<liquibase.changelog.ChangeSet: java.lang.String toString(boolean)> with actual argTypes: [int] and taint: [true, false]",
+            "<liquibase.changelog.ChangeSet: liquibase.change.CheckSum generateCheckSum(liquibase.ChecksumVersion)> with actual argTypes: [liquibase.ChecksumVersion] and taint: [true, true]",
+            "<liquibase.changelog.ChangeSet: liquibase.change.CheckSum lambda$generateCheckSum$0()> with actual argTypes: [] and taint: [false]",
+            "<liquibase.change.core.LoadDataChange: liquibase.change.CheckSum generateCheckSum()> with actual argTypes: [] and taint: [false]",
+            "<liquibase.resource.URIResource: java.io.InputStream openInputStream()> with actual argTypes: [] and taint: [false]",
+            "<java.net.URL: java.io.InputStream openStream()> with actual argTypes: [] and taint: [false]"
+        ],
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<liquibase.changelog.ChangeSet: boolean equals(java.lang.Object)> with actual argTypes: [java.lang.Class] and taint: [true, true]",
+            "<liquibase.changelog.ChangeSet: java.lang.String toString(boolean)> with actual argTypes: [int] and taint: [true, false]",
+            "<liquibase.ChecksumVersion: liquibase.ChecksumVersion enumFromChecksumVersion(int)> with actual argTypes: [int] and taint: [false, true]",
+            "<liquibase.ChecksumVersion: liquibase.exception.UnsupportedChecksumVersionException lambda$enumFromChecksumVersion$1(int)> with actual argTypes: [int] and taint: [false, false]",
+            "<liquibase.exception.UnsupportedChecksumVersionException: void <init>(int)> with actual argTypes: [int] and taint: [false, false]",
+            "<liquibase.util.LiquibaseUtil: java.lang.String getBuildVersionInfo()> with actual argTypes: [] and taint: [false]",
+            "<liquibase.util.LiquibaseUtil: java.lang.String getBuildInfo(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<java.net.URL: java.io.InputStream openStream()> with actual argTypes: [] and taint: [false]"
+        ],
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<liquibase.changelog.ChangeSet: boolean equals(java.lang.Object)> with actual argTypes: [java.lang.Class] and taint: [true, true]",
+            "<liquibase.changelog.ChangeSet: java.lang.String toString(boolean)> with actual argTypes: [int] and taint: [true, false]",
+            "<liquibase.changelog.ChangeSet: liquibase.change.CheckSum generateCheckSum(liquibase.ChecksumVersion)> with actual argTypes: [liquibase.ChecksumVersion] and taint: [true, true]",
+            "<liquibase.changelog.ChangeSet: liquibase.change.CheckSum lambda$generateCheckSum$0()> with actual argTypes: [] and taint: [false]",
+            "<liquibase.change.custom.CustomChangeWrapper: liquibase.change.CheckSum generateCheckSum()> with actual argTypes: [] and taint: [false]",
+            "<liquibase.change.custom.CustomChangeWrapper: void configureCustomChange()> with actual argTypes: [] and taint: [false]",
+            "<liquibase.util.ObjectUtil: void setProperty(java.lang.Object,java.lang.String,java.lang.String)> with actual argTypes: [liquibase.change.custom.CustomChange, java.lang.String, java.lang.String] and taint: [false, false, false, false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [false, false, false]"
+        ],
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<liquibase.changelog.ChangeSet: boolean equals(java.lang.Object)> with actual argTypes: [java.lang.Class] and taint: [true, true]",
+            "<liquibase.changelog.ChangeSet: java.lang.String toString(boolean)> with actual argTypes: [int] and taint: [true, false]",
+            "<liquibase.changelog.ChangeSet: liquibase.change.CheckSum generateCheckSum(liquibase.ChecksumVersion)> with actual argTypes: [liquibase.ChecksumVersion] and taint: [true, true]",
+            "<liquibase.changelog.ChangeSet: liquibase.change.CheckSum lambda$generateCheckSum$0()> with actual argTypes: [] and taint: [false]",
+            "<liquibase.change.AbstractChange: liquibase.change.CheckSum generateCheckSum()> with actual argTypes: [] and taint: [false]",
+            "<liquibase.serializer.core.string.StringChangeLogSerializer: java.lang.String serialize(liquibase.serializer.LiquibaseSerializable,boolean)> with actual argTypes: [liquibase.change.AbstractChange, int] and taint: [false, false, false]",
+            "<liquibase.serializer.core.string.StringChangeLogSerializer: java.lang.String serializeObject(liquibase.serializer.LiquibaseSerializable,int)> with actual argTypes: [liquibase.serializer.LiquibaseSerializable, int] and taint: [false, false, false]",
+            "<liquibase.structure.AbstractDatabaseObject: java.lang.Object getSerializableFieldValue(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, false]"
+        ],
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<liquibase.changelog.ChangeSet: boolean equals(java.lang.Object)> with actual argTypes: [java.lang.Class] and taint: [true, true]",
+            "<liquibase.changelog.ChangeSet: java.lang.String toString(boolean)> with actual argTypes: [int] and taint: [true, false]",
+            "<liquibase.changelog.ChangeSet: liquibase.change.CheckSum generateCheckSum(liquibase.ChecksumVersion)> with actual argTypes: [liquibase.ChecksumVersion] and taint: [true, true]",
+            "<liquibase.Scope: java.lang.Object child(java.util.Map,liquibase.Scope$ScopedRunnerWithReturn)> with actual argTypes: [java.util.Map, liquibase.Scope$ScopedRunnerWithReturn] and taint: [false, true, true]",
+            "<liquibase.Scope: java.lang.Object child(liquibase.listener.LiquibaseListener,java.util.Map,liquibase.Scope$ScopedRunnerWithReturn)> with actual argTypes: [null, java.util.Map, liquibase.Scope$ScopedRunnerWithReturn] and taint: [false, false, true, true]",
+            "<liquibase.integration.commandline.Main$1: java.lang.Object run()> with actual argTypes: [] and taint: [true]",
+            "<liquibase.integration.commandline.Main$1: java.lang.Integer run()> with actual argTypes: [] and taint: [true]",
+            "<liquibase.integration.commandline.Main: java.lang.ClassLoader configureClassLoader()> with actual argTypes: [] and taint: [false]",
+            "<liquibase.integration.commandline.Main: java.io.File extract(java.util.jar.JarFile,java.util.jar.JarEntry)> with actual argTypes: [java.util.jar.JarFile, java.util.jar.JarEntry] and taint: [false, false, false]",
+            "<java.nio.file.Files: java.io.OutputStream newOutputStream(java.nio.file.Path,java.nio.file.OpenOption[])> with actual argTypes: [java.nio.file.Path, java.nio.file.OpenOption[]] and taint: [false, false, false]"
+        ],
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<liquibase.changelog.ChangeSet: boolean equals(java.lang.Object)> with actual argTypes: [java.lang.Class] and taint: [true, true]",
+            "<liquibase.changelog.ChangeSet: java.lang.String toString(boolean)> with actual argTypes: [int] and taint: [true, false]",
+            "<liquibase.changelog.ChangeSet: liquibase.change.CheckSum generateCheckSum(liquibase.ChecksumVersion)> with actual argTypes: [liquibase.ChecksumVersion] and taint: [true, true]",
+            "<liquibase.Scope: java.lang.Object child(java.util.Map,liquibase.Scope$ScopedRunnerWithReturn)> with actual argTypes: [java.util.Map, liquibase.Scope$ScopedRunnerWithReturn] and taint: [false, true, true]",
+            "<liquibase.Scope: java.lang.Object child(liquibase.listener.LiquibaseListener,java.util.Map,liquibase.Scope$ScopedRunnerWithReturn)> with actual argTypes: [null, java.util.Map, liquibase.Scope$ScopedRunnerWithReturn] and taint: [false, false, true, true]",
+            "<liquibase.integration.commandline.Main$1: java.lang.Object run()> with actual argTypes: [] and taint: [true]",
+            "<liquibase.integration.commandline.Main$1: java.lang.Integer run()> with actual argTypes: [] and taint: [true]",
+            "<liquibase.integration.commandline.Main: void parseOptions(java.lang.String[])> with actual argTypes: [java.lang.String[]] and taint: [false, true]",
+            "<liquibase.configuration.LiquibaseConfiguration: liquibase.configuration.ConfiguredValue getCurrentConfiguredValue(liquibase.configuration.ConfigurationValueConverter,liquibase.configuration.ConfigurationValueObfuscator,java.lang.String[])> with actual argTypes: [null, null, java.lang.String[]] and taint: [false, false, false, false]",
+            "<liquibase.configuration.LiquibaseConfiguration: liquibase.configuration.ConfiguredValue getCurrentConfiguredValue(liquibase.configuration.ConfigurationValueConverter,liquibase.configuration.ConfigurationValueObfuscator,liquibase.configuration.ConfigurationValueProvider[],java.lang.String[])> with actual argTypes: [liquibase.configuration.ConfigurationValueConverter, liquibase.configuration.ConfigurationValueObfuscator, null, java.lang.String[]] and taint: [false, false, false, false, false]",
+            "<liquibase.integration.servlet.ServletConfigurationValueProvider: liquibase.configuration.ProvidedValue getProvidedValue(java.lang.String[])> with actual argTypes: [java.lang.String[]] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<liquibase.changelog.ChangeSet: boolean equals(java.lang.Object)> with actual argTypes: [java.lang.Class] and taint: [true, true]",
+            "<liquibase.changelog.ChangeSet: java.lang.String toString(boolean)> with actual argTypes: [int] and taint: [true, false]",
+            "<liquibase.changelog.ChangeSet: liquibase.change.CheckSum generateCheckSum(liquibase.ChecksumVersion)> with actual argTypes: [liquibase.ChecksumVersion] and taint: [true, true]",
+            "<liquibase.Scope: java.lang.Object child(java.util.Map,liquibase.Scope$ScopedRunnerWithReturn)> with actual argTypes: [java.util.Map, liquibase.Scope$ScopedRunnerWithReturn] and taint: [false, true, true]",
+            "<liquibase.Scope: java.lang.Object child(liquibase.listener.LiquibaseListener,java.util.Map,liquibase.Scope$ScopedRunnerWithReturn)> with actual argTypes: [null, java.util.Map, liquibase.Scope$ScopedRunnerWithReturn] and taint: [false, false, true, true]",
+            "<liquibase.integration.commandline.Main$1: java.lang.Object run()> with actual argTypes: [] and taint: [true]",
+            "<liquibase.integration.commandline.Main$1: java.lang.Integer run()> with actual argTypes: [] and taint: [true]",
+            "<liquibase.Scope: void child(java.util.Map,liquibase.Scope$ScopedRunner)> with actual argTypes: [java.util.HashMap, liquibase.Scope$ScopedRunner] and taint: [false, false, false]",
+            "<liquibase.Scope: void child(liquibase.listener.LiquibaseListener,java.util.Map,liquibase.Scope$ScopedRunner)> with actual argTypes: [liquibase.listener.LiquibaseListener, java.util.Map, liquibase.Scope$ScopedRunner] and taint: [false, false, false, false]",
+            "<liquibase.Scope: java.lang.Object lambda$child$0(liquibase.Scope$ScopedRunner)> with actual argTypes: [liquibase.Scope$ScopedRunner] and taint: [false, false]",
+            "<liquibase.diff.output.changelog.DiffToChangeLog$1: void run()> with actual argTypes: [] and taint: [false]",
+            "<liquibase.resource.PathResource: java.io.OutputStream openOutputStream(liquibase.resource.OpenOptions)> with actual argTypes: [liquibase.resource.OpenOptions] and taint: [false, false]",
+            "<java.nio.file.Files: java.io.OutputStream newOutputStream(java.nio.file.Path,java.nio.file.OpenOption[])> with actual argTypes: [java.nio.file.Path, java.nio.file.OpenOption[]] and taint: [false, false, false]"
+        ]
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "tabby": [
+        [
+            "java.util.concurrent.ConcurrentSkipListMap#readObject",
+            "-[CALL]-> java.util.concurrent.ConcurrentSkipListMap#cpr",
+            "-[CALL]-> java.util.Comparator#compare -[ALIAS]-> java.util.Comparator$lambda_comparing_ea9a8b3a_1__1143#compare",
+            "-[CALL]-> java.util.Comparator#lambda$comparing$ea9a8b3a$1",
+            "-[CALL]-> java.util.function.Function#apply -[ALIAS]-> org.apache.bval.jsr.ParticipantFactory$read__214#apply",
+            "-[CALL]-> org.apache.bval.jsr.ParticipantFactory#read",
+            "-[CALL]-> java.net.URL#openStream",
+            "-[CALL]-> java.net.URL#openConnection"
+        ],
+        [
+            "java.util.concurrent.ConcurrentSkipListMap#readObject",
+            "-[CALL]-> java.util.concurrent.ConcurrentSkipListMap#cpr",
+            "-[CALL]-> java.util.Comparator#compare -[ALIAS]-> java.util.Comparator$lambda_comparing_77a9974f_1__493#compare",
+            "-[CALL]-> java.util.Comparator#lambda$comparing$77a9974f$1",
+            "-[CALL]-> java.util.function.Function#apply -[ALIAS]-> org.apache.bval.jsr.ParticipantFactory$read__43#apply",
+            "-[CALL]-> org.apache.bval.jsr.ParticipantFactory#read",
+            "-[CALL]-> java.net.URL#openStream",
+            "-[CALL]-> java.net.URL#openConnection"
+        ],
+        [
+            "java.util.concurrent.ConcurrentSkipListMap#readObject",
+            "-[CALL]-> java.util.concurrent.ConcurrentSkipListMap#cpr",
+            "-[CALL]-> java.util.Comparator#compare -[ALIAS]-> java.util.Comparator$lambda_comparing_ea9a8b3a_1__1083#compare",
+            "-[CALL]-> java.util.Comparator#lambda$comparing$ea9a8b3a$1",
+            "-[CALL]-> java.util.function.Function#apply -[ALIAS]-> org.apache.bval.jsr.ParticipantFactory$read__662#apply",
+            "-[CALL]-> org.apache.bval.jsr.ParticipantFactory#read",
+            "-[CALL]-> java.net.URL#openStream",
+            "-[CALL]-> java.net.URL#openConnection"
+        ]
+    ],
+    "androChain": [
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.bval.jsr.util.AnnotationProxy: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [org.apache.bval.jsr.util.AnnotationProxy, java.lang.Object[]] and taint: [true, true, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.bval.jsr.util.AnnotationProxy: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<org.apache.bval.jsr.util.AnnotationProxy: boolean equalTo(java.lang.Object)> with actual argTypes: [java.lang.Object] and taint: [true, true]",
+            "<org.apache.bval.jsr.util.AnnotationProxy: boolean lambda$equalTo$3(java.lang.annotation.Annotation,java.util.Map$Entry)> with actual argTypes: [java.lang.annotation.Annotation, java.util.Map$Entry] and taint: [false, false, false]",
+            "<org.apache.bval.jsr.util.AnnotationProxy: boolean memberEquals(java.lang.annotation.Annotation,java.lang.String,java.lang.Object)> with actual argTypes: [java.lang.annotation.Annotation, java.lang.String, java.lang.Object] and taint: [false, false, false, false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.annotation.Annotation, java.lang.Object[]] and taint: [false, false, false]"
+        ]
+    ]
+}

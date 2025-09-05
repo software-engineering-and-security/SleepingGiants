@@ -1,0 +1,7 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+59957,uk.gov.hmrc.auth-client,7.0.0,2023-11-21,https://open.artefacts.tax.service.gov.uk/maven2/uk/gov/hmrc/auth-client_2.13/7.0.0/auth-client_2.13-7.0.0.jar,,,,,,,,7.1.0
+59958,uk.gov.hmrc.auth-client,7.1.0,2023-11-21,https://open.artefacts.tax.service.gov.uk/maven2/uk/gov/hmrc/auth-client_2.13/7.1.0/auth-client_2.13-7.1.0.jar,,,,,,,,8.0.0
+59959,uk.gov.hmrc.auth-client,8.0.0,2024-05-13,https://open.artefacts.tax.service.gov.uk/maven2/uk/gov/hmrc/auth-client_2.13/8.0.0/auth-client_2.13-8.0.0.jar,,,,,,,,8.1.0
+59960,uk.gov.hmrc.auth-client,8.1.0,2024-06-13,https://open.artefacts.tax.service.gov.uk/maven2/uk/gov/hmrc/auth-client_2.13/8.1.0/auth-client_2.13-8.1.0.jar,,,,,,,,8.2.0
+59961,uk.gov.hmrc.auth-client,8.2.0,2024-07-24,https://open.artefacts.tax.service.gov.uk/maven2/uk/gov/hmrc/auth-client_2.13/8.2.0/auth-client_2.13-8.2.0.jar,,,,,,,,8.3.0
+59962,uk.gov.hmrc.auth-client,8.3.0,2025-01-17,https://open.artefacts.tax.service.gov.uk/maven2/uk/gov/hmrc/auth-client_2.13/8.3.0/auth-client_2.13-8.3.0.jar,,,,,,,,

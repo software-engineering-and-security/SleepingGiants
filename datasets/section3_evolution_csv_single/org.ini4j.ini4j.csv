@@ -1,0 +1,10 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+79324,org.ini4j.ini4j,0.3.1,2008-02-11,https://repo1.maven.org/maven2/org/ini4j/ini4j/0.3.1/ini4j-0.3.1.jar,,,,,,,,0.3.2
+79325,org.ini4j.ini4j,0.3.2,2008-02-17,https://repo1.maven.org/maven2/org/ini4j/ini4j/0.3.2/ini4j-0.3.2.jar,,,,,,,,0.3.3
+79326,org.ini4j.ini4j,0.3.3,2009-02-05,https://repo1.maven.org/maven2/org/ini4j/ini4j/0.3.3/ini4j-0.3.3.jar,,,,,,,,0.4.0
+79327,org.ini4j.ini4j,0.4.0,2009-02-17,https://repo1.maven.org/maven2/org/ini4j/ini4j/0.4.0/ini4j-0.4.0.jar,,,,,,,,0.4.1
+79328,org.ini4j.ini4j,0.4.1,2009-03-11,https://repo1.maven.org/maven2/org/ini4j/ini4j/0.4.1/ini4j-0.4.1.jar,,,,,,,,0.5.0
+79329,org.ini4j.ini4j,0.5.0,2009-04-02,https://repo1.maven.org/maven2/org/ini4j/ini4j/0.5.0/ini4j-0.5.0.jar,14,,,,,,,0.5.1
+79273,org.ini4j.ini4j,0.5.1,2009-04-08,https://repo1.maven.org/maven2/org/ini4j/ini4j/0.5.1/ini4j-0.5.1.jar,14,0,0,0,0,0,0,0.5.2
+79272,org.ini4j.ini4j,0.5.2,2011-07-05,https://repo1.maven.org/maven2/org/ini4j/ini4j/0.5.2/ini4j-0.5.2.jar,14,0,0,0,0,0,0,0.5.4
+79249,org.ini4j.ini4j,0.5.4,2015-02-17,https://repo1.maven.org/maven2/org/ini4j/ini4j/0.5.4/ini4j-0.5.4.jar,: 14,0,0,0,0,0,0,

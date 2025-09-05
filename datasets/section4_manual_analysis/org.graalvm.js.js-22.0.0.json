@@ -1,0 +1,26 @@
+{
+    "tabby": [
+        [
+            "com.ibm.icu.impl.TimeZoneGenericNames#readObject",
+            "-[CALL]-> com.ibm.icu.impl.TimeZoneGenericNames#init",
+            "-[CALL]-> com.ibm.icu.text.TimeZoneNames#getInstance",
+            "-[CALL]-> com.ibm.icu.impl.SoftCache#getInstance",
+            "-[CALL]-> com.ibm.icu.impl.CacheBase#createInstance -[ALIAS]-> com.ibm.icu.impl.ResourceBundleWrapper$1#createInstance",
+            "-[CALL]-> com.ibm.icu.impl.ResourceBundleWrapper$1#createInstance",
+            "-[CALL]-> com.ibm.icu.impl.ResourceBundleWrapper$Loader#load -[ALIAS]-> com.ibm.icu.impl.ResourceBundleWrapper$2#load",
+            "-[CALL]-> java.lang.ClassLoader#loadClass",
+            "-[CALL]-> java.lang.ClassLoader#loadClass"
+        ],
+        [
+            "com.ibm.icu.text.TimeZoneFormat#readObject",
+            "-[CALL]-> com.ibm.icu.text.TimeZoneNames#getInstance",
+            "-[CALL]-> com.ibm.icu.impl.SoftCache#getInstance",
+            "-[CALL]-> com.ibm.icu.impl.CacheBase#createInstance -[ALIAS]-> com.ibm.icu.impl.ResourceBundleWrapper$1#createInstance",
+            "-[CALL]-> com.ibm.icu.impl.ResourceBundleWrapper$1#createInstance",
+            "-[CALL]-> com.ibm.icu.impl.ResourceBundleWrapper$Loader#load -[ALIAS]-> com.ibm.icu.impl.ResourceBundleWrapper$2#load",
+            "-[CALL]-> java.lang.ClassLoader#loadClass",
+            "-[CALL]-> java.lang.ClassLoader#loadClass"
+        ]
+    ],
+    "androChain": []
+}

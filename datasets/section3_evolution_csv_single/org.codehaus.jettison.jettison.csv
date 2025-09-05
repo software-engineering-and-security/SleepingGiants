@@ -1,0 +1,21 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+2587,org.codehaus.jettison.jettison,1.0,2008-02-22,https://repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.0/jettison-1.0.jar,,,,,,,,1.0.1
+2588,org.codehaus.jettison.jettison,1.0.1,2008-06-09,https://repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.0.1/jettison-1.0.1.jar,,,,,,,,1.1
+2589,org.codehaus.jettison.jettison,1.1,2009-04-20,https://repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.1/jettison-1.1.jar,,,,,,,,1.2
+2590,org.codehaus.jettison.jettison,1.2,2010-01-17,https://repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.2/jettison-1.2.jar,,,,,,,,1.3
+2591,org.codehaus.jettison.jettison,1.3,2011-04-11,https://repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.3/jettison-1.3.jar,,,,,,,,1.3.1
+2592,org.codehaus.jettison.jettison,1.3.1,2011-12-28,https://repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.3.1/jettison-1.3.1.jar,2,,,,,,,1.3.2
+2593,org.codehaus.jettison.jettison,1.3.2,2012-07-22,https://repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.3.2/jettison-1.3.2.jar,2,0,0,0,0,0,0,1.3.3
+2594,org.codehaus.jettison.jettison,1.3.3,2013-01-07,https://repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.3.3/jettison-1.3.3.jar,2,0,0,0,0,0,0,1.3.4
+2595,org.codehaus.jettison.jettison,1.3.4,2013-06-25,https://repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.3.4/jettison-1.3.4.jar,2,0,0,0,0,0,0,1.3.5
+2596,org.codehaus.jettison.jettison,1.3.5,2013-12-16,https://repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.3.5/jettison-1.3.5.jar,2,0,0,0,0,0,0,1.3.6
+2597,org.codehaus.jettison.jettison,1.3.6,2014-09-08,https://repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.3.6/jettison-1.3.6.jar,2,0,0,0,0,0,0,1.3.7
+2598,org.codehaus.jettison.jettison,1.3.7,2014-11-27,https://repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.3.7/jettison-1.3.7.jar,2,0,0,0,0,0,0,1.3.8
+2599,org.codehaus.jettison.jettison,1.3.8,2016-07-18,https://repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.3.8/jettison-1.3.8.jar,2,0,0,0,0,0,0,1.4.0
+2600,org.codehaus.jettison.jettison,1.4.0,2018-04-09,https://repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.4.0/jettison-1.4.0.jar,2,0,0,0,0,0,0,1.4.1
+2601,org.codehaus.jettison.jettison,1.4.1,2020-03-18,https://repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.4.1/jettison-1.4.1.jar,2,0,0,0,0,0,0,1.5.0
+2602,org.codehaus.jettison.jettison,1.5.0,2022-06-09,https://repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.5.0/jettison-1.5.0.jar,2,0,0,0,0,0,0,1.5.1
+2603,org.codehaus.jettison.jettison,1.5.1,2022-09-22,https://repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.5.1/jettison-1.5.1.jar,2,0,0,0,0,0,0,1.5.2
+2604,org.codehaus.jettison.jettison,1.5.2,2022-11-17,https://repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.5.2/jettison-1.5.2.jar,2,0,0,0,0,0,0,1.5.3
+2605,org.codehaus.jettison.jettison,1.5.3,2022-12-06,https://repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.5.3/jettison-1.5.3.jar,2,0,0,0,0,0,0,1.5.4
+2606,org.codehaus.jettison.jettison,1.5.4,2023-03-14,https://repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.5.4/jettison-1.5.4.jar,: 2,0,0,0,0,0,0,

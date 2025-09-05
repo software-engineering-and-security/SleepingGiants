@@ -1,0 +1,5 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+49881,org.apiguardian.apiguardian-api,1.0.0,2017-09-10,https://repo1.maven.org/maven2/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar,,,,,,,,1.1.0
+49882,org.apiguardian.apiguardian-api,1.1.0,2019-06-06,https://repo1.maven.org/maven2/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar,,,,,,,,1.1.1
+49883,org.apiguardian.apiguardian-api,1.1.1,2020-12-22,https://repo1.maven.org/maven2/org/apiguardian/apiguardian-api/1.1.1/apiguardian-api-1.1.1.jar,,,,,,,,1.1.2
+49884,org.apiguardian.apiguardian-api,1.1.2,2021-06-27,https://repo1.maven.org/maven2/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar,,,,,,,,

@@ -1,0 +1,5 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+103001,org.apache.bsf.bsf-api,2.2,2005-11-08,https://repo1.maven.org/maven2/bsf/bsf/2.2/bsf-2.2.jar,,,,,,,,2.3.0
+103000,org.apache.bsf.bsf-api,2.3.0,2005-11-08,https://repo1.maven.org/maven2/bsf/bsf/2.3.0/bsf-2.3.0.jar,,,,,,,,2.4.0
+102999,org.apache.bsf.bsf-api,2.4.0,2006-10-20,https://repo1.maven.org/maven2/bsf/bsf/2.4.0/bsf-2.4.0.jar,,,,,,,,3.1
+48207,org.apache.bsf.bsf-api,3.1,2010-06-19,https://repo1.maven.org/maven2/org/apache/bsf/bsf-api/3.1/bsf-api-3.1.jar,,,,,,,,

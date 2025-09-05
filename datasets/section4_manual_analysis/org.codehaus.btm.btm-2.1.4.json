@@ -1,0 +1,13 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<bitronix.tm.resource.jdbc.PoolingDataSource: java.sql.Connection getConnection()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.reflect.Proxy: java.lang.Object newProxyInstance(java.lang.ClassLoader,java.lang.Class[],java.lang.reflect.InvocationHandler)> with actual argTypes: [java.lang.ClassLoader, java.lang.Class[], java.lang.reflect.InvocationHandler] and taint: [false, false, false, true]",
+            "<java.lang.reflect.Proxy: java.lang.Object newProxyInstance(java.lang.Class,java.lang.reflect.Constructor,java.lang.reflect.InvocationHandler)> with actual argTypes: [java.lang.Class, java.lang.reflect.Constructor, java.lang.reflect.InvocationHandler] and taint: [false, false, false, true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, true]"
+        ]
+    ]
+}

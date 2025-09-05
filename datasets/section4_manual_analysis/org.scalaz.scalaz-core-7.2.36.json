@@ -1,0 +1,17 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<scalaz.$eq$eq$greater$greater: boolean equals(java.lang.Object)> with actual argTypes: [java.lang.Class] and taint: [true, true]",
+            "<scalaz.Order: boolean equal(java.lang.Object,java.lang.Object)> with actual argTypes: [scalaz.$eq$eq$greater$greater, scalaz.$eq$eq$greater$greater] and taint: [false, true, true]",
+            "<scalaz.std.java.enum$$anon$1: scalaz.Ordering order(java.lang.Object,java.lang.Object)> with actual argTypes: [java.lang.Object, java.lang.Object] and taint: [false, true, true]",
+            "<scalaz.std.java.enum$$anon$1: scalaz.Ordering order(java.lang.Enum,java.lang.Enum)> with actual argTypes: [java.lang.Enum, java.lang.Enum] and taint: [false, true, true]",
+            "<scalaz.std.java.enum$$anon$1: java.lang.Enum[] values()> with actual argTypes: [] and taint: [false]",
+            "<scalaz.std.java.enum$$anon$1: java.lang.Object values$lzyINIT1()> with actual argTypes: [] and taint: [false]",
+            "<java.lang.Class: java.lang.Object[] getEnumConstants()> with actual argTypes: [] and taint: [false]",
+            "<java.lang.Class: java.lang.Object[] getEnumConstantsShared()> with actual argTypes: [] and taint: [false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [null, java.lang.Object[]] and taint: [false, false, false]"
+        ]
+    ]
+}

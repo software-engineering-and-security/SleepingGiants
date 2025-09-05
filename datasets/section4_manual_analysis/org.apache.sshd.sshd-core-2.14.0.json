@@ -1,0 +1,13 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.sshd.agent.unix.AgentServerProxy: void close()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.sshd.agent.unix.AgentServerProxy: java.io.File removeSocketFile(java.lang.String,boolean)> with actual argTypes: [java.lang.String, boolean] and taint: [true, true, true]",
+            "<org.apache.sshd.agent.unix.AgentServerProxy: boolean deleteFile(java.io.File,java.lang.String,boolean)> with actual argTypes: [java.io.File, java.lang.String, boolean] and taint: [true, false, true, true]",
+            "<java.io.File: boolean delete()> with actual argTypes: [] and taint: [false]"
+        ]
+    ]
+}

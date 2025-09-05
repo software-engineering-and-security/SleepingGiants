@@ -1,0 +1,15 @@
+{
+    "tabby": [
+        [
+            "java.util.logging.LogRecord#readObject",
+            "-[CALL]-> java.util.ResourceBundle#getBundle",
+            "-[CALL]-> java.util.ResourceBundle#getBundleImpl",
+            "-[CALL]-> java.util.ResourceBundle#getLoader",
+            "-[CALL]-> java.security.PrivilegedAction#run -[ALIAS]-> org.apache.commons.logging.LogFactory$lambda_newFactory_26__39#run",
+            "-[CALL]-> org.apache.commons.logging.LogFactory#lambda$newFactory$26",
+            "-[CALL]-> org.apache.commons.logging.LogFactory#createFactory",
+            "-[CALL]-> java.lang.ClassLoader#loadClass"
+        ]
+    ],
+    "androChain": []
+}

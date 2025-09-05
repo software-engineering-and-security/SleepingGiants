@@ -1,0 +1,26 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+492,org.weakref.jmxutils,1.3,2009-11-02,https://repo1.maven.org/maven2/org/weakref/jmxutils/1.3/jmxutils-1.3.jar,,,,,,,,1.3.1
+493,org.weakref.jmxutils,1.3.1,2009-12-02,https://repo1.maven.org/maven2/org/weakref/jmxutils/1.3.1/jmxutils-1.3.1.jar,,,,,,,,1.4
+494,org.weakref.jmxutils,1.4,2009-12-09,https://repo1.maven.org/maven2/org/weakref/jmxutils/1.4/jmxutils-1.4.jar,,,,,,,,1.5
+495,org.weakref.jmxutils,1.5,2010-05-14,https://repo1.maven.org/maven2/org/weakref/jmxutils/1.5/jmxutils-1.5.jar,,,,,,,,1.6
+496,org.weakref.jmxutils,1.6,2010-10-06,https://repo1.maven.org/maven2/org/weakref/jmxutils/1.6/jmxutils-1.6.jar,,,,,,,,1.7
+497,org.weakref.jmxutils,1.7,2010-10-22,https://repo1.maven.org/maven2/org/weakref/jmxutils/1.7/jmxutils-1.7.jar,,,,,,,,1.8
+498,org.weakref.jmxutils,1.8,2010-12-01,https://repo1.maven.org/maven2/org/weakref/jmxutils/1.8/jmxutils-1.8.jar,,,,,,,,1.9
+499,org.weakref.jmxutils,1.9,2011-08-02,https://repo1.maven.org/maven2/org/weakref/jmxutils/1.9/jmxutils-1.9.jar,,,,,,,,1.10
+500,org.weakref.jmxutils,1.10,2011-10-15,https://repo1.maven.org/maven2/org/weakref/jmxutils/1.10/jmxutils-1.10.jar,,,,,,,,1.11
+501,org.weakref.jmxutils,1.11,2012-01-23,https://repo1.maven.org/maven2/org/weakref/jmxutils/1.11/jmxutils-1.11.jar,,,,,,,,1.12
+502,org.weakref.jmxutils,1.12,2012-02-02,https://repo1.maven.org/maven2/org/weakref/jmxutils/1.12/jmxutils-1.12.jar,,,,,,,,1.13
+439,org.weakref.jmxutils,1.13,2012-11-28,https://repo1.maven.org/maven2/org/weakref/jmxutils/1.13/jmxutils-1.13.jar,262,,,,,,,1.14
+480,org.weakref.jmxutils,1.14,2013-08-26,https://repo1.maven.org/maven2/org/weakref/jmxutils/1.14/jmxutils-1.14.jar,262,0,0,0,0,0,0,1.15
+438,org.weakref.jmxutils,1.15,2014-04-01,https://repo1.maven.org/maven2/org/weakref/jmxutils/1.15/jmxutils-1.15.jar,262,0,0,0,0,0,0,1.16
+383,org.weakref.jmxutils,1.16,2014-04-08,https://repo1.maven.org/maven2/org/weakref/jmxutils/1.16/jmxutils-1.16.jar,262,0,0,0,0,0,0,1.17
+360,org.weakref.jmxutils,1.17,2014-06-13,https://repo1.maven.org/maven2/org/weakref/jmxutils/1.17/jmxutils-1.17.jar,322,4,1,4,1,103,47,1.18
+361,org.weakref.jmxutils,1.18,2014-06-19,https://repo1.maven.org/maven2/org/weakref/jmxutils/1.18/jmxutils-1.18.jar,322,0,0,0,0,325,325,1.19
+362,org.weakref.jmxutils,1.19,2016-01-13,https://repo1.maven.org/maven2/org/weakref/jmxutils/1.19/jmxutils-1.19.jar,322,0,0,0,0,0,0,1.20
+363,org.weakref.jmxutils,1.20,2019-01-22,https://repo1.maven.org/maven2/org/weakref/jmxutils/1.20/jmxutils-1.20.jar,353,5,0,7,5,54,31,1.21
+364,org.weakref.jmxutils,1.21,2019-04-09,https://repo1.maven.org/maven2/org/weakref/jmxutils/1.21/jmxutils-1.21.jar,353,0,0,0,0,0,0,1.22
+365,org.weakref.jmxutils,1.22,2023-01-14,https://repo1.maven.org/maven2/org/weakref/jmxutils/1.22/jmxutils-1.22.jar,353,0,0,0,0,0,0,1.23
+366,org.weakref.jmxutils,1.23,2023-04-26,https://repo1.maven.org/maven2/org/weakref/jmxutils/1.23/jmxutils-1.23.jar,242,0,0,0,0,245,358,1.24
+367,org.weakref.jmxutils,1.24,2023-09-15,https://repo1.maven.org/maven2/org/weakref/jmxutils/1.24/jmxutils-1.24.jar,242,0,0,0,0,0,0,1.25
+368,org.weakref.jmxutils,1.25,2023-12-21,https://repo1.maven.org/maven2/org/weakref/jmxutils/1.25/jmxutils-1.25.jar,242,0,0,0,0,0,0,1.26
+369,org.weakref.jmxutils,1.26,2024-01-30,https://repo1.maven.org/maven2/org/weakref/jmxutils/1.26/jmxutils-1.26.jar,: 242,0,0,0,0,0,0,

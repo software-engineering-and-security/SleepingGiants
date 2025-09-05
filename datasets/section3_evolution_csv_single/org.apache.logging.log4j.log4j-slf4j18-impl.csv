@@ -1,0 +1,20 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+8386,org.apache.logging.log4j.log4j-slf4j18-impl,2.11.1,2019-07-17,https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j18-impl/2.11.1/log4j-slf4j18-impl-2.11.1.jar,1,,,,,,,2.11.2
+8385,org.apache.logging.log4j.log4j-slf4j18-impl,2.11.2,2019-02-09,https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j18-impl/2.11.2/log4j-slf4j18-impl-2.11.2.jar,1,0,0,0,0,0,0,2.12.0
+8331,org.apache.logging.log4j.log4j-slf4j18-impl,2.12.0,2019-06-29,https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j18-impl/2.12.0/log4j-slf4j18-impl-2.12.0.jar,1,0,0,0,0,0,0,2.12.1
+8308,org.apache.logging.log4j.log4j-slf4j18-impl,2.12.1,2019-08-09,https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j18-impl/2.12.1/log4j-slf4j18-impl-2.12.1.jar,1,0,0,0,0,0,0,2.12.2
+8309,org.apache.logging.log4j.log4j-slf4j18-impl,2.12.2,2021-12-14,https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j18-impl/2.12.2/log4j-slf4j18-impl-2.12.2.jar,1,0,0,0,0,0,0,2.12.3
+8310,org.apache.logging.log4j.log4j-slf4j18-impl,2.12.3,2021-12-22,https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j18-impl/2.12.3/log4j-slf4j18-impl-2.12.3.jar,1,0,0,0,0,0,0,2.12.4
+8311,org.apache.logging.log4j.log4j-slf4j18-impl,2.12.4,2021-12-29,https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j18-impl/2.12.4/log4j-slf4j18-impl-2.12.4.jar,1,0,0,0,0,0,0,2.13.0
+8312,org.apache.logging.log4j.log4j-slf4j18-impl,2.13.0,2019-12-12,https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j18-impl/2.13.0/log4j-slf4j18-impl-2.13.0.jar,1,0,0,0,0,0,0,2.13.1
+8313,org.apache.logging.log4j.log4j-slf4j18-impl,2.13.1,2020-02-29,https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j18-impl/2.13.1/log4j-slf4j18-impl-2.13.1.jar,1,0,0,0,0,0,0,2.13.2
+8314,org.apache.logging.log4j.log4j-slf4j18-impl,2.13.2,2020-04-21,https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j18-impl/2.13.2/log4j-slf4j18-impl-2.13.2.jar,1,0,0,0,0,0,0,2.13.3
+8315,org.apache.logging.log4j.log4j-slf4j18-impl,2.13.3,2020-05-14,https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j18-impl/2.13.3/log4j-slf4j18-impl-2.13.3.jar,1,0,0,0,0,0,0,2.14.0
+8316,org.apache.logging.log4j.log4j-slf4j18-impl,2.14.0,2020-11-10,https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j18-impl/2.14.0/log4j-slf4j18-impl-2.14.0.jar,1,0,0,0,0,0,0,2.14.1
+8317,org.apache.logging.log4j.log4j-slf4j18-impl,2.14.1,2021-03-12,https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j18-impl/2.14.1/log4j-slf4j18-impl-2.14.1.jar,1,0,0,0,0,0,0,2.15.0
+8318,org.apache.logging.log4j.log4j-slf4j18-impl,2.15.0,2021-12-10,https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j18-impl/2.15.0/log4j-slf4j18-impl-2.15.0.jar,1,0,0,0,0,0,0,2.16.0
+8319,org.apache.logging.log4j.log4j-slf4j18-impl,2.16.0,2021-12-13,https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j18-impl/2.16.0/log4j-slf4j18-impl-2.16.0.jar,1,0,0,0,0,0,0,2.17.0
+8320,org.apache.logging.log4j.log4j-slf4j18-impl,2.17.0,2021-12-18,https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j18-impl/2.17.0/log4j-slf4j18-impl-2.17.0.jar,1,0,0,0,0,0,0,2.17.1
+8321,org.apache.logging.log4j.log4j-slf4j18-impl,2.17.1,2021-12-27,https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j18-impl/2.17.1/log4j-slf4j18-impl-2.17.1.jar,1,0,0,0,0,0,0,2.17.2
+8322,org.apache.logging.log4j.log4j-slf4j18-impl,2.17.2,2022-02-27,https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j18-impl/2.17.2/log4j-slf4j18-impl-2.17.2.jar,1,0,0,0,0,0,0,2.18.0
+8323,org.apache.logging.log4j.log4j-slf4j18-impl,2.18.0,2022-07-02,https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j18-impl/2.18.0/log4j-slf4j18-impl-2.18.0.jar,: 1,0,0,0,0,0,0,

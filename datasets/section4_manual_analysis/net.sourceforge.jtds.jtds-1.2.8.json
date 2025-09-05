@@ -1,0 +1,26 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<net.sourceforge.jtds.jdbcx.JtdsDataSource: java.sql.Connection getConnection(java.lang.String,java.lang.String)> with actual argTypes: [java.lang.String, java.lang.String] and taint: [true, true, true]",
+            "<java.io.FileOutputStream: void <init>(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<net.sourceforge.jtds.jdbcx.JtdsDataSource: java.sql.Connection getConnection()> with actual argTypes: [] and taint: [true]",
+            "<net.sourceforge.jtds.jdbcx.JtdsDataSource: java.sql.Connection getConnection(java.lang.String,java.lang.String)> with actual argTypes: [java.lang.String, java.lang.String] and taint: [true, true, true]",
+            "<java.io.FileOutputStream: void <init>(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<net.sourceforge.jtds.jdbcx.JtdsDataSource: java.sql.Connection getConnection(java.lang.String,java.lang.String)> with actual argTypes: [java.lang.String, java.lang.String] and taint: [true, true, true]",
+            "<net.sourceforge.jtds.jdbc.Support: java.sql.SQLException linkException(java.sql.SQLException,java.lang.Throwable)> with actual argTypes: [java.sql.SQLException, java.lang.RuntimeException] and taint: [false, false, false]",
+            "<net.sourceforge.jtds.jdbc.Support: java.lang.Throwable linkException(java.lang.Exception,java.lang.Throwable)> with actual argTypes: [java.sql.SQLException, java.lang.Throwable] and taint: [false, false, false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Exception, java.lang.Object[]] and taint: [false, false, false]"
+        ]
+    ]
+}

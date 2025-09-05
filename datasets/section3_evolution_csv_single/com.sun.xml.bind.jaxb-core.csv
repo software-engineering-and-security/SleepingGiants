@@ -1,0 +1,16 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+31836,com.sun.xml.bind.jaxb-core,2.1.14,2013-10-16,https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/2.1.14/jaxb-core-2.1.14.jar,,,,,,,,
+32013,com.sun.xml.bind.jaxb-core,2.2.7,2013-04-23,https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/2.2.7/jaxb-core-2.2.7.jar,,,,,,,,2.2.10
+32014,com.sun.xml.bind.jaxb-core,2.2.10,2015-01-14,https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/2.2.10/jaxb-core-2.2.10.jar,,,,,,,,2.2.11
+32015,com.sun.xml.bind.jaxb-core,2.2.11,2014-10-10,https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/2.2.11/jaxb-core-2.2.11.jar,,,,,,,,2.3.0
+32016,com.sun.xml.bind.jaxb-core,2.3.0,2017-08-02,https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-core-2.3.0.jar,,,,,,,,2.3.0.1
+32017,com.sun.xml.bind.jaxb-core,2.3.0.1,2018-05-18,https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-core-2.3.0.1.jar,,,,,,,,3.0.0
+32018,com.sun.xml.bind.jaxb-core,3.0.0,2020-11-25,https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/3.0.0/jaxb-core-3.0.0.jar,,,,,,,,3.0.1
+32019,com.sun.xml.bind.jaxb-core,3.0.1,2021-04-27,https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/3.0.1/jaxb-core-3.0.1.jar,,,,,,,,3.0.2
+32020,com.sun.xml.bind.jaxb-core,3.0.2,2021-08-03,https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/3.0.2/jaxb-core-3.0.2.jar,,,,,,,,4.0.0
+32012,com.sun.xml.bind.jaxb-core,4.0.0,2022-06-06,https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/4.0.0/jaxb-core-4.0.0.jar,,,,,,,,4.0.1
+32021,com.sun.xml.bind.jaxb-core,4.0.1,2022-09-20,https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/4.0.1/jaxb-core-4.0.1.jar,,,,,,,,4.0.2
+32011,com.sun.xml.bind.jaxb-core,4.0.2,2023-02-06,https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/4.0.2/jaxb-core-4.0.2.jar,,,,,,,,4.0.3
+32010,com.sun.xml.bind.jaxb-core,4.0.3,2023-06-09,https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/4.0.3/jaxb-core-4.0.3.jar,,,,,,,,4.0.4
+32008,com.sun.xml.bind.jaxb-core,4.0.4,2023-10-20,https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/4.0.4/jaxb-core-4.0.4.jar,,,,,,,,4.0.5
+32009,com.sun.xml.bind.jaxb-core,4.0.5,2024-03-07,https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/4.0.5/jaxb-core-4.0.5.jar,,,,,,,,

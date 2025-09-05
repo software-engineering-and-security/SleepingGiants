@@ -1,0 +1,10 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+20420,com.loopj.android.android-async-http,1.4.3,2013-10-12,https://repo1.maven.org/maven2/com/loopj/android/android-async-http/1.4.3/android-async-http-1.4.3.jar,1,,,,,,,1.4.4
+20421,com.loopj.android.android-async-http,1.4.4,2013-10-28,https://repo1.maven.org/maven2/com/loopj/android/android-async-http/1.4.4/android-async-http-1.4.4.jar,1,0,0,0,0,0,0,1.4.5
+20400,com.loopj.android.android-async-http,1.4.5,2014-06-22,https://repo1.maven.org/maven2/com/loopj/android/android-async-http/1.4.5/android-async-http-1.4.5.jar,1,0,0,0,0,0,0,1.4.6
+20422,com.loopj.android.android-async-http,1.4.6,2014-09-07,https://repo1.maven.org/maven2/com/loopj/android/android-async-http/1.4.6/android-async-http-1.4.6.jar,2,1,0,0,0,0,0,1.4.7
+20399,com.loopj.android.android-async-http,1.4.7,2015-05-09,https://repo1.maven.org/maven2/com/loopj/android/android-async-http/1.4.7/android-async-http-1.4.7.jar,3,1,0,0,0,0,0,1.4.8
+20397,com.loopj.android.android-async-http,1.4.8,2015-07-17,https://repo1.maven.org/maven2/com/loopj/android/android-async-http/1.4.8/android-async-http-1.4.8.jar,3,0,0,0,0,0,0,1.4.9
+20375,com.loopj.android.android-async-http,1.4.9,2015-09-19,https://repo1.maven.org/maven2/com/loopj/android/android-async-http/1.4.9/android-async-http-1.4.9.jar,3,0,0,0,0,0,0,1.4.10
+20376,com.loopj.android.android-async-http,1.4.10,2019-07-20,https://repo1.maven.org/maven2/com/loopj/android/android-async-http/1.4.10/android-async-http-1.4.10.jar,3,0,0,0,0,0,0,1.4.11
+20377,com.loopj.android.android-async-http,1.4.11,2020-06-29,https://repo1.maven.org/maven2/com/loopj/android/android-async-http/1.4.11/android-async-http-1.4.11.jar,: 3,0,0,0,0,0,0,

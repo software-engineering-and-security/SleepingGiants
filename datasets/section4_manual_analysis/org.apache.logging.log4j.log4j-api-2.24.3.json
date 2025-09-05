@@ -1,0 +1,20 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<org.apache.logging.log4j.util.SortedArrayStringMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<org.apache.logging.log4j.util.internal.SerializationUtil: java.lang.Object readWrappedObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [false, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.io.ObjectInputStream, java.lang.Object[]] and taint: [false, true, false]"
+        ],
+        [
+            "<org.apache.logging.log4j.util.SortedArrayStringMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<org.apache.logging.log4j.util.internal.SerializationUtil: java.lang.Object readWrappedObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [false, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [null, java.lang.Object[]] and taint: [false, false, true]"
+        ],
+        [
+            "<org.apache.logging.log4j.util.SortedArrayStringMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<org.apache.logging.log4j.util.internal.SerializationUtil: java.lang.Object readWrappedObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [false, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.io.ObjectInputStream, java.lang.Object[]] and taint: [false, false, true]"
+        ]
+    ]
+}

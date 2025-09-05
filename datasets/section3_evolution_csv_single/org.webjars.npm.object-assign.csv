@@ -1,0 +1,9 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+33536,org.webjars.npm.object-assign,0.3.0,2015-06-20,https://repo1.maven.org/maven2/org/webjars/npm/object-assign/0.3.0/object-assign-0.3.0.jar,,,,,,,,
+33537,org.webjars.npm.object-assign,0.4.0,2015-06-20,https://repo1.maven.org/maven2/org/webjars/npm/object-assign/0.4.0/object-assign-0.4.0.jar,,,,,,,,
+33538,org.webjars.npm.object-assign,2.0.0,2015-05-24,https://repo1.maven.org/maven2/org/webjars/npm/object-assign/2.0.0/object-assign-2.0.0.jar,,,,,,,,
+33539,org.webjars.npm.object-assign,2.1.1,2018-04-28,https://repo1.maven.org/maven2/org/webjars/npm/object-assign/2.1.1/object-assign-2.1.1.jar,,,,,,,,
+33540,org.webjars.npm.object-assign,3.0.0,2015-10-06,https://repo1.maven.org/maven2/org/webjars/npm/object-assign/3.0.0/object-assign-3.0.0.jar,,,,,,,,
+33541,org.webjars.npm.object-assign,4.0.1,2016-02-19,https://repo1.maven.org/maven2/org/webjars/npm/object-assign/4.0.1/object-assign-4.0.1.jar,,,,,,,,
+33542,org.webjars.npm.object-assign,4.1.0,2016-05-25,https://repo1.maven.org/maven2/org/webjars/npm/object-assign/4.1.0/object-assign-4.1.0.jar,,,,,,,,
+33543,org.webjars.npm.object-assign,4.1.1,2017-06-04,https://repo1.maven.org/maven2/org/webjars/npm/object-assign/4.1.1/object-assign-4.1.1.jar,,,,,,,,

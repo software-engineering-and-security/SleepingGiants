@@ -1,0 +1,11 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+110132,jakarta.interceptor.jakarta.interceptor-api,1.2,2013-04-26,https://repo1.maven.org/maven2/javax/interceptor/javax.interceptor-api/1.2/javax.interceptor-api-1.2.jar,,,,,,,,1.2.1
+110133,jakarta.interceptor.jakarta.interceptor-api,1.2.1,2017-08-03,https://repo1.maven.org/maven2/javax/interceptor/javax.interceptor-api/1.2.1/javax.interceptor-api-1.2.1.jar,,,,,,,,1.2.2
+110135,jakarta.interceptor.jakarta.interceptor-api,1.2.2,2018-03-14,https://repo1.maven.org/maven2/javax/interceptor/javax.interceptor-api/1.2.2/javax.interceptor-api-1.2.2.jar,,,,,,,,1.2.3
+3093,jakarta.interceptor.jakarta.interceptor-api,1.2.3,2019-01-11,https://repo1.maven.org/maven2/jakarta/interceptor/jakarta.interceptor-api/1.2.3/jakarta.interceptor-api-1.2.3.jar,,,,,,,,1.2.4
+3094,jakarta.interceptor.jakarta.interceptor-api,1.2.4,2019-01-18,https://repo1.maven.org/maven2/jakarta/interceptor/jakarta.interceptor-api/1.2.4/jakarta.interceptor-api-1.2.4.jar,,,,,,,,1.2.5
+3095,jakarta.interceptor.jakarta.interceptor-api,1.2.5,2019-09-10,https://repo1.maven.org/maven2/jakarta/interceptor/jakarta.interceptor-api/1.2.5/jakarta.interceptor-api-1.2.5.jar,,,,,,,,2.0.0
+3096,jakarta.interceptor.jakarta.interceptor-api,2.0.0,2020-11-20,https://repo1.maven.org/maven2/jakarta/interceptor/jakarta.interceptor-api/2.0.0/jakarta.interceptor-api-2.0.0.jar,,,,,,,,2.0.1
+3097,jakarta.interceptor.jakarta.interceptor-api,2.0.1,2022-01-25,https://repo1.maven.org/maven2/jakarta/interceptor/jakarta.interceptor-api/2.0.1/jakarta.interceptor-api-2.0.1.jar,,,,,,,,2.1.0
+3098,jakarta.interceptor.jakarta.interceptor-api,2.1.0,2022-04-09,https://repo1.maven.org/maven2/jakarta/interceptor/jakarta.interceptor-api/2.1.0/jakarta.interceptor-api-2.1.0.jar,,,,,,,,2.2.0
+3099,jakarta.interceptor.jakarta.interceptor-api,2.2.0,2024-04-12,https://repo1.maven.org/maven2/jakarta/interceptor/jakarta.interceptor-api/2.2.0/jakarta.interceptor-api-2.2.0.jar,,,,,,,,

@@ -1,0 +1,13 @@
+{
+    "tabby": [
+        [
+            "java.util.concurrent.ConcurrentSkipListMap#readObject",
+            "-[CALL]-> java.util.concurrent.ConcurrentSkipListMap#cpr",
+            "-[CALL]-> java.util.Comparator#compare -[ALIAS]-> java.util.Comparator$lambda_comparing_ea9a8b3a_1__411#compare",
+            "-[CALL]-> java.util.Comparator#lambda$comparing$ea9a8b3a$1",
+            "-[CALL]-> java.util.function.Function#apply -[ALIAS]-> com.alibaba.fastjson2.support.LambdaMiscCodec$GetterFunction#apply",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ]
+    ],
+    "androChain": []
+}

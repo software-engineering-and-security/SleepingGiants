@@ -1,0 +1,10 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+22755,org.cryptonode.jncryptor.jncryptor,0.1,2013-01-30,https://repo1.maven.org/maven2/org/cryptonode/jncryptor/jncryptor/0.1/jncryptor-0.1.jar,,,,,,,,0.2
+22756,org.cryptonode.jncryptor.jncryptor,0.2,2013-02-03,https://repo1.maven.org/maven2/org/cryptonode/jncryptor/jncryptor/0.2/jncryptor-0.2.jar,,,,,,,,0.3
+22757,org.cryptonode.jncryptor.jncryptor,0.3,2013-02-28,https://repo1.maven.org/maven2/org/cryptonode/jncryptor/jncryptor/0.3/jncryptor-0.3.jar,,,,,,,,0.4
+22758,org.cryptonode.jncryptor.jncryptor,0.4,2013-12-27,https://repo1.maven.org/maven2/org/cryptonode/jncryptor/jncryptor/0.4/jncryptor-0.4.jar,,,,,,,,0.5
+22759,org.cryptonode.jncryptor.jncryptor,0.5,2014-01-07,https://repo1.maven.org/maven2/org/cryptonode/jncryptor/jncryptor/0.5/jncryptor-0.5.jar,,,,,,,,1.0.0
+22760,org.cryptonode.jncryptor.jncryptor,1.0.0,2014-01-13,https://repo1.maven.org/maven2/org/cryptonode/jncryptor/jncryptor/1.0.0/jncryptor-1.0.0.jar,,,,,,,,1.0.1
+22761,org.cryptonode.jncryptor.jncryptor,1.0.1,2014-01-19,https://repo1.maven.org/maven2/org/cryptonode/jncryptor/jncryptor/1.0.1/jncryptor-1.0.1.jar,,,,,,,,1.1.0
+22762,org.cryptonode.jncryptor.jncryptor,1.1.0,2014-08-23,https://repo1.maven.org/maven2/org/cryptonode/jncryptor/jncryptor/1.1.0/jncryptor-1.1.0.jar,,,,,,,,1.2.0
+22763,org.cryptonode.jncryptor.jncryptor,1.2.0,2014-10-05,https://repo1.maven.org/maven2/org/cryptonode/jncryptor/jncryptor/1.2.0/jncryptor-1.2.0.jar,,,,,,,,

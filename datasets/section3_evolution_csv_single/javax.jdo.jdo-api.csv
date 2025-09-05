@@ -1,0 +1,10 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+110045,javax.jdo.jdo-api,2.0,2006-04-14,https://repo1.maven.org/maven2/javax/jdo/jdo2-api/2.0/jdo2-api-2.0.jar,2,,,,,,,2.1
+110473,javax.jdo.jdo-api,2.1,2008-03-25,https://repo1.maven.org/maven2/javax/jdo/jdo2-api/2.1/jdo2-api-2.1.jar,3,0,0,0,0,1,0,2.1.1
+110484,javax.jdo.jdo-api,2.1.1,2008-08-29,https://repo1.maven.org/maven2/javax/jdo/jdo2-api/2.1.1/jdo2-api-2.1.1.jar,3,0,0,0,0,0,0,2.2
+110471,javax.jdo.jdo-api,2.2,2008-10-24,https://repo1.maven.org/maven2/javax/jdo/jdo2-api/2.2/jdo2-api-2.2.jar,3,0,0,0,0,0,0,3.0
+2951,javax.jdo.jdo-api,3.0,2010-10-17,https://repo1.maven.org/maven2/javax/jdo/jdo-api/3.0/jdo-api-3.0.jar,3,0,0,0,0,0,0,3.0.1
+2929,javax.jdo.jdo-api,3.0.1,2012-02-09,https://repo1.maven.org/maven2/javax/jdo/jdo-api/3.0.1/jdo-api-3.0.1.jar,3,0,0,0,0,0,0,3.1
+2927,javax.jdo.jdo-api,3.1,2015-03-11,https://repo1.maven.org/maven2/javax/jdo/jdo-api/3.1/jdo-api-3.1.jar,2,0,0,0,0,0,1,3.2
+2910,javax.jdo.jdo-api,3.2,2022-02-01,https://repo1.maven.org/maven2/javax/jdo/jdo-api/3.2/jdo-api-3.2.jar,4,0,0,0,0,2,0,3.2.1
+2911,javax.jdo.jdo-api,3.2.1,2022-05-25,https://repo1.maven.org/maven2/javax/jdo/jdo-api/3.2.1/jdo-api-3.2.1.jar,: 4,0,0,0,0,0,0,

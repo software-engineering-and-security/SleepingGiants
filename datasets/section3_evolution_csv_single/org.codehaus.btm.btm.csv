@@ -1,0 +1,13 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+26642,org.codehaus.btm.btm,1.2,2008-04-03,https://repo1.maven.org/maven2/org/codehaus/btm/btm/1.2/btm-1.2.jar,6,,,,,,,1.3
+26643,org.codehaus.btm.btm,1.3,2008-08-18,https://repo1.maven.org/maven2/org/codehaus/btm/btm/1.3/btm-1.3.jar,4,0,0,0,0,0,2,1.3.1
+26644,org.codehaus.btm.btm,1.3.1,2008-09-28,https://repo1.maven.org/maven2/org/codehaus/btm/btm/1.3.1/btm-1.3.1.jar,4,0,0,0,0,0,0,1.3.2
+26645,org.codehaus.btm.btm,1.3.2,2008-10-17,https://repo1.maven.org/maven2/org/codehaus/btm/btm/1.3.2/btm-1.3.2.jar,4,0,0,0,0,0,0,1.3.3
+26646,org.codehaus.btm.btm,1.3.3,2009-10-25,https://repo1.maven.org/maven2/org/codehaus/btm/btm/1.3.3/btm-1.3.3.jar,4,0,0,0,0,0,0,2.0.0
+26647,org.codehaus.btm.btm,2.0.0,2010-07-02,https://repo1.maven.org/maven2/org/codehaus/btm/btm/2.0.0/btm-2.0.0.jar,5,0,0,0,0,2,0,2.0.1
+26648,org.codehaus.btm.btm,2.0.1,2010-07-31,https://repo1.maven.org/maven2/org/codehaus/btm/btm/2.0.1/btm-2.0.1.jar,5,0,0,0,0,0,0,2.1.0
+26649,org.codehaus.btm.btm,2.1.0,2010-10-30,https://repo1.maven.org/maven2/org/codehaus/btm/btm/2.1.0/btm-2.1.0.jar,5,0,0,0,0,0,0,2.1.1
+26650,org.codehaus.btm.btm,2.1.1,2011-04-02,https://repo1.maven.org/maven2/org/codehaus/btm/btm/2.1.1/btm-2.1.1.jar,5,0,0,0,0,0,0,2.1.2
+26577,org.codehaus.btm.btm,2.1.2,2011-10-30,https://repo1.maven.org/maven2/org/codehaus/btm/btm/2.1.2/btm-2.1.2.jar,5,0,0,0,0,0,0,2.1.3
+26576,org.codehaus.btm.btm,2.1.3,2012-05-16,https://repo1.maven.org/maven2/org/codehaus/btm/btm/2.1.3/btm-2.1.3.jar,5,0,0,0,0,0,0,2.1.4
+26575,org.codehaus.btm.btm,2.1.4,2013-09-15,https://repo1.maven.org/maven2/org/codehaus/btm/btm/2.1.4/btm-2.1.4.jar,: 5,0,0,0,0,0,0,

@@ -1,0 +1,141 @@
+{
+    "tabby": [
+        [
+            "org.apache.commons.collections.MultiHashMap#readObject",
+            "-[CALL]-> java.util.Map$Entry#getValue -[ALIAS]-> org.apache.commons.collections.map.ListOrderedMap$ListOrderedMapEntry#getValue",
+            "-[CALL]-> org.apache.commons.collections.map.AbstractMapDecorator#get -[ALIAS]-> org.apache.commons.collections.map.DefaultedMap#get",
+            "-[CALL]-> org.apache.commons.collections.Transformer#transform -[ALIAS]-> org.apache.commons.collections.functors.InvokerTransformer#transform",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ],
+        [
+            "org.apache.commons.collections.map.Flat3Map#readObject",
+            "-[CALL]-> org.apache.commons.collections.map.Flat3Map#put",
+            "-[CALL]-> java.lang.Object#equals -[ALIAS]-> java.util.WeakHashMap$Entry#equals",
+            "-[CALL]-> java.util.Map$Entry#getValue -[ALIAS]-> org.apache.commons.collections.map.ListOrderedMap$ListOrderedMapEntry#getValue",
+            "-[CALL]-> org.apache.commons.collections.map.AbstractMapDecorator#get -[ALIAS]-> org.apache.commons.collections.map.DefaultedMap#get",
+            "-[CALL]-> org.apache.commons.collections.Transformer#transform -[ALIAS]-> org.apache.commons.collections.functors.InvokerTransformer#transform",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ],
+        [
+            "org.apache.commons.collections.map.IdentityMap#readObject",
+            "-[CALL]-> org.apache.commons.collections.map.AbstractHashedMap#doReadObject",
+            "-[CALL]-> org.apache.commons.collections.map.AbstractHashedMap#put",
+            "-[CALL]-> org.apache.commons.collections.map.AbstractHashedMap#isEqualKey",
+            "-[CALL]-> java.lang.Object#equals -[ALIAS]-> java.util.WeakHashMap$Entry#equals",
+            "-[CALL]-> java.util.Map$Entry#getValue -[ALIAS]-> org.apache.commons.collections.map.ListOrderedMap$ListOrderedMapEntry#getValue",
+            "-[CALL]-> org.apache.commons.collections.map.AbstractMapDecorator#get -[ALIAS]-> org.apache.commons.collections.map.DefaultedMap#get",
+            "-[CALL]-> org.apache.commons.collections.Transformer#transform -[ALIAS]-> org.apache.commons.collections.functors.InvokerTransformer#transform",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ],
+        [
+            "org.apache.commons.collections.map.CaseInsensitiveMap#readObject",
+            "-[CALL]-> org.apache.commons.collections.map.AbstractHashedMap#doReadObject",
+            "-[CALL]-> org.apache.commons.collections.map.AbstractHashedMap#put",
+            "-[CALL]-> org.apache.commons.collections.map.AbstractHashedMap#isEqualKey",
+            "-[CALL]-> java.lang.Object#equals -[ALIAS]-> java.util.WeakHashMap$Entry#equals",
+            "-[CALL]-> java.util.Map$Entry#getValue -[ALIAS]-> org.apache.commons.collections.map.ListOrderedMap$ListOrderedMapEntry#getValue",
+            "-[CALL]-> org.apache.commons.collections.map.AbstractMapDecorator#get -[ALIAS]-> org.apache.commons.collections.map.DefaultedMap#get",
+            "-[CALL]-> org.apache.commons.collections.Transformer#transform -[ALIAS]-> org.apache.commons.collections.functors.InvokerTransformer#transform",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ],
+        [
+            "org.apache.commons.collections.map.HashedMap#readObject",
+            "-[CALL]-> org.apache.commons.collections.map.AbstractHashedMap#doReadObject",
+            "-[CALL]-> org.apache.commons.collections.map.AbstractHashedMap#put",
+            "-[CALL]-> org.apache.commons.collections.map.AbstractHashedMap#isEqualKey",
+            "-[CALL]-> java.lang.Object#equals -[ALIAS]-> java.util.WeakHashMap$Entry#equals",
+            "-[CALL]-> java.util.Map$Entry#getValue -[ALIAS]-> org.apache.commons.collections.map.ListOrderedMap$ListOrderedMapEntry#getValue",
+            "-[CALL]-> org.apache.commons.collections.map.AbstractMapDecorator#get -[ALIAS]-> org.apache.commons.collections.map.DefaultedMap#get",
+            "-[CALL]-> org.apache.commons.collections.Transformer#transform -[ALIAS]-> org.apache.commons.collections.functors.InvokerTransformer#transform",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ],
+        [
+            "org.apache.commons.collections.map.LinkedMap#readObject",
+            "-[CALL]-> org.apache.commons.collections.map.AbstractHashedMap#doReadObject",
+            "-[CALL]-> org.apache.commons.collections.map.AbstractHashedMap#put",
+            "-[CALL]-> org.apache.commons.collections.map.AbstractHashedMap#isEqualKey",
+            "-[CALL]-> java.lang.Object#equals -[ALIAS]-> java.util.WeakHashMap$Entry#equals",
+            "-[CALL]-> java.util.Map$Entry#getValue -[ALIAS]-> org.apache.commons.collections.map.ListOrderedMap$ListOrderedMapEntry#getValue",
+            "-[CALL]-> org.apache.commons.collections.map.AbstractMapDecorator#get -[ALIAS]-> org.apache.commons.collections.map.DefaultedMap#get",
+            "-[CALL]-> org.apache.commons.collections.Transformer#transform -[ALIAS]-> org.apache.commons.collections.functors.InvokerTransformer#transform",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ],
+        [
+            "org.apache.commons.collections.MultiHashMap#readObject",
+            "-[CALL]-> java.util.Map$Entry#getValue -[ALIAS]-> org.apache.commons.collections.map.ListOrderedMap$ListOrderedMapEntry#getValue",
+            "-[CALL]-> org.apache.commons.collections.map.AbstractMapDecorator#get -[ALIAS]-> org.apache.commons.collections.map.LazyMap#get",
+            "-[CALL]-> org.apache.commons.collections.Transformer#transform -[ALIAS]-> org.apache.commons.collections.functors.InstantiateTransformer#transform",
+            "-[CALL]-> java.lang.reflect.Constructor#newInstance"
+        ],
+        [
+            "org.apache.commons.collections.map.LinkedMap#readObject",
+            "-[CALL]-> org.apache.commons.collections.map.AbstractHashedMap#doReadObject",
+            "-[CALL]-> org.apache.commons.collections.map.AbstractHashedMap#put",
+            "-[CALL]-> org.apache.commons.collections.map.AbstractHashedMap#isEqualKey",
+            "-[CALL]-> java.lang.Object#equals -[ALIAS]-> java.util.TreeMap$Entry#equals",
+            "-[CALL]-> java.util.Map$Entry#getValue -[ALIAS]-> org.apache.commons.collections.map.ListOrderedMap$ListOrderedMapEntry#getValue",
+            "-[CALL]-> org.apache.commons.collections.map.AbstractMapDecorator#get -[ALIAS]-> org.apache.commons.collections.map.LazyMap#get",
+            "-[CALL]-> org.apache.commons.collections.Transformer#transform -[ALIAS]-> org.apache.commons.collections.functors.InstantiateTransformer#transform",
+            "-[CALL]-> java.lang.reflect.Constructor#newInstance"
+        ],
+        [
+            "org.apache.commons.collections.bidimap.DualHashBidiMap#readObject",
+            "-[CALL]-> org.apache.commons.collections.bidimap.AbstractDualBidiMap#putAll",
+            "-[CALL]-> java.util.Map$Entry#getValue -[ALIAS]-> org.apache.commons.collections.map.ListOrderedMap$ListOrderedMapEntry#getValue",
+            "-[CALL]-> org.apache.commons.collections.map.AbstractMapDecorator#get -[ALIAS]-> org.apache.commons.collections.map.LazyMap#get",
+            "-[CALL]-> org.apache.commons.collections.Transformer#transform -[ALIAS]-> org.apache.commons.collections.functors.InstantiateTransformer#transform",
+            "-[CALL]-> java.lang.reflect.Constructor#newInstance"
+        ],
+        [
+            "org.apache.commons.collections.map.Flat3Map#readObject",
+            "-[CALL]-> org.apache.commons.collections.map.Flat3Map#put",
+            "-[CALL]-> java.lang.Object#equals -[ALIAS]-> java.util.TreeMap$Entry#equals",
+            "-[CALL]-> java.util.Map$Entry#getValue -[ALIAS]-> org.apache.commons.collections.map.ListOrderedMap$ListOrderedMapEntry#getValue",
+            "-[CALL]-> org.apache.commons.collections.map.AbstractMapDecorator#get -[ALIAS]-> org.apache.commons.collections.map.LazyMap#get",
+            "-[CALL]-> org.apache.commons.collections.Transformer#transform -[ALIAS]-> org.apache.commons.collections.functors.InstantiateTransformer#transform",
+            "-[CALL]-> java.lang.reflect.Constructor#newInstance"
+        ],
+        [
+            "org.apache.commons.collections.bidimap.DualTreeBidiMap#readObject",
+            "-[CALL]-> org.apache.commons.collections.bidimap.AbstractDualBidiMap#putAll",
+            "-[CALL]-> java.util.Map$Entry#getValue -[ALIAS]-> org.apache.commons.collections.map.ListOrderedMap$ListOrderedMapEntry#getValue",
+            "-[CALL]-> org.apache.commons.collections.map.AbstractMapDecorator#get -[ALIAS]-> org.apache.commons.collections.map.LazyMap#get",
+            "-[CALL]-> org.apache.commons.collections.Transformer#transform -[ALIAS]-> org.apache.commons.collections.functors.InstantiateTransformer#transform",
+            "-[CALL]-> java.lang.reflect.Constructor#newInstance"
+        ],
+        [
+            "org.apache.commons.collections.map.IdentityMap#readObject",
+            "-[CALL]-> org.apache.commons.collections.map.AbstractHashedMap#doReadObject",
+            "-[CALL]-> org.apache.commons.collections.map.AbstractHashedMap#put",
+            "-[CALL]-> org.apache.commons.collections.map.AbstractHashedMap#isEqualKey",
+            "-[CALL]-> java.lang.Object#equals -[ALIAS]-> java.util.TreeMap$Entry#equals",
+            "-[CALL]-> java.util.Map$Entry#getValue -[ALIAS]-> org.apache.commons.collections.map.ListOrderedMap$ListOrderedMapEntry#getValue",
+            "-[CALL]-> org.apache.commons.collections.map.AbstractMapDecorator#get -[ALIAS]-> org.apache.commons.collections.map.LazyMap#get",
+            "-[CALL]-> org.apache.commons.collections.Transformer#transform -[ALIAS]-> org.apache.commons.collections.functors.InstantiateTransformer#transform",
+            "-[CALL]-> java.lang.reflect.Constructor#newInstance"
+        ],
+        [
+            "org.apache.commons.collections.map.CaseInsensitiveMap#readObject",
+            "-[CALL]-> org.apache.commons.collections.map.AbstractHashedMap#doReadObject",
+            "-[CALL]-> org.apache.commons.collections.map.AbstractHashedMap#put",
+            "-[CALL]-> org.apache.commons.collections.map.AbstractHashedMap#isEqualKey",
+            "-[CALL]-> java.lang.Object#equals -[ALIAS]-> java.util.TreeMap$Entry#equals",
+            "-[CALL]-> java.util.Map$Entry#getValue -[ALIAS]-> org.apache.commons.collections.map.ListOrderedMap$ListOrderedMapEntry#getValue",
+            "-[CALL]-> org.apache.commons.collections.map.AbstractMapDecorator#get -[ALIAS]-> org.apache.commons.collections.map.LazyMap#get",
+            "-[CALL]-> org.apache.commons.collections.Transformer#transform -[ALIAS]-> org.apache.commons.collections.functors.InstantiateTransformer#transform",
+            "-[CALL]-> java.lang.reflect.Constructor#newInstance"
+        ],
+        [
+            "org.apache.commons.collections.map.HashedMap#readObject",
+            "-[CALL]-> org.apache.commons.collections.map.AbstractHashedMap#doReadObject",
+            "-[CALL]-> org.apache.commons.collections.map.AbstractHashedMap#put",
+            "-[CALL]-> org.apache.commons.collections.map.AbstractHashedMap#isEqualKey",
+            "-[CALL]-> java.lang.Object#equals -[ALIAS]-> java.util.TreeMap$Entry#equals",
+            "-[CALL]-> java.util.Map$Entry#getValue -[ALIAS]-> org.apache.commons.collections.map.ListOrderedMap$ListOrderedMapEntry#getValue",
+            "-[CALL]-> org.apache.commons.collections.map.AbstractMapDecorator#get -[ALIAS]-> org.apache.commons.collections.map.LazyMap#get",
+            "-[CALL]-> org.apache.commons.collections.Transformer#transform -[ALIAS]-> org.apache.commons.collections.functors.InstantiateTransformer#transform",
+            "-[CALL]-> java.lang.reflect.Constructor#newInstance"
+        ]
+    ],
+    "androChain": []
+}

@@ -1,0 +1,3 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+100366,it.unimi.di.jsap,2.1,2007-01-01,https://repo1.maven.org/maven2/com/martiansoftware/jsap/2.1/jsap-2.1.jar,,,,,,,,20210129
+39046,it.unimi.di.jsap,20210129,2021-01-29,https://repo1.maven.org/maven2/it/unimi/di/jsap/20210129/jsap-20210129.jar,,,,,,,,

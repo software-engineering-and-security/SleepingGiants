@@ -1,0 +1,11 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+34441,org.webjars.npm.prop-types,15.5.0,2017-04-07,https://repo1.maven.org/maven2/org/webjars/npm/prop-types/15.5.0/prop-types-15.5.0.jar,,,,,,,,
+34442,org.webjars.npm.prop-types,15.5.6,2017-04-11,https://repo1.maven.org/maven2/org/webjars/npm/prop-types/15.5.6/prop-types-15.5.6.jar,,,,,,,,
+34443,org.webjars.npm.prop-types,15.5.8,2017-04-12,https://repo1.maven.org/maven2/org/webjars/npm/prop-types/15.5.8/prop-types-15.5.8.jar,,,,,,,,
+34444,org.webjars.npm.prop-types,15.5.10,2017-06-16,https://repo1.maven.org/maven2/org/webjars/npm/prop-types/15.5.10/prop-types-15.5.10.jar,,,,,,,,
+34445,org.webjars.npm.prop-types,15.6.0,2017-09-26,https://repo1.maven.org/maven2/org/webjars/npm/prop-types/15.6.0/prop-types-15.6.0.jar,,,,,,,,
+34446,org.webjars.npm.prop-types,15.6.1,2018-02-27,https://repo1.maven.org/maven2/org/webjars/npm/prop-types/15.6.1/prop-types-15.6.1.jar,,,,,,,,
+34447,org.webjars.npm.prop-types,15.6.2,2018-06-19,https://repo1.maven.org/maven2/org/webjars/npm/prop-types/15.6.2/prop-types-15.6.2.jar,,,,,,,,
+34448,org.webjars.npm.prop-types,15.7.2,2019-02-15,https://repo1.maven.org/maven2/org/webjars/npm/prop-types/15.7.2/prop-types-15.7.2.jar,,,,,,,,
+34449,org.webjars.npm.prop-types,15.8.0,2021-12-27,https://repo1.maven.org/maven2/org/webjars/npm/prop-types/15.8.0/prop-types-15.8.0.jar,,,,,,,,
+34450,org.webjars.npm.prop-types,15.8.1,2022-01-06,https://repo1.maven.org/maven2/org/webjars/npm/prop-types/15.8.1/prop-types-15.8.1.jar,,,,,,,,

@@ -1,0 +1,23 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+11252,io.jsonwebtoken.jjwt-impl,0.10.0,2018-08-01,https://repo1.maven.org/maven2/io/jsonwebtoken/jjwt-impl/0.10.0/jjwt-impl-0.10.0.jar,,,,,,,,0.10.1
+11253,io.jsonwebtoken.jjwt-impl,0.10.1,2018-08-02,https://repo1.maven.org/maven2/io/jsonwebtoken/jjwt-impl/0.10.1/jjwt-impl-0.10.1.jar,,,,,,,,0.10.2
+11254,io.jsonwebtoken.jjwt-impl,0.10.2,2018-08-07,https://repo1.maven.org/maven2/io/jsonwebtoken/jjwt-impl/0.10.2/jjwt-impl-0.10.2.jar,,,,,,,,0.10.3
+11255,io.jsonwebtoken.jjwt-impl,0.10.3,2018-08-14,https://repo1.maven.org/maven2/io/jsonwebtoken/jjwt-impl/0.10.3/jjwt-impl-0.10.3.jar,,,,,,,,0.10.4
+11256,io.jsonwebtoken.jjwt-impl,0.10.4,2018-08-14,https://repo1.maven.org/maven2/io/jsonwebtoken/jjwt-impl/0.10.4/jjwt-impl-0.10.4.jar,,,,,,,,0.10.5
+11257,io.jsonwebtoken.jjwt-impl,0.10.5,2018-08-15,https://repo1.maven.org/maven2/io/jsonwebtoken/jjwt-impl/0.10.5/jjwt-impl-0.10.5.jar,,,,,,,,0.10.6
+11258,io.jsonwebtoken.jjwt-impl,0.10.6,2019-02-26,https://repo1.maven.org/maven2/io/jsonwebtoken/jjwt-impl/0.10.6/jjwt-impl-0.10.6.jar,,,,,,,,0.10.7
+11259,io.jsonwebtoken.jjwt-impl,0.10.7,2019-07-12,https://repo1.maven.org/maven2/io/jsonwebtoken/jjwt-impl/0.10.7/jjwt-impl-0.10.7.jar,,,,,,,,0.10.8
+11260,io.jsonwebtoken.jjwt-impl,0.10.8,2020-02-05,https://repo1.maven.org/maven2/io/jsonwebtoken/jjwt-impl/0.10.8/jjwt-impl-0.10.8.jar,,,,,,,,0.11.0
+11261,io.jsonwebtoken.jjwt-impl,0.11.0,2020-02-05,https://repo1.maven.org/maven2/io/jsonwebtoken/jjwt-impl/0.11.0/jjwt-impl-0.11.0.jar,,,,,,,,0.11.1
+11262,io.jsonwebtoken.jjwt-impl,0.11.1,2020-03-12,https://repo1.maven.org/maven2/io/jsonwebtoken/jjwt-impl/0.11.1/jjwt-impl-0.11.1.jar,,,,,,,,0.11.2
+11263,io.jsonwebtoken.jjwt-impl,0.11.2,2020-06-11,https://repo1.maven.org/maven2/io/jsonwebtoken/jjwt-impl/0.11.2/jjwt-impl-0.11.2.jar,,,,,,,,0.11.3
+11264,io.jsonwebtoken.jjwt-impl,0.11.3,2022-04-22,https://repo1.maven.org/maven2/io/jsonwebtoken/jjwt-impl/0.11.3/jjwt-impl-0.11.3.jar,,,,,,,,0.11.4
+11265,io.jsonwebtoken.jjwt-impl,0.11.4,2022-04-26,https://repo1.maven.org/maven2/io/jsonwebtoken/jjwt-impl/0.11.4/jjwt-impl-0.11.4.jar,,,,,,,,0.11.5
+11266,io.jsonwebtoken.jjwt-impl,0.11.5,2022-04-28,https://repo1.maven.org/maven2/io/jsonwebtoken/jjwt-impl/0.11.5/jjwt-impl-0.11.5.jar,,,,,,,,0.12.0
+10978,io.jsonwebtoken.jjwt-impl,0.12.0,2023-10-03,https://repo1.maven.org/maven2/io/jsonwebtoken/jjwt-impl/0.12.0/jjwt-impl-0.12.0.jar,1,,,,,,,0.12.1
+11379,io.jsonwebtoken.jjwt-impl,0.12.1,2023-10-05,https://repo1.maven.org/maven2/io/jsonwebtoken/jjwt-impl/0.12.1/jjwt-impl-0.12.1.jar,1,0,0,0,0,0,0,0.12.2
+10977,io.jsonwebtoken.jjwt-impl,0.12.2,2023-10-06,https://repo1.maven.org/maven2/io/jsonwebtoken/jjwt-impl/0.12.2/jjwt-impl-0.12.2.jar,1,0,0,0,0,0,0,0.12.3
+10962,io.jsonwebtoken.jjwt-impl,0.12.3,2023-10-15,https://repo1.maven.org/maven2/io/jsonwebtoken/jjwt-impl/0.12.3/jjwt-impl-0.12.3.jar,1,0,0,0,0,0,0,0.12.4
+10686,io.jsonwebtoken.jjwt-impl,0.12.4,2024-01-29,https://repo1.maven.org/maven2/io/jsonwebtoken/jjwt-impl/0.12.4/jjwt-impl-0.12.4.jar,1,0,0,0,0,0,0,0.12.5
+10687,io.jsonwebtoken.jjwt-impl,0.12.5,2024-02-01,https://repo1.maven.org/maven2/io/jsonwebtoken/jjwt-impl/0.12.5/jjwt-impl-0.12.5.jar,1,0,0,0,0,0,0,0.12.6
+10688,io.jsonwebtoken.jjwt-impl,0.12.6,2024-06-21,https://repo1.maven.org/maven2/io/jsonwebtoken/jjwt-impl/0.12.6/jjwt-impl-0.12.6.jar,: 1,0,0,0,0,0,0,

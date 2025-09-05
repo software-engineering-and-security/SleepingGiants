@@ -1,0 +1,5 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+36380,org.webjars.npm.inherits,1.0.2,2017-04-19,https://repo1.maven.org/maven2/org/webjars/npm/inherits/1.0.2/inherits-1.0.2.jar,,,,,,,,
+36381,org.webjars.npm.inherits,2.0.1,2016-05-02,https://repo1.maven.org/maven2/org/webjars/npm/inherits/2.0.1/inherits-2.0.1.jar,,,,,,,,
+36382,org.webjars.npm.inherits,2.0.3,2016-11-09,https://repo1.maven.org/maven2/org/webjars/npm/inherits/2.0.3/inherits-2.0.3.jar,,,,,,,,
+36098,org.webjars.npm.inherits,2.0.4,2019-06-21,https://repo1.maven.org/maven2/org/webjars/npm/inherits/2.0.4/inherits-2.0.4.jar,,,,,,,,

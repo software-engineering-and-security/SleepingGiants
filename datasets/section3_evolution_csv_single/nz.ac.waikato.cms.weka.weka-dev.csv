@@ -1,0 +1,17 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+7795,nz.ac.waikato.cms.weka.weka-dev,3.7.5,2012-04-18,https://repo1.maven.org/maven2/nz/ac/waikato/cms/weka/weka-dev/3.7.5/weka-dev-3.7.5.jar,647,,,,,,,3.7.6
+7796,nz.ac.waikato.cms.weka.weka-dev,3.7.6,2012-05-10,https://repo1.maven.org/maven2/nz/ac/waikato/cms/weka/weka-dev/3.7.6/weka-dev-3.7.6.jar,655,0,0,0,0,8,0,3.7.7
+7797,nz.ac.waikato.cms.weka.weka-dev,3.7.7,2012-08-16,https://repo1.maven.org/maven2/nz/ac/waikato/cms/weka/weka-dev/3.7.7/weka-dev-3.7.7.jar,658,0,0,0,0,3,0,3.7.8
+7798,nz.ac.waikato.cms.weka.weka-dev,3.7.8,2013-02-13,https://repo1.maven.org/maven2/nz/ac/waikato/cms/weka/weka-dev/3.7.8/weka-dev-3.7.8.jar,672,0,0,0,0,16,0,3.7.9
+7799,nz.ac.waikato.cms.weka.weka-dev,3.7.9,2013-02-22,https://repo1.maven.org/maven2/nz/ac/waikato/cms/weka/weka-dev/3.7.9/weka-dev-3.7.9.jar,672,0,0,0,0,0,0,3.7.10
+7800,nz.ac.waikato.cms.weka.weka-dev,3.7.10,2013-07-31,https://repo1.maven.org/maven2/nz/ac/waikato/cms/weka/weka-dev/3.7.10/weka-dev-3.7.10.jar,692,0,0,0,0,38,1,3.7.11
+7801,nz.ac.waikato.cms.weka.weka-dev,3.7.11,2014-04-24,https://repo1.maven.org/maven2/nz/ac/waikato/cms/weka/weka-dev/3.7.11/weka-dev-3.7.11.jar,706,2,0,0,0,12,0,3.7.12
+7802,nz.ac.waikato.cms.weka.weka-dev,3.7.12,2014-12-16,https://repo1.maven.org/maven2/nz/ac/waikato/cms/weka/weka-dev/3.7.12/weka-dev-3.7.12.jar,729,5,0,0,0,18,0,3.7.13
+7803,nz.ac.waikato.cms.weka.weka-dev,3.7.13,2015-09-11,https://repo1.maven.org/maven2/nz/ac/waikato/cms/weka/weka-dev/3.7.13/weka-dev-3.7.13.jar,801,5,0,0,0,116,4,3.9.0
+7804,nz.ac.waikato.cms.weka.weka-dev,3.9.0,2016-04-14,https://repo1.maven.org/maven2/nz/ac/waikato/cms/weka/weka-dev/3.9.0/weka-dev-3.9.0.jar,901,1,0,0,0,116,1,3.9.1
+7805,nz.ac.waikato.cms.weka.weka-dev,3.9.1,2016-12-18,https://repo1.maven.org/maven2/nz/ac/waikato/cms/weka/weka-dev/3.9.1/weka-dev-3.9.1.jar,910,0,0,7,6,8,0,3.9.2
+7806,nz.ac.waikato.cms.weka.weka-dev,3.9.2,2017-12-21,https://repo1.maven.org/maven2/nz/ac/waikato/cms/weka/weka-dev/3.9.2/weka-dev-3.9.2.jar,917,0,0,0,0,7,0,3.9.3
+7807,nz.ac.waikato.cms.weka.weka-dev,3.9.3,2018-09-04,https://repo1.maven.org/maven2/nz/ac/waikato/cms/weka/weka-dev/3.9.3/weka-dev-3.9.3.jar,930,0,0,0,0,13,0,3.9.4
+7808,nz.ac.waikato.cms.weka.weka-dev,3.9.4,2019-12-20,https://repo1.maven.org/maven2/nz/ac/waikato/cms/weka/weka-dev/3.9.4/weka-dev-3.9.4.jar,930,0,0,0,0,0,0,3.9.5
+7809,nz.ac.waikato.cms.weka.weka-dev,3.9.5,2020-12-21,https://repo1.maven.org/maven2/nz/ac/waikato/cms/weka/weka-dev/3.9.5/weka-dev-3.9.5.jar,931,0,0,0,0,1,0,3.9.6
+7810,nz.ac.waikato.cms.weka.weka-dev,3.9.6,2022-01-28,https://repo1.maven.org/maven2/nz/ac/waikato/cms/weka/weka-dev/3.9.6/weka-dev-3.9.6.jar,: 931,0,0,0,0,0,0,

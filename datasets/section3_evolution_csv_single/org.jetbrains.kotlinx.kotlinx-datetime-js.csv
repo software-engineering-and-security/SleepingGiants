@@ -1,0 +1,11 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+18322,org.jetbrains.kotlinx.kotlinx-datetime-js,0.1.0,2021-04-26,https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-datetime-js/0.1.0/kotlinx-datetime-js-0.1.0.jar,,,,,,,,
+16999,org.jetbrains.kotlinx.kotlinx-datetime-js,0.1.1,2021-03-09,https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-datetime-js/0.1.1/kotlinx-datetime-js-0.1.1.jar,,,,,,,,
+16872,org.jetbrains.kotlinx.kotlinx-datetime-js,0.2.0,2021-04-27,https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-datetime-js/0.2.0/kotlinx-datetime-js-0.2.0.jar,,,,,,,,
+15996,org.jetbrains.kotlinx.kotlinx-datetime-js,0.2.1,2021-05-26,https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-datetime-js/0.2.1/kotlinx-datetime-js-0.2.1.jar,,,,,,,,
+15997,org.jetbrains.kotlinx.kotlinx-datetime-js,0.3.0,2021-09-27,https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-datetime-js/0.3.0/kotlinx-datetime-js-0.3.0.jar,,,,,,,,
+15998,org.jetbrains.kotlinx.kotlinx-datetime-js,0.3.1,2021-10-27,https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-datetime-js/0.3.1/kotlinx-datetime-js-0.3.1.jar,,,,,,,,
+15999,org.jetbrains.kotlinx.kotlinx-datetime-js,0.3.2,2022-01-12,https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-datetime-js/0.3.2/kotlinx-datetime-js-0.3.2.jar,,,,,,,,
+16000,org.jetbrains.kotlinx.kotlinx-datetime-js,0.3.3,2022-05-05,https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-datetime-js/0.3.3/kotlinx-datetime-js-0.3.3.jar,,,,,,,,
+16001,org.jetbrains.kotlinx.kotlinx-datetime-js,0.4.0,2022-06-24,https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-datetime-js/0.4.0/kotlinx-datetime-js-0.4.0.jar,,,,,,,,
+16002,org.jetbrains.kotlinx.kotlinx-datetime-js,0.4.1,2023-09-01,https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-datetime-js/0.4.1/kotlinx-datetime-js-0.4.1.jar,,,,,,,,

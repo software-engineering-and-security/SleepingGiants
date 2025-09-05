@@ -1,0 +1,7 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+19658,org.apache.commons.commons-exec,1.0,2009-03-25,https://repo1.maven.org/maven2/org/apache/commons/commons-exec/1.0/commons-exec-1.0.jar,,,,,,,,1.0.1
+19659,org.apache.commons.commons-exec,1.0.1,2009-10-22,https://repo1.maven.org/maven2/org/apache/commons/commons-exec/1.0.1/commons-exec-1.0.1.jar,,,,,,,,1.1
+19598,org.apache.commons.commons-exec,1.1,2010-10-19,https://repo1.maven.org/maven2/org/apache/commons/commons-exec/1.1/commons-exec-1.1.jar,,,,,,,,1.2
+19636,org.apache.commons.commons-exec,1.2,2014-01-03,https://repo1.maven.org/maven2/org/apache/commons/commons-exec/1.2/commons-exec-1.2.jar,,,,,,,,1.3
+19597,org.apache.commons.commons-exec,1.3,2014-11-03,https://repo1.maven.org/maven2/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar,,,,,,,,1.4.0
+19523,org.apache.commons.commons-exec,1.4.0,2024-01-05,https://repo1.maven.org/maven2/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar,,,,,,,,

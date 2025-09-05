@@ -1,0 +1,10 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+19649,org.zeroturnaround.zt-exec,1.4,2013-06-20,https://repo1.maven.org/maven2/org/zeroturnaround/zt-exec/1.4/zt-exec-1.4.jar,,,,,,,,1.5
+19650,org.zeroturnaround.zt-exec,1.5,2013-10-14,https://repo1.maven.org/maven2/org/zeroturnaround/zt-exec/1.5/zt-exec-1.5.jar,,,,,,,,1.6
+19651,org.zeroturnaround.zt-exec,1.6,2014-01-30,https://repo1.maven.org/maven2/org/zeroturnaround/zt-exec/1.6/zt-exec-1.6.jar,,,,,,,,1.7
+19652,org.zeroturnaround.zt-exec,1.7,2014-06-30,https://repo1.maven.org/maven2/org/zeroturnaround/zt-exec/1.7/zt-exec-1.7.jar,,,,,,,,1.8
+19653,org.zeroturnaround.zt-exec,1.8,2015-03-17,https://repo1.maven.org/maven2/org/zeroturnaround/zt-exec/1.8/zt-exec-1.8.jar,,,,,,,,1.9
+19654,org.zeroturnaround.zt-exec,1.9,2016-04-12,https://repo1.maven.org/maven2/org/zeroturnaround/zt-exec/1.9/zt-exec-1.9.jar,,,,,,,,1.10
+19655,org.zeroturnaround.zt-exec,1.10,2017-08-01,https://repo1.maven.org/maven2/org/zeroturnaround/zt-exec/1.10/zt-exec-1.10.jar,,,,,,,,1.11
+19656,org.zeroturnaround.zt-exec,1.11,2019-07-05,https://repo1.maven.org/maven2/org/zeroturnaround/zt-exec/1.11/zt-exec-1.11.jar,,,,,,,,1.12
+19657,org.zeroturnaround.zt-exec,1.12,2020-09-02,https://repo1.maven.org/maven2/org/zeroturnaround/zt-exec/1.12/zt-exec-1.12.jar,,,,,,,,

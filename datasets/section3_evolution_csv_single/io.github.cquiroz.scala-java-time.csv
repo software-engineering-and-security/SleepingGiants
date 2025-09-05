@@ -1,0 +1,10 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+17979,io.github.cquiroz.scala-java-time,2.0.0,2020-04-24,https://repo1.maven.org/maven2/io/github/cquiroz/scala-java-time_2.13/2.0.0/scala-java-time_2.13-2.0.0.jar,,,,,,,,
+17980,io.github.cquiroz.scala-java-time,2.1.0,2020-12-23,https://repo1.maven.org/maven2/io/github/cquiroz/scala-java-time_2.13/2.1.0/scala-java-time_2.13-2.1.0.jar,,,,,,,,
+17981,io.github.cquiroz.scala-java-time,2.2.0,2021-02-21,https://repo1.maven.org/maven2/io/github/cquiroz/scala-java-time_2.13/2.2.0/scala-java-time_2.13-2.2.0.jar,,,,,,,,
+17982,io.github.cquiroz.scala-java-time,2.2.1,2021-04-05,https://repo1.maven.org/maven2/io/github/cquiroz/scala-java-time_2.13/2.2.1/scala-java-time_2.13-2.2.1.jar,,,,,,,,
+17983,io.github.cquiroz.scala-java-time,2.2.2,2021-04-22,https://repo1.maven.org/maven2/io/github/cquiroz/scala-java-time_2.13/2.2.2/scala-java-time_2.13-2.2.2.jar,,,,,,,,
+17984,io.github.cquiroz.scala-java-time,2.3.0,2021-05-15,https://repo1.maven.org/maven2/io/github/cquiroz/scala-java-time_3/2.3.0/scala-java-time_3-2.3.0.jar,,,,,,,,
+17985,io.github.cquiroz.scala-java-time,2.4.0,2022-06-01,https://repo1.maven.org/maven2/io/github/cquiroz/scala-java-time_3/2.4.0/scala-java-time_3-2.4.0.jar,,,,,,,,
+17986,io.github.cquiroz.scala-java-time,2.5.0,2022-11-27,https://repo1.maven.org/maven2/io/github/cquiroz/scala-java-time_3/2.5.0/scala-java-time_3-2.5.0.jar,,,,,,,,
+17000,io.github.cquiroz.scala-java-time,2.6.0,2024-06-07,https://repo1.maven.org/maven2/io/github/cquiroz/scala-java-time_3/2.6.0/scala-java-time_3-2.6.0.jar,,,,,,,,

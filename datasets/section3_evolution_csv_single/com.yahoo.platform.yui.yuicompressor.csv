@@ -1,0 +1,7 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+3527,com.yahoo.platform.yui.yuicompressor,2.2.5,2008-01-07,https://repo1.maven.org/maven2/com/yahoo/platform/yui/yuicompressor/2.2.5/yuicompressor-2.2.5.jar,72,,,,,,,2.3.6
+3528,com.yahoo.platform.yui.yuicompressor,2.3.6,2008-08-20,https://repo1.maven.org/maven2/com/yahoo/platform/yui/yuicompressor/2.3.6/yuicompressor-2.3.6.jar,,0,0,0,0,0,0,2.4.2
+3529,com.yahoo.platform.yui.yuicompressor,2.4.2,2010-09-21,https://repo1.maven.org/maven2/com/yahoo/platform/yui/yuicompressor/2.4.2/yuicompressor-2.4.2.jar,,,,,,,,2.4.6
+3530,com.yahoo.platform.yui.yuicompressor,2.4.6,2011-05-02,https://repo1.maven.org/maven2/com/yahoo/platform/yui/yuicompressor/2.4.6/yuicompressor-2.4.6.jar,,,,,,,,2.4.7
+3531,com.yahoo.platform.yui.yuicompressor,2.4.7,2012-06-30,https://repo1.maven.org/maven2/com/yahoo/platform/yui/yuicompressor/2.4.7/yuicompressor-2.4.7.jar,76,,,,,,,2.4.8
+3532,com.yahoo.platform.yui.yuicompressor,2.4.8,2014-09-21,https://repo1.maven.org/maven2/com/yahoo/platform/yui/yuicompressor/2.4.8/yuicompressor-2.4.8.jar,: 58,2,0,0,0,0,20,

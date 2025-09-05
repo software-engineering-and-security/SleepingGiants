@@ -1,0 +1,14 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.sun.rowset.JdbcRowSetImpl: java.sql.ResultSetMetaData getMetaData()> with actual argTypes: [] and taint: [true]",
+            "<com.sun.rowset.JdbcRowSetImpl: java.sql.PreparedStatement prepare()> with actual argTypes: [] and taint: [false]",
+            "<com.sun.rowset.JdbcRowSetImpl: java.sql.Connection connect()> with actual argTypes: [] and taint: [false]",
+            "<javax.naming.InitialContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ]
+    ]
+}

@@ -1,0 +1,17 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+71185,commons-logging.commons-logging,1.0,2005-11-08,https://repo1.maven.org/maven2/commons-logging/commons-logging/1.0/commons-logging-1.0.jar,,,,,,,,1.0.1
+71186,commons-logging.commons-logging,1.0.1,2005-11-17,https://repo1.maven.org/maven2/commons-logging/commons-logging/1.0.1/commons-logging-1.0.1.jar,,,,,,,,1.0.2
+71187,commons-logging.commons-logging,1.0.2,2005-11-17,https://repo1.maven.org/maven2/commons-logging/commons-logging/1.0.2/commons-logging-1.0.2.jar,,,,,,,,1.0.3
+71188,commons-logging.commons-logging,1.0.3,2005-11-17,https://repo1.maven.org/maven2/commons-logging/commons-logging/1.0.3/commons-logging-1.0.3.jar,,,,,,,,1.0.4
+71189,commons-logging.commons-logging,1.0.4,2005-11-08,https://repo1.maven.org/maven2/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar,6,,,,,,,1.1
+71190,commons-logging.commons-logging,1.1,2006-05-13,https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1/commons-logging-1.1.jar,6,0,1,0,0,1,0,1.1.1
+71191,commons-logging.commons-logging,1.1.1,2007-11-26,https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar,6,0,0,0,0,0,0,1.1.2
+71200,commons-logging.commons-logging,1.1.2,2013-03-16,https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.2/commons-logging-1.1.2.jar,6,0,0,0,0,0,0,1.1.3
+71192,commons-logging.commons-logging,1.1.3,2013-05-16,https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar,6,0,0,0,0,0,0,1.2
+71193,commons-logging.commons-logging,1.2,2014-07-05,https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar,6,0,0,0,0,0,0,1.3.0
+71194,commons-logging.commons-logging,1.3.0,2023-11-30,https://repo1.maven.org/maven2/commons-logging/commons-logging/1.3.0/commons-logging-1.3.0.jar,6,0,0,0,0,0,0,1.3.1
+71195,commons-logging.commons-logging,1.3.1,2024-03-24,https://repo1.maven.org/maven2/commons-logging/commons-logging/1.3.1/commons-logging-1.3.1.jar,6,0,0,0,0,0,0,1.3.2
+71196,commons-logging.commons-logging,1.3.2,2024-05-15,https://repo1.maven.org/maven2/commons-logging/commons-logging/1.3.2/commons-logging-1.3.2.jar,6,0,0,0,0,0,0,1.3.3
+71197,commons-logging.commons-logging,1.3.3,2024-06-30,https://repo1.maven.org/maven2/commons-logging/commons-logging/1.3.3/commons-logging-1.3.3.jar,6,0,0,0,0,0,0,1.3.4
+71198,commons-logging.commons-logging,1.3.4,2024-08-19,https://repo1.maven.org/maven2/commons-logging/commons-logging/1.3.4/commons-logging-1.3.4.jar,6,0,0,0,0,0,0,1.3.5
+71199,commons-logging.commons-logging,1.3.5,2025-02-08,https://repo1.maven.org/maven2/commons-logging/commons-logging/1.3.5/commons-logging-1.3.5.jar,: 6,0,0,0,0,0,0,

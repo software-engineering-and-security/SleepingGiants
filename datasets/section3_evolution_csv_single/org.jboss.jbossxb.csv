@@ -1,0 +1,5 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+32097,org.jboss.jbossxb,2.0.0,2008-10-21,https://repo1.maven.org/maven2/org/jboss/jbossxb/2.0.0.GA/jbossxb-2.0.0.GA.jar,2,,,,,,,2.0.1
+32098,org.jboss.jbossxb,2.0.1,2009-04-19,https://repo1.maven.org/maven2/org/jboss/jbossxb/2.0.1.GA/jbossxb-2.0.1.GA.jar,2,0,0,0,0,0,0,2.0.2
+32099,org.jboss.jbossxb,2.0.2,2010-12-07,https://repo1.maven.org/maven2/org/jboss/jbossxb/2.0.2.GA/jbossxb-2.0.2.GA.jar,2,0,0,0,0,0,0,2.0.3
+32100,org.jboss.jbossxb,2.0.3,2010-12-15,https://repo1.maven.org/maven2/org/jboss/jbossxb/2.0.3.GA/jbossxb-2.0.3.GA.jar,: 2,0,0,0,0,0,0,

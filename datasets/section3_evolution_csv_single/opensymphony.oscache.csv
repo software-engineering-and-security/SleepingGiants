@@ -1,0 +1,7 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+58022,opensymphony.oscache,2.0.2,2005-11-08,https://repo1.maven.org/maven2/opensymphony/oscache/2.0.2/oscache-2.0.2.jar,16,,,,,,,2.1
+58021,opensymphony.oscache,2.1,2005-11-08,https://repo1.maven.org/maven2/opensymphony/oscache/2.1/oscache-2.1.jar,18,0,0,0,0,2,0,2.1.1
+58020,opensymphony.oscache,2.1.1,2005-11-08,https://repo1.maven.org/maven2/opensymphony/oscache/2.1.1/oscache-2.1.1.jar,18,0,0,0,0,0,0,2.3
+58009,opensymphony.oscache,2.3,2006-04-30,https://repo1.maven.org/maven2/opensymphony/oscache/2.3/oscache-2.3.jar,19,0,0,0,0,1,0,2.4
+58001,opensymphony.oscache,2.4,2007-05-13,https://repo1.maven.org/maven2/opensymphony/oscache/2.4/oscache-2.4.jar,19,0,0,0,0,0,0,2.4.1
+58002,opensymphony.oscache,2.4.1,2011-01-12,https://repo1.maven.org/maven2/opensymphony/oscache/2.4.1/oscache-2.4.1.jar,: 19,0,0,0,0,0,0,

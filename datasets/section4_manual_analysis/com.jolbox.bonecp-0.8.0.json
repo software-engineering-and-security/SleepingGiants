@@ -1,0 +1,54 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.jolbox.bonecp.BoneCPDataSource: java.sql.Connection getConnection(java.lang.String,java.lang.String)> with actual argTypes: [java.lang.String, java.lang.String] and taint: [true, true, true]",
+            "<com.jolbox.bonecp.PoolUtil: java.sql.SQLException generateSQLException(java.lang.String,java.lang.Throwable)> with actual argTypes: [java.lang.String, java.util.concurrent.ExecutionException] and taint: [false, false, false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.jolbox.bonecp.BoneCPDataSource: java.lang.Object getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)> with actual argTypes: [java.lang.Object, javax.naming.Name, javax.naming.Context, java.util.Hashtable] and taint: [true, true, true, true, true]",
+            "<com.jolbox.bonecp.BoneCPConfig: void <init>(java.util.Properties)> with actual argTypes: [java.util.Properties] and taint: [false, false]",
+            "<com.jolbox.bonecp.BoneCPConfig: void setProperties(java.util.Properties)> with actual argTypes: [java.util.Properties] and taint: [false, false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [com.jolbox.bonecp.BoneCPConfig, java.lang.Object[]] and taint: [false, false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.jolbox.bonecp.BoneCPDataSource: java.sql.Connection getConnection()> with actual argTypes: [] and taint: [true]",
+            "<com.jolbox.bonecp.BoneCP: void <init>(com.jolbox.bonecp.BoneCPConfig)> with actual argTypes: [com.jolbox.bonecp.BoneCPDataSource] and taint: [false, true]",
+            "<com.jolbox.bonecp.BoneCPConfig: void sanitize()> with actual argTypes: [] and taint: [true]",
+            "<com.jolbox.bonecp.BoneCPConfig: void loadProperties(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<java.net.URL: java.io.InputStream openStream()> with actual argTypes: [] and taint: [true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.jolbox.bonecp.BoneCPDataSource: java.sql.Connection getConnection()> with actual argTypes: [] and taint: [true]",
+            "<com.jolbox.bonecp.BoneCP: void <init>(com.jolbox.bonecp.BoneCPConfig)> with actual argTypes: [com.jolbox.bonecp.BoneCPDataSource] and taint: [false, true]",
+            "<com.jolbox.bonecp.ConnectionPartition: void addFreeConnection(com.jolbox.bonecp.ConnectionHandle)> with actual argTypes: [com.jolbox.bonecp.ConnectionHandle] and taint: [true, false]",
+            "<com.jolbox.bonecp.ConnectionPartition: void trackConnectionFinalizer(com.jolbox.bonecp.ConnectionHandle)> with actual argTypes: [com.jolbox.bonecp.ConnectionHandle] and taint: [true, false]",
+            "<sun.reflect.annotation.AnnotationInvocationHandler: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.sql.Connection, java.lang.reflect.Method, null] and taint: [false, false, false, false]",
+            "<sun.reflect.annotation.AnnotationInvocationHandler: java.lang.Boolean equalsImpl(java.lang.Object,java.lang.Object)> with actual argTypes: [java.lang.Object, java.lang.Object] and taint: [false, false, false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [false, false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.jolbox.bonecp.BoneCPDataSource: java.sql.Connection getConnection()> with actual argTypes: [] and taint: [true]",
+            "<com.jolbox.bonecp.BoneCP: void <init>(com.jolbox.bonecp.BoneCPConfig)> with actual argTypes: [com.jolbox.bonecp.BoneCPDataSource] and taint: [false, true]",
+            "<com.jolbox.bonecp.BoneCPConfig: void sanitize()> with actual argTypes: [] and taint: [true]",
+            "<com.jolbox.bonecp.BoneCPConfig: void loadProperties(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<com.jolbox.bonecp.BoneCPConfig: void setXMLProperties(java.io.InputStream,java.lang.String)> with actual argTypes: [java.io.InputStream, null] and taint: [true, true, false]",
+            "<javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()> with actual argTypes: [] and taint: [false]",
+            "<javax.xml.parsers.FactoryFinder: java.lang.Object find(java.lang.Class,java.lang.String)> with actual argTypes: [java.lang.Class, java.lang.String] and taint: [false, false, false]",
+            "<javax.xml.parsers.FactoryFinder: java.lang.Object newInstance(java.lang.Class,java.lang.String,java.lang.ClassLoader,boolean)> with actual argTypes: [java.lang.Class, java.lang.String, null, int] and taint: [false, false, false, false, false]",
+            "<javax.xml.parsers.FactoryFinder: java.lang.Object newInstance(java.lang.Class,java.lang.String,java.lang.ClassLoader,boolean,boolean)> with actual argTypes: [java.lang.Class, java.lang.String, java.lang.ClassLoader, boolean, int] and taint: [false, false, false, false, false, false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, false]"
+        ]
+    ]
+}

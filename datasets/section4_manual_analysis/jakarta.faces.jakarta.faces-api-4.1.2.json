@@ -1,0 +1,18 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<jakarta.faces.component.UIComponentBase$AttributesMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<jakarta.faces.component.UIData: void restoreState(jakarta.faces.context.FacesContext,java.lang.Object)> with actual argTypes: [jakarta.faces.context.FacesContext, java.lang.Object] and taint: [true, false, true]",
+            "<jakarta.faces.component.UIComponentBase: java.lang.Object restoreAttachedState(jakarta.faces.context.FacesContext,java.lang.Object)> with actual argTypes: [jakarta.faces.context.FacesContext, java.lang.Object] and taint: [false, false, true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, false]"
+        ],
+        [
+            "<jakarta.faces.component.UIComponentBase$AttributesMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<jakarta.faces.component.UIComponentBase: void restoreState(jakarta.faces.context.FacesContext,java.lang.Object)> with actual argTypes: [jakarta.faces.context.FacesContext, java.lang.Object] and taint: [true, false, true]",
+            "<jakarta.faces.component.AttachedObjectListHolder: void restoreState(jakarta.faces.context.FacesContext,java.lang.Object)> with actual argTypes: [jakarta.faces.context.FacesContext, java.lang.Object] and taint: [true, false, true]",
+            "<jakarta.faces.component.StateHolderSaver: java.lang.Object restore(jakarta.faces.context.FacesContext)> with actual argTypes: [jakarta.faces.context.FacesContext] and taint: [true, false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, false]"
+        ]
+    ]
+}

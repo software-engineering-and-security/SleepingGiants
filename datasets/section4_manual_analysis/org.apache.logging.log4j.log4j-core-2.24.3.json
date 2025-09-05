@@ -1,0 +1,106 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.logging.log4j.core.util.DefaultShutdownCallbackRegistry: void run()> with actual argTypes: [] and taint: [true]",
+            "<javax.xml.transform.TransformerException: void printStackTrace()> with actual argTypes: [] and taint: [false]",
+            "<javax.xml.transform.TransformerException: void printStackTrace(java.io.PrintWriter)> with actual argTypes: [java.io.PrintWriter] and taint: [false, false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Throwable, java.lang.Object[]] and taint: [false, false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.logging.log4j.core.appender.rolling.action.AbstractAction: void run()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.logging.log4j.core.appender.rolling.action.FileRenameAction: boolean execute()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.logging.log4j.core.appender.rolling.action.FileRenameAction: boolean execute(java.io.File,java.io.File,boolean)> with actual argTypes: [java.io.File, java.io.File, boolean] and taint: [false, true, true, true]",
+            "<java.io.File: boolean delete()> with actual argTypes: [] and taint: [true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.logging.log4j.core.appender.rolling.action.AbstractAction: void run()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.logging.log4j.core.appender.rolling.action.GzCompressAction: boolean execute()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.logging.log4j.core.appender.rolling.action.GzCompressAction: boolean execute(java.io.File,java.io.File,boolean,int)> with actual argTypes: [java.io.File, java.io.File, boolean, int] and taint: [false, true, true, true, true]",
+            "<java.io.FileOutputStream: void <init>(java.io.File)> with actual argTypes: [java.io.File] and taint: [false, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.logging.log4j.core.appender.rolling.action.AbstractAction: void run()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.logging.log4j.core.appender.rolling.action.GzCompressAction: boolean execute()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.logging.log4j.core.appender.rolling.action.GzCompressAction: boolean execute(java.io.File,java.io.File,boolean,int)> with actual argTypes: [java.io.File, java.io.File, boolean, int] and taint: [false, true, true, true, true]",
+            "<java.io.File: boolean delete()> with actual argTypes: [] and taint: [true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.logging.log4j.core.appender.rolling.action.AbstractAction: void run()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.logging.log4j.core.appender.rolling.action.ZipCompressAction: boolean execute()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.logging.log4j.core.appender.rolling.action.ZipCompressAction: boolean execute(java.io.File,java.io.File,boolean,int)> with actual argTypes: [java.io.File, java.io.File, boolean, int] and taint: [false, true, true, true, true]",
+            "<java.io.FileOutputStream: void <init>(java.io.File)> with actual argTypes: [java.io.File] and taint: [false, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.logging.log4j.core.appender.rolling.action.AbstractAction: void run()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.logging.log4j.core.appender.rolling.action.ZipCompressAction: boolean execute()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.logging.log4j.core.appender.rolling.action.ZipCompressAction: boolean execute(java.io.File,java.io.File,boolean,int)> with actual argTypes: [java.io.File, java.io.File, boolean, int] and taint: [false, true, true, true, true]",
+            "<java.io.File: boolean delete()> with actual argTypes: [] and taint: [true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.logging.log4j.core.LoggerContext: void close()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.logging.log4j.core.AbstractLifeCycle: void stop()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.logging.log4j.core.appender.RollingRandomAccessFileAppender: boolean stop(long,java.util.concurrent.TimeUnit)> with actual argTypes: [long, java.util.concurrent.TimeUnit] and taint: [true, false, false]",
+            "<org.apache.logging.log4j.core.net.MulticastDnsAdvertiser: void unadvertise(java.lang.Object)> with actual argTypes: [java.lang.Object] and taint: [true, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [true, false, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.logging.log4j.core.appender.db.AbstractDatabaseManager: void flush()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.logging.log4j.core.appender.db.jdbc.JdbcDatabaseManager: void writeInternal(org.apache.logging.log4j.core.LogEvent,java.io.Serializable)> with actual argTypes: [org.apache.logging.log4j.core.LogEvent, java.io.Serializable] and taint: [true, true, true]",
+            "<org.apache.logging.log4j.core.config.plugins.convert.TypeConverters: java.lang.Object convert(java.lang.String,java.lang.Class,java.lang.Object)> with actual argTypes: [java.lang.String, java.lang.Class, null] and taint: [false, true, true, false]",
+            "<org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$ByteArrayConverter: java.lang.Object convert(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$ByteArrayConverter: byte[] convert(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<org.apache.logging.log4j.core.config.plugins.convert.Base64Converter: byte[] parseBase64Binary(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [false, false, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.logging.log4j.core.appender.AbstractManager: void close()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.logging.log4j.core.appender.AbstractManager: boolean stop(long,java.util.concurrent.TimeUnit)> with actual argTypes: [long, java.util.concurrent.TimeUnit] and taint: [true, false, false]",
+            "<org.apache.logging.log4j.core.appender.OutputStreamManager: boolean releaseSub(long,java.util.concurrent.TimeUnit)> with actual argTypes: [long, java.util.concurrent.TimeUnit] and taint: [true, false, false]",
+            "<org.apache.logging.log4j.core.appender.MemoryMappedFileManager: boolean closeOutputStream()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.logging.log4j.core.appender.MemoryMappedFileManager: void unsafeUnmap(java.nio.MappedByteBuffer)> with actual argTypes: [java.nio.MappedByteBuffer] and taint: [false, true]",
+            "<org.apache.logging.log4j.core.util.internal.UnsafeUtil: void clean(java.nio.ByteBuffer)> with actual argTypes: [java.nio.MappedByteBuffer] and taint: [false, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.nio.ByteBuffer, java.lang.Object[]] and taint: [false, true, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.logging.log4j.core.appender.AbstractManager: void close()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.logging.log4j.core.appender.AbstractManager: boolean stop(long,java.util.concurrent.TimeUnit)> with actual argTypes: [long, java.util.concurrent.TimeUnit] and taint: [true, false, false]",
+            "<org.apache.logging.log4j.core.appender.OutputStreamManager: boolean releaseSub(long,java.util.concurrent.TimeUnit)> with actual argTypes: [long, java.util.concurrent.TimeUnit] and taint: [true, false, false]",
+            "<org.apache.logging.log4j.core.appender.MemoryMappedFileManager: boolean closeOutputStream()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.logging.log4j.core.appender.MemoryMappedFileManager: void unsafeUnmap(java.nio.MappedByteBuffer)> with actual argTypes: [java.nio.MappedByteBuffer] and taint: [false, true]",
+            "<org.apache.logging.log4j.core.util.internal.UnsafeUtil: void clean(java.nio.ByteBuffer)> with actual argTypes: [java.nio.MappedByteBuffer] and taint: [false, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [false, true, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.logging.log4j.core.appender.rolling.action.AbstractAction: void run()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.logging.log4j.core.appender.rolling.action.FileRenameAction: boolean execute()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.logging.log4j.core.appender.rolling.action.FileRenameAction: boolean execute(java.io.File,java.io.File,boolean)> with actual argTypes: [java.io.File, java.io.File, boolean] and taint: [false, true, true, true]",
+            "<java.nio.file.Files: java.nio.file.Path copy(java.nio.file.Path,java.nio.file.Path,java.nio.file.CopyOption[])> with actual argTypes: [java.nio.file.Path, java.nio.file.Path, java.nio.file.CopyOption[]] and taint: [false, false, false, false]",
+            "<java.nio.file.CopyMoveHelper: void copyToForeignTarget(java.nio.file.Path,java.nio.file.Path,java.nio.file.CopyOption[])> with actual argTypes: [java.nio.file.Path, java.nio.file.Path, java.nio.file.CopyOption[]] and taint: [false, false, false, false]",
+            "<java.nio.file.Files: long copy(java.io.InputStream,java.nio.file.Path,java.nio.file.CopyOption[])> with actual argTypes: [java.io.InputStream, java.nio.file.Path, java.nio.file.CopyOption[]] and taint: [false, false, false, false]",
+            "<java.nio.file.Files: java.io.OutputStream newOutputStream(java.nio.file.Path,java.nio.file.OpenOption[])> with actual argTypes: [java.nio.file.Path, java.nio.file.OpenOption[]] and taint: [false, false, false]"
+        ]
+    ]
+}

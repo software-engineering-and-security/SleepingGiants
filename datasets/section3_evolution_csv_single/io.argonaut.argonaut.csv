@@ -1,0 +1,25 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+10083,io.argonaut.argonaut,6.0,2013-08-11,https://repo1.maven.org/maven2/io/argonaut/argonaut_2.10/6.0/argonaut_2.10-6.0.jar,,,,,,,,6.0.1
+10084,io.argonaut.argonaut,6.0.1,2013-08-16,https://repo1.maven.org/maven2/io/argonaut/argonaut_2.10/6.0.1/argonaut_2.10-6.0.1.jar,,,,,,,,6.0.2
+10085,io.argonaut.argonaut,6.0.2,2014-01-21,https://repo1.maven.org/maven2/io/argonaut/argonaut_2.10/6.0.2/argonaut_2.10-6.0.2.jar,,,,,,,,6.0.3
+10086,io.argonaut.argonaut,6.0.3,2014-03-08,https://repo1.maven.org/maven2/io/argonaut/argonaut_2.10/6.0.3/argonaut_2.10-6.0.3.jar,,,,,,,,6.0.4
+10087,io.argonaut.argonaut,6.0.4,2014-04-21,https://repo1.maven.org/maven2/io/argonaut/argonaut_2.11/6.0.4/argonaut_2.11-6.0.4.jar,,,,,,,,6.1
+9990,io.argonaut.argonaut,6.1,2015-04-28,https://repo1.maven.org/maven2/io/argonaut/argonaut_2.11/6.1/argonaut_2.11-6.1.jar,,,,,,,,6.2
+9991,io.argonaut.argonaut,6.2,2017-04-09,https://repo1.maven.org/maven2/io/argonaut/argonaut_2.12/6.2/argonaut_2.12-6.2.jar,,,,,,,,6.2.1
+9992,io.argonaut.argonaut,6.2.1,2017-12-29,https://repo1.maven.org/maven2/io/argonaut/argonaut_2.12/6.2.1/argonaut_2.12-6.2.1.jar,,,,,,,,6.2.2
+9993,io.argonaut.argonaut,6.2.2,2018-05-28,https://repo1.maven.org/maven2/io/argonaut/argonaut_2.12/6.2.2/argonaut_2.12-6.2.2.jar,,,,,,,,6.2.3
+9994,io.argonaut.argonaut,6.2.3,2019-06-08,https://repo1.maven.org/maven2/io/argonaut/argonaut_2.13/6.2.3/argonaut_2.13-6.2.3.jar,93,,,,,,,6.2.4
+9995,io.argonaut.argonaut,6.2.4,2020-02-09,https://repo1.maven.org/maven2/io/argonaut/argonaut_2.13/6.2.4/argonaut_2.13-6.2.4.jar,93,0,0,0,0,0,0,6.2.5
+9996,io.argonaut.argonaut,6.2.5,2020-03-14,https://repo1.maven.org/maven2/io/argonaut/argonaut_2.13/6.2.5/argonaut_2.13-6.2.5.jar,93,0,0,0,0,0,0,6.2.6
+9997,io.argonaut.argonaut,6.2.6,2022-01-24,https://repo1.maven.org/maven2/io/argonaut/argonaut_3/6.2.6/argonaut_3-6.2.6.jar,107,16,0,0,0,0,2,6.3.0
+9998,io.argonaut.argonaut,6.3.0,2020-05-01,https://repo1.maven.org/maven2/io/argonaut/argonaut_2.13/6.3.0/argonaut_2.13-6.3.0.jar,93,0,16,0,0,2,0,6.3.1
+9999,io.argonaut.argonaut,6.3.1,2020-08-17,https://repo1.maven.org/maven2/io/argonaut/argonaut_2.13/6.3.1/argonaut_2.13-6.3.1.jar,93,0,0,0,0,0,0,6.3.2
+10000,io.argonaut.argonaut,6.3.2,2020-11-16,https://repo1.maven.org/maven2/io/argonaut/argonaut_2.13/6.3.2/argonaut_2.13-6.3.2.jar,93,0,0,0,0,0,0,6.3.3
+10001,io.argonaut.argonaut,6.3.3,2021-05-14,https://repo1.maven.org/maven2/io/argonaut/argonaut_3/6.3.3/argonaut_3-6.3.3.jar,107,16,0,0,0,0,2,6.3.4
+10002,io.argonaut.argonaut,6.3.4,2021-06-20,https://repo1.maven.org/maven2/io/argonaut/argonaut_3/6.3.4/argonaut_3-6.3.4.jar,107,0,0,0,0,0,0,6.3.5
+10003,io.argonaut.argonaut,6.3.5,2021-06-25,https://repo1.maven.org/maven2/io/argonaut/argonaut_3/6.3.5/argonaut_3-6.3.5.jar,107,0,0,0,0,0,0,6.3.6
+10004,io.argonaut.argonaut,6.3.6,2021-07-03,https://repo1.maven.org/maven2/io/argonaut/argonaut_3/6.3.6/argonaut_3-6.3.6.jar,107,0,0,0,0,0,0,6.3.7
+10005,io.argonaut.argonaut,6.3.7,2021-09-19,https://repo1.maven.org/maven2/io/argonaut/argonaut_3/6.3.7/argonaut_3-6.3.7.jar,107,0,0,0,0,0,0,6.3.8
+10006,io.argonaut.argonaut,6.3.8,2022-01-21,https://repo1.maven.org/maven2/io/argonaut/argonaut_3/6.3.8/argonaut_3-6.3.8.jar,107,0,0,0,0,0,0,6.3.9
+10007,io.argonaut.argonaut,6.3.9,2023-10-09,https://repo1.maven.org/maven2/io/argonaut/argonaut_3/6.3.9/argonaut_3-6.3.9.jar,107,0,0,0,0,0,0,6.3.10
+9989,io.argonaut.argonaut,6.3.10,2024-06-01,https://repo1.maven.org/maven2/io/argonaut/argonaut_3/6.3.10/argonaut_3-6.3.10.jar,: 107,0,0,0,0,0,0,

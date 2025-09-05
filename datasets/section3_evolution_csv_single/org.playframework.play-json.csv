@@ -1,0 +1,20 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+104486,org.playframework.play-json,2.6.14,2024-11-14,https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.11/2.6.14/play-json_2.11-2.6.14.jar,,,,,,,,2.7.2
+104485,org.playframework.play-json,2.7.2,2024-02-21,https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.7.2/play-json_2.12-2.7.2.jar,,,,,,,,2.7.4
+104484,org.playframework.play-json,2.7.4,2024-11-29,https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.13/2.7.4/play-json_2.13-2.7.4.jar,52,,,,,,,2.8.1
+104483,org.playframework.play-json,2.8.1,2024-02-12,https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.13/2.8.1/play-json_2.13-2.8.1.jar,52,0,0,0,0,0,0,2.8.2
+104482,org.playframework.play-json,2.8.2,2024-05-02,https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.13/2.8.2/play-json_2.13-2.8.2.jar,52,0,0,0,0,0,0,2.9.1
+104481,org.playframework.play-json,2.9.1,2024-02-19,https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.13/2.9.1/play-json_2.13-2.9.1.jar,54,0,0,0,0,2,0,2.9.2
+104480,org.playframework.play-json,2.9.2,2023-11-21,https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.13/2.9.2/play-json_2.13-2.9.2.jar,54,0,0,0,0,0,0,2.9.3
+104479,org.playframework.play-json,2.9.3,2024-06-06,https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.13/2.9.3/play-json_2.13-2.9.3.jar,54,0,0,0,0,0,0,2.9.4
+104459,org.playframework.play-json,2.9.4,2024-02-06,https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.13/2.9.4/play-json_2.13-2.9.4.jar,62,2,0,0,0,6,0,2.10.0
+104458,org.playframework.play-json,2.10.0,2023-11-27,https://repo1.maven.org/maven2/com/typesafe/play/play-json_3/2.10.0/play-json_3-2.10.0.jar,152,81,0,0,0,16,7,2.10.3
+104457,org.playframework.play-json,2.10.3,2024-05-06,https://repo1.maven.org/maven2/com/typesafe/play/play-json_3/2.10.3/play-json_3-2.10.3.jar,153,1,0,0,0,0,0,2.10.4
+104456,org.playframework.play-json,2.10.4,2024-05-06,https://repo1.maven.org/maven2/com/typesafe/play/play-json_3/2.10.4/play-json_3-2.10.4.jar,153,0,0,0,0,0,0,2.10.5
+104440,org.playframework.play-json,2.10.5,2024-04-30,https://repo1.maven.org/maven2/com/typesafe/play/play-json_3/2.10.5/play-json_3-2.10.5.jar,153,0,0,0,0,0,0,2.10.6
+104439,org.playframework.play-json,2.10.6,2024-06-17,https://repo1.maven.org/maven2/com/typesafe/play/play-json_3/2.10.6/play-json_3-2.10.6.jar,153,0,0,0,0,0,0,3.0.0
+48208,org.playframework.play-json,3.0.0,2023-10-22,https://repo1.maven.org/maven2/org/playframework/play-json_3/3.0.0/play-json_3-3.0.0.jar,152,0,1,0,0,0,0,3.0.1
+48209,org.playframework.play-json,3.0.1,2023-11-04,https://repo1.maven.org/maven2/org/playframework/play-json_3/3.0.1/play-json_3-3.0.1.jar,153,1,0,0,0,0,0,3.0.2
+48210,org.playframework.play-json,3.0.2,2024-01-17,https://repo1.maven.org/maven2/org/playframework/play-json_3/3.0.2/play-json_3-3.0.2.jar,153,0,0,0,0,0,0,3.0.3
+48211,org.playframework.play-json,3.0.3,2024-04-30,https://repo1.maven.org/maven2/org/playframework/play-json_3/3.0.3/play-json_3-3.0.3.jar,153,0,0,0,0,0,0,3.0.4
+48212,org.playframework.play-json,3.0.4,2024-06-17,https://repo1.maven.org/maven2/org/playframework/play-json_3/3.0.4/play-json_3-3.0.4.jar,: 153,0,0,0,0,0,0,

@@ -1,0 +1,38 @@
+{
+    "tabby": [
+        [
+            "java.security.Permissions#readObject",
+            "-[CALL]-> java.lang.Object#equals -[ALIAS]-> java.net.URL#equals",
+            "-[CALL]-> java.net.URLStreamHandler#equals -[ALIAS]-> tmp.org.eclipse.osgi.internal.url.MultiplexingURLStreamHandler#equals",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ],
+        [
+            "java.security.Permissions#readObject",
+            "-[CALL]-> java.lang.Object#equals -[ALIAS]-> java.net.URL#equals",
+            "-[CALL]-> java.net.URLStreamHandler#equals -[ALIAS]-> org.eclipse.osgi.internal.url.MultiplexingURLStreamHandler#equals",
+            "-[CALL]-> org.eclipse.osgi.internal.url.MultiplexingURLStreamHandler#findAuthorizedURLStreamHandler",
+            "-[CALL]-> org.eclipse.osgi.internal.url.URLStreamHandlerFactoryImpl#findAuthorizedURLStreamHandler",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ],
+        [
+            "java.util.Hashtable#readObject",
+            "-[CALL]-> java.util.Hashtable#readHashtable",
+            "-[CALL]-> java.util.Hashtable#reconstitutionPut",
+            "-[CALL]-> java.lang.Object#equals -[ALIAS]-> java.net.URL#equals",
+            "-[CALL]-> java.net.URLStreamHandler#equals -[ALIAS]-> org.eclipse.osgi.internal.url.MultiplexingURLStreamHandler#equals",
+            "-[CALL]-> org.eclipse.osgi.internal.url.MultiplexingURLStreamHandler#findAuthorizedURLStreamHandler",
+            "-[CALL]-> org.eclipse.osgi.internal.url.URLStreamHandlerFactoryImpl#findAuthorizedURLStreamHandler",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ],
+        [
+            "java.lang.Throwable#readObject",
+            "-[CALL]-> java.lang.Throwable#validateSuppressedExceptionsList",
+            "-[CALL]-> java.lang.Object#equals -[ALIAS]-> java.net.URL#equals",
+            "-[CALL]-> java.net.URLStreamHandler#equals -[ALIAS]-> org.eclipse.osgi.internal.url.MultiplexingURLStreamHandler#equals",
+            "-[CALL]-> org.eclipse.osgi.internal.url.MultiplexingURLStreamHandler#findAuthorizedURLStreamHandler",
+            "-[CALL]-> org.eclipse.osgi.internal.url.URLStreamHandlerFactoryImpl#findAuthorizedURLStreamHandler",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ]
+    ],
+    "androChain": []
+}

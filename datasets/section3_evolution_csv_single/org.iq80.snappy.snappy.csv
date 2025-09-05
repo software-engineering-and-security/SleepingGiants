@@ -1,0 +1,6 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+82050,org.iq80.snappy.snappy,0.1,2011-09-29,https://repo1.maven.org/maven2/org/iq80/snappy/snappy/0.1/snappy-0.1.jar,,,,,,,,0.2
+82051,org.iq80.snappy.snappy,0.2,2011-12-23,https://repo1.maven.org/maven2/org/iq80/snappy/snappy/0.2/snappy-0.2.jar,,,,,,,,0.3
+82052,org.iq80.snappy.snappy,0.3,2013-01-25,https://repo1.maven.org/maven2/org/iq80/snappy/snappy/0.3/snappy-0.3.jar,,,,,,,,0.4
+82053,org.iq80.snappy.snappy,0.4,2015-07-13,https://repo1.maven.org/maven2/org/iq80/snappy/snappy/0.4/snappy-0.4.jar,,,,,,,,0.5
+82054,org.iq80.snappy.snappy,0.5,2024-05-23,https://repo1.maven.org/maven2/org/iq80/snappy/snappy/0.5/snappy-0.5.jar,,,,,,,,

@@ -1,0 +1,7 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+110356,jakarta.resource.jakarta.resource-api,1.5,2005-11-08,https://repo1.maven.org/maven2/javax/resource/connector-api/1.5/connector-api-1.5.jar,9,,,,,,,1.7.2
+2855,jakarta.resource.jakarta.resource-api,1.7.2,2018-11-30,https://repo1.maven.org/maven2/jakarta/resource/jakarta.resource-api/1.7.2/jakarta.resource-api-1.7.2.jar,19,0,0,0,0,10,0,1.7.3
+2801,jakarta.resource.jakarta.resource-api,1.7.3,2019-01-14,https://repo1.maven.org/maven2/jakarta/resource/jakarta.resource-api/1.7.3/jakarta.resource-api-1.7.3.jar,19,0,0,0,0,0,0,1.7.4
+2778,jakarta.resource.jakarta.resource-api,1.7.4,2019-09-07,https://repo1.maven.org/maven2/jakarta/resource/jakarta.resource-api/1.7.4/jakarta.resource-api-1.7.4.jar,19,0,0,0,0,0,0,2.0.0
+2779,jakarta.resource.jakarta.resource-api,2.0.0,2020-11-20,https://repo1.maven.org/maven2/jakarta/resource/jakarta.resource-api/2.0.0/jakarta.resource-api-2.0.0.jar,19,0,0,0,0,21,21,2.1.0
+2780,jakarta.resource.jakarta.resource-api,2.1.0,2022-05-19,https://repo1.maven.org/maven2/jakarta/resource/jakarta.resource-api/2.1.0/jakarta.resource-api-2.1.0.jar,: 19,0,0,0,0,0,0,

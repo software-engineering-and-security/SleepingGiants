@@ -1,0 +1,22 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.jboss.security.auth.callback.JBossCallbackHandler: void handle(javax.security.auth.callback.Callback[])> with actual argTypes: [javax.security.auth.callback.Callback[]] and taint: [true, true]",
+            "<org.jboss.security.auth.callback.JBossCallbackHandler: void handleCallBack(javax.security.auth.callback.Callback)> with actual argTypes: [javax.security.auth.callback.Callback] and taint: [true, true]",
+            "<org.jboss.security.auth.callback.JBossCallbackHandler: char[] getPassword()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [true, true, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.jboss.security.auth.callback.JBossCallbackHandler: void handle(javax.security.auth.callback.Callback[])> with actual argTypes: [javax.security.auth.callback.Callback[]] and taint: [true, true]",
+            "<org.jboss.security.auth.callback.JASPICallbackHandler: void handleCallBack(javax.security.auth.callback.Callback)> with actual argTypes: [javax.security.auth.callback.Callback] and taint: [true, true]",
+            "<org.jboss.security.plugins.JBossSecurityContext: org.jboss.security.SecurityContextUtil getUtil()> with actual argTypes: [] and taint: [false]",
+            "<org.jboss.security.SecurityContextFactory: org.jboss.security.SecurityContextUtil createUtil(org.jboss.security.SecurityContext)> with actual argTypes: [org.jboss.security.plugins.JBossSecurityContext] and taint: [false, false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, false]"
+        ]
+    ]
+}

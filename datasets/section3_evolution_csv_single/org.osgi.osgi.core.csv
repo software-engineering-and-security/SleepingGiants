@@ -1,0 +1,16 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+110823,org.osgi.osgi.core,1.0,2006-01-17,https://repo1.maven.org/maven2/org/osgi/osgi_R4_core/1.0/osgi_R4_core-1.0.jar,,,,,,,,1.0.0
+110873,org.osgi.osgi.core,1.0.0,2007-07-15,https://repo1.maven.org/maven2/org/apache/felix/org.osgi.core/1.0.0/org.osgi.core-1.0.0.jar,,,,,,,,1.0.1
+110874,org.osgi.osgi.core,1.0.1,2008-04-25,https://repo1.maven.org/maven2/org/apache/felix/org.osgi.core/1.0.1/org.osgi.core-1.0.1.jar,,,,,,,,1.2.0
+110875,org.osgi.osgi.core,1.2.0,2008-08-24,https://repo1.maven.org/maven2/org/apache/felix/org.osgi.core/1.2.0/org.osgi.core-1.2.0.jar,,,,,,,,1.4.0
+110876,org.osgi.osgi.core,1.4.0,2009-09-06,https://repo1.maven.org/maven2/org/apache/felix/org.osgi.core/1.4.0/org.osgi.core-1.4.0.jar,,,,,,,,4.0.0
+105917,org.osgi.osgi.core,4.0.0,2009-08-11,https://repo1.maven.org/maven2/org/osgi/org.osgi.core/4.0.0/org.osgi.core-4.0.0.jar,,,,,,,,4.0.1
+105918,org.osgi.osgi.core,4.0.1,2009-08-11,https://repo1.maven.org/maven2/org/osgi/org.osgi.core/4.0.1/org.osgi.core-4.0.1.jar,,,,,,,,4.1.0
+105919,org.osgi.osgi.core,4.1.0,2009-08-11,https://repo1.maven.org/maven2/org/osgi/org.osgi.core/4.1.0/org.osgi.core-4.1.0.jar,,,,,,,,4.2.0
+105920,org.osgi.osgi.core,4.2.0,2009-09-17,https://repo1.maven.org/maven2/org/osgi/org.osgi.core/4.2.0/org.osgi.core-4.2.0.jar,,,,,,,,4.3.0
+105921,org.osgi.osgi.core,4.3.0,2011-06-17,https://repo1.maven.org/maven2/org/osgi/org.osgi.core/4.3.0/org.osgi.core-4.3.0.jar,,,,,,,,4.3.1
+27469,org.osgi.osgi.core,4.3.1,2016-11-18,https://repo1.maven.org/maven2/org/osgi/osgi.core/4.3.1/osgi.core-4.3.1.jar,,,,,,,,5.0.0
+27470,org.osgi.osgi.core,5.0.0,2016-11-18,https://repo1.maven.org/maven2/org/osgi/osgi.core/5.0.0/osgi.core-5.0.0.jar,,,,,,,,6.0.0
+27471,org.osgi.osgi.core,6.0.0,2015-01-18,https://repo1.maven.org/maven2/org/osgi/osgi.core/6.0.0/osgi.core-6.0.0.jar,,,,,,,,7.0.0
+27472,org.osgi.osgi.core,7.0.0,2018-04-20,https://repo1.maven.org/maven2/org/osgi/osgi.core/7.0.0/osgi.core-7.0.0.jar,,,,,,,,8.0.0
+27474,org.osgi.osgi.core,8.0.0,2020-12-07,https://repo1.maven.org/maven2/org/osgi/osgi.core/8.0.0/osgi.core-8.0.0.jar,,,,,,,,

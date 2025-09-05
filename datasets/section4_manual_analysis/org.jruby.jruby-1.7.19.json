@@ -1,0 +1,25 @@
+{
+    "tabby": [
+        [
+            "org.jruby.ext.jruby.JRubyObjectInputStream#readObject",
+            "-[CALL]-> org.jruby.javasupport.Java#getInstance",
+            "-[CALL]-> org.jruby.javasupport.Java#getInstance",
+            "-[CALL]-> org.jruby.javasupport.Java#allocateProxy",
+            "-[CALL]-> org.jruby.RubyClass#allocate",
+            "-[CALL]-> org.jruby.runtime.ObjectAllocator#allocate -[ALIAS]-> org.jruby.RubyClass$3#allocate",
+            "-[CALL]-> java.lang.reflect.Constructor#newInstance"
+        ],
+        [
+            "javax.swing.JComponent#readObject -[ALIAS]-> javax.swing.JOptionPane#readObject",
+            "-[CALL]-> java.lang.Object#equals -[ALIAS]-> java.util.jar.Attributes#equals",
+            "-[CALL]-> java.util.Map#equals -[ALIAS]-> org.jruby.RubyHash#equals",
+            "-[CALL]-> org.jruby.RubyHash#op_equal",
+            "-[CALL]-> org.jruby.util.RecursiveComparator#compare",
+            "-[CALL]-> org.jruby.runtime.Helpers#invokedynamic",
+            "-[CALL]-> org.jruby.internal.runtime.methods.DynamicMethod#call -[ALIAS]-> org.jruby.java.invokers.ConstructorInvoker#call",
+            "-[CALL]-> org.jruby.javasupport.JavaConstructor#newInstanceDirect",
+            "-[CALL]-> java.lang.reflect.Constructor#newInstance"
+        ]
+    ],
+    "androChain": []
+}

@@ -1,0 +1,6 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+90017,org.ogce.xpp3,1.1.3.3,2005-11-08,https://repo1.maven.org/maven2/xpp3/xpp3/1.1.3.3/xpp3-1.1.3.3.jar,,,,,,,,1.1.3.4
+90015,org.ogce.xpp3,1.1.3.4,2006-02-18,https://repo1.maven.org/maven2/xpp3/xpp3/1.1.3.4.O/xpp3-1.1.3.4.O.jar,1,,,,,,,1.1.4
+90014,org.ogce.xpp3,1.1.4,2007-12-01,https://repo1.maven.org/maven2/xpp3/xpp3/1.1.4c/xpp3-1.1.4c.jar,1,0,0,0,0,0,0,1.1.5
+48854,org.ogce.xpp3,1.1.5,2013-08-10,https://repo1.maven.org/maven2/org/ogce/xpp3/1.1.5/xpp3-1.1.5.jar,82,0,0,0,0,117,0,1.1.6
+48855,org.ogce.xpp3,1.1.6,2013-08-17,https://repo1.maven.org/maven2/org/ogce/xpp3/1.1.6/xpp3-1.1.6.jar,: 82,0,0,0,0,0,0,

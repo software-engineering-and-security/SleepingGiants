@@ -1,0 +1,24 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+89740,xerces.xercesImpl,1.2.3,2005-11-08,https://repo1.maven.org/maven2/xerces/xerces/1.2.3/xerces-1.2.3.jar,139,,,,,,,1.4.0
+89741,xerces.xercesImpl,1.4.0,2005-11-08,https://repo1.maven.org/maven2/xerces/xerces/1.4.0/xerces-1.4.0.jar,138,0,0,0,0,0,1,1.4.4
+89742,xerces.xercesImpl,1.4.4,2005-11-08,https://repo1.maven.org/maven2/xerces/xerces/1.4.4/xerces-1.4.4.jar,139,0,0,0,0,1,0,2.0.0
+87352,xerces.xercesImpl,2.0.0,2005-11-08,https://repo1.maven.org/maven2/xerces/xercesImpl/2.0.0/xercesImpl-2.0.0.jar,139,0,0,0,0,21,21,2.0.1
+89751,xerces.xercesImpl,2.0.1,2005-11-08,https://repo1.maven.org/maven2/xerces/xerces/2.0.1/xerces-2.0.1.jar,139,0,0,0,0,0,0,2.0.2
+87351,xerces.xercesImpl,2.0.2,2005-11-08,https://repo1.maven.org/maven2/xerces/xercesImpl/2.0.2/xercesImpl-2.0.2.jar,145,4,0,0,0,2,0,2.2.1
+87350,xerces.xercesImpl,2.2.1,2005-12-27,https://repo1.maven.org/maven2/xerces/xercesImpl/2.2.1/xercesImpl-2.2.1.jar,148,0,0,0,0,3,0,2.3.0
+87349,xerces.xercesImpl,2.3.0,2005-11-08,https://repo1.maven.org/maven2/xerces/xercesImpl/2.3.0/xercesImpl-2.3.0.jar,148,0,0,0,0,0,0,2.4.0
+87348,xerces.xercesImpl,2.4.0,2005-11-08,https://repo1.maven.org/maven2/xerces/xercesImpl/2.4.0/xercesImpl-2.4.0.jar,148,0,0,0,0,0,0,2.5.0
+87347,xerces.xercesImpl,2.5.0,2005-11-08,https://repo1.maven.org/maven2/xerces/xercesImpl/2.5.0/xercesImpl-2.5.0.jar,146,0,0,0,0,0,2,2.6.0
+87346,xerces.xercesImpl,2.6.0,2005-11-08,https://repo1.maven.org/maven2/xerces/xercesImpl/2.6.0/xercesImpl-2.6.0.jar,146,0,0,0,0,0,0,2.6.1
+87345,xerces.xercesImpl,2.6.1,2005-11-08,https://repo1.maven.org/maven2/xerces/xercesImpl/2.6.1/xercesImpl-2.6.1.jar,146,0,0,0,0,0,0,2.6.2
+87360,xerces.xercesImpl,2.6.2,2005-11-08,https://repo1.maven.org/maven2/xerces/xercesImpl/2.6.2/xercesImpl-2.6.2.jar,146,0,0,0,0,0,0,2.7.1
+87376,xerces.xercesImpl,2.7.1,2005-11-08,https://repo1.maven.org/maven2/xerces/xercesImpl/2.7.1/xercesImpl-2.7.1.jar,149,0,0,0,0,4,1,2.8.0
+87361,xerces.xercesImpl,2.8.0,2006-05-12,https://repo1.maven.org/maven2/xerces/xercesImpl/2.8.0/xercesImpl-2.8.0.jar,149,0,0,0,0,0,0,2.8.1
+87375,xerces.xercesImpl,2.8.1,2006-10-07,https://repo1.maven.org/maven2/xerces/xercesImpl/2.8.1/xercesImpl-2.8.1.jar,149,0,0,0,0,0,0,2.9.0
+87374,xerces.xercesImpl,2.9.0,2008-10-01,https://repo1.maven.org/maven2/xerces/xercesImpl/2.9.0/xercesImpl-2.9.0.jar,149,0,0,0,0,0,0,2.9.1
+87373,xerces.xercesImpl,2.9.1,2008-10-01,https://repo1.maven.org/maven2/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar,149,0,0,0,0,0,0,2.10.0
+87372,xerces.xercesImpl,2.10.0,2011-08-15,https://repo1.maven.org/maven2/xerces/xercesImpl/2.10.0/xercesImpl-2.10.0.jar,151,1,0,0,0,2,1,2.11.0
+87371,xerces.xercesImpl,2.11.0,2013-02-20,https://repo1.maven.org/maven2/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar,151,0,0,0,0,0,0,2.12.0
+87370,xerces.xercesImpl,2.12.0,2018-06-22,https://repo1.maven.org/maven2/xerces/xercesImpl/2.12.0/xercesImpl-2.12.0.jar,151,0,0,0,0,0,0,2.12.1
+87369,xerces.xercesImpl,2.12.1,2021-01-04,https://repo1.maven.org/maven2/xerces/xercesImpl/2.12.1/xercesImpl-2.12.1.jar,151,0,0,0,0,0,0,2.12.2
+87368,xerces.xercesImpl,2.12.2,2022-01-27,https://repo1.maven.org/maven2/xerces/xercesImpl/2.12.2/xercesImpl-2.12.2.jar,: 151,0,0,0,0,0,0,

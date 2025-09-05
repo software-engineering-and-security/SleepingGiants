@@ -1,0 +1,7 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+80085,com.github.stephenc.high-scale-lib.high-scale-lib,1.0.0,2010-12-18,https://repo1.maven.org/maven2/com/github/stephenc/high-scale-lib/high-scale-lib/1.0.0/high-scale-lib-1.0.0.jar,9,,,,,,,1.0.1
+80087,com.github.stephenc.high-scale-lib.high-scale-lib,1.0.1,2010-12-19,https://repo1.maven.org/maven2/com/github/stephenc/high-scale-lib/high-scale-lib/1.0.1/high-scale-lib-1.0.1.jar,9,0,0,0,0,0,0,1.1.0
+80094,com.github.stephenc.high-scale-lib.high-scale-lib,1.1.0,2010-12-20,https://repo1.maven.org/maven2/com/github/stephenc/high-scale-lib/high-scale-lib/1.1.0/high-scale-lib-1.1.0.jar,10,0,0,0,0,1,0,1.1.1
+80088,com.github.stephenc.high-scale-lib.high-scale-lib,1.1.1,2010-12-20,https://repo1.maven.org/maven2/com/github/stephenc/high-scale-lib/high-scale-lib/1.1.1/high-scale-lib-1.1.1.jar,10,0,0,0,0,0,0,1.1.2
+80089,com.github.stephenc.high-scale-lib.high-scale-lib,1.1.2,2010-12-20,https://repo1.maven.org/maven2/com/github/stephenc/high-scale-lib/high-scale-lib/1.1.2/high-scale-lib-1.1.2.jar,10,0,0,0,0,0,0,1.1.4
+80090,com.github.stephenc.high-scale-lib.high-scale-lib,1.1.4,2011-11-28,https://repo1.maven.org/maven2/com/github/stephenc/high-scale-lib/high-scale-lib/1.1.4/high-scale-lib-1.1.4.jar,: 10,0,0,0,0,0,0,

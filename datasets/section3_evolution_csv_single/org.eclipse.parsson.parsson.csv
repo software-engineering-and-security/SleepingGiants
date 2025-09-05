@@ -1,0 +1,15 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+9988,org.eclipse.parsson.parsson,1.0.0,2021-06-22,https://repo1.maven.org/maven2/org/eclipse/parsson/parsson/1.0.0/parsson-1.0.0.jar,1,,,,,,,1.0.1
+9987,org.eclipse.parsson.parsson,1.0.1,2022-06-24,https://repo1.maven.org/maven2/org/eclipse/parsson/parsson/1.0.1/parsson-1.0.1.jar,1,0,0,0,0,0,0,1.0.2
+9974,org.eclipse.parsson.parsson,1.0.2,2022-06-30,https://repo1.maven.org/maven2/org/eclipse/parsson/parsson/1.0.2/parsson-1.0.2.jar,1,0,0,0,0,0,0,1.0.3
+9975,org.eclipse.parsson.parsson,1.0.3,2023-05-15,https://repo1.maven.org/maven2/org/eclipse/parsson/parsson/1.0.3/parsson-1.0.3.jar,1,0,0,0,0,0,0,1.0.4
+9976,org.eclipse.parsson.parsson,1.0.4,2023-07-13,https://repo1.maven.org/maven2/org/eclipse/parsson/parsson/1.0.4/parsson-1.0.4.jar,1,0,0,0,0,0,0,1.0.5
+9977,org.eclipse.parsson.parsson,1.0.5,2023-08-04,https://repo1.maven.org/maven2/org/eclipse/parsson/parsson/1.0.5/parsson-1.0.5.jar,1,0,0,0,0,0,0,1.1.0
+9978,org.eclipse.parsson.parsson,1.1.0,2022-04-04,https://repo1.maven.org/maven2/org/eclipse/parsson/parsson/1.1.0/parsson-1.1.0.jar,1,0,0,0,0,0,0,1.1.1
+9979,org.eclipse.parsson.parsson,1.1.1,2022-07-21,https://repo1.maven.org/maven2/org/eclipse/parsson/parsson/1.1.1/parsson-1.1.1.jar,1,0,0,0,0,0,0,1.1.2
+9980,org.eclipse.parsson.parsson,1.1.2,2023-05-22,https://repo1.maven.org/maven2/org/eclipse/parsson/parsson/1.1.2/parsson-1.1.2.jar,1,0,0,0,0,0,0,1.1.3
+9981,org.eclipse.parsson.parsson,1.1.3,2023-07-13,https://repo1.maven.org/maven2/org/eclipse/parsson/parsson/1.1.3/parsson-1.1.3.jar,1,0,0,0,0,0,0,1.1.4
+9982,org.eclipse.parsson.parsson,1.1.4,2023-08-04,https://repo1.maven.org/maven2/org/eclipse/parsson/parsson/1.1.4/parsson-1.1.4.jar,1,0,0,0,0,0,0,1.1.5
+9983,org.eclipse.parsson.parsson,1.1.5,2023-10-20,https://repo1.maven.org/maven2/org/eclipse/parsson/parsson/1.1.5/parsson-1.1.5.jar,1,0,0,0,0,0,0,1.1.6
+9984,org.eclipse.parsson.parsson,1.1.6,2024-04-06,https://repo1.maven.org/maven2/org/eclipse/parsson/parsson/1.1.6/parsson-1.1.6.jar,1,0,0,0,0,0,0,1.1.7
+9985,org.eclipse.parsson.parsson,1.1.7,2024-07-30,https://repo1.maven.org/maven2/org/eclipse/parsson/parsson/1.1.7/parsson-1.1.7.jar,: 1,0,0,0,0,0,0,

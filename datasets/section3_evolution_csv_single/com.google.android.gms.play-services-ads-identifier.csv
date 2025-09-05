@@ -1,0 +1,11 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+54766,com.google.android.gms.play-services-ads-identifier,15.0.0,2018-04-10,https://maven.google.com/com/google/android/gms/play-services-ads-identifier/15.0.0/play-services-ads-identifier-15.0.0.aar,,,,,,,,15.0.1
+54767,com.google.android.gms.play-services-ads-identifier,15.0.1,2018-05-02,https://maven.google.com/com/google/android/gms/play-services-ads-identifier/15.0.1/play-services-ads-identifier-15.0.1.aar,,,,,,,,16.0.0
+54789,com.google.android.gms.play-services-ads-identifier,16.0.0,2018-10-02,https://maven.google.com/com/google/android/gms/play-services-ads-identifier/16.0.0/play-services-ads-identifier-16.0.0.aar,,,,,,,,17.0.0
+54790,com.google.android.gms.play-services-ads-identifier,17.0.0,2019-06-17,https://maven.google.com/com/google/android/gms/play-services-ads-identifier/17.0.0/play-services-ads-identifier-17.0.0.aar,,,,,,,,17.0.1
+54791,com.google.android.gms.play-services-ads-identifier,17.0.1,2021-05-26,https://maven.google.com/com/google/android/gms/play-services-ads-identifier/17.0.1/play-services-ads-identifier-17.0.1.aar,,,,,,,,17.1.0
+54792,com.google.android.gms.play-services-ads-identifier,17.1.0,2021-09-22,https://maven.google.com/com/google/android/gms/play-services-ads-identifier/17.1.0/play-services-ads-identifier-17.1.0.aar,,,,,,,,18.0.0
+54793,com.google.android.gms.play-services-ads-identifier,18.0.0,2021-12-09,https://maven.google.com/com/google/android/gms/play-services-ads-identifier/18.0.0/play-services-ads-identifier-18.0.0.aar,,,,,,,,18.0.1
+54794,com.google.android.gms.play-services-ads-identifier,18.0.1,2022-01-05,https://maven.google.com/com/google/android/gms/play-services-ads-identifier/18.0.1/play-services-ads-identifier-18.0.1.aar,,,,,,,,18.1.0
+54795,com.google.android.gms.play-services-ads-identifier,18.1.0,2024-05-29,https://maven.google.com/com/google/android/gms/play-services-ads-identifier/18.1.0/play-services-ads-identifier-18.1.0.aar,,,,,,,,18.2.0
+54796,com.google.android.gms.play-services-ads-identifier,18.2.0,2024-12-09,https://maven.google.com/com/google/android/gms/play-services-ads-identifier/18.2.0/play-services-ads-identifier-18.2.0.aar,,,,,,,,

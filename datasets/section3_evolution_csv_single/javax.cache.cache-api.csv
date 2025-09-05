@@ -1,0 +1,14 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+2973,javax.cache.cache-api,0.2,2011-08-16,https://repo1.maven.org/maven2/javax/cache/cache-api/0.2/cache-api-0.2.jar,1,,,,,,,0.3
+2974,javax.cache.cache-api,0.3,2011-10-11,https://repo1.maven.org/maven2/javax/cache/cache-api/0.3/cache-api-0.3.jar,1,0,0,0,0,1,1,0.4
+2993,javax.cache.cache-api,0.4,2011-11-17,https://repo1.maven.org/maven2/javax/cache/cache-api/0.4/cache-api-0.4.jar,1,0,0,0,0,0,0,0.5
+3013,javax.cache.cache-api,0.5,2012-03-13,https://repo1.maven.org/maven2/javax/cache/cache-api/0.5/cache-api-0.5.jar,1,0,0,0,0,0,0,0.6
+2994,javax.cache.cache-api,0.6,2013-02-08,https://repo1.maven.org/maven2/javax/cache/cache-api/0.6/cache-api-0.6.jar,1,0,0,0,0,0,0,0.7
+3016,javax.cache.cache-api,0.7,2013-04-18,https://repo1.maven.org/maven2/javax/cache/cache-api/0.7/cache-api-0.7.jar,1,0,1,0,0,1,0,0.8
+3017,javax.cache.cache-api,0.8,2013-06-25,https://repo1.maven.org/maven2/javax/cache/cache-api/0.8/cache-api-0.8.jar,13,0,0,0,0,14,0,0.9
+3018,javax.cache.cache-api,0.9,2013-08-06,https://repo1.maven.org/maven2/javax/cache/cache-api/0.9/cache-api-0.9.jar,14,1,0,0,0,1,1,0.10
+3019,javax.cache.cache-api,0.10,2013-08-27,https://repo1.maven.org/maven2/javax/cache/cache-api/0.10/cache-api-0.10.jar,14,0,0,0,0,0,0,0.61
+3020,javax.cache.cache-api,0.61,2013-02-13,https://repo1.maven.org/maven2/javax/cache/cache-api/0.61/cache-api-0.61.jar,1,1,0,0,0,0,16,1.0.0
+3021,javax.cache.cache-api,1.0.0,2014-03-28,https://repo1.maven.org/maven2/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar,15,0,1,0,0,19,0,1.1.0
+3022,javax.cache.cache-api,1.1.0,2017-12-16,https://repo1.maven.org/maven2/javax/cache/cache-api/1.1.0/cache-api-1.1.0.jar,15,0,0,0,0,0,0,1.1.1
+3023,javax.cache.cache-api,1.1.1,2019-05-10,https://repo1.maven.org/maven2/javax/cache/cache-api/1.1.1/cache-api-1.1.1.jar,: 15,0,0,0,0,0,0,

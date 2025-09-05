@@ -1,0 +1,8 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+110080,jakarta.ejb.jakarta.ejb-api,3.0,2007-03-28,https://repo1.maven.org/maven2/javax/ejb/ejb-api/3.0/ejb-api-3.0.jar,7,,,,,,,3.2.3
+2976,jakarta.ejb.jakarta.ejb-api,3.2.3,2018-11-01,https://repo1.maven.org/maven2/jakarta/ejb/jakarta.ejb-api/3.2.3/jakarta.ejb-api-3.2.3.jar,10,0,0,0,0,3,0,3.2.4
+2977,jakarta.ejb.jakarta.ejb-api,3.2.4,2019-01-18,https://repo1.maven.org/maven2/jakarta/ejb/jakarta.ejb-api/3.2.4/jakarta.ejb-api-3.2.4.jar,8,0,0,0,0,0,2,3.2.5
+2978,jakarta.ejb.jakarta.ejb-api,3.2.5,2019-01-24,https://repo1.maven.org/maven2/jakarta/ejb/jakarta.ejb-api/3.2.5/jakarta.ejb-api-3.2.5.jar,10,0,0,0,0,2,0,3.2.6
+2979,jakarta.ejb.jakarta.ejb-api,3.2.6,2019-09-10,https://repo1.maven.org/maven2/jakarta/ejb/jakarta.ejb-api/3.2.6/jakarta.ejb-api-3.2.6.jar,10,0,0,0,0,0,0,4.0.0
+2980,jakarta.ejb.jakarta.ejb-api,4.0.0,2020-12-01,https://repo1.maven.org/maven2/jakarta/ejb/jakarta.ejb-api/4.0.0/jakarta.ejb-api-4.0.0.jar,8,0,0,0,0,8,10,4.0.1
+2981,jakarta.ejb.jakarta.ejb-api,4.0.1,2022-05-04,https://repo1.maven.org/maven2/jakarta/ejb/jakarta.ejb-api/4.0.1/jakarta.ejb-api-4.0.1.jar,: 8,0,0,0,0,0,0,

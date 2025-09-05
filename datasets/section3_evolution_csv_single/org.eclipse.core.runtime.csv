@@ -1,0 +1,6 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+23850,org.eclipse.core.runtime,3.2.0,2007-11-27,https://repo1.maven.org/maven2/org/eclipse/core/runtime/3.2.0-v20060603/runtime-3.2.0-v20060603.jar,,,,,,,,3.3.100
+23851,org.eclipse.core.runtime,3.3.100,2007-11-27,https://repo1.maven.org/maven2/org/eclipse/core/runtime/3.3.100-v20070530/runtime-3.3.100-v20070530.jar,,,,,,,,3.9.0
+23852,org.eclipse.core.runtime,3.9.0,2013-11-13,https://repo1.maven.org/maven2/org/eclipse/core/runtime/3.9.0-v20130326-1255/runtime-3.9.0-v20130326-1255.jar,,,,,,,,3.9.100
+23853,org.eclipse.core.runtime,3.9.100,2014-03-12,https://repo1.maven.org/maven2/org/eclipse/core/runtime/3.9.100-v20131218-1515/runtime-3.9.100-v20131218-1515.jar,,,,,,,,3.10.0
+23854,org.eclipse.core.runtime,3.10.0,2014-07-28,https://repo1.maven.org/maven2/org/eclipse/core/runtime/3.10.0-v20140318-2214/runtime-3.10.0-v20140318-2214.jar,,,,,,,,

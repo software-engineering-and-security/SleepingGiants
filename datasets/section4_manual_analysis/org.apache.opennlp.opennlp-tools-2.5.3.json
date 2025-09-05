@@ -1,0 +1,28 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<opennlp.tools.postag.POSDictionary: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<java.util.Arrays: void sort(int[])> with actual argTypes: [int[]] and taint: [false, true]",
+            "<java.util.DualPivotQuicksort: void sort(int[],int,int,int)> with actual argTypes: [int[], int, int, int] and taint: [false, true, false, false, true]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Object invoke()> with actual argTypes: [] and taint: [false]",
+            "<java.util.concurrent.ForkJoinTask: void reportException(int)> with actual argTypes: [int] and taint: [false, false]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Throwable getThrowableException()> with actual argTypes: [] and taint: [false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<opennlp.tools.postag.POSDictionary: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<java.util.Arrays: void sort(int[])> with actual argTypes: [int[]] and taint: [false, true]",
+            "<java.util.DualPivotQuicksort: void sort(int[],int,int,int)> with actual argTypes: [int[], int, int, int] and taint: [false, true, false, false, true]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Object invoke()> with actual argTypes: [] and taint: [false]",
+            "<java.util.concurrent.ForkJoinTask: int doExec()> with actual argTypes: [] and taint: [false]",
+            "<java.util.concurrent.ForkJoinTask$AdaptedRunnableAction: boolean exec()> with actual argTypes: [] and taint: [false]",
+            "<javax.swing.JFormattedTextField$FocusLostHandler: void run()> with actual argTypes: [] and taint: [false]",
+            "<javax.swing.JFormattedTextField: void commitEdit()> with actual argTypes: [] and taint: [false]",
+            "<javax.swing.text.DefaultFormatter: java.lang.Object stringToValue(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, false]"
+        ]
+    ]
+}

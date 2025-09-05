@@ -1,0 +1,211 @@
+{
+    "tabby": [
+        [
+            "com.google.appengine.repackaged.com.google.common.cache.LocalCache$ManualSerializationProxy#readObject",
+            "-[CALL]-> com.google.appengine.repackaged.com.google.common.cache.CacheBuilder#build",
+            "-[CALL]-> com.google.appengine.repackaged.com.google.common.cache.CacheBuilder#checkWeightWithWeigher",
+            "-[CALL]-> java.util.logging.Logger#log",
+            "-[CALL]-> java.util.logging.Logger#doLog",
+            "-[CALL]-> java.util.logging.Logger#log",
+            "-[CALL]-> java.util.logging.Handler#publish -[ALIAS]-> java.util.logging.StreamHandler#publish",
+            "-[CALL]-> java.io.Writer#write",
+            "-[CALL]-> java.io.Writer#write -[ALIAS]-> com.google.appengine.repackaged.org.codehaus.jackson.io.UTF8Writer#write",
+            "-[CALL]-> java.io.OutputStream#write -[ALIAS]-> java.io.FileOutputStream#write"
+        ],
+        [
+            "com.google.appengine.repackaged.com.google.common.cache.LocalCache$LoadingSerializationProxy#readObject",
+            "-[CALL]-> com.google.appengine.repackaged.com.google.common.cache.CacheBuilder#build",
+            "-[CALL]-> com.google.appengine.repackaged.com.google.common.cache.CacheBuilder#checkWeightWithWeigher",
+            "-[CALL]-> java.util.logging.Logger#log",
+            "-[CALL]-> java.util.logging.Logger#doLog",
+            "-[CALL]-> java.util.logging.Logger#log",
+            "-[CALL]-> java.util.logging.Handler#publish -[ALIAS]-> java.util.logging.StreamHandler#publish",
+            "-[CALL]-> java.io.Writer#write",
+            "-[CALL]-> java.io.Writer#write -[ALIAS]-> com.google.appengine.repackaged.org.codehaus.jackson.io.UTF8Writer#write",
+            "-[CALL]-> java.io.OutputStream#write -[ALIAS]-> java.io.FileOutputStream#write"
+        ],
+        [
+            "java.util.logging.LogRecord#readObject",
+            "-[CALL]-> java.util.ResourceBundle#getBundle",
+            "-[CALL]-> java.util.ResourceBundle#getBundleImpl",
+            "-[CALL]-> java.util.ResourceBundle#getLoader",
+            "-[CALL]-> java.security.PrivilegedAction#run -[ALIAS]-> com.google.appengine.repackaged.org.apache.commons.logging.LogFactory$2#run",
+            "-[CALL]-> com.google.appengine.repackaged.org.apache.commons.logging.LogFactory#createFactory",
+            "-[CALL]-> java.lang.ClassLoader#loadClass"
+        ],
+        [
+            "com.google.appengine.repackaged.com.google.common.collect.EnumMultiset#readObject",
+            "-[CALL]-> java.lang.Class#getEnumConstants",
+            "-[CALL]-> java.lang.Object#clone -[ALIAS]-> javax.crypto.Mac#clone",
+            "-[CALL]-> javax.crypto.Mac#chooseFirstProvider",
+            "-[CALL]-> java.security.Provider$Service#newInstance",
+            "-[CALL]-> java.security.Provider$Service#newInstanceUtil",
+            "-[CALL]-> java.security.Provider$Service#getImplClass",
+            "-[CALL]-> java.lang.ClassLoader#loadClass"
+        ]
+    ],
+    "androChain": [
+        [
+            "<java.security.SignedObject: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<com.google.appengine.repackaged.org.apache.http.client.methods.AbstractExecutionAwareRequest: java.lang.Object clone()> with actual argTypes: [] and taint: [true]",
+            "<com.google.appengine.repackaged.org.apache.http.client.utils.CloneUtils: java.lang.Object cloneObject(java.lang.Object)> with actual argTypes: [com.google.appengine.repackaged.org.apache.http.message.HeaderGroup] and taint: [false, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [true, true, false]"
+        ],
+        [
+            "<com.google.appengine.repackaged.com.google.protobuf.GeneratedMutableMessage$SerializedForm: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<com.google.appengine.repackaged.com.google.protobuf.AbstractMutableMessageLite: boolean mergeFrom(com.google.appengine.repackaged.com.google.protobuf.CodedInputStream)> with actual argTypes: [com.google.appengine.repackaged.com.google.protobuf.CodedInputStream] and taint: [true, true]",
+            "<com.google.appengine.repackaged.com.google.protobuf.ExtensionRegistryLite: com.google.appengine.repackaged.com.google.protobuf.ExtensionRegistryLite getEmptyRegistry()> with actual argTypes: [] and taint: [false]",
+            "<com.google.appengine.repackaged.com.google.protobuf.ExtensionRegistryFactory: com.google.appengine.repackaged.com.google.protobuf.ExtensionRegistryLite createEmpty()> with actual argTypes: [] and taint: [false]",
+            "<com.google.appengine.repackaged.com.google.protobuf.ExtensionRegistryFactory: com.google.appengine.repackaged.com.google.protobuf.ExtensionRegistryLite invokeSubclassFactory(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [null, java.lang.Object[]] and taint: [false, false, false]"
+        ],
+        [
+            "<com.google.appengine.repackaged.com.google.common.collect.LinkedHashMultimap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<javax.swing.UIDefaults$TextAndMnemonicHashMap: java.lang.Object get(java.lang.Object)> with actual argTypes: [java.lang.Object] and taint: [false, true]",
+            "<com.google.appengine.repackaged.com.google.protobuf.GeneratedMessageLite: java.lang.String toString()> with actual argTypes: [] and taint: [true]",
+            "<com.google.appengine.repackaged.com.google.protobuf.MessageLiteToString: java.lang.String toString(com.google.appengine.repackaged.com.google.protobuf.MessageLite,java.lang.String)> with actual argTypes: [com.google.appengine.repackaged.com.google.protobuf.GeneratedMessageLite, java.lang.String] and taint: [false, true, true]",
+            "<com.google.appengine.repackaged.com.google.protobuf.MessageLiteToString: void reflectivePrintWithIndent(com.google.appengine.repackaged.com.google.protobuf.MessageLite,java.lang.StringBuilder,int)> with actual argTypes: [com.google.appengine.repackaged.com.google.protobuf.MessageLite, java.lang.StringBuilder, int] and taint: [false, true, false, false]",
+            "<com.google.appengine.repackaged.com.google.protobuf.GeneratedMessageLite: java.lang.Object invokeOrDie(java.lang.reflect.Method,java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.reflect.Method, com.google.appengine.repackaged.com.google.protobuf.MessageLite, java.lang.Object[]] and taint: [false, false, true, false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [false, true, false]"
+        ],
+        [
+            "<com.google.appengine.repackaged.com.google.common.collect.LinkedHashMultimap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<javax.swing.UIDefaults$TextAndMnemonicHashMap: java.lang.Object get(java.lang.Object)> with actual argTypes: [java.lang.Object] and taint: [false, true]",
+            "<com.google.appengine.repackaged.com.google.gson.JsonElement: java.lang.String toString()> with actual argTypes: [] and taint: [true]",
+            "<com.google.appengine.repackaged.com.google.gson.internal.Streams: void write(com.google.appengine.repackaged.com.google.gson.JsonElement,com.google.appengine.repackaged.com.google.gson.stream.JsonWriter)> with actual argTypes: [com.google.appengine.repackaged.com.google.gson.JsonElement, com.google.appengine.repackaged.com.google.gson.stream.JsonWriter] and taint: [false, true, false]",
+            "<com.google.appengine.repackaged.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter: void write(com.google.appengine.repackaged.com.google.gson.stream.JsonWriter,java.lang.Object)> with actual argTypes: [com.google.appengine.repackaged.com.google.gson.stream.JsonWriter, com.google.appengine.repackaged.com.google.gson.JsonElement] and taint: [false, false, true]",
+            "<com.google.appengine.repackaged.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$2: void write(com.google.appengine.repackaged.com.google.gson.stream.JsonWriter,java.lang.Object)> with actual argTypes: [com.google.appengine.repackaged.com.google.gson.stream.JsonWriter, java.lang.Object] and taint: [false, false, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [false, true, false]"
+        ],
+        [
+            "<java.security.SignedObject: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<com.google.appengine.repackaged.com.google.protobuf.AbstractMutableMessage: java.lang.Object clone()> with actual argTypes: [] and taint: [true]",
+            "<com.google.appengine.repackaged.com.google.protobuf.AbstractMutableMessage: com.google.appengine.repackaged.com.google.protobuf.MutableMessage clone()> with actual argTypes: [] and taint: [true]",
+            "<com.google.appengine.repackaged.com.google.protobuf.AbstractMutableMessage: com.google.appengine.repackaged.com.google.protobuf.MutableMessage mergeFrom(com.google.appengine.repackaged.com.google.protobuf.MutableMessage)> with actual argTypes: [com.google.appengine.repackaged.com.google.protobuf.AbstractMutableMessage] and taint: [true, true]",
+            "<com.google.appengine.repackaged.com.google.protobuf.GeneratedMutableMessage: java.lang.Object getField(com.google.appengine.repackaged.com.google.protobuf.Descriptors$FieldDescriptor)> with actual argTypes: [com.google.appengine.repackaged.com.google.protobuf.Descriptors$FieldDescriptor] and taint: [true, true]",
+            "<com.google.appengine.repackaged.com.google.protobuf.GeneratedMutableMessage$FieldAccessorTable$RepeatedFieldAccessor: java.lang.Object get(com.google.appengine.repackaged.com.google.protobuf.GeneratedMutableMessage)> with actual argTypes: [com.google.appengine.repackaged.com.google.protobuf.GeneratedMutableMessage] and taint: [true, true]",
+            "<com.google.appengine.repackaged.com.google.protobuf.GeneratedMutableMessage: java.lang.Object access$100(java.lang.reflect.Method,java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.reflect.Method, com.google.appengine.repackaged.com.google.protobuf.GeneratedMutableMessage, java.lang.Object[]] and taint: [false, true, true, false]",
+            "<com.google.appengine.repackaged.com.google.protobuf.GeneratedMutableMessage: java.lang.Object invokeOrDie(java.lang.reflect.Method,java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.reflect.Method, java.lang.Object, java.lang.Object[]] and taint: [false, true, true, false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [true, true, false]"
+        ],
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<com.google.appengine.repackaged.com.google.protobuf.AbstractMessage: boolean equals(java.lang.Object)> with actual argTypes: [java.lang.Class] and taint: [true, true]",
+            "<com.google.appengine.repackaged.com.google.protobuf.GeneratedMessageV3: java.util.Map getAllFields()> with actual argTypes: [] and taint: [true]",
+            "<com.google.appengine.repackaged.com.google.protobuf.GeneratedMessageV3: java.util.Map getAllFieldsMutable(boolean)> with actual argTypes: [int] and taint: [true, false]",
+            "<com.google.appengine.repackaged.com.google.protobuf.GeneratedMessageV3: java.lang.Object getField(com.google.appengine.repackaged.com.google.protobuf.Descriptors$FieldDescriptor)> with actual argTypes: [com.google.appengine.repackaged.com.google.protobuf.Descriptors$FieldDescriptor] and taint: [true, true]",
+            "<com.google.appengine.repackaged.com.google.protobuf.GeneratedMessageV3$FieldAccessorTable$SingularEnumFieldAccessor: java.lang.Object get(com.google.appengine.repackaged.com.google.protobuf.GeneratedMessageV3)> with actual argTypes: [com.google.appengine.repackaged.com.google.protobuf.GeneratedMessageV3] and taint: [true, true]",
+            "<com.google.appengine.repackaged.com.google.protobuf.GeneratedMessageV3: java.lang.Object access$1100(java.lang.reflect.Method,java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.reflect.Method, com.google.appengine.repackaged.com.google.protobuf.GeneratedMessageV3, java.lang.Object[]] and taint: [false, true, true, false]",
+            "<com.google.appengine.repackaged.com.google.protobuf.GeneratedMessageV3: java.lang.Object invokeOrDie(java.lang.reflect.Method,java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.reflect.Method, java.lang.Object, java.lang.Object[]] and taint: [false, true, true, false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [true, true, false]"
+        ],
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<com.google.appengine.repackaged.com.google.protobuf.AbstractMessage: boolean equals(java.lang.Object)> with actual argTypes: [java.lang.Class] and taint: [true, true]",
+            "<com.google.appengine.repackaged.com.google.protobuf.GeneratedMessage: java.util.Map getAllFields()> with actual argTypes: [] and taint: [true]",
+            "<com.google.appengine.repackaged.com.google.protobuf.GeneratedMessage: java.util.Map getAllFieldsMutable(boolean)> with actual argTypes: [int] and taint: [true, false]",
+            "<com.google.appengine.repackaged.com.google.protobuf.GeneratedMessage: java.lang.Object getField(com.google.appengine.repackaged.com.google.protobuf.Descriptors$FieldDescriptor)> with actual argTypes: [com.google.appengine.repackaged.com.google.protobuf.Descriptors$FieldDescriptor] and taint: [true, true]",
+            "<com.google.appengine.repackaged.com.google.protobuf.GeneratedMessage$FieldAccessorTable$SingularEnumFieldAccessor: java.lang.Object get(com.google.appengine.repackaged.com.google.protobuf.GeneratedMessage)> with actual argTypes: [com.google.appengine.repackaged.com.google.protobuf.GeneratedMessage] and taint: [true, true]",
+            "<com.google.appengine.repackaged.com.google.protobuf.GeneratedMessage: java.lang.Object access$1200(java.lang.reflect.Method,java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.reflect.Method, com.google.appengine.repackaged.com.google.protobuf.GeneratedMessage, java.lang.Object[]] and taint: [false, true, true, false]",
+            "<com.google.appengine.repackaged.com.google.protobuf.GeneratedMessage: java.lang.Object invokeOrDie(java.lang.reflect.Method,java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.reflect.Method, java.lang.Object, java.lang.Object[]] and taint: [false, true, true, false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [true, true, false]"
+        ],
+        [
+            "<com.google.appengine.repackaged.com.google.common.collect.LinkedHashMultimap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<java.beans.beancontext.BeanContextSupport: boolean add(java.lang.Object)> with actual argTypes: [java.lang.Object] and taint: [true, true]",
+            "<java.beans.beancontext.BeanContextChildSupport: void setBeanContext(java.beans.beancontext.BeanContext)> with actual argTypes: [java.beans.beancontext.BeanContext] and taint: [true, true]",
+            "<java.beans.beancontext.BeanContextChildSupport: void firePropertyChange(java.lang.String,java.lang.Object,java.lang.Object)> with actual argTypes: [java.lang.String, java.beans.beancontext.BeanContext, java.beans.beancontext.BeanContext] and taint: [true, false, true, true]",
+            "<java.beans.PropertyChangeSupport: void firePropertyChange(java.lang.String,java.lang.Object,java.lang.Object)> with actual argTypes: [java.lang.String, java.lang.Object, java.lang.Object] and taint: [true, false, true, true]",
+            "<java.beans.PropertyChangeSupport: void firePropertyChange(java.beans.PropertyChangeEvent)> with actual argTypes: [java.beans.PropertyChangeEvent] and taint: [true, false]",
+            "<java.beans.PropertyChangeSupport: void fire(java.beans.PropertyChangeListener[],java.beans.PropertyChangeEvent)> with actual argTypes: [java.beans.PropertyChangeListener[], java.beans.PropertyChangeEvent] and taint: [false, true, false]",
+            "<sun.swing.FilePane: void propertyChange(java.beans.PropertyChangeEvent)> with actual argTypes: [java.beans.PropertyChangeEvent] and taint: [true, false]",
+            "<sun.swing.FilePane: void applyEdit()> with actual argTypes: [] and taint: [true]",
+            "<javax.swing.JTable$GenericEditor: boolean stopCellEditing()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, true]"
+        ],
+        [
+            "<com.google.appengine.repackaged.com.google.common.collect.LinkedHashMultimap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<java.beans.beancontext.BeanContextSupport: boolean add(java.lang.Object)> with actual argTypes: [java.lang.Object] and taint: [true, true]",
+            "<java.beans.beancontext.BeanContextChildSupport: void setBeanContext(java.beans.beancontext.BeanContext)> with actual argTypes: [java.beans.beancontext.BeanContext] and taint: [true, true]",
+            "<java.beans.beancontext.BeanContextChildSupport: void firePropertyChange(java.lang.String,java.lang.Object,java.lang.Object)> with actual argTypes: [java.lang.String, java.beans.beancontext.BeanContext, java.beans.beancontext.BeanContext] and taint: [true, false, true, true]",
+            "<java.beans.PropertyChangeSupport: void firePropertyChange(java.lang.String,java.lang.Object,java.lang.Object)> with actual argTypes: [java.lang.String, java.lang.Object, java.lang.Object] and taint: [true, false, true, true]",
+            "<java.beans.PropertyChangeSupport: void firePropertyChange(java.beans.PropertyChangeEvent)> with actual argTypes: [java.beans.PropertyChangeEvent] and taint: [true, false]",
+            "<java.beans.PropertyChangeSupport: void fire(java.beans.PropertyChangeListener[],java.beans.PropertyChangeEvent)> with actual argTypes: [java.beans.PropertyChangeListener[], java.beans.PropertyChangeEvent] and taint: [false, true, false]",
+            "<sun.swing.FilePane: void propertyChange(java.beans.PropertyChangeEvent)> with actual argTypes: [java.beans.PropertyChangeEvent] and taint: [true, false]",
+            "<sun.swing.FilePane: void applyEdit()> with actual argTypes: [] and taint: [true]",
+            "<javax.swing.JTable$GenericEditor: boolean stopCellEditing()> with actual argTypes: [] and taint: [true]",
+            "<javax.swing.JTable$GenericEditor: boolean stopCellEditing()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, true]"
+        ],
+        [
+            "<com.google.appengine.repackaged.com.google.common.collect.LinkedHashMultimap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<java.beans.beancontext.BeanContextSupport: boolean add(java.lang.Object)> with actual argTypes: [java.lang.Object] and taint: [true, true]",
+            "<java.beans.beancontext.BeanContextChildSupport: void setBeanContext(java.beans.beancontext.BeanContext)> with actual argTypes: [java.beans.beancontext.BeanContext] and taint: [true, true]",
+            "<java.beans.beancontext.BeanContextChildSupport: void firePropertyChange(java.lang.String,java.lang.Object,java.lang.Object)> with actual argTypes: [java.lang.String, java.beans.beancontext.BeanContext, java.beans.beancontext.BeanContext] and taint: [true, false, true, true]",
+            "<java.beans.PropertyChangeSupport: void firePropertyChange(java.lang.String,java.lang.Object,java.lang.Object)> with actual argTypes: [java.lang.String, java.lang.Object, java.lang.Object] and taint: [true, false, true, true]",
+            "<java.beans.PropertyChangeSupport: void firePropertyChange(java.beans.PropertyChangeEvent)> with actual argTypes: [java.beans.PropertyChangeEvent] and taint: [true, false]",
+            "<java.beans.PropertyChangeSupport: void fire(java.beans.PropertyChangeListener[],java.beans.PropertyChangeEvent)> with actual argTypes: [java.beans.PropertyChangeListener[], java.beans.PropertyChangeEvent] and taint: [false, true, false]",
+            "<javax.swing.plaf.metal.MetalFileChooserUI$FilterComboBoxModel: void propertyChange(java.beans.PropertyChangeEvent)> with actual argTypes: [java.beans.PropertyChangeEvent] and taint: [true, false]",
+            "<javax.swing.AbstractListModel: void fireContentsChanged(java.lang.Object,int,int)> with actual argTypes: [javax.swing.plaf.metal.MetalFileChooserUI$FilterComboBoxModel, int, int] and taint: [true, true, false, false]",
+            "<javax.swing.JComboBox: void contentsChanged(javax.swing.event.ListDataEvent)> with actual argTypes: [javax.swing.event.ListDataEvent] and taint: [true, false]",
+            "<javax.swing.JComboBox: void fireActionEvent()> with actual argTypes: [] and taint: [true]",
+            "<javax.swing.plaf.basic.BasicFileChooserUI$ApproveSelectionAction: void actionPerformed(java.awt.event.ActionEvent)> with actual argTypes: [java.awt.event.ActionEvent] and taint: [true, false]",
+            "<sun.print.ServiceDialog$ValidatingFileChooser: void approveSelection()> with actual argTypes: [] and taint: [true]",
+            "<java.io.File: boolean delete()> with actual argTypes: [] and taint: [true]"
+        ],
+        [
+            "<com.google.appengine.repackaged.com.google.common.collect.LinkedHashMultimap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<java.beans.beancontext.BeanContextSupport: boolean add(java.lang.Object)> with actual argTypes: [java.lang.Object] and taint: [true, true]",
+            "<java.beans.beancontext.BeanContextChildSupport: void setBeanContext(java.beans.beancontext.BeanContext)> with actual argTypes: [java.beans.beancontext.BeanContext] and taint: [true, true]",
+            "<java.beans.beancontext.BeanContextChildSupport: void firePropertyChange(java.lang.String,java.lang.Object,java.lang.Object)> with actual argTypes: [java.lang.String, java.beans.beancontext.BeanContext, java.beans.beancontext.BeanContext] and taint: [true, false, true, true]",
+            "<java.beans.PropertyChangeSupport: void firePropertyChange(java.lang.String,java.lang.Object,java.lang.Object)> with actual argTypes: [java.lang.String, java.lang.Object, java.lang.Object] and taint: [true, false, true, true]",
+            "<java.beans.PropertyChangeSupport: void firePropertyChange(java.beans.PropertyChangeEvent)> with actual argTypes: [java.beans.PropertyChangeEvent] and taint: [true, false]",
+            "<java.beans.PropertyChangeSupport: void fire(java.beans.PropertyChangeListener[],java.beans.PropertyChangeEvent)> with actual argTypes: [java.beans.PropertyChangeListener[], java.beans.PropertyChangeEvent] and taint: [false, true, false]",
+            "<javax.swing.plaf.metal.MetalFileChooserUI$FilterComboBoxModel: void propertyChange(java.beans.PropertyChangeEvent)> with actual argTypes: [java.beans.PropertyChangeEvent] and taint: [true, false]",
+            "<javax.swing.AbstractListModel: void fireContentsChanged(java.lang.Object,int,int)> with actual argTypes: [javax.swing.plaf.metal.MetalFileChooserUI$FilterComboBoxModel, int, int] and taint: [true, true, false, false]",
+            "<javax.swing.JComboBox: void contentsChanged(javax.swing.event.ListDataEvent)> with actual argTypes: [javax.swing.event.ListDataEvent] and taint: [true, false]",
+            "<javax.swing.JComboBox: void fireActionEvent()> with actual argTypes: [] and taint: [true]",
+            "<sun.tools.jconsole.Plotter: void actionPerformed(java.awt.event.ActionEvent)> with actual argTypes: [java.awt.event.ActionEvent] and taint: [true, false]",
+            "<sun.tools.jconsole.Plotter: void saveAs()> with actual argTypes: [] and taint: [true]",
+            "<sun.tools.jconsole.Plotter: void saveDataToFile(java.io.File)> with actual argTypes: [java.io.File] and taint: [true, true]",
+            "<java.io.FileOutputStream: void <init>(java.io.File)> with actual argTypes: [java.io.File] and taint: [false, true]"
+        ],
+        [
+            "<com.google.appengine.repackaged.com.google.common.collect.LinkedHashMultimap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<java.beans.beancontext.BeanContextSupport: boolean add(java.lang.Object)> with actual argTypes: [java.lang.Object] and taint: [true, true]",
+            "<java.beans.beancontext.BeanContextChildSupport: void setBeanContext(java.beans.beancontext.BeanContext)> with actual argTypes: [java.beans.beancontext.BeanContext] and taint: [true, true]",
+            "<java.beans.beancontext.BeanContextChildSupport: void firePropertyChange(java.lang.String,java.lang.Object,java.lang.Object)> with actual argTypes: [java.lang.String, java.beans.beancontext.BeanContext, java.beans.beancontext.BeanContext] and taint: [true, false, true, true]",
+            "<java.beans.PropertyChangeSupport: void firePropertyChange(java.lang.String,java.lang.Object,java.lang.Object)> with actual argTypes: [java.lang.String, java.lang.Object, java.lang.Object] and taint: [true, false, true, true]",
+            "<java.beans.PropertyChangeSupport: void firePropertyChange(java.beans.PropertyChangeEvent)> with actual argTypes: [java.beans.PropertyChangeEvent] and taint: [true, false]",
+            "<java.beans.PropertyChangeSupport: void fire(java.beans.PropertyChangeListener[],java.beans.PropertyChangeEvent)> with actual argTypes: [java.beans.PropertyChangeListener[], java.beans.PropertyChangeEvent] and taint: [false, true, false]",
+            "<javax.swing.plaf.metal.MetalFileChooserUI$FilterComboBoxModel: void propertyChange(java.beans.PropertyChangeEvent)> with actual argTypes: [java.beans.PropertyChangeEvent] and taint: [true, false]",
+            "<javax.swing.AbstractListModel: void fireContentsChanged(java.lang.Object,int,int)> with actual argTypes: [javax.swing.plaf.metal.MetalFileChooserUI$FilterComboBoxModel, int, int] and taint: [true, true, false, false]",
+            "<javax.swing.JComboBox: void contentsChanged(javax.swing.event.ListDataEvent)> with actual argTypes: [javax.swing.event.ListDataEvent] and taint: [true, false]",
+            "<javax.swing.JComboBox: void fireActionEvent()> with actual argTypes: [] and taint: [true]",
+            "<javax.swing.JFormattedTextField$CommitAction: void actionPerformed(java.awt.event.ActionEvent)> with actual argTypes: [java.awt.event.ActionEvent] and taint: [true, false]",
+            "<javax.swing.JFormattedTextField: void commitEdit()> with actual argTypes: [] and taint: [true]",
+            "<javax.swing.text.DefaultFormatter: java.lang.Object stringToValue(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, true]"
+        ],
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<com.google.appengine.repackaged.com.google.io.protocol.MessageSet$Item: boolean equals(java.lang.Object)> with actual argTypes: [java.lang.Class] and taint: [true, true]",
+            "<com.google.appengine.repackaged.com.google.io.protocol.MessageSet$Item: boolean equals(com.google.appengine.repackaged.com.google.io.protocol.MessageSet$Item)> with actual argTypes: [com.google.appengine.repackaged.com.google.io.protocol.MessageSet$Item] and taint: [true, true]",
+            "<com.google.appengine.repackaged.com.google.io.protocol.MessageSet$Item: byte[] valueToByteArray(java.lang.Object)> with actual argTypes: [java.lang.Object] and taint: [false, true]",
+            "<com.google.appengine.repackaged.com.google.protobuf.AbstractMessageLite: byte[] toByteArray()> with actual argTypes: [] and taint: [true]",
+            "<com.google.appengine.repackaged.com.google.protobuf.GeneratedMessage: void writeTo(com.google.appengine.repackaged.com.google.protobuf.CodedOutputStream)> with actual argTypes: [com.google.appengine.repackaged.com.google.protobuf.CodedOutputStream] and taint: [true, false]",
+            "<com.google.appengine.repackaged.com.google.protobuf.MessageSchema: void writeTo(java.lang.Object,com.google.appengine.repackaged.com.google.protobuf.Writer)> with actual argTypes: [com.google.appengine.repackaged.com.google.protobuf.GeneratedMessage, com.google.appengine.repackaged.com.google.protobuf.CodedOutputStreamWriter] and taint: [true, true, false]",
+            "<com.google.appengine.repackaged.com.google.protobuf.MessageSchema: void writeFieldsInDescendingOrder(java.lang.Object,com.google.appengine.repackaged.com.google.protobuf.Writer)> with actual argTypes: [java.lang.Object, com.google.appengine.repackaged.com.google.protobuf.Writer] and taint: [true, true, false]",
+            "<com.google.appengine.repackaged.com.google.protobuf.MessageSchema: void writeMapHelper(com.google.appengine.repackaged.com.google.protobuf.Writer,int,java.lang.Object,int)> with actual argTypes: [com.google.appengine.repackaged.com.google.protobuf.Writer, int, java.lang.Object, int] and taint: [true, false, true, true, true]",
+            "<com.google.appengine.repackaged.com.google.protobuf.CodedOutputStreamWriter: void writeMap(int,com.google.appengine.repackaged.com.google.protobuf.MapEntryLite$Metadata,java.util.Map)> with actual argTypes: [int, com.google.appengine.repackaged.com.google.protobuf.MapEntryLite$Metadata, java.util.Map] and taint: [false, true, true, true]",
+            "<com.google.appengine.repackaged.com.google.protobuf.CodedOutputStreamWriter: void writeDeterministicMap(int,com.google.appengine.repackaged.com.google.protobuf.MapEntryLite$Metadata,java.util.Map)> with actual argTypes: [int, com.google.appengine.repackaged.com.google.protobuf.MapEntryLite$Metadata, java.util.Map] and taint: [false, true, true, true]",
+            "<com.google.appengine.repackaged.com.google.protobuf.CodedOutputStreamWriter: void writeDeterministicIntegerMap(int,com.google.appengine.repackaged.com.google.protobuf.MapEntryLite$Metadata,java.util.Map)> with actual argTypes: [int, com.google.appengine.repackaged.com.google.protobuf.MapEntryLite$Metadata, java.util.Map] and taint: [false, true, true, true]",
+            "<java.util.Arrays: void sort(int[])> with actual argTypes: [int[]] and taint: [false, true]",
+            "<java.util.DualPivotQuicksort: void sort(int[],int,int,int)> with actual argTypes: [int[], int, int, int] and taint: [false, true, false, false, true]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Object invoke()> with actual argTypes: [] and taint: [false]",
+            "<java.util.concurrent.ForkJoinTask: void reportException(int)> with actual argTypes: [int] and taint: [false, false]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Throwable getThrowableException()> with actual argTypes: [] and taint: [false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, false]"
+        ]
+    ]
+}

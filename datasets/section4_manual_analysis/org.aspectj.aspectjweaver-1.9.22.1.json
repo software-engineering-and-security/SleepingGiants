@@ -1,0 +1,18 @@
+{
+    "tabby": [
+        [
+            "java.util.logging.LogRecord#readObject",
+            "-[CALL]-> java.util.ResourceBundle#getBundle",
+            "-[CALL]-> java.util.ResourceBundle#getBundleImpl",
+            "-[CALL]-> java.util.ResourceBundle#getBundleImpl",
+            "-[CALL]-> java.util.ResourceBundle#findBundle",
+            "-[CALL]-> java.util.ResourceBundle#loadBundle",
+            "-[CALL]-> java.util.ResourceBundle$Control#newBundle",
+            "-[CALL]-> java.util.ResourceBundle$Control#newBundle0",
+            "-[CALL]-> java.lang.ClassLoader#loadClass -[ALIAS]-> org.aspectj.weaver.loadtime.ClassLoaderWeavingAdaptor$SingleClassLoader#loadClass",
+            "-[CALL]-> java.lang.ClassLoader#defineClass",
+            "-[CALL]-> java.lang.ClassLoader#defineClass"
+        ]
+    ],
+    "androChain": []
+}

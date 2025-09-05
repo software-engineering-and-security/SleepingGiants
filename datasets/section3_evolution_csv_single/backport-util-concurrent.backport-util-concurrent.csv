@@ -1,0 +1,7 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+81536,backport-util-concurrent.backport-util-concurrent,1.0,2006-03-06,https://repo1.maven.org/maven2/backport-util-concurrent/backport-util-concurrent/1.0/backport-util-concurrent-1.0.jar,33,,,,,,,1.1.01
+81537,backport-util-concurrent.backport-util-concurrent,1.1.01,2005-11-08,https://repo1.maven.org/maven2/backport-util-concurrent/backport-util-concurrent/1.1_01/backport-util-concurrent-1.1_01.jar,43,0,0,0,0,10,0,2.1
+81538,backport-util-concurrent.backport-util-concurrent,2.1,2006-02-10,https://repo1.maven.org/maven2/backport-util-concurrent/backport-util-concurrent/2.1/backport-util-concurrent-2.1.jar,68,2,0,0,0,37,11,2.2
+81539,backport-util-concurrent.backport-util-concurrent,2.2,2006-08-14,https://repo1.maven.org/maven2/backport-util-concurrent/backport-util-concurrent/2.2/backport-util-concurrent-2.2.jar,70,0,0,0,0,4,2,3.0
+81540,backport-util-concurrent.backport-util-concurrent,3.0,2006-11-16,https://repo1.maven.org/maven2/backport-util-concurrent/backport-util-concurrent/3.0/backport-util-concurrent-3.0.jar,72,1,0,1,0,0,0,3.1
+81525,backport-util-concurrent.backport-util-concurrent,3.1,2007-11-11,https://repo1.maven.org/maven2/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar,: 72,0,0,0,0,0,0,

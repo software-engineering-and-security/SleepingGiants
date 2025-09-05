@@ -1,0 +1,25 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+4327,org.jenkins-ci.plugins.structs,1.1,2016-03-22,https://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/structs/1.1/structs-1.1.jar,,,,,,,,1.1.1
+4328,org.jenkins-ci.plugins.structs,1.1.1,2016-06-15,https://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/structs/1.1.1/structs-1.1.1.jar,,,,,,,,1.2
+4329,org.jenkins-ci.plugins.structs,1.2,2016-06-17,https://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/structs/1.2/structs-1.2.jar,,,,,,,,1.3
+4330,org.jenkins-ci.plugins.structs,1.3,2016-07-28,https://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/structs/1.3/structs-1.3.jar,3,,,,,,,1.4
+4331,org.jenkins-ci.plugins.structs,1.4,2016-08-26,https://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/structs/1.4/structs-1.4.jar,3,0,0,0,0,0,0,1.5
+4332,org.jenkins-ci.plugins.structs,1.5,2016-08-30,https://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/structs/1.5/structs-1.5.jar,3,0,0,0,0,0,0,1.6
+4333,org.jenkins-ci.plugins.structs,1.6,2017-02-13,https://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/structs/1.6/structs-1.6.jar,3,0,0,0,0,0,0,1.7
+4334,org.jenkins-ci.plugins.structs,1.7,2017-05-25,https://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/structs/1.7/structs-1.7.jar,3,0,0,0,0,0,0,1.8
+4335,org.jenkins-ci.plugins.structs,1.8,2017-06-15,https://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/structs/1.8/structs-1.8.jar,3,0,0,0,0,0,0,1.9
+4336,org.jenkins-ci.plugins.structs,1.9,2017-06-26,https://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/structs/1.9/structs-1.9.jar,3,0,0,0,0,0,0,1.10
+4337,org.jenkins-ci.plugins.structs,1.10,2017-08-03,https://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/structs/1.10/structs-1.10.jar,3,0,0,0,0,0,0,1.12
+4323,org.jenkins-ci.plugins.structs,1.12,2018-02-01,https://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/structs/1.12/structs-1.12.jar,3,0,0,0,0,0,0,1.13
+4338,org.jenkins-ci.plugins.structs,1.13,2018-02-01,https://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/structs/1.13/structs-1.13.jar,3,0,0,0,0,0,0,1.14
+4322,org.jenkins-ci.plugins.structs,1.14,2018-02-14,https://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/structs/1.14/structs-1.14.jar,3,0,0,0,0,0,0,1.15
+4320,org.jenkins-ci.plugins.structs,1.15,2018-09-25,https://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/structs/1.15/structs-1.15.jar,3,0,0,0,0,0,0,1.16
+4305,org.jenkins-ci.plugins.structs,1.16,2018-10-04,https://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/structs/1.16/structs-1.16.jar,3,0,0,0,0,0,0,1.17
+4306,org.jenkins-ci.plugins.structs,1.17,2018-10-05,https://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/structs/1.17/structs-1.17.jar,3,0,0,0,0,0,0,1.18
+4307,org.jenkins-ci.plugins.structs,1.18,2019-04-25,https://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/structs/1.18/structs-1.18.jar,3,0,0,0,0,0,0,1.19
+4308,org.jenkins-ci.plugins.structs,1.19,2019-04-30,https://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/structs/1.19/structs-1.19.jar,3,0,0,0,0,0,0,1.20
+4309,org.jenkins-ci.plugins.structs,1.20,2019-07-29,https://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/structs/1.20/structs-1.20.jar,3,0,0,0,0,0,0,1.21
+4310,org.jenkins-ci.plugins.structs,1.21,2021-02-04,https://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/structs/1.21/structs-1.21.jar,3,0,0,0,0,0,0,1.22
+4311,org.jenkins-ci.plugins.structs,1.22,2021-02-17,https://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/structs/1.22/structs-1.22.jar,3,0,0,0,0,0,0,1.23
+4312,org.jenkins-ci.plugins.structs,1.23,2021-05-11,https://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/structs/1.23/structs-1.23.jar,3,0,0,0,0,0,0,1.24
+4313,org.jenkins-ci.plugins.structs,1.24,2021-11-22,https://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/structs/1.24/structs-1.24.jar,: 3,0,0,0,0,0,0,

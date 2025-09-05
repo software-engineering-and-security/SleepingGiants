@@ -1,0 +1,6 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+89469,com.google.auto.service.auto-service,1.0,2021-04-06,https://repo1.maven.org/maven2/com/google/auto/service/auto-service/1.0/auto-service-1.0.jar,,,,,,,,1.0.1
+89380,com.google.auto.service.auto-service,1.0.1,2021-11-03,https://repo1.maven.org/maven2/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar,,,,,,,,1.0.2
+89470,com.google.auto.service.auto-service,1.0.2,2023-05-23,https://repo1.maven.org/maven2/com/google/auto/service/auto-service/1.0.2/auto-service-1.0.2.jar,,,,,,,,1.1.0
+89476,com.google.auto.service.auto-service,1.1.0,2023-05-23,https://repo1.maven.org/maven2/com/google/auto/service/auto-service/1.1.0/auto-service-1.1.0.jar,,,,,,,,1.1.1
+89475,com.google.auto.service.auto-service,1.1.1,2023-06-12,https://repo1.maven.org/maven2/com/google/auto/service/auto-service/1.1.1/auto-service-1.1.1.jar,,,,,,,,

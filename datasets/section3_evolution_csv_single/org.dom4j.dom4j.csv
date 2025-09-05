@@ -1,0 +1,17 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+91408,org.dom4j.dom4j,1.1,2005-11-08,https://repo1.maven.org/maven2/dom4j/dom4j/1.1/dom4j-1.1.jar,143,,,,,,,1.3
+91401,org.dom4j.dom4j,1.3,2005-11-08,https://repo1.maven.org/maven2/dom4j/dom4j/1.3/dom4j-1.3.jar,143,0,0,0,0,0,0,1.4
+91336,org.dom4j.dom4j,1.4,2005-11-08,https://repo1.maven.org/maven2/dom4j/dom4j/1.4/dom4j-1.4.jar,143,1,0,0,0,3,4,1.5
+91261,org.dom4j.dom4j,1.5,2005-11-08,https://repo1.maven.org/maven2/dom4j/dom4j/1.5/dom4j-1.5.jar,64,0,0,0,0,2,117,1.5.1
+91246,org.dom4j.dom4j,1.5.1,2005-11-24,https://repo1.maven.org/maven2/dom4j/dom4j/1.5.1/dom4j-1.5.1.jar,64,0,0,0,0,0,0,1.5.2
+91245,org.dom4j.dom4j,1.5.2,2005-11-24,https://repo1.maven.org/maven2/dom4j/dom4j/1.5.2/dom4j-1.5.2.jar,64,0,0,0,0,0,0,1.6
+91244,org.dom4j.dom4j,1.6,2006-02-10,https://repo1.maven.org/maven2/dom4j/dom4j/1.6/dom4j-1.6.jar,64,0,0,0,0,0,0,1.6.1
+91243,org.dom4j.dom4j,1.6.1,2006-02-10,https://repo1.maven.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar,64,0,0,0,0,0,0,2.0.0
+31839,org.dom4j.dom4j,2.0.0,2016-04-13,https://repo1.maven.org/maven2/org/dom4j/dom4j/2.0.0/dom4j-2.0.0.jar,62,0,0,0,0,0,2,2.0.1
+31837,org.dom4j.dom4j,2.0.1,2017-06-26,https://repo1.maven.org/maven2/org/dom4j/dom4j/2.0.1/dom4j-2.0.1.jar,62,0,0,0,0,0,0,2.0.2
+31818,org.dom4j.dom4j,2.0.2,2017-09-16,https://repo1.maven.org/maven2/org/dom4j/dom4j/2.0.2/dom4j-2.0.2.jar,62,0,0,0,0,0,0,2.0.3
+31819,org.dom4j.dom4j,2.0.3,2020-04-11,https://repo1.maven.org/maven2/org/dom4j/dom4j/2.0.3/dom4j-2.0.3.jar,62,0,0,0,0,0,0,2.1.0
+31820,org.dom4j.dom4j,2.1.0,2017-09-16,https://repo1.maven.org/maven2/org/dom4j/dom4j/2.1.0/dom4j-2.1.0.jar,62,0,0,0,0,0,0,2.1.1
+31821,org.dom4j.dom4j,2.1.1,2018-07-01,https://repo1.maven.org/maven2/org/dom4j/dom4j/2.1.1/dom4j-2.1.1.jar,62,0,0,0,0,0,0,2.1.3
+31822,org.dom4j.dom4j,2.1.3,2020-04-12,https://repo1.maven.org/maven2/org/dom4j/dom4j/2.1.3/dom4j-2.1.3.jar,62,0,0,0,0,0,0,2.1.4
+31823,org.dom4j.dom4j,2.1.4,2023-01-22,https://repo1.maven.org/maven2/org/dom4j/dom4j/2.1.4/dom4j-2.1.4.jar,: 62,0,0,0,0,0,0,

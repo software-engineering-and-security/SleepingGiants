@@ -1,0 +1,16 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+87590,org.renjin.cran.testthat,1.0.2.1,2022-05-01,https://nexus.bedatadriven.com/content/groups/public/org/renjin/cran/testthat/1.0.2-renjin-1/testthat-1.0.2-renjin-1.jar,,,,,,,,1.0.2.2
+87589,org.renjin.cran.testthat,1.0.2.2,2022-05-01,https://nexus.bedatadriven.com/content/groups/public/org/renjin/cran/testthat/1.0.2-renjin-2/testthat-1.0.2-renjin-2.jar,,,,,,,,1.0.2.3
+87588,org.renjin.cran.testthat,1.0.2.3,2022-05-01,https://nexus.bedatadriven.com/content/groups/public/org/renjin/cran/testthat/1.0.2-renjin-3/testthat-1.0.2-renjin-3.jar,,,,,,,,1.0.2.4
+87569,org.renjin.cran.testthat,1.0.2.4,2022-05-01,https://nexus.bedatadriven.com/content/groups/public/org/renjin/cran/testthat/1.0.2-renjin-4/testthat-1.0.2-renjin-4.jar,,,,,,,,1.0.2.5
+87567,org.renjin.cran.testthat,1.0.2.5,2022-05-01,https://nexus.bedatadriven.com/content/groups/public/org/renjin/cran/testthat/1.0.2-renjin-5/testthat-1.0.2-renjin-5.jar,,,,,,,,1.0.2.6
+87566,org.renjin.cran.testthat,1.0.2.6,2022-05-01,https://nexus.bedatadriven.com/content/groups/public/org/renjin/cran/testthat/1.0.2-renjin-6/testthat-1.0.2-renjin-6.jar,,,,,,,,1.0.2.8
+87565,org.renjin.cran.testthat,1.0.2.8,2022-05-01,https://nexus.bedatadriven.com/content/groups/public/org/renjin/cran/testthat/1.0.2-renjin-8/testthat-1.0.2-renjin-8.jar,,,,,,,,1.0.2.9
+87564,org.renjin.cran.testthat,1.0.2.9,2024-05-30,https://nexus.bedatadriven.com/content/groups/public/org/renjin/cran/testthat/1.0.2-renjin-9/testthat-1.0.2-renjin-9.jar,,,,,,,,1.0.2.10
+87563,org.renjin.cran.testthat,1.0.2.10,2022-05-01,https://nexus.bedatadriven.com/content/groups/public/org/renjin/cran/testthat/1.0.2-renjin-10/testthat-1.0.2-renjin-10.jar,,,,,,,,1.0.2.11
+87562,org.renjin.cran.testthat,1.0.2.11,2022-05-01,https://nexus.bedatadriven.com/content/groups/public/org/renjin/cran/testthat/1.0.2-renjin-11/testthat-1.0.2-renjin-11.jar,,,,,,,,1.0.2.12
+87561,org.renjin.cran.testthat,1.0.2.12,2022-05-01,https://nexus.bedatadriven.com/content/groups/public/org/renjin/cran/testthat/1.0.2-renjin-12/testthat-1.0.2-renjin-12.jar,,,,,,,,1.0.2.13
+87560,org.renjin.cran.testthat,1.0.2.13,2022-05-01,https://nexus.bedatadriven.com/content/groups/public/org/renjin/cran/testthat/1.0.2-renjin-13/testthat-1.0.2-renjin-13.jar,,,,,,,,1.0.2.14
+87559,org.renjin.cran.testthat,1.0.2.14,2022-05-01,https://nexus.bedatadriven.com/content/groups/public/org/renjin/cran/testthat/1.0.2-renjin-14/testthat-1.0.2-renjin-14.jar,,,,,,,,1.0.2.15
+87558,org.renjin.cran.testthat,1.0.2.15,2022-05-01,https://nexus.bedatadriven.com/content/groups/public/org/renjin/cran/testthat/1.0.2-renjin-15/testthat-1.0.2-renjin-15.jar,,,,,,,,1.0.2.17
+87557,org.renjin.cran.testthat,1.0.2.17,2022-05-01,https://nexus.bedatadriven.com/content/groups/public/org/renjin/cran/testthat/1.0.2-renjin-17/testthat-1.0.2-renjin-17.jar,,,,,,,,

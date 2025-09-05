@@ -1,0 +1,6 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+104497,org.easytesting.fest-assert-core,1.0,2009-11-22,https://repo1.maven.org/maven2/org/easytesting/fest-assert/1.0/fest-assert-1.0.jar,,,,,,,,1.1
+104501,org.easytesting.fest-assert-core,1.1,2009-11-22,https://repo1.maven.org/maven2/org/easytesting/fest-assert/1.1/fest-assert-1.1.jar,,,,,,,,1.2
+104498,org.easytesting.fest-assert-core,1.2,2009-11-22,https://repo1.maven.org/maven2/org/easytesting/fest-assert/1.2/fest-assert-1.2.jar,,,,,,,,1.3
+104499,org.easytesting.fest-assert-core,1.3,2010-08-04,https://repo1.maven.org/maven2/org/easytesting/fest-assert/1.3/fest-assert-1.3.jar,,,,,,,,1.4
+104500,org.easytesting.fest-assert-core,1.4,2011-02-22,https://repo1.maven.org/maven2/org/easytesting/fest-assert/1.4/fest-assert-1.4.jar,,,,,,,,

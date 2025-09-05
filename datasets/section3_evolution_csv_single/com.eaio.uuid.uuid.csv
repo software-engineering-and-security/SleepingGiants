@@ -1,0 +1,2 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+26415,com.eaio.uuid.uuid,3.2,2011-08-03,https://repo1.maven.org/maven2/com/eaio/uuid/uuid/3.2/uuid-3.2.jar,: 1,,,,,,,

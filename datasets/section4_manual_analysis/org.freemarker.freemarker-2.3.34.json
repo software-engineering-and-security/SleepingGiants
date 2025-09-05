@@ -1,0 +1,104 @@
+{
+    "tabby": [
+        [
+            "java.security.Provider#readObject",
+            "-[CALL]-> java.util.Map$Entry#getValue -[ALIAS]-> freemarker.ext.beans.HashAdapter$1$1$1#getValue",
+            "-[CALL]-> freemarker.ext.beans.HashAdapter#get",
+            "-[CALL]-> freemarker.template.TemplateHashModel#get -[ALIAS]-> freemarker.ext.jakarta.jsp.TaglibFactory#get",
+            "-[CALL]-> freemarker.ext.jakarta.jsp.TaglibFactory#loadTaglib",
+            "-[CALL]-> freemarker.ext.jakarta.jsp.TaglibFactory$Taglib#<init>",
+            "-[CALL]-> freemarker.ext.jakarta.jsp.TaglibFactory$Taglib#parseToTagsAndFunctions",
+            "-[CALL]-> freemarker.ext.jakarta.jsp.TaglibFactory$TldLocation#getInputStream -[ALIAS]-> freemarker.ext.jakarta.jsp.TaglibFactory$JarEntryTldLocation#getInputStream",
+            "-[CALL]-> java.net.URL#openStream",
+            "-[CALL]-> java.net.URL#openConnection"
+        ],
+        [
+            "javax.swing.JTree#readObject",
+            "-[CALL]-> java.lang.Object#equals -[ALIAS]-> java.util.Hashtable#equals",
+            "-[CALL]-> java.util.Map$Entry#getValue -[ALIAS]-> freemarker.ext.beans.HashAdapter$1$1$1#getValue",
+            "-[CALL]-> freemarker.ext.beans.HashAdapter#get",
+            "-[CALL]-> freemarker.template.TemplateHashModel#get -[ALIAS]-> freemarker.ext.beans.BeanModel#get",
+            "-[CALL]-> freemarker.ext.beans.BeanModel#get",
+            "-[CALL]-> freemarker.ext.beans.BeanModel#invokeGenericGet",
+            "-[CALL]-> freemarker.ext.beans.BeansWrapper#invokeMethod",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ],
+        [
+            "javax.swing.tree.DefaultTreeModel#readObject",
+            "-[CALL]-> java.lang.Object#equals -[ALIAS]-> java.util.Hashtable#equals",
+            "-[CALL]-> java.util.Map$Entry#getValue -[ALIAS]-> freemarker.ext.beans.HashAdapter$1$1$1#getValue",
+            "-[CALL]-> freemarker.ext.beans.HashAdapter#get",
+            "-[CALL]-> freemarker.template.TemplateHashModel#get -[ALIAS]-> freemarker.ext.beans.BeanModel#get",
+            "-[CALL]-> freemarker.ext.beans.BeanModel#get",
+            "-[CALL]-> freemarker.ext.beans.BeanModel#invokeGenericGet",
+            "-[CALL]-> freemarker.ext.beans.BeansWrapper#invokeMethod",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ],
+        [
+            "java.beans.PropertyChangeSupport#readObject",
+            "-[CALL]-> java.util.Map$Entry#getValue -[ALIAS]-> freemarker.ext.beans.HashAdapter$1$1$1#getValue",
+            "-[CALL]-> freemarker.ext.beans.HashAdapter#get",
+            "-[CALL]-> freemarker.template.TemplateHashModel#get -[ALIAS]-> freemarker.ext.jakarta.jsp.TaglibFactory#get",
+            "-[CALL]-> freemarker.ext.jakarta.jsp.TaglibFactory#loadTaglib",
+            "-[CALL]-> freemarker.ext.jakarta.jsp.TaglibFactory$Taglib#<init>",
+            "-[CALL]-> freemarker.ext.jakarta.jsp.TaglibFactory$Taglib#parseToTagsAndFunctions",
+            "-[CALL]-> freemarker.ext.jakarta.jsp.TaglibFactory$TldLocation#getInputStream -[ALIAS]-> freemarker.ext.jakarta.jsp.TaglibFactory$JarEntryTldLocation#getInputStream",
+            "-[CALL]-> java.net.URL#openStream",
+            "-[CALL]-> java.net.URL#openConnection"
+        ],
+        [
+            "java.beans.VetoableChangeSupport#readObject",
+            "-[CALL]-> java.util.Map$Entry#getValue -[ALIAS]-> freemarker.ext.beans.HashAdapter$1$1$1#getValue",
+            "-[CALL]-> freemarker.ext.beans.HashAdapter#get",
+            "-[CALL]-> freemarker.template.TemplateHashModel#get -[ALIAS]-> freemarker.ext.jakarta.jsp.TaglibFactory#get",
+            "-[CALL]-> freemarker.ext.jakarta.jsp.TaglibFactory#loadTaglib",
+            "-[CALL]-> freemarker.ext.jakarta.jsp.TaglibFactory$Taglib#<init>",
+            "-[CALL]-> freemarker.ext.jakarta.jsp.TaglibFactory$Taglib#parseToTagsAndFunctions",
+            "-[CALL]-> freemarker.ext.jakarta.jsp.TaglibFactory$TldLocation#getInputStream -[ALIAS]-> freemarker.ext.jakarta.jsp.TaglibFactory$JarEntryTldLocation#getInputStream",
+            "-[CALL]-> java.net.URL#openStream",
+            "-[CALL]-> java.net.URL#openConnection"
+        ]
+    ],
+    "androChain": [
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<javax.naming.ldap.LdapName: boolean equals(java.lang.Object)> with actual argTypes: [java.lang.Class] and taint: [true, true]",
+            "<freemarker.ext.beans.SequenceAdapter: java.lang.Object get(int)> with actual argTypes: [int] and taint: [true, false]",
+            "<freemarker.ext.beans.SimpleMethodModel: freemarker.template.TemplateModel get(int)> with actual argTypes: [int] and taint: [true, false]",
+            "<freemarker.ext.beans.SimpleMethodModel: java.lang.Object exec(java.util.List)> with actual argTypes: [java.util.List] and taint: [true, false]",
+            "<freemarker.ext.beans.BeansWrapper: freemarker.template.TemplateModel invokeMethod(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [true, true, true]"
+        ],
+        [
+            "<sun.reflect.annotation.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<freemarker.ext.beans.HashAdapter: java.lang.Object get(java.lang.Object)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<freemarker.debug.impl.RmiDebuggedEnvironmentImpl$DebugEnvironmentModel: freemarker.template.TemplateModel get(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<freemarker.debug.impl.RmiDebuggedEnvironmentImpl: java.lang.Object getCachedWrapperFor(java.lang.Object)> with actual argTypes: [freemarker.template.Template] and taint: [false, true]",
+            "<freemarker.cache.SoftCacheStorage: java.lang.Object get(java.lang.Object)> with actual argTypes: [java.lang.Object] and taint: [false, true]",
+            "<freemarker.cache.SoftCacheStorage: void processQueue()> with actual argTypes: [] and taint: [false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.util.Map, java.lang.Object[]] and taint: [false, false, false]"
+        ],
+        [
+            "<sun.reflect.annotation.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<freemarker.ext.beans.HashAdapter: java.lang.Object get(java.lang.Object)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<freemarker.ext.beans.ClassBasedModelFactory: freemarker.template.TemplateModel get(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<freemarker.ext.beans.ClassBasedModelFactory: freemarker.template.TemplateModel getInternal(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<freemarker.ext.beans._EnumModels: freemarker.template.TemplateModel createModel(java.lang.Class)> with actual argTypes: [java.lang.Class] and taint: [true, true]",
+            "<java.lang.Class: java.lang.Object[] getEnumConstants()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.Class: java.lang.Object[] getEnumConstantsShared()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [null, java.lang.Object[]] and taint: [true, false, false]"
+        ],
+        [
+            "<javax.management.openmbean.TabularDataSupport: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<freemarker.ext.beans.SequenceAdapter: int size()> with actual argTypes: [] and taint: [true]",
+            "<freemarker.core.CollectionAndSequence: int size()> with actual argTypes: [] and taint: [true]",
+            "<freemarker.core.CollectionAndSequence: void initSequence()> with actual argTypes: [] and taint: [true]",
+            "<freemarker.core.BuiltInsForSequences$mapBI$1: freemarker.template.TemplateModel next()> with actual argTypes: [] and taint: [true]",
+            "<freemarker.core.BuiltInsForSequences$mapBI: freemarker.template.TemplateModel access$2200(freemarker.core.BuiltInsForSequences$mapBI,freemarker.template.TemplateModelIterator,freemarker.core.IntermediateStreamOperationLikeBuiltIn$ElementTransformer,freemarker.core.Environment)> with actual argTypes: [freemarker.core.BuiltInsForSequences$mapBI, freemarker.template.TemplateModelIterator, freemarker.core.IntermediateStreamOperationLikeBuiltIn$ElementTransformer, freemarker.core.Environment] and taint: [false, true, true, true, true]",
+            "<freemarker.core.BuiltInsForSequences$mapBI: freemarker.template.TemplateModel fetchAndMapNextElement(freemarker.template.TemplateModelIterator,freemarker.core.IntermediateStreamOperationLikeBuiltIn$ElementTransformer,freemarker.core.Environment)> with actual argTypes: [freemarker.template.TemplateModelIterator, freemarker.core.IntermediateStreamOperationLikeBuiltIn$ElementTransformer, freemarker.core.Environment] and taint: [true, true, true, true]",
+            "<freemarker.core.IntermediateStreamOperationLikeBuiltIn$MethodElementTransformer: freemarker.template.TemplateModel transformElement(freemarker.template.TemplateModel,freemarker.core.Environment)> with actual argTypes: [freemarker.template.TemplateModel, freemarker.core.Environment] and taint: [true, true, true]",
+            "<freemarker.template.utility.Execute: java.lang.Object exec(java.util.List)> with actual argTypes: [java.util.List] and taint: [true, true]",
+            "<java.lang.Runtime: java.lang.Process exec(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]"
+        ]
+    ]
+}

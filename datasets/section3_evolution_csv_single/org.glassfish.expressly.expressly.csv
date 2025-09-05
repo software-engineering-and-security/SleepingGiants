@@ -1,0 +1,4 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+108667,org.glassfish.expressly.expressly,1.1,2011-08-04,https://repo1.maven.org/maven2/org/glassfish/web/el-impl/1.1/el-impl-1.1.jar,1,,,,,,,2.2
+108668,org.glassfish.expressly.expressly,2.2,2011-08-03,https://repo1.maven.org/maven2/org/glassfish/web/el-impl/2.2/el-impl-2.2.jar,1,0,0,0,0,0,0,5.0.0
+19697,org.glassfish.expressly.expressly,5.0.0,2022-08-08,https://repo1.maven.org/maven2/org/glassfish/expressly/expressly/5.0.0/expressly-5.0.0.jar,: 1,0,0,0,0,1,1,

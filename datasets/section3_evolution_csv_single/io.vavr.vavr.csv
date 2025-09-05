@@ -1,0 +1,19 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+19093,io.vavr.vavr,0.9.0,2017-05-10,https://repo1.maven.org/maven2/io/vavr/vavr/0.9.0/vavr-0.9.0.jar,111,,,,,,,0.9.1
+18822,io.vavr.vavr,0.9.1,2017-09-17,https://repo1.maven.org/maven2/io/vavr/vavr/0.9.1/vavr-0.9.1.jar,111,0,0,0,0,0,0,0.9.2
+19214,io.vavr.vavr,0.9.2,2017-11-24,https://repo1.maven.org/maven2/io/vavr/vavr/0.9.2/vavr-0.9.2.jar,111,0,0,0,0,0,0,0.9.3
+18821,io.vavr.vavr,0.9.3,2019-01-07,https://repo1.maven.org/maven2/io/vavr/vavr/0.9.3/vavr-0.9.3.jar,111,0,0,0,0,0,0,0.10.0
+18811,io.vavr.vavr,0.10.0,2019-01-20,https://repo1.maven.org/maven2/io/vavr/vavr/0.10.0/vavr-0.10.0.jar,150,0,0,35,0,5,1,0.10.1
+18615,io.vavr.vavr,0.10.1,2019-07-23,https://repo1.maven.org/maven2/io/vavr/vavr/0.10.1/vavr-0.10.1.jar,150,0,0,0,0,0,0,0.10.2
+18616,io.vavr.vavr,0.10.2,2019-08-02,https://repo1.maven.org/maven2/io/vavr/vavr/0.10.2/vavr-0.10.2.jar,150,0,0,0,0,0,0,0.10.3
+18617,io.vavr.vavr,0.10.3,2020-05-15,https://repo1.maven.org/maven2/io/vavr/vavr/0.10.3/vavr-0.10.3.jar,150,0,0,0,0,0,0,0.10.4
+18618,io.vavr.vavr,0.10.4,2021-07-14,https://repo1.maven.org/maven2/io/vavr/vavr/0.10.4/vavr-0.10.4.jar,150,0,0,0,0,0,0,0.10.5
+18619,io.vavr.vavr,0.10.5,2024-10-12,https://repo1.maven.org/maven2/io/vavr/vavr/0.10.5/vavr-0.10.5.jar,156,4,0,2,0,0,0,0.10.6
+18620,io.vavr.vavr,0.10.6,2025-02-01,https://repo1.maven.org/maven2/io/vavr/vavr/0.10.6/vavr-0.10.6.jar,156,0,0,0,0,0,0,2.0.0
+106727,io.vavr.vavr,2.0.0,2016-03-18,https://repo1.maven.org/maven2/io/javaslang/javaslang/2.0.0/javaslang-2.0.0.jar,79,0,0,0,0,95,250,2.0.1
+106728,io.vavr.vavr,2.0.1,2016-03-21,https://repo1.maven.org/maven2/io/javaslang/javaslang/2.0.1/javaslang-2.0.1.jar,79,0,0,0,0,0,0,2.0.2
+106729,io.vavr.vavr,2.0.2,2016-03-31,https://repo1.maven.org/maven2/io/javaslang/javaslang/2.0.2/javaslang-2.0.2.jar,79,0,0,0,0,0,0,2.0.3
+106730,io.vavr.vavr,2.0.3,2016-08-22,https://repo1.maven.org/maven2/io/javaslang/javaslang/2.0.3/javaslang-2.0.3.jar,79,0,0,0,0,0,0,2.0.4
+106731,io.vavr.vavr,2.0.4,2016-10-03,https://repo1.maven.org/maven2/io/javaslang/javaslang/2.0.4/javaslang-2.0.4.jar,78,0,0,0,0,0,1,2.0.5
+106732,io.vavr.vavr,2.0.5,2016-11-21,https://repo1.maven.org/maven2/io/javaslang/javaslang/2.0.5/javaslang-2.0.5.jar,80,0,0,0,0,3,1,2.0.6
+106733,io.vavr.vavr,2.0.6,2017-04-04,https://repo1.maven.org/maven2/io/javaslang/javaslang/2.0.6/javaslang-2.0.6.jar,: 87,9,0,0,0,0,0,

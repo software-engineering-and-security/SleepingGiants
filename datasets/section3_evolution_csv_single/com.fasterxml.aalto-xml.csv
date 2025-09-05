@@ -1,0 +1,17 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+32033,com.fasterxml.aalto-xml,0.9.6,2010-10-09,https://repo1.maven.org/maven2/com/fasterxml/aalto-xml/0.9.6/aalto-xml-0.9.6.jar,,,,,,,,0.9.7
+32034,com.fasterxml.aalto-xml,0.9.7,2011-02-12,https://repo1.maven.org/maven2/com/fasterxml/aalto-xml/0.9.7/aalto-xml-0.9.7.jar,,,,,,,,0.9.8
+32035,com.fasterxml.aalto-xml,0.9.8,2012-04-09,https://repo1.maven.org/maven2/com/fasterxml/aalto-xml/0.9.8/aalto-xml-0.9.8.jar,,,,,,,,0.9.9
+32036,com.fasterxml.aalto-xml,0.9.9,2013-08-20,https://repo1.maven.org/maven2/com/fasterxml/aalto-xml/0.9.9/aalto-xml-0.9.9.jar,,,,,,,,0.9.10
+32037,com.fasterxml.aalto-xml,0.9.10,2015-02-24,https://repo1.maven.org/maven2/com/fasterxml/aalto-xml/0.9.10/aalto-xml-0.9.10.jar,,,,,,,,0.9.11
+32038,com.fasterxml.aalto-xml,0.9.11,2015-02-26,https://repo1.maven.org/maven2/com/fasterxml/aalto-xml/0.9.11/aalto-xml-0.9.11.jar,,,,,,,,1.0.0
+32039,com.fasterxml.aalto-xml,1.0.0,2015-11-24,https://repo1.maven.org/maven2/com/fasterxml/aalto-xml/1.0.0/aalto-xml-1.0.0.jar,,,,,,,,1.1.0
+32040,com.fasterxml.aalto-xml,1.1.0,2018-04-03,https://repo1.maven.org/maven2/com/fasterxml/aalto-xml/1.1.0/aalto-xml-1.1.0.jar,,,,,,,,1.1.1
+32041,com.fasterxml.aalto-xml,1.1.1,2018-09-19,https://repo1.maven.org/maven2/com/fasterxml/aalto-xml/1.1.1/aalto-xml-1.1.1.jar,,,,,,,,1.2.0
+32042,com.fasterxml.aalto-xml,1.2.0,2019-03-12,https://repo1.maven.org/maven2/com/fasterxml/aalto-xml/1.2.0/aalto-xml-1.2.0.jar,,,,,,,,1.2.1
+32043,com.fasterxml.aalto-xml,1.2.1,2019-05-31,https://repo1.maven.org/maven2/com/fasterxml/aalto-xml/1.2.1/aalto-xml-1.2.1.jar,,,,,,,,1.2.2
+32044,com.fasterxml.aalto-xml,1.2.2,2019-09-14,https://repo1.maven.org/maven2/com/fasterxml/aalto-xml/1.2.2/aalto-xml-1.2.2.jar,,,,,,,,1.3.0
+32045,com.fasterxml.aalto-xml,1.3.0,2021-05-11,https://repo1.maven.org/maven2/com/fasterxml/aalto-xml/1.3.0/aalto-xml-1.3.0.jar,,,,,,,,1.3.1
+32046,com.fasterxml.aalto-xml,1.3.1,2022-01-14,https://repo1.maven.org/maven2/com/fasterxml/aalto-xml/1.3.1/aalto-xml-1.3.1.jar,,,,,,,,1.3.2
+32047,com.fasterxml.aalto-xml,1.3.2,2022-04-25,https://repo1.maven.org/maven2/com/fasterxml/aalto-xml/1.3.2/aalto-xml-1.3.2.jar,,,,,,,,1.3.3
+32048,com.fasterxml.aalto-xml,1.3.3,2024-06-07,https://repo1.maven.org/maven2/com/fasterxml/aalto-xml/1.3.3/aalto-xml-1.3.3.jar,,,,,,,,

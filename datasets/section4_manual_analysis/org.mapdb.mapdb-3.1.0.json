@@ -1,0 +1,57 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.mapdb.BTreeMap: void close()> with actual argTypes: [] and taint: [true]",
+            "<org.mapdb.StoreDirect: void close()> with actual argTypes: [] and taint: [true]",
+            "<java.io.File: boolean delete()> with actual argTypes: [] and taint: [false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.mapdb.BTreeMap: void close()> with actual argTypes: [] and taint: [true]",
+            "<org.mapdb.StoreWAL: void close()> with actual argTypes: [] and taint: [true]",
+            "<java.io.File: boolean delete()> with actual argTypes: [] and taint: [false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.mapdb.BTreeMap: void close()> with actual argTypes: [] and taint: [true]",
+            "<org.mapdb.StoreTrivialTx: void close()> with actual argTypes: [] and taint: [true]",
+            "<java.io.File: boolean delete()> with actual argTypes: [] and taint: [false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.mapdb.BTreeMap: void close()> with actual argTypes: [] and taint: [true]",
+            "<org.mapdb.StoreTrivialTx: void close()> with actual argTypes: [] and taint: [true]",
+            "<java.io.File: boolean delete()> with actual argTypes: [] and taint: [true]"
+        ],
+        [
+            "<java.net.SocketPermissionCollection: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<org.mapdb.HTreeMap: java.lang.Object put(java.lang.Object,java.lang.Object)> with actual argTypes: [java.lang.String, java.net.SocketPermission] and taint: [true, true, true]",
+            "<org.mapdb.HTreeMap: void expireEvictSegment(int)> with actual argTypes: [int] and taint: [true, true]",
+            "<org.mapdb.StoreDirect: void compact()> with actual argTypes: [] and taint: [true]",
+            "<org.mapdb.StoreDirect: void close()> with actual argTypes: [] and taint: [false]",
+            "<java.io.File: boolean delete()> with actual argTypes: [] and taint: [false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.mapdb.BTreeMap: void close()> with actual argTypes: [] and taint: [true]",
+            "<org.mapdb.StoreTrivialTx: void close()> with actual argTypes: [] and taint: [true]",
+            "<org.mapdb.StoreTrivialTx: void close()> with actual argTypes: [] and taint: [true]",
+            "<java.io.File: boolean delete()> with actual argTypes: [] and taint: [false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.mapdb.BTreeMap: void close()> with actual argTypes: [] and taint: [true]",
+            "<org.mapdb.StoreTrivialTx: void close()> with actual argTypes: [] and taint: [true]",
+            "<org.mapdb.StoreTrivialTx: void close()> with actual argTypes: [] and taint: [true]",
+            "<java.io.File: boolean delete()> with actual argTypes: [] and taint: [true]"
+        ]
+    ]
+}

@@ -1,0 +1,17 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+1991,com.squareup.moshi.moshi-kotlin,1.5.0,2017-05-15,https://repo1.maven.org/maven2/com/squareup/moshi/moshi-kotlin/1.5.0/moshi-kotlin-1.5.0.jar,,,,,,,,1.6.0
+1992,com.squareup.moshi.moshi-kotlin,1.6.0,2018-05-15,https://repo1.maven.org/maven2/com/squareup/moshi/moshi-kotlin/1.6.0/moshi-kotlin-1.6.0.jar,,,,,,,,1.7.0
+1993,com.squareup.moshi.moshi-kotlin,1.7.0,2018-09-25,https://repo1.maven.org/maven2/com/squareup/moshi/moshi-kotlin/1.7.0/moshi-kotlin-1.7.0.jar,,,,,,,,1.8.0
+1994,com.squareup.moshi.moshi-kotlin,1.8.0,2018-11-08,https://repo1.maven.org/maven2/com/squareup/moshi/moshi-kotlin/1.8.0/moshi-kotlin-1.8.0.jar,,,,,,,,1.9.0
+1995,com.squareup.moshi.moshi-kotlin,1.9.0,2019-10-29,https://repo1.maven.org/maven2/com/squareup/moshi/moshi-kotlin/1.9.0/moshi-kotlin-1.9.0.jar,,,,,,,,1.9.1
+1996,com.squareup.moshi.moshi-kotlin,1.9.1,2019-10-31,https://repo1.maven.org/maven2/com/squareup/moshi/moshi-kotlin/1.9.1/moshi-kotlin-1.9.1.jar,,,,,,,,1.9.2
+1997,com.squareup.moshi.moshi-kotlin,1.9.2,2019-11-17,https://repo1.maven.org/maven2/com/squareup/moshi/moshi-kotlin/1.9.2/moshi-kotlin-1.9.2.jar,,,,,,,,1.9.3
+1998,com.squareup.moshi.moshi-kotlin,1.9.3,2020-06-12,https://repo1.maven.org/maven2/com/squareup/moshi/moshi-kotlin/1.9.3/moshi-kotlin-1.9.3.jar,,,,,,,,1.10.0
+1999,com.squareup.moshi.moshi-kotlin,1.10.0,2020-08-27,https://repo1.maven.org/maven2/com/squareup/moshi/moshi-kotlin/1.10.0/moshi-kotlin-1.10.0.jar,,,,,,,,1.11.0
+2000,com.squareup.moshi.moshi-kotlin,1.11.0,2020-10-05,https://repo1.maven.org/maven2/com/squareup/moshi/moshi-kotlin/1.11.0/moshi-kotlin-1.11.0.jar,,,,,,,,1.12.0
+2001,com.squareup.moshi.moshi-kotlin,1.12.0,2021-04-01,https://repo1.maven.org/maven2/com/squareup/moshi/moshi-kotlin/1.12.0/moshi-kotlin-1.12.0.jar,,,,,,,,1.13.0
+2002,com.squareup.moshi.moshi-kotlin,1.13.0,2021-12-09,https://repo1.maven.org/maven2/com/squareup/moshi/moshi-kotlin/1.13.0/moshi-kotlin-1.13.0.jar,,,,,,,,1.14.0
+2003,com.squareup.moshi.moshi-kotlin,1.14.0,2022-09-07,https://repo1.maven.org/maven2/com/squareup/moshi/moshi-kotlin/1.14.0/moshi-kotlin-1.14.0.jar,,,,,,,,1.15.0
+2004,com.squareup.moshi.moshi-kotlin,1.15.0,2023-05-12,https://repo1.maven.org/maven2/com/squareup/moshi/moshi-kotlin/1.15.0/moshi-kotlin-1.15.0.jar,,,,,,,,1.15.1
+2005,com.squareup.moshi.moshi-kotlin,1.15.1,2024-01-30,https://repo1.maven.org/maven2/com/squareup/moshi/moshi-kotlin/1.15.1/moshi-kotlin-1.15.1.jar,,,,,,,,1.15.2
+2006,com.squareup.moshi.moshi-kotlin,1.15.2,2024-12-05,https://repo1.maven.org/maven2/com/squareup/moshi/moshi-kotlin/1.15.2/moshi-kotlin-1.15.2.jar,,,,,,,,

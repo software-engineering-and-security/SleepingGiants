@@ -1,0 +1,20 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+14103,com.clearspring.analytics.stream,2.1.1,2012-06-14,https://repo1.maven.org/maven2/com/clearspring/analytics/stream/2.1.1/stream-2.1.1.jar,3,,,,,,,2.2.0
+14104,com.clearspring.analytics.stream,2.2.0,2012-08-29,https://repo1.maven.org/maven2/com/clearspring/analytics/stream/2.2.0/stream-2.2.0.jar,3,0,0,0,0,0,0,2.3.0
+14105,com.clearspring.analytics.stream,2.3.0,2013-04-24,https://repo1.maven.org/maven2/com/clearspring/analytics/stream/2.3.0/stream-2.3.0.jar,4,0,0,0,0,1,0,2.4.0
+14106,com.clearspring.analytics.stream,2.4.0,2013-07-30,https://repo1.maven.org/maven2/com/clearspring/analytics/stream/2.4.0/stream-2.4.0.jar,4,0,0,0,0,0,0,2.5.0
+14107,com.clearspring.analytics.stream,2.5.0,2013-09-28,https://repo1.maven.org/maven2/com/clearspring/analytics/stream/2.5.0/stream-2.5.0.jar,4,0,0,0,0,0,0,2.5.1
+14108,com.clearspring.analytics.stream,2.5.1,2013-11-27,https://repo1.maven.org/maven2/com/clearspring/analytics/stream/2.5.1/stream-2.5.1.jar,4,0,0,0,0,0,0,2.5.2
+14109,com.clearspring.analytics.stream,2.5.2,2014-01-18,https://repo1.maven.org/maven2/com/clearspring/analytics/stream/2.5.2/stream-2.5.2.jar,4,0,0,0,0,0,0,2.6.0
+14110,com.clearspring.analytics.stream,2.6.0,2014-03-04,https://repo1.maven.org/maven2/com/clearspring/analytics/stream/2.6.0/stream-2.6.0.jar,4,0,0,0,0,0,0,2.7.0
+14111,com.clearspring.analytics.stream,2.7.0,2014-05-23,https://repo1.maven.org/maven2/com/clearspring/analytics/stream/2.7.0/stream-2.7.0.jar,6,2,0,0,0,0,0,2.8.0
+14112,com.clearspring.analytics.stream,2.8.0,2015-02-10,https://repo1.maven.org/maven2/com/clearspring/analytics/stream/2.8.0/stream-2.8.0.jar,6,0,0,0,0,0,0,2.9.0
+14113,com.clearspring.analytics.stream,2.9.0,2015-05-08,https://repo1.maven.org/maven2/com/clearspring/analytics/stream/2.9.0/stream-2.9.0.jar,6,0,0,0,0,0,0,2.9.1
+14114,com.clearspring.analytics.stream,2.9.1,2016-02-24,https://repo1.maven.org/maven2/com/clearspring/analytics/stream/2.9.1/stream-2.9.1.jar,6,0,0,0,0,0,0,2.9.2
+14115,com.clearspring.analytics.stream,2.9.2,2016-05-03,https://repo1.maven.org/maven2/com/clearspring/analytics/stream/2.9.2/stream-2.9.2.jar,6,0,0,0,0,0,0,2.9.3
+14116,com.clearspring.analytics.stream,2.9.3,2016-06-15,https://repo1.maven.org/maven2/com/clearspring/analytics/stream/2.9.3/stream-2.9.3.jar,8,1,0,1,0,0,0,2.9.4
+14117,com.clearspring.analytics.stream,2.9.4,2016-07-05,https://repo1.maven.org/maven2/com/clearspring/analytics/stream/2.9.4/stream-2.9.4.jar,8,0,0,0,0,0,0,2.9.5
+14119,com.clearspring.analytics.stream,2.9.5,2016-08-01,https://repo1.maven.org/maven2/com/clearspring/analytics/stream/2.9.5/stream-2.9.5.jar,8,0,0,0,0,0,0,2.9.6
+14146,com.clearspring.analytics.stream,2.9.6,2018-01-10,https://repo1.maven.org/maven2/com/clearspring/analytics/stream/2.9.6/stream-2.9.6.jar,8,0,0,0,0,0,0,2.9.7
+14167,com.clearspring.analytics.stream,2.9.7,2019-08-27,https://repo1.maven.org/maven2/com/clearspring/analytics/stream/2.9.7/stream-2.9.7.jar,8,0,0,0,0,0,0,2.9.8
+14147,com.clearspring.analytics.stream,2.9.8,2019-08-28,https://repo1.maven.org/maven2/com/clearspring/analytics/stream/2.9.8/stream-2.9.8.jar,: 8,0,0,0,0,0,0,

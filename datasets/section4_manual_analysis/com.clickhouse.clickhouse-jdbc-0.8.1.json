@@ -1,0 +1,142 @@
+{
+    "tabby": [
+        [
+            "java.util.logging.LogRecord#readObject",
+            "-[CALL]-> java.util.ResourceBundle#getBundle",
+            "-[CALL]-> java.util.ResourceBundle#getBundleImpl",
+            "-[CALL]-> java.util.ResourceBundle#getBundleImpl",
+            "-[CALL]-> java.util.ResourceBundle#findBundle",
+            "-[CALL]-> java.util.ResourceBundle#loadBundle",
+            "-[CALL]-> java.util.ResourceBundle$Control#newBundle",
+            "-[CALL]-> java.util.ResourceBundle$Control#newBundle0",
+            "-[CALL]-> java.lang.ClassLoader#loadClass -[ALIAS]-> com.clickhouse.data.UnloadableClassLoader#loadClass",
+            "-[CALL]-> com.clickhouse.data.UnloadableClassLoader#findClass",
+            "-[CALL]-> java.lang.ClassLoader#defineClass"
+        ]
+    ],
+    "androChain": [
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.clickhouse.jdbc.internal.StreamBasedPreparedStatement: void setObject(int,java.lang.Object)> with actual argTypes: [int, java.lang.Object] and taint: [true, true, true]",
+            "<com.clickhouse.data.ClickHouseInputStream: com.clickhouse.data.ClickHouseInputStream of(java.lang.String[])> with actual argTypes: [java.lang.String[]] and taint: [false, true]",
+            "<com.clickhouse.data.ClickHouseInputStream: com.clickhouse.data.ClickHouseInputStream of(java.lang.Iterable,java.lang.Class,java.util.function.Function,int,java.lang.Runnable)> with actual argTypes: [java.util.List, java.lang.Class, null, int, null] and taint: [false, true, false, false, false, false]",
+            "<com.clickhouse.data.ClickHouseInputStream: java.io.InputStream lambda$of$2(java.net.URL)> with actual argTypes: [java.net.URL] and taint: [false, false]",
+            "<java.net.URL: java.io.InputStream openStream()> with actual argTypes: [] and taint: [false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.sun.rowset.JdbcRowSetImpl: java.sql.ResultSetMetaData getMetaData()> with actual argTypes: [] and taint: [true]",
+            "<com.sun.rowset.JdbcRowSetImpl: java.sql.PreparedStatement prepare()> with actual argTypes: [] and taint: [false]",
+            "<com.sun.rowset.JdbcRowSetImpl: java.sql.Connection connect()> with actual argTypes: [] and taint: [false]",
+            "<javax.naming.InitialContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.clickhouse.jdbc.internal.ClickHouseStatementImpl: void addBatch(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<com.clickhouse.jdbc.internal.ClickHouseConnectionImpl: com.clickhouse.jdbc.parser.ClickHouseSqlStatement[] parse(java.lang.String,com.clickhouse.client.ClickHouseConfig,java.util.Map)> with actual argTypes: [java.lang.String, com.clickhouse.client.ClickHouseConfig, java.util.Map] and taint: [true, true, true, true]",
+            "<com.clickhouse.config.ClickHouseOption: java.io.Serializable fromString(java.lang.String,java.lang.Class)> with actual argTypes: [java.lang.String, java.lang.Class] and taint: [false, true, false]",
+            "<java.lang.Class: java.lang.Object[] getEnumConstants()> with actual argTypes: [] and taint: [false]",
+            "<java.lang.Class: java.lang.Object[] getEnumConstantsShared()> with actual argTypes: [] and taint: [false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [null, java.lang.Object[]] and taint: [false, false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.clickhouse.data.ClickHouseInputStream: void close()> with actual argTypes: [] and taint: [true]",
+            "<com.clickhouse.data.ClickHouseDataStreamFactory: void handleCustomAction(java.lang.Runnable)> with actual argTypes: [java.lang.Runnable] and taint: [false, true]",
+            "<javax.swing.JFormattedTextField$FocusLostHandler: void run()> with actual argTypes: [] and taint: [true]",
+            "<javax.swing.JFormattedTextField: void commitEdit()> with actual argTypes: [] and taint: [true]",
+            "<javax.swing.text.DefaultFormatter: java.lang.Object stringToValue(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.clickhouse.jdbc.internal.ClickHouseConnectionImpl: boolean isValid(int)> with actual argTypes: [int] and taint: [true, true]",
+            "<com.clickhouse.client.AbstractClient: boolean ping(com.clickhouse.client.ClickHouseNode,int)> with actual argTypes: [com.clickhouse.client.ClickHouseNode, int] and taint: [true, true, true]",
+            "<com.clickhouse.client.http.ClickHouseHttpClient: boolean checkHealth(com.clickhouse.client.ClickHouseNode,int)> with actual argTypes: [com.clickhouse.client.ClickHouseNode, int] and taint: [true, true, true]",
+            "<com.clickhouse.client.http.HttpUrlConnectionImpl: boolean ping(int)> with actual argTypes: [int] and taint: [true, true]",
+            "<com.clickhouse.client.http.HttpUrlConnectionImpl: java.net.HttpURLConnection newConnection(java.lang.String,boolean)> with actual argTypes: [java.lang.String, int] and taint: [true, true, false]",
+            "<java.net.URL: java.net.URLConnection openConnection(java.net.Proxy)> with actual argTypes: [java.net.Proxy] and taint: [false, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.clickhouse.jdbc.internal.ClickHouseConnectionImpl: boolean isValid(int)> with actual argTypes: [int] and taint: [true, true]",
+            "<com.clickhouse.client.AbstractClient: boolean ping(com.clickhouse.client.ClickHouseNode,int)> with actual argTypes: [com.clickhouse.client.ClickHouseNode, int] and taint: [true, true, true]",
+            "<com.clickhouse.client.http.ClickHouseHttpClient: boolean checkHealth(com.clickhouse.client.ClickHouseNode,int)> with actual argTypes: [com.clickhouse.client.ClickHouseNode, int] and taint: [true, true, true]",
+            "<com.clickhouse.client.http.HttpUrlConnectionImpl: boolean ping(int)> with actual argTypes: [int] and taint: [true, true]",
+            "<com.clickhouse.client.http.HttpUrlConnectionImpl: java.net.HttpURLConnection newConnection(java.lang.String,boolean)> with actual argTypes: [java.lang.String, int] and taint: [true, true, false]",
+            "<java.net.URL: java.net.URLConnection openConnection()> with actual argTypes: [] and taint: [false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.clickhouse.data.ClickHouseInputStream: void close()> with actual argTypes: [] and taint: [true]",
+            "<com.clickhouse.data.ClickHouseDataStreamFactory: void handleCustomAction(java.lang.Runnable)> with actual argTypes: [java.lang.Runnable] and taint: [false, true]",
+            "<java.util.concurrent.ForkJoinTask$AdaptedRunnableAction: void run()> with actual argTypes: [] and taint: [true]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Object invoke()> with actual argTypes: [] and taint: [true]",
+            "<java.util.concurrent.ForkJoinTask: void reportException(int)> with actual argTypes: [int] and taint: [true, true]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Throwable getThrowableException()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.clickhouse.data.ClickHouseInputStream: void close()> with actual argTypes: [] and taint: [true]",
+            "<com.clickhouse.data.ClickHouseDataStreamFactory: void handleCustomAction(java.lang.Runnable)> with actual argTypes: [java.lang.Runnable] and taint: [false, true]",
+            "<java.util.concurrent.ForkJoinTask$AdaptedRunnableAction: void run()> with actual argTypes: [] and taint: [true]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Object invoke()> with actual argTypes: [] and taint: [true]",
+            "<java.util.concurrent.ForkJoinTask: void reportException(int)> with actual argTypes: [int] and taint: [true, true]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Throwable getThrowableException()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.clickhouse.jdbc.internal.TableBasedPreparedStatement: boolean execute()> with actual argTypes: [] and taint: [true]",
+            "<com.clickhouse.jdbc.internal.ClickHouseStatementImpl: com.clickhouse.client.ClickHouseResponse executeStatement(com.clickhouse.jdbc.parser.ClickHouseSqlStatement,java.util.Map,java.util.List,java.util.Map)> with actual argTypes: [com.clickhouse.jdbc.parser.ClickHouseSqlStatement, null, java.util.List, null] and taint: [true, false, false, true, false]",
+            "<com.clickhouse.jdbc.internal.ClickHouseStatementImpl: com.clickhouse.client.ClickHouseResponse processSqlStatement(com.clickhouse.jdbc.parser.ClickHouseSqlStatement)> with actual argTypes: [com.clickhouse.jdbc.parser.ClickHouseSqlStatement] and taint: [true, false]",
+            "<com.clickhouse.client.ClickHouseRequest: com.clickhouse.client.ClickHouseRequest output(com.clickhouse.data.ClickHousePassThruStream)> with actual argTypes: [com.clickhouse.data.ClickHouseFile] and taint: [true, true]",
+            "<com.clickhouse.client.ClickHouseRequest: com.clickhouse.data.ClickHouseOutputStream lambda$output$0(com.clickhouse.data.ClickHousePassThruStream,int)> with actual argTypes: [com.clickhouse.data.ClickHousePassThruStream, int] and taint: [false, false, false]",
+            "<com.clickhouse.data.ClickHouseOutputStream: com.clickhouse.data.ClickHouseOutputStream of(com.clickhouse.data.ClickHousePassThruStream,int,java.lang.Runnable)> with actual argTypes: [com.clickhouse.data.ClickHousePassThruStream, int, null] and taint: [false, false, false, false]",
+            "<com.clickhouse.data.ClickHouseFile: com.clickhouse.data.ClickHouseOutputStream newOutputStream(int,java.lang.Runnable)> with actual argTypes: [int, java.lang.Runnable] and taint: [false, false, false]",
+            "<java.io.FileOutputStream: void <init>(java.io.File)> with actual argTypes: [java.io.File] and taint: [false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<java.time.chrono.ChronoLocalDateImpl: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<java.time.chrono.HijrahDate: long toEpochDay()> with actual argTypes: [] and taint: [true]",
+            "<java.time.chrono.HijrahChronology: long getEpochDay(int,int,int)> with actual argTypes: [int, int, int] and taint: [true, true, true, true]",
+            "<java.time.chrono.HijrahChronology: void checkCalendarInit()> with actual argTypes: [] and taint: [true]",
+            "<java.time.chrono.HijrahChronology: void loadCalendarData()> with actual argTypes: [] and taint: [true]",
+            "<java.time.chrono.HijrahChronology: java.util.Properties readConfigProperties(java.lang.String,java.lang.String)> with actual argTypes: [java.lang.String, java.lang.String] and taint: [false, true, true]",
+            "<com.clickhouse.data.ClickHouseInputStream: void close()> with actual argTypes: [] and taint: [false]",
+            "<com.clickhouse.data.ClickHouseDataStreamFactory: void handleCustomAction(java.lang.Runnable)> with actual argTypes: [java.lang.Runnable] and taint: [false, false]",
+            "<javax.swing.JFormattedTextField$FocusLostHandler: void run()> with actual argTypes: [] and taint: [false]",
+            "<javax.swing.JFormattedTextField: void commitEdit()> with actual argTypes: [] and taint: [false]",
+            "<javax.swing.text.DefaultFormatter: java.lang.Object stringToValue(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<java.time.chrono.ChronoLocalDateImpl: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<java.time.chrono.HijrahDate: long toEpochDay()> with actual argTypes: [] and taint: [true]",
+            "<java.time.chrono.HijrahChronology: long getEpochDay(int,int,int)> with actual argTypes: [int, int, int] and taint: [true, true, true, true]",
+            "<java.time.chrono.HijrahChronology: void checkCalendarInit()> with actual argTypes: [] and taint: [true]",
+            "<java.time.chrono.HijrahChronology: void loadCalendarData()> with actual argTypes: [] and taint: [true]",
+            "<java.time.chrono.HijrahChronology: java.util.Properties readConfigProperties(java.lang.String,java.lang.String)> with actual argTypes: [java.lang.String, java.lang.String] and taint: [false, true, true]",
+            "<com.clickhouse.data.ClickHouseInputStream: void close()> with actual argTypes: [] and taint: [false]",
+            "<com.clickhouse.data.ClickHouseDataStreamFactory: void handleCustomAction(java.lang.Runnable)> with actual argTypes: [java.lang.Runnable] and taint: [false, false]",
+            "<java.util.concurrent.ForkJoinTask$AdaptedRunnableAction: void run()> with actual argTypes: [] and taint: [false]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Object invoke()> with actual argTypes: [] and taint: [false]",
+            "<java.util.concurrent.ForkJoinTask: void reportException(int)> with actual argTypes: [int] and taint: [false, false]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Throwable getThrowableException()> with actual argTypes: [] and taint: [false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, false]"
+        ]
+    ]
+}

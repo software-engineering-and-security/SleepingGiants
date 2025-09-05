@@ -1,0 +1,77 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.sun.rowset.internal.CachedRowSetWriter: boolean writeData(javax.sql.RowSetInternal)> with actual argTypes: [javax.sql.RowSetInternal] and taint: [true, true]",
+            "<com.sun.rowset.internal.CachedRowSetReader: java.sql.Connection connect(javax.sql.RowSetInternal)> with actual argTypes: [javax.sql.RowSetInternal] and taint: [true, true]",
+            "<javax.naming.InitialContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<oracle.jdbc.rowset.OracleCachedRowSetWriter: boolean writeData(javax.sql.RowSetInternal)> with actual argTypes: [javax.sql.RowSetInternal] and taint: [true, true]",
+            "<oracle.jdbc.rowset.OracleCachedRowSetReader: java.sql.Connection getConnection(javax.sql.RowSetInternal)> with actual argTypes: [javax.sql.RowSetInternal] and taint: [true, true]",
+            "<javax.naming.InitialContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<oracle.jdbc.rowset.OracleJDBCRowSet: void execute()> with actual argTypes: [] and taint: [true]",
+            "<oracle.jdbc.rowset.OracleJDBCRowSet: java.sql.Connection getConnection(javax.sql.RowSet)> with actual argTypes: [oracle.jdbc.rowset.OracleJDBCRowSet] and taint: [true, true]",
+            "<javax.naming.InitialContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<oracle.jdbc.rowset.OracleCachedRowSet: void rollback()> with actual argTypes: [] and taint: [true]",
+            "<oracle.jdbc.rowset.OracleCachedRowSet: java.sql.Connection getConnectionInternal()> with actual argTypes: [] and taint: [true]",
+            "<javax.naming.InitialContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.sun.rowset.JdbcRowSetImpl: void setAutoCommit(boolean)> with actual argTypes: [boolean] and taint: [true, true]",
+            "<com.sun.rowset.JdbcRowSetImpl: java.sql.Connection connect()> with actual argTypes: [] and taint: [true]",
+            "<javax.naming.InitialContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<oracle.jdbc.rowset.OracleCachedRowSet: void setSyncProvider(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<javax.sql.rowset.spi.SyncFactory: javax.sql.rowset.spi.SyncProvider getInstance(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<javax.sql.rowset.spi.SyncFactory: void initJNDIContext()> with actual argTypes: [] and taint: [false]",
+            "<javax.sql.rowset.spi.SyncFactory: java.util.Properties parseJNDIContext()> with actual argTypes: [] and taint: [false]",
+            "<javax.sql.rowset.spi.SyncFactory: void enumerateBindings(javax.naming.NamingEnumeration,java.util.Properties)> with actual argTypes: [javax.naming.NamingEnumeration, java.util.Properties] and taint: [false, false, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<oracle.jdbc.driver.OracleSQLXML: javax.xml.transform.Source getSource(java.lang.Class)> with actual argTypes: [java.lang.Class] and taint: [true, true]",
+            "<javax.xml.stream.XMLInputFactory: javax.xml.stream.XMLInputFactory newInstance()> with actual argTypes: [] and taint: [false]",
+            "<javax.xml.stream.FactoryFinder: java.lang.Object find(java.lang.Class,java.lang.String)> with actual argTypes: [java.lang.Class, java.lang.String] and taint: [false, false, false]",
+            "<javax.xml.stream.FactoryFinder: java.lang.Object find(java.lang.Class,java.lang.String,java.lang.ClassLoader,java.lang.String)> with actual argTypes: [java.lang.Class, java.lang.String, null, java.lang.String] and taint: [false, false, false, false, false]",
+            "<javax.xml.stream.FactoryFinder: java.lang.Object newInstance(java.lang.Class,java.lang.String,java.lang.ClassLoader,boolean)> with actual argTypes: [java.lang.Class, java.lang.String, java.lang.ClassLoader, int] and taint: [false, false, false, false, false]",
+            "<javax.xml.stream.FactoryFinder: java.lang.Object newInstance(java.lang.Class,java.lang.String,java.lang.ClassLoader,boolean,boolean)> with actual argTypes: [java.lang.Class, java.lang.String, java.lang.ClassLoader, boolean, int] and taint: [false, false, false, false, false, false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.sun.rowset.WebRowSetImpl: void readXml(java.io.InputStream)> with actual argTypes: [java.io.InputStream] and taint: [true, true]",
+            "<com.sun.rowset.internal.WebRowSetXmlReader: void readXML(javax.sql.rowset.WebRowSet,java.io.InputStream)> with actual argTypes: [com.sun.rowset.WebRowSetImpl, java.io.InputStream] and taint: [true, true, true]",
+            "<javax.xml.parsers.SAXParserFactory: javax.xml.parsers.SAXParserFactory newInstance()> with actual argTypes: [] and taint: [false]",
+            "<javax.xml.parsers.FactoryFinder: java.lang.Object find(java.lang.Class,java.lang.String)> with actual argTypes: [java.lang.Class, java.lang.String] and taint: [false, false, false]",
+            "<javax.xml.parsers.FactoryFinder: java.lang.Object newInstance(java.lang.Class,java.lang.String,java.lang.ClassLoader,boolean)> with actual argTypes: [java.lang.Class, java.lang.String, null, int] and taint: [false, false, false, false, false]",
+            "<javax.xml.parsers.FactoryFinder: java.lang.Object newInstance(java.lang.Class,java.lang.String,java.lang.ClassLoader,boolean,boolean)> with actual argTypes: [java.lang.Class, java.lang.String, java.lang.ClassLoader, boolean, int] and taint: [false, false, false, false, false, false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, false]"
+        ]
+    ]
+}

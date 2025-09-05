@@ -1,0 +1,6 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+20814,org.ccil.cowan.tagsoup.tagsoup,0.9.7,2005-12-20,https://repo1.maven.org/maven2/org/ccil/cowan/tagsoup/tagsoup/0.9.7/tagsoup-0.9.7.jar,,,,,,,,1.0.1
+20815,org.ccil.cowan.tagsoup.tagsoup,1.0.1,2007-06-09,https://repo1.maven.org/maven2/org/ccil/cowan/tagsoup/tagsoup/1.0.1/tagsoup-1.0.1.jar,,,,,,,,1.1.3
+20816,org.ccil.cowan.tagsoup.tagsoup,1.1.3,2007-06-11,https://repo1.maven.org/maven2/org/ccil/cowan/tagsoup/tagsoup/1.1.3/tagsoup-1.1.3.jar,,,,,,,,1.2
+20817,org.ccil.cowan.tagsoup.tagsoup,1.2,2008-01-06,https://repo1.maven.org/maven2/org/ccil/cowan/tagsoup/tagsoup/1.2/tagsoup-1.2.jar,,,,,,,,1.2.1
+20818,org.ccil.cowan.tagsoup.tagsoup,1.2.1,2011-08-22,https://repo1.maven.org/maven2/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar,,,,,,,,

@@ -1,0 +1,15 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+102877,com.typesafe.scala-logging.scala-logging,2.0.0,2014-03-23,https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging-slf4j_2.11.0-RC3/2.0.0/scala-logging-slf4j_2.11.0-RC3-2.0.0.jar,,,,,,,,2.0.1
+102876,com.typesafe.scala-logging.scala-logging,2.0.1,2014-03-28,https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging-slf4j_2.11.0-RC3/2.0.1/scala-logging-slf4j_2.11.0-RC3-2.0.1.jar,,,,,,,,2.0.2
+102875,com.typesafe.scala-logging.scala-logging,2.0.2,2014-04-07,https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging-slf4j_2.11.0-RC4/2.0.2/scala-logging-slf4j_2.11.0-RC4-2.0.2.jar,,,,,,,,2.0.3
+102874,com.typesafe.scala-logging.scala-logging,2.0.3,2014-04-18,https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging-slf4j_2.11/2.0.3/scala-logging-slf4j_2.11-2.0.3.jar,,,,,,,,2.0.4
+102873,com.typesafe.scala-logging.scala-logging,2.0.4,2014-04-21,https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging-slf4j_2.11/2.0.4/scala-logging-slf4j_2.11-2.0.4.jar,,,,,,,,2.1.0
+102872,com.typesafe.scala-logging.scala-logging,2.1.0,2014-04-22,https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging-slf4j_2.11/2.1.0/scala-logging-slf4j_2.11-2.1.0.jar,,,,,,,,2.1.1
+102871,com.typesafe.scala-logging.scala-logging,2.1.1,2014-04-23,https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging-slf4j_2.11/2.1.1/scala-logging-slf4j_2.11-2.1.1.jar,,,,,,,,2.1.2
+102870,com.typesafe.scala-logging.scala-logging,2.1.2,2014-04-25,https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging-slf4j_2.11/2.1.2/scala-logging-slf4j_2.11-2.1.2.jar,,,,,,,,3.5.0
+8127,com.typesafe.scala-logging.scala-logging,3.5.0,2024-08-01,https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.11/3.5.0/scala-logging_2.11-3.5.0.jar,,,,,,,,3.9.0
+8128,com.typesafe.scala-logging.scala-logging,3.9.0,2023-09-12,https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.12/3.9.0/scala-logging_2.12-3.9.0.jar,,,,,,,,3.9.2
+8129,com.typesafe.scala-logging.scala-logging,3.9.2,2024-07-12,https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.13/3.9.2/scala-logging_2.13-3.9.2.jar,4,,,,,,,3.9.3
+8130,com.typesafe.scala-logging.scala-logging,3.9.3,2021-03-23,https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.13/3.9.3/scala-logging_2.13-3.9.3.jar,4,0,0,0,0,0,0,3.9.4
+8131,com.typesafe.scala-logging.scala-logging,3.9.4,2023-08-29,https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.13/3.9.4/scala-logging_2.13-3.9.4.jar,4,0,0,0,0,0,0,3.9.5
+8132,com.typesafe.scala-logging.scala-logging,3.9.5,2024-09-25,https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_3/3.9.5/scala-logging_3-3.9.5.jar,: 9,4,0,0,0,2,1,

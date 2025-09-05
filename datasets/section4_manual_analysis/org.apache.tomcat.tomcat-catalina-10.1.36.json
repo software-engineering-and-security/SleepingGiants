@@ -1,0 +1,59 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<java.beans.beancontext.BeanContextSupport: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<java.beans.beancontext.BeanContextSupport: void readChildren(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<java.beans.beancontext.BeanContextChildSupport: void setBeanContext(java.beans.beancontext.BeanContext)> with actual argTypes: [java.beans.beancontext.BeanContext] and taint: [true, true]",
+            "<java.beans.beancontext.BeanContextChildSupport: void firePropertyChange(java.lang.String,java.lang.Object,java.lang.Object)> with actual argTypes: [java.lang.String, java.beans.beancontext.BeanContext, java.beans.beancontext.BeanContext] and taint: [true, false, true, true]",
+            "<java.beans.PropertyChangeSupport: void firePropertyChange(java.lang.String,java.lang.Object,java.lang.Object)> with actual argTypes: [java.lang.String, java.lang.Object, java.lang.Object] and taint: [true, false, true, true]",
+            "<java.beans.PropertyChangeSupport: void firePropertyChange(java.beans.PropertyChangeEvent)> with actual argTypes: [java.beans.PropertyChangeEvent] and taint: [true, false]",
+            "<java.beans.PropertyChangeSupport: void fire(java.beans.PropertyChangeListener[],java.beans.PropertyChangeEvent)> with actual argTypes: [java.beans.PropertyChangeListener[], java.beans.PropertyChangeEvent] and taint: [false, true, false]",
+            "<org.apache.catalina.core.NamingContextListener: void propertyChange(java.beans.PropertyChangeEvent)> with actual argTypes: [java.beans.PropertyChangeEvent] and taint: [true, false]",
+            "<org.apache.catalina.core.NamingContextListener: void processGlobalResourcesChange(java.lang.String,java.lang.Object,java.lang.Object)> with actual argTypes: [java.lang.String, java.lang.Object, java.lang.Object] and taint: [true, false, false, false]",
+            "<org.apache.catalina.core.NamingContextListener: void addResource(org.apache.tomcat.util.descriptor.web.ContextResource)> with actual argTypes: [org.apache.tomcat.util.descriptor.web.ContextResource] and taint: [true, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, false]"
+        ],
+        [
+            "<javax.swing.JCheckBox: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<javax.swing.JCheckBox: void updateUI()> with actual argTypes: [] and taint: [true]",
+            "<javax.swing.UIManager: javax.swing.plaf.ComponentUI getUI(javax.swing.JComponent)> with actual argTypes: [javax.swing.JCheckBox] and taint: [false, true]",
+            "<javax.swing.plaf.synth.SynthLookAndFeel: javax.swing.UIDefaults getDefaults()> with actual argTypes: [] and taint: [false]",
+            "<sun.swing.SwingUtilities2: java.lang.Object makeIcon(java.lang.Class,java.lang.Class,java.lang.String)> with actual argTypes: [java.lang.Class, java.lang.Class, java.lang.String] and taint: [false, false, false, false]",
+            "<sun.swing.SwingUtilities2: java.lang.Object makeIcon(java.lang.Class,java.lang.Class,java.lang.String,boolean)> with actual argTypes: [java.lang.Class, java.lang.Class, java.lang.String, int] and taint: [false, false, false, false, false]",
+            "<sun.swing.SwingUtilities2: byte[] lambda$makeIcon$0(java.lang.Class,java.lang.Class,java.lang.String)> with actual argTypes: [java.lang.Class, java.lang.Class, java.lang.String] and taint: [false, false, false, false]",
+            "<sun.swing.SwingUtilities2: byte[] getIconBytes(java.lang.Class,java.lang.Class,java.lang.String)> with actual argTypes: [java.lang.Class, java.lang.Class, java.lang.String] and taint: [false, false, false, false]",
+            "<java.lang.Class: java.io.InputStream getResourceAsStream(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.catalina.loader.WebappClassLoaderBase: java.io.InputStream getResourceAsStream(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<java.net.URL: java.io.InputStream openStream()> with actual argTypes: [] and taint: [false]"
+        ],
+        [
+            "<java.beans.beancontext.BeanContextSupport: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<java.beans.beancontext.BeanContextSupport: void readChildren(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<java.beans.beancontext.BeanContextChildSupport: void setBeanContext(java.beans.beancontext.BeanContext)> with actual argTypes: [java.beans.beancontext.BeanContext] and taint: [true, true]",
+            "<java.beans.beancontext.BeanContextChildSupport: void firePropertyChange(java.lang.String,java.lang.Object,java.lang.Object)> with actual argTypes: [java.lang.String, java.beans.beancontext.BeanContext, java.beans.beancontext.BeanContext] and taint: [true, false, true, true]",
+            "<java.beans.PropertyChangeSupport: void firePropertyChange(java.lang.String,java.lang.Object,java.lang.Object)> with actual argTypes: [java.lang.String, java.lang.Object, java.lang.Object] and taint: [true, false, true, true]",
+            "<java.beans.PropertyChangeSupport: void firePropertyChange(java.beans.PropertyChangeEvent)> with actual argTypes: [java.beans.PropertyChangeEvent] and taint: [true, false]",
+            "<java.beans.PropertyChangeSupport: void fire(java.beans.PropertyChangeListener[],java.beans.PropertyChangeEvent)> with actual argTypes: [java.beans.PropertyChangeListener[], java.beans.PropertyChangeEvent] and taint: [false, true, false]",
+            "<org.apache.catalina.core.NamingContextListener: void propertyChange(java.beans.PropertyChangeEvent)> with actual argTypes: [java.beans.PropertyChangeEvent] and taint: [true, false]",
+            "<org.apache.catalina.core.NamingContextListener: void processGlobalResourcesChange(java.lang.String,java.lang.Object,java.lang.Object)> with actual argTypes: [java.lang.String, java.lang.Object, java.lang.Object] and taint: [true, false, false, false]",
+            "<org.apache.catalina.core.NamingContextListener: void addEjb(org.apache.tomcat.util.descriptor.web.ContextEjb)> with actual argTypes: [org.apache.tomcat.util.descriptor.web.ContextEjb] and taint: [true, false]",
+            "<org.apache.catalina.core.NamingContextListener: void createSubcontexts(javax.naming.Context,java.lang.String)> with actual argTypes: [javax.naming.Context, java.lang.String] and taint: [true, true, false]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]"
+        ],
+        [
+            "<java.beans.beancontext.BeanContextSupport: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<java.beans.beancontext.BeanContextSupport: void readChildren(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<java.beans.beancontext.BeanContextChildSupport: void setBeanContext(java.beans.beancontext.BeanContext)> with actual argTypes: [java.beans.beancontext.BeanContext] and taint: [true, true]",
+            "<java.beans.beancontext.BeanContextChildSupport: void firePropertyChange(java.lang.String,java.lang.Object,java.lang.Object)> with actual argTypes: [java.lang.String, java.beans.beancontext.BeanContext, java.beans.beancontext.BeanContext] and taint: [true, false, true, true]",
+            "<java.beans.PropertyChangeSupport: void firePropertyChange(java.lang.String,java.lang.Object,java.lang.Object)> with actual argTypes: [java.lang.String, java.lang.Object, java.lang.Object] and taint: [true, false, true, true]",
+            "<java.beans.PropertyChangeSupport: void firePropertyChange(java.beans.PropertyChangeEvent)> with actual argTypes: [java.beans.PropertyChangeEvent] and taint: [true, false]",
+            "<java.beans.PropertyChangeSupport: void fire(java.beans.PropertyChangeListener[],java.beans.PropertyChangeEvent)> with actual argTypes: [java.beans.PropertyChangeListener[], java.beans.PropertyChangeEvent] and taint: [false, true, false]",
+            "<org.apache.catalina.core.NamingContextListener: void propertyChange(java.beans.PropertyChangeEvent)> with actual argTypes: [java.beans.PropertyChangeEvent] and taint: [true, false]",
+            "<org.apache.catalina.core.NamingContextListener: void processGlobalResourcesChange(java.lang.String,java.lang.Object,java.lang.Object)> with actual argTypes: [java.lang.String, java.lang.Object, java.lang.Object] and taint: [true, false, false, false]",
+            "<org.apache.catalina.core.NamingContextListener: void addEnvironment(org.apache.tomcat.util.descriptor.web.ContextEnvironment)> with actual argTypes: [org.apache.tomcat.util.descriptor.web.ContextEnvironment] and taint: [true, false]",
+            "<org.apache.catalina.core.NamingContextListener: java.lang.Object constructEnvEntry(java.lang.String,java.lang.String)> with actual argTypes: [java.lang.String, java.lang.String] and taint: [true, false, false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, false]"
+        ]
+    ]
+}

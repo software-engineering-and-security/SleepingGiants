@@ -1,0 +1,24 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+15869,org.apache.parquet.parquet-avro,1.7.0,2015-05-15,https://repo1.maven.org/maven2/org/apache/parquet/parquet-avro/1.7.0/parquet-avro-1.7.0.jar,,,,,,,,1.8.0
+15870,org.apache.parquet.parquet-avro,1.8.0,2015-07-12,https://repo1.maven.org/maven2/org/apache/parquet/parquet-avro/1.8.0/parquet-avro-1.8.0.jar,,,,,,,,1.8.1
+15871,org.apache.parquet.parquet-avro,1.8.1,2015-07-17,https://repo1.maven.org/maven2/org/apache/parquet/parquet-avro/1.8.1/parquet-avro-1.8.1.jar,,,,,,,,1.8.2
+15872,org.apache.parquet.parquet-avro,1.8.2,2017-01-19,https://repo1.maven.org/maven2/org/apache/parquet/parquet-avro/1.8.2/parquet-avro-1.8.2.jar,,,,,,,,1.8.3
+15873,org.apache.parquet.parquet-avro,1.8.3,2018-05-04,https://repo1.maven.org/maven2/org/apache/parquet/parquet-avro/1.8.3/parquet-avro-1.8.3.jar,,,,,,,,1.9.0
+15874,org.apache.parquet.parquet-avro,1.9.0,2016-10-19,https://repo1.maven.org/maven2/org/apache/parquet/parquet-avro/1.9.0/parquet-avro-1.9.0.jar,,,,,,,,1.10.0
+15875,org.apache.parquet.parquet-avro,1.10.0,2018-04-05,https://repo1.maven.org/maven2/org/apache/parquet/parquet-avro/1.10.0/parquet-avro-1.10.0.jar,,,,,,,,1.10.1
+15876,org.apache.parquet.parquet-avro,1.10.1,2019-01-28,https://repo1.maven.org/maven2/org/apache/parquet/parquet-avro/1.10.1/parquet-avro-1.10.1.jar,,,,,,,,1.11.0
+15877,org.apache.parquet.parquet-avro,1.11.0,2019-12-08,https://repo1.maven.org/maven2/org/apache/parquet/parquet-avro/1.11.0/parquet-avro-1.11.0.jar,2484,,,,,,,1.11.1
+15878,org.apache.parquet.parquet-avro,1.11.1,2020-08-12,https://repo1.maven.org/maven2/org/apache/parquet/parquet-avro/1.11.1/parquet-avro-1.11.1.jar,32,0,0,0,0,0,6056,1.11.2
+15879,org.apache.parquet.parquet-avro,1.11.2,2021-10-06,https://repo1.maven.org/maven2/org/apache/parquet/parquet-avro/1.11.2/parquet-avro-1.11.2.jar,32,0,0,0,0,0,0,1.12.0
+15880,org.apache.parquet.parquet-avro,1.12.0,2021-03-25,https://repo1.maven.org/maven2/org/apache/parquet/parquet-avro/1.12.0/parquet-avro-1.12.0.jar,66,0,0,0,0,34,0,1.12.1
+15881,org.apache.parquet.parquet-avro,1.12.1,2021-09-15,https://repo1.maven.org/maven2/org/apache/parquet/parquet-avro/1.12.1/parquet-avro-1.12.1.jar,66,0,0,0,0,0,0,1.12.2
+15882,org.apache.parquet.parquet-avro,1.12.2,2021-10-06,https://repo1.maven.org/maven2/org/apache/parquet/parquet-avro/1.12.2/parquet-avro-1.12.2.jar,66,0,0,0,0,0,0,1.12.3
+15883,org.apache.parquet.parquet-avro,1.12.3,2022-05-27,https://repo1.maven.org/maven2/org/apache/parquet/parquet-avro/1.12.3/parquet-avro-1.12.3.jar,66,0,0,0,0,0,0,1.13.0
+15884,org.apache.parquet.parquet-avro,1.13.0,2023-04-06,https://repo1.maven.org/maven2/org/apache/parquet/parquet-avro/1.13.0/parquet-avro-1.13.0.jar,66,0,0,0,0,0,0,1.13.1
+15885,org.apache.parquet.parquet-avro,1.13.1,2023-05-18,https://repo1.maven.org/maven2/org/apache/parquet/parquet-avro/1.13.1/parquet-avro-1.13.1.jar,66,0,0,0,0,0,0,1.14.0
+15886,org.apache.parquet.parquet-avro,1.14.0,2024-05-07,https://repo1.maven.org/maven2/org/apache/parquet/parquet-avro/1.14.0/parquet-avro-1.14.0.jar,178,0,0,0,0,160,0,1.14.1
+15888,org.apache.parquet.parquet-avro,1.14.1,2024-06-16,https://repo1.maven.org/maven2/org/apache/parquet/parquet-avro/1.14.1/parquet-avro-1.14.1.jar,178,0,0,0,0,0,0,1.14.2
+15915,org.apache.parquet.parquet-avro,1.14.2,2024-08-21,https://repo1.maven.org/maven2/org/apache/parquet/parquet-avro/1.14.2/parquet-avro-1.14.2.jar,178,0,0,0,0,0,0,1.14.3
+15941,org.apache.parquet.parquet-avro,1.14.3,2024-10-05,https://repo1.maven.org/maven2/org/apache/parquet/parquet-avro/1.14.3/parquet-avro-1.14.3.jar,178,0,0,0,0,0,0,1.14.4
+15916,org.apache.parquet.parquet-avro,1.14.4,2024-11-11,https://repo1.maven.org/maven2/org/apache/parquet/parquet-avro/1.14.4/parquet-avro-1.14.4.jar,178,0,0,0,0,0,0,1.15.0
+15944,org.apache.parquet.parquet-avro,1.15.0,2024-12-02,https://repo1.maven.org/maven2/org/apache/parquet/parquet-avro/1.15.0/parquet-avro-1.15.0.jar,: 178,0,0,0,0,0,0,

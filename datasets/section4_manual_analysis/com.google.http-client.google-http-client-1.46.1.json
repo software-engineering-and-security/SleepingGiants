@@ -1,0 +1,25 @@
+{
+    "tabby": [
+        [
+            "java.lang.Throwable#readObject",
+            "-[CALL]-> java.lang.Object#clone -[ALIAS]-> java.util.HashMap#clone",
+            "-[CALL]-> java.util.AbstractMap#clone -[ALIAS]-> com.google.api.client.util.GenericData#clone",
+            "-[CALL]-> com.google.api.client.util.GenericData#clone",
+            "-[CALL]-> com.google.api.client.util.Data#clone",
+            "-[CALL]-> com.google.api.client.util.Data#deepCopy",
+            "-[CALL]-> com.google.api.client.util.FieldInfo#setValue",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ],
+        [
+            "java.math.BigInteger#readObject",
+            "-[CALL]-> java.lang.Object#clone -[ALIAS]-> java.util.HashMap#clone",
+            "-[CALL]-> java.util.AbstractMap#clone -[ALIAS]-> com.google.api.client.util.GenericData#clone",
+            "-[CALL]-> com.google.api.client.util.GenericData#clone",
+            "-[CALL]-> com.google.api.client.util.Data#clone",
+            "-[CALL]-> com.google.api.client.util.Data#deepCopy",
+            "-[CALL]-> com.google.api.client.util.FieldInfo#setValue",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ]
+    ],
+    "androChain": []
+}

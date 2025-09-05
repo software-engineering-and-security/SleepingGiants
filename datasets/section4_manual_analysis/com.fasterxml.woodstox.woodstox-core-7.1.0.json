@@ -1,0 +1,11 @@
+{
+    "tabby": [
+        [
+            "com.ctc.wstx.shaded.msv_core.datatype.xsd.PatternFacet#readObject",
+            "-[CALL]-> com.ctc.wstx.shaded.msv_core.datatype.xsd.PatternFacet#compileRegExps",
+            "-[CALL]-> com.ctc.wstx.shaded.msv_core.datatype.xsd.regex.RegExpFactory#compile -[ALIAS]-> com.ctc.wstx.shaded.msv_core.datatype.xsd.regex.JDKImpl#compile",
+            "-[CALL]-> java.lang.reflect.Constructor#newInstance"
+        ]
+    ],
+    "androChain": []
+}

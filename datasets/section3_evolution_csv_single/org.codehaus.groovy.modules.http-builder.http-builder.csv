@@ -1,0 +1,7 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+20054,org.codehaus.groovy.modules.http-builder.http-builder,0.5.0,2010-05-03,https://repo1.maven.org/maven2/org/codehaus/groovy/modules/http-builder/http-builder/0.5.0/http-builder-0.5.0.jar,,,,,,,,0.5.1
+20055,org.codehaus.groovy.modules.http-builder.http-builder,0.5.1,2010-10-01,https://repo1.maven.org/maven2/org/codehaus/groovy/modules/http-builder/http-builder/0.5.1/http-builder-0.5.1.jar,,,,,,,,0.5.2
+20033,org.codehaus.groovy.modules.http-builder.http-builder,0.5.2,2011-12-27,https://repo1.maven.org/maven2/org/codehaus/groovy/modules/http-builder/http-builder/0.5.2/http-builder-0.5.2.jar,,,,,,,,0.6
+20056,org.codehaus.groovy.modules.http-builder.http-builder,0.6,2012-10-16,https://repo1.maven.org/maven2/org/codehaus/groovy/modules/http-builder/http-builder/0.6/http-builder-0.6.jar,,,,,,,,0.7
+20032,org.codehaus.groovy.modules.http-builder.http-builder,0.7,2014-02-05,https://repo1.maven.org/maven2/org/codehaus/groovy/modules/http-builder/http-builder/0.7/http-builder-0.7.jar,,,,,,,,0.7.1
+20014,org.codehaus.groovy.modules.http-builder.http-builder,0.7.1,2014-02-25,https://repo1.maven.org/maven2/org/codehaus/groovy/modules/http-builder/http-builder/0.7.1/http-builder-0.7.1.jar,,,,,,,,

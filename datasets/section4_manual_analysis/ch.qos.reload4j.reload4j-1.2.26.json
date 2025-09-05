@@ -1,0 +1,15 @@
+{
+    "tabby": [
+        [
+            "org.apache.log4j.pattern.LogEvent#readObject",
+            "-[CALL]-> org.apache.log4j.pattern.LogEvent#readLevel",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ],
+        [
+            "org.apache.log4j.spi.LoggingEvent#readObject",
+            "-[CALL]-> org.apache.log4j.spi.LoggingEvent#readLevel",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ]
+    ],
+    "androChain": []
+}

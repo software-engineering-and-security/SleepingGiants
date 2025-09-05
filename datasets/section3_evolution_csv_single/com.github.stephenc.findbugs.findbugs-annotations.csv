@@ -1,0 +1,3 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+17256,com.github.stephenc.findbugs.findbugs-annotations,1.0.1,2013-02-13,https://repo1.maven.org/maven2/com/github/stephenc/findbugs/findbugs-annotations/1.0-1/findbugs-annotations-1.0-1.jar,,,,,,,,1.3.9.1
+17241,com.github.stephenc.findbugs.findbugs-annotations,1.3.9.1,2011-04-20,https://repo1.maven.org/maven2/com/github/stephenc/findbugs/findbugs-annotations/1.3.9-1/findbugs-annotations-1.3.9-1.jar,,,,,,,,

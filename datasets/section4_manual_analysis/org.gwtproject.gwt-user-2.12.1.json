@@ -1,0 +1,37 @@
+{
+    "tabby": [
+        [
+            "com.google.gwt.user.server.rpc.impl.ServerSerializationStreamReader#readObject",
+            "-[CALL]-> com.google.gwt.user.server.rpc.impl.ServerSerializationStreamReader#deserialize",
+            "-[CALL]-> com.google.gwt.user.server.rpc.impl.ServerSerializationStreamReader#deserializeImpl",
+            "-[CALL]-> com.google.gwt.user.server.rpc.impl.ServerSerializationStreamReader#deserializeClass",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ]
+    ],
+    "androChain": [
+        [
+            "<sun.reflect.annotation.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<com.google.web.bindery.autobean.shared.impl.SplittableSimpleMap: java.lang.Object get(java.lang.Object)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<com.google.web.bindery.autobean.shared.impl.SplittableSimpleMap: java.lang.Object getRaw(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<com.google.web.bindery.autobean.shared.impl.AutoBeanCodexImpl$ValueCoder: java.lang.Object decode(com.google.web.bindery.autobean.shared.impl.AutoBeanCodexImpl$EncodeState,com.google.web.bindery.autobean.shared.Splittable)> with actual argTypes: [com.google.web.bindery.autobean.shared.impl.AutoBeanCodexImpl$EncodeState, com.google.web.bindery.autobean.shared.Splittable] and taint: [true, true, true]",
+            "<com.google.web.bindery.autobean.shared.ValueCodex: java.lang.Object decode(java.lang.Class,com.google.web.bindery.autobean.shared.Splittable)> with actual argTypes: [java.lang.Class, com.google.web.bindery.autobean.shared.Splittable] and taint: [false, true, true]",
+            "<com.google.web.bindery.autobean.shared.ValueCodex$Type$8: java.lang.Object decode(java.lang.Class,com.google.web.bindery.autobean.shared.Splittable)> with actual argTypes: [java.lang.Class, com.google.web.bindery.autobean.shared.Splittable] and taint: [true, true, true]",
+            "<com.google.web.bindery.autobean.shared.ValueCodex$Type$8: java.lang.Enum decode(java.lang.Class,com.google.web.bindery.autobean.shared.Splittable)> with actual argTypes: [java.lang.Class, com.google.web.bindery.autobean.shared.Splittable] and taint: [true, true, true]",
+            "<java.lang.Class: java.lang.Object[] getEnumConstants()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.Class: java.lang.Object[] getEnumConstantsShared()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [null, java.lang.Object[]] and taint: [true, false, false]"
+        ],
+        [
+            "<sun.reflect.annotation.AnnotationInvocationHandler: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<com.google.web.bindery.autobean.shared.impl.SplittableSimpleMap: java.lang.Object get(java.lang.Object)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<com.google.web.bindery.autobean.shared.impl.SplittableSimpleMap: java.lang.Object getRaw(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<com.google.web.bindery.autobean.shared.impl.AutoBeanCodexImpl$ObjectCoder: java.lang.Object decode(com.google.web.bindery.autobean.shared.impl.AutoBeanCodexImpl$EncodeState,com.google.web.bindery.autobean.shared.Splittable)> with actual argTypes: [com.google.web.bindery.autobean.shared.impl.AutoBeanCodexImpl$EncodeState, com.google.web.bindery.autobean.shared.Splittable] and taint: [true, true, true]",
+            "<com.google.web.bindery.autobean.vm.impl.ProxyAutoBean: java.lang.Object as()> with actual argTypes: [] and taint: [true]",
+            "<com.google.web.bindery.autobean.vm.impl.ProxyAutoBean: java.lang.Object createShim()> with actual argTypes: [] and taint: [true]",
+            "<com.google.web.bindery.autobean.vm.impl.ProxyAutoBean: java.lang.Object makeProxy(java.lang.Class,java.lang.reflect.InvocationHandler,java.lang.Class[])> with actual argTypes: [java.lang.Class, com.google.web.bindery.autobean.vm.impl.ShimHandler, java.lang.Class[]] and taint: [false, true, false, false]",
+            "<java.lang.reflect.Proxy: java.lang.Object newProxyInstance(java.lang.ClassLoader,java.lang.Class[],java.lang.reflect.InvocationHandler)> with actual argTypes: [java.lang.ClassLoader, java.lang.Class[], java.lang.reflect.InvocationHandler] and taint: [false, true, true, false]",
+            "<java.lang.reflect.Proxy: java.lang.Object newProxyInstance(java.lang.Class,java.lang.reflect.Constructor,java.lang.reflect.InvocationHandler)> with actual argTypes: [java.lang.Class, java.lang.reflect.Constructor, java.lang.reflect.InvocationHandler] and taint: [false, false, true, false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, false]"
+        ]
+    ]
+}

@@ -1,0 +1,6 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+80091,org.jetbrains.kotlinx.kotlinx-collections-immutable,0.3.4,2021-03-29,https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-collections-immutable/0.3.4/kotlinx-collections-immutable-0.3.4.jar,,,,,,,,
+80092,org.jetbrains.kotlinx.kotlinx-collections-immutable,0.3.5,2021-12-27,https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-collections-immutable/0.3.5/kotlinx-collections-immutable-0.3.5.jar,,,,,,,,
+80093,org.jetbrains.kotlinx.kotlinx-collections-immutable,0.3.6,2023-10-05,https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-collections-immutable/0.3.6/kotlinx-collections-immutable-0.3.6.jar,,,,,,,,
+80115,org.jetbrains.kotlinx.kotlinx-collections-immutable,0.3.7,2023-12-16,https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-collections-immutable/0.3.7/kotlinx-collections-immutable-0.3.7.jar,,,,,,,,
+80116,org.jetbrains.kotlinx.kotlinx-collections-immutable,0.3.8,2024-09-05,https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-collections-immutable/0.3.8/kotlinx-collections-immutable-0.3.8.jar,,,,,,,,

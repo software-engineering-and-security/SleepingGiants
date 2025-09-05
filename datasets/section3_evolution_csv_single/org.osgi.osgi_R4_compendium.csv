@@ -1,0 +1,2 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+27591,org.osgi.osgi_R4_compendium,1.0,2006-01-17,https://repo1.maven.org/maven2/org/osgi/osgi_R4_compendium/1.0/osgi_R4_compendium-1.0.jar,,,,,,,,

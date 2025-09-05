@@ -1,0 +1,82 @@
+{
+    "tabby": [
+        [
+            "java.security.Provider#readObject",
+            "-[CALL]-> java.util.Map$Entry#getValue -[ALIAS]-> com.linecorp.armeria.internal.shaded.guava.collect.AbstractMapEntry#getValue -[ALIAS]-> com.linecorp.armeria.internal.shaded.guava.collect.Maps$12#getValue",
+            "-[CALL]-> com.linecorp.armeria.internal.shaded.guava.collect.Maps$EntryTransformer#transformEntry -[ALIAS]-> com.linecorp.armeria.internal.shaded.guava.collect.Maps$9#transformEntry",
+            "-[CALL]-> com.linecorp.armeria.internal.shaded.guava.base.Function#apply -[ALIAS]-> com.linecorp.armeria.internal.shaded.guava.collect.FluentIterable$2$iterator__1229#apply",
+            "-[CALL]-> java.lang.Iterable#iterator -[ALIAS]-> com.linecorp.armeria.internal.shaded.reflections.vfs.JarInputDir$1#iterator",
+            "-[CALL]-> com.linecorp.armeria.internal.shaded.reflections.vfs.JarInputDir$1$1#<init>",
+            "-[CALL]-> java.net.URL#openConnection"
+        ],
+        [
+            "java.util.logging.LogRecord#readObject",
+            "-[CALL]-> java.util.ResourceBundle#getBundle",
+            "-[CALL]-> java.util.ResourceBundle#getBundleImpl",
+            "-[CALL]-> java.util.ResourceBundle#getLoader",
+            "-[CALL]-> java.security.PrivilegedAction#run -[ALIAS]-> com.linecorp.armeria.internal.shaded.bouncycastle.jcajce.provider.asymmetric.util.ECUtil$1#run",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ],
+        [
+            "com.linecorp.armeria.internal.shaded.bouncycastle.jcajce.provider.asymmetric.ec.BCECPrivateKey#readObject",
+            "-[CALL]-> com.linecorp.armeria.internal.shaded.bouncycastle.asn1.ASN1Primitive#fromByteArray",
+            "-[CALL]-> com.linecorp.armeria.internal.shaded.bouncycastle.asn1.ASN1InputStream#readObject",
+            "-[CALL]-> com.linecorp.armeria.internal.shaded.bouncycastle.asn1.ASN1InputStream#readTagNumber",
+            "-[CALL]-> java.io.InputStream#read -[ALIAS]-> com.linecorp.armeria.internal.common.stream.ByteBufsInputStream#read",
+            "-[CALL]-> com.linecorp.armeria.internal.common.stream.ByteBufsInputStream#read",
+            "-[CALL]-> java.util.function.Function#apply -[ALIAS]-> com.linecorp.armeria.internal.shaded.guava.base.Function#apply -[ALIAS]-> com.linecorp.armeria.internal.shaded.guava.reflect.Types$ParameterizedTypeImpl$typeName__2051#apply",
+            "-[CALL]-> com.linecorp.armeria.internal.shaded.guava.reflect.Types$JavaVersion#typeName -[ALIAS]-> com.linecorp.armeria.internal.shaded.guava.reflect.Types$JavaVersion$3#typeName",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ],
+        [
+            "com.linecorp.armeria.internal.shaded.bouncycastle.jcajce.provider.asymmetric.ec.BCECPublicKey#readObject",
+            "-[CALL]-> com.linecorp.armeria.internal.shaded.bouncycastle.asn1.ASN1Primitive#fromByteArray",
+            "-[CALL]-> com.linecorp.armeria.internal.shaded.bouncycastle.asn1.ASN1InputStream#readObject",
+            "-[CALL]-> com.linecorp.armeria.internal.shaded.bouncycastle.asn1.ASN1InputStream#readTagNumber",
+            "-[CALL]-> java.io.InputStream#read -[ALIAS]-> com.linecorp.armeria.internal.common.stream.ByteBufsInputStream#read",
+            "-[CALL]-> com.linecorp.armeria.internal.common.stream.ByteBufsInputStream#read",
+            "-[CALL]-> java.util.function.Function#apply -[ALIAS]-> com.linecorp.armeria.internal.shaded.guava.base.Function#apply -[ALIAS]-> com.linecorp.armeria.internal.shaded.guava.reflect.Types$ParameterizedTypeImpl$typeName__2051#apply",
+            "-[CALL]-> com.linecorp.armeria.internal.shaded.guava.reflect.Types$JavaVersion#typeName -[ALIAS]-> com.linecorp.armeria.internal.shaded.guava.reflect.Types$JavaVersion$3#typeName",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ],
+        [
+            "java.security.Provider#readObject",
+            "-[CALL]-> java.util.Map$Entry#getValue -[ALIAS]-> com.linecorp.armeria.internal.shaded.guava.collect.AbstractMapEntry#getValue -[ALIAS]-> com.linecorp.armeria.internal.shaded.guava.collect.Maps$12#getValue",
+            "-[CALL]-> com.linecorp.armeria.internal.shaded.guava.collect.Maps$EntryTransformer#transformEntry -[ALIAS]-> com.linecorp.armeria.internal.shaded.guava.collect.Maps$9#transformEntry",
+            "-[CALL]-> com.linecorp.armeria.internal.shaded.guava.base.Function#apply -[ALIAS]-> com.linecorp.armeria.internal.shaded.guava.collect.FluentIterable$2$iterator__41#apply",
+            "-[CALL]-> java.lang.Iterable#iterator -[ALIAS]-> com.linecorp.armeria.internal.shaded.reflections.vfs.JarInputDir$1#iterator",
+            "-[CALL]-> com.linecorp.armeria.internal.shaded.reflections.vfs.JarInputDir$1$1#<init>",
+            "-[CALL]-> java.net.URL#openConnection"
+        ],
+        [
+            "java.security.Provider#readObject",
+            "-[CALL]-> java.util.Map$Entry#getValue -[ALIAS]-> com.linecorp.armeria.internal.shaded.guava.collect.AbstractMapEntry#getValue -[ALIAS]-> com.linecorp.armeria.internal.shaded.guava.collect.Maps$12#getValue",
+            "-[CALL]-> com.linecorp.armeria.internal.shaded.guava.collect.Maps$EntryTransformer#transformEntry -[ALIAS]-> com.linecorp.armeria.internal.shaded.guava.collect.Maps$9#transformEntry",
+            "-[CALL]-> com.linecorp.armeria.internal.shaded.guava.base.Function#apply -[ALIAS]-> com.linecorp.armeria.internal.shaded.guava.collect.FluentIterable$2$iterator__2195#apply",
+            "-[CALL]-> java.lang.Iterable#iterator -[ALIAS]-> com.linecorp.armeria.internal.shaded.reflections.vfs.JarInputDir$1#iterator",
+            "-[CALL]-> com.linecorp.armeria.internal.shaded.reflections.vfs.JarInputDir$1$1#<init>",
+            "-[CALL]-> java.net.URL#openConnection"
+        ],
+        [
+            "com.linecorp.armeria.internal.shaded.bouncycastle.jcajce.provider.asymmetric.ec.BCECPublicKey#readObject",
+            "-[CALL]-> com.linecorp.armeria.internal.shaded.bouncycastle.asn1.ASN1Primitive#fromByteArray",
+            "-[CALL]-> com.linecorp.armeria.internal.shaded.bouncycastle.asn1.ASN1InputStream#readObject",
+            "-[CALL]-> com.linecorp.armeria.internal.shaded.bouncycastle.asn1.BERBitStringParser#parse",
+            "-[CALL]-> com.linecorp.armeria.internal.shaded.bouncycastle.util.io.Streams#readAll",
+            "-[CALL]-> com.linecorp.armeria.internal.shaded.bouncycastle.util.io.Streams#pipeAll",
+            "-[CALL]-> com.linecorp.armeria.internal.shaded.bouncycastle.util.io.Streams#pipeAll",
+            "-[CALL]-> java.io.OutputStream#write -[ALIAS]-> java.io.FileOutputStream#write"
+        ],
+        [
+            "com.linecorp.armeria.internal.shaded.bouncycastle.jcajce.provider.asymmetric.ec.BCECPrivateKey#readObject",
+            "-[CALL]-> com.linecorp.armeria.internal.shaded.bouncycastle.asn1.ASN1Primitive#fromByteArray",
+            "-[CALL]-> com.linecorp.armeria.internal.shaded.bouncycastle.asn1.ASN1InputStream#readObject",
+            "-[CALL]-> com.linecorp.armeria.internal.shaded.bouncycastle.asn1.BERBitStringParser#parse",
+            "-[CALL]-> com.linecorp.armeria.internal.shaded.bouncycastle.util.io.Streams#readAll",
+            "-[CALL]-> com.linecorp.armeria.internal.shaded.bouncycastle.util.io.Streams#pipeAll",
+            "-[CALL]-> com.linecorp.armeria.internal.shaded.bouncycastle.util.io.Streams#pipeAll",
+            "-[CALL]-> java.io.OutputStream#write -[ALIAS]-> java.io.FileOutputStream#write"
+        ]
+    ],
+    "androChain": []
+}

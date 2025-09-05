@@ -1,0 +1,13 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+49863,org.jboss.logging.jboss-logging-annotations,1.2.0,2014-01-27,https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging-annotations/1.2.0.Final/jboss-logging-annotations-1.2.0.Final.jar,,,,,,,,1.2.1
+49864,org.jboss.logging.jboss-logging-annotations,1.2.1,2015-03-06,https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging-annotations/1.2.1.Final/jboss-logging-annotations-1.2.1.Final.jar,,,,,,,,2.0.0
+49865,org.jboss.logging.jboss-logging-annotations,2.0.0,2015-04-25,https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging-annotations/2.0.0.Final/jboss-logging-annotations-2.0.0.Final.jar,,,,,,,,2.0.1
+49866,org.jboss.logging.jboss-logging-annotations,2.0.1,2015-07-16,https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging-annotations/2.0.1.Final/jboss-logging-annotations-2.0.1.Final.jar,,,,,,,,2.0.2
+49868,org.jboss.logging.jboss-logging-annotations,2.0.2,2016-11-18,https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging-annotations/2.0.2.Final/jboss-logging-annotations-2.0.2.Final.jar,,,,,,,,2.1.0
+49877,org.jboss.logging.jboss-logging-annotations,2.1.0,2017-08-09,https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging-annotations/2.1.0.Final/jboss-logging-annotations-2.1.0.Final.jar,,,,,,,,2.2.0
+49869,org.jboss.logging.jboss-logging-annotations,2.2.0,2019-04-16,https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging-annotations/2.2.0.Final/jboss-logging-annotations-2.2.0.Final.jar,,,,,,,,2.2.1
+49870,org.jboss.logging.jboss-logging-annotations,2.2.1,2019-11-21,https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging-annotations/2.2.1.Final/jboss-logging-annotations-2.2.1.Final.jar,,,,,,,,3.0.0
+49871,org.jboss.logging.jboss-logging-annotations,3.0.0,2024-07-03,https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging-annotations/3.0.0.Final/jboss-logging-annotations-3.0.0.Final.jar,,,,,,,,3.0.1
+49872,org.jboss.logging.jboss-logging-annotations,3.0.1,2024-07-23,https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging-annotations/3.0.1.Final/jboss-logging-annotations-3.0.1.Final.jar,,,,,,,,3.0.2
+49873,org.jboss.logging.jboss-logging-annotations,3.0.2,2024-10-12,https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging-annotations/3.0.2.Final/jboss-logging-annotations-3.0.2.Final.jar,,,,,,,,3.0.3
+49874,org.jboss.logging.jboss-logging-annotations,3.0.3,2024-11-21,https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging-annotations/3.0.3.Final/jboss-logging-annotations-3.0.3.Final.jar,,,,,,,,

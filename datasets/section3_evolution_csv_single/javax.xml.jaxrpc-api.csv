@@ -1,0 +1,2 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+3091,javax.xml.jaxrpc-api,1.1,2005-12-22,https://repo1.maven.org/maven2/javax/xml/jaxrpc-api/1.1/jaxrpc-api-1.1.jar,: 7,,,,,,,

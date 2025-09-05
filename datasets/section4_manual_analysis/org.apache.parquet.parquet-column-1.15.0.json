@@ -1,0 +1,30 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<shaded.parquet.it.unimi.dsi.fastutil.objects.ObjectOpenHashSet: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<java.time.chrono.ChronoLocalDateImpl: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<java.time.chrono.HijrahDate: long toEpochDay()> with actual argTypes: [] and taint: [true]",
+            "<java.time.chrono.HijrahChronology: long getEpochDay(int,int,int)> with actual argTypes: [int, int, int] and taint: [true, true, true, true]",
+            "<java.time.chrono.HijrahChronology: void checkCalendarInit()> with actual argTypes: [] and taint: [true]",
+            "<java.time.chrono.HijrahChronology: void loadCalendarData()> with actual argTypes: [] and taint: [true]",
+            "<java.time.chrono.HijrahChronology: java.util.Properties readConfigProperties(java.lang.String,java.lang.String)> with actual argTypes: [java.lang.String, java.lang.String] and taint: [false, true, true]",
+            "<java.time.chrono.HijrahChronology: java.io.InputStream lambda$readConfigProperties$1(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<java.lang.Class: java.io.InputStream getResourceAsStream(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<java.net.URL: java.io.InputStream openStream()> with actual argTypes: [] and taint: [false]"
+        ],
+        [
+            "<shaded.parquet.it.unimi.dsi.fastutil.objects.ObjectOpenHashSet: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<java.time.chrono.ChronoLocalDateImpl: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<java.time.chrono.HijrahDate: long toEpochDay()> with actual argTypes: [] and taint: [true]",
+            "<java.time.chrono.HijrahChronology: long getEpochDay(int,int,int)> with actual argTypes: [int, int, int] and taint: [true, true, true, true]",
+            "<java.time.chrono.HijrahChronology: void checkCalendarInit()> with actual argTypes: [] and taint: [true]",
+            "<java.time.chrono.HijrahChronology: void loadCalendarData()> with actual argTypes: [] and taint: [true]",
+            "<java.time.chrono.HijrahChronology: java.util.Properties readConfigProperties(java.lang.String,java.lang.String)> with actual argTypes: [java.lang.String, java.lang.String] and taint: [false, true, true]",
+            "<java.time.chrono.HijrahChronology: java.io.InputStream lambda$readConfigProperties$1(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<java.lang.Class: java.io.InputStream getResourceAsStream(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<java.lang.ClassLoader: java.io.InputStream getSystemResourceAsStream(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<java.net.URL: java.io.InputStream openStream()> with actual argTypes: [] and taint: [false]"
+        ]
+    ]
+}

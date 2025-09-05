@@ -1,0 +1,41 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<akka.actor.ActorRef: boolean equals(java.lang.Object)> with actual argTypes: [java.lang.Class] and taint: [true, true]",
+            "<akka.pattern.PromiseActorRef: akka.actor.ActorPath path()> with actual argTypes: [] and taint: [true]",
+            "<akka.actor.LocalActorRefProvider: void registerTempActor(akka.actor.InternalActorRef,akka.actor.ActorPath)> with actual argTypes: [akka.pattern.PromiseActorRef, akka.actor.ActorPath] and taint: [true, true, true]",
+            "<akka.actor.VirtualPathContainer: void addChild(java.lang.String,akka.actor.InternalActorRef)> with actual argTypes: [java.lang.String, akka.actor.InternalActorRef] and taint: [true, true, true]",
+            "<akka.actor.FunctionRef: void stop()> with actual argTypes: [] and taint: [true]",
+            "<akka.actor.FunctionRef: void sendTerminated()> with actual argTypes: [] and taint: [true]",
+            "<akka.actor.FunctionRef: void unsubscribeAddressTerminated()> with actual argTypes: [] and taint: [true]",
+            "<akka.event.AddressTerminatedTopic$: akka.actor.Extension apply(akka.actor.ActorSystem)> with actual argTypes: [akka.actor.ActorSystem] and taint: [false, true]",
+            "<akka.actor.ExtensionId: akka.actor.Extension apply$(akka.actor.ExtensionId,akka.actor.ActorSystem)> with actual argTypes: [akka.event.AddressTerminatedTopic$, akka.actor.ActorSystem] and taint: [false, false, true]",
+            "<akka.actor.ExtensionId: akka.actor.Extension apply(akka.actor.ActorSystem)> with actual argTypes: [akka.actor.ActorSystem] and taint: [false, true]",
+            "<akka.actor.ActorSystemImpl: akka.actor.Extension registerExtension(akka.actor.ExtensionId)> with actual argTypes: [akka.actor.ExtensionId] and taint: [true, false]",
+            "<akka.util.ManifestInfo$: akka.actor.Extension createExtension(akka.actor.ExtendedActorSystem)> with actual argTypes: [akka.actor.ActorSystemImpl] and taint: [false, true]",
+            "<akka.util.ManifestInfo$: akka.util.ManifestInfo createExtension(akka.actor.ExtendedActorSystem)> with actual argTypes: [akka.actor.ExtendedActorSystem] and taint: [false, true]",
+            "<akka.util.ManifestInfo: void <init>(akka.actor.ExtendedActorSystem)> with actual argTypes: [akka.actor.ExtendedActorSystem] and taint: [false, true]",
+            "<java.net.URL: java.io.InputStream openStream()> with actual argTypes: [] and taint: [true]"
+        ],
+        [
+            "<akka.actor.SerializedActorRef: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<akka.actor.LocalActorRefProvider: akka.actor.ActorRef resolveActorRef(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<akka.actor.LocalActorRefProvider: akka.actor.LocalActorRef rootGuardian()> with actual argTypes: [] and taint: [false]",
+            "<akka.actor.LocalActorRefProvider: java.lang.Object rootGuardian$lzyINIT1()> with actual argTypes: [] and taint: [false]",
+            "<akka.actor.LocalActorRefProvider$$anon$3: void <init>(akka.actor.LocalActorRefProvider)> with actual argTypes: [akka.actor.LocalActorRefProvider] and taint: [false, false]",
+            "<akka.actor.LocalActorRefProvider: akka.actor.Props akka$actor$LocalActorRefProvider$$_$$anon$superArg$1$1()> with actual argTypes: [] and taint: [false]",
+            "<akka.actor.Props$: akka.actor.Props apply(scala.Function0,scala.reflect.ClassTag)> with actual argTypes: [scala.Function0, scala.reflect.ClassTag] and taint: [false, false, false]",
+            "<akka.actor.Props$: akka.actor.Props mkProps(java.lang.Class,scala.Function0)> with actual argTypes: [java.lang.Class, scala.Function0] and taint: [false, false, false]",
+            "<akka.actor.Props$: akka.actor.Props apply(java.lang.Class,scala.collection.immutable.Seq)> with actual argTypes: [java.lang.Class, scala.collection.immutable.Seq] and taint: [false, false, false]",
+            "<akka.actor.Props$: akka.actor.Props apply(akka.actor.Deploy,java.lang.Class,scala.collection.immutable.Seq)> with actual argTypes: [akka.actor.Deploy, java.lang.Class, scala.collection.immutable.Seq] and taint: [false, false, false, false]",
+            "<akka.actor.Props: void <init>(akka.actor.Deploy,java.lang.Class,scala.collection.immutable.Seq)> with actual argTypes: [akka.actor.Deploy, java.lang.Class, scala.collection.immutable.Seq] and taint: [false, false, false, false]",
+            "<akka.actor.Props: akka.actor.IndirectActorProducer producer()> with actual argTypes: [] and taint: [false]",
+            "<akka.actor.IndirectActorProducer$: akka.actor.IndirectActorProducer apply(java.lang.Class,scala.collection.immutable.Seq)> with actual argTypes: [java.lang.Class, scala.collection.immutable.Seq] and taint: [false, false, false]",
+            "<akka.util.Reflect$: java.lang.Object instantiate(java.lang.Class,scala.collection.immutable.Seq)> with actual argTypes: [java.lang.Class, scala.collection.immutable.Seq] and taint: [false, false, false]",
+            "<akka.util.Reflect$: java.lang.Object instantiate(java.lang.reflect.Constructor,scala.collection.immutable.Seq)> with actual argTypes: [java.lang.reflect.Constructor, scala.collection.immutable.Seq] and taint: [false, false, false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, false]"
+        ]
+    ]
+}

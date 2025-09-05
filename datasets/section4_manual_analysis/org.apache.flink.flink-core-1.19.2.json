@@ -1,0 +1,60 @@
+{
+    "tabby": [
+        [
+            "org.apache.flink.api.common.state.StateDescriptor#readObject",
+            "-[CALL]-> org.apache.flink.api.common.typeutils.TypeSerializer#deserialize -[ALIAS]-> org.apache.flink.api.java.typeutils.runtime.kryo.KryoSerializer#deserialize",
+            "-[CALL]-> org.apache.flink.api.java.typeutils.runtime.kryo.KryoSerializer#checkKryoInitialized",
+            "-[CALL]-> org.apache.flink.api.java.typeutils.runtime.kryo.KryoSerializer#getKryoInstance",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ]
+    ],
+    "androChain": [
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.flink.util.concurrent.Executors$DirectExecutor: void execute(java.lang.Runnable)> with actual argTypes: [java.lang.Runnable] and taint: [true, true]",
+            "<javax.swing.JFormattedTextField$FocusLostHandler: void run()> with actual argTypes: [] and taint: [true]",
+            "<javax.swing.JFormattedTextField: void commitEdit()> with actual argTypes: [] and taint: [true]",
+            "<javax.swing.text.DefaultFormatter: java.lang.Object stringToValue(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.flink.util.concurrent.Executors$DirectExecutor: void execute(java.lang.Runnable)> with actual argTypes: [java.lang.Runnable] and taint: [true, true]",
+            "<java.util.concurrent.ForkJoinTask$AdaptedRunnableAction: void run()> with actual argTypes: [] and taint: [true]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Object invoke()> with actual argTypes: [] and taint: [true]",
+            "<java.util.concurrent.ForkJoinTask: void reportException(int)> with actual argTypes: [int] and taint: [true, true]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Throwable getThrowableException()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.flink.util.concurrent.Executors$DirectExecutor: void execute(java.lang.Runnable)> with actual argTypes: [java.lang.Runnable] and taint: [true, true]",
+            "<java.util.concurrent.ForkJoinTask$AdaptedRunnableAction: void run()> with actual argTypes: [] and taint: [true]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Object invoke()> with actual argTypes: [] and taint: [true]",
+            "<java.util.concurrent.ForkJoinTask: void reportException(int)> with actual argTypes: [int] and taint: [true, true]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Throwable getThrowableException()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, false]"
+        ],
+        [
+            "<javax.swing.JCheckBox: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<javax.swing.JCheckBox: void updateUI()> with actual argTypes: [] and taint: [true]",
+            "<javax.swing.UIManager: javax.swing.plaf.ComponentUI getUI(javax.swing.JComponent)> with actual argTypes: [javax.swing.JCheckBox] and taint: [false, true]",
+            "<javax.swing.plaf.synth.SynthLookAndFeel: javax.swing.UIDefaults getDefaults()> with actual argTypes: [] and taint: [false]",
+            "<sun.swing.SwingUtilities2: java.lang.Object makeIcon(java.lang.Class,java.lang.Class,java.lang.String)> with actual argTypes: [java.lang.Class, java.lang.Class, java.lang.String] and taint: [false, false, false, false]",
+            "<sun.swing.SwingUtilities2: java.lang.Object makeIcon(java.lang.Class,java.lang.Class,java.lang.String,boolean)> with actual argTypes: [java.lang.Class, java.lang.Class, java.lang.String, int] and taint: [false, false, false, false, false]",
+            "<sun.swing.SwingUtilities2: byte[] lambda$makeIcon$0(java.lang.Class,java.lang.Class,java.lang.String)> with actual argTypes: [java.lang.Class, java.lang.Class, java.lang.String] and taint: [false, false, false, false]",
+            "<sun.swing.SwingUtilities2: byte[] getIconBytes(java.lang.Class,java.lang.Class,java.lang.String)> with actual argTypes: [java.lang.Class, java.lang.Class, java.lang.String] and taint: [false, false, false, false]",
+            "<java.lang.Class: java.io.InputStream getResourceAsStream(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<java.lang.ClassLoader: java.io.InputStream getSystemResourceAsStream(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<java.lang.ClassLoader: java.net.URL getSystemResource(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<org.apache.flink.util.ChildFirstClassLoader: java.net.URL getResource(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<java.net.URLClassLoader: java.net.URL findResource(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<jdk.internal.loader.URLClassPath: java.net.URL checkURL(java.net.URL)> with actual argTypes: [java.net.URL] and taint: [false, false]",
+            "<jdk.internal.loader.URLClassPath: void check(java.net.URL)> with actual argTypes: [java.net.URL] and taint: [false, false]",
+            "<java.net.URL: java.net.URLConnection openConnection()> with actual argTypes: [] and taint: [false]"
+        ]
+    ]
+}

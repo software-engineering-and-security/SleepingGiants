@@ -1,0 +1,31 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.springframework.beans.factory.support.AutowireUtils$ObjectFactoryDelegatingInvocationHandler: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [true, true, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.springframework.beans.factory.support.DisposableBeanAdapter: void run()> with actual argTypes: [] and taint: [true]",
+            "<org.springframework.beans.factory.support.DisposableBeanAdapter: void destroy()> with actual argTypes: [] and taint: [true]",
+            "<org.springframework.beans.factory.support.DisposableBeanAdapter: void invokeCustomDestroyMethod(java.lang.reflect.Method)> with actual argTypes: [java.lang.reflect.Method] and taint: [true, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [true, true, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.springframework.beans.factory.support.AutowireUtils$ObjectFactoryDelegatingInvocationHandler: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<org.springframework.beans.factory.config.ObjectFactoryCreatingFactoryBean$TargetBeanObjectFactory: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<org.springframework.beans.factory.support.StaticListableBeanFactory: java.lang.Object getBean(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<org.springframework.beans.factory.config.AbstractFactoryBean: java.lang.Object getObject()> with actual argTypes: [] and taint: [true]",
+            "<org.springframework.beans.factory.config.AbstractFactoryBean: java.lang.Object getEarlySingletonInstance()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.reflect.Proxy: java.lang.Object newProxyInstance(java.lang.ClassLoader,java.lang.Class[],java.lang.reflect.InvocationHandler)> with actual argTypes: [java.lang.ClassLoader, java.lang.Class[], org.springframework.beans.factory.config.AbstractFactoryBean$EarlySingletonInvocationHandler] and taint: [false, true, true, false]",
+            "<java.lang.reflect.Proxy: java.lang.Object newProxyInstance(java.lang.Class,java.lang.reflect.Constructor,java.lang.reflect.InvocationHandler)> with actual argTypes: [java.lang.Class, java.lang.reflect.Constructor, java.lang.reflect.InvocationHandler] and taint: [false, false, true, false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, false]"
+        ]
+    ]
+}

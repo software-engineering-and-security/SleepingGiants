@@ -1,0 +1,17 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+110801,jakarta.servlet.jsp.jakarta.servlet.jsp-api,2.0,2006-07-17,https://repo1.maven.org/maven2/javax/servlet/jsp/jsp-api/2.0/jsp-api-2.0.jar,2,,,,,,,2.1
+110800,jakarta.servlet.jsp.jakarta.servlet.jsp-api,2.1,2006-07-17,https://repo1.maven.org/maven2/javax/servlet/jsp/jsp-api/2.1/jsp-api-2.1.jar,5,0,0,0,0,3,0,2.1.1
+110780,jakarta.servlet.jsp.jakarta.servlet.jsp-api,2.1.1,2008-09-10,https://repo1.maven.org/maven2/javax/servlet/jsp/jsp-api/2.1.1/jsp-api-2.1.1.jar,2,0,0,0,0,0,3,2.1.2
+110779,jakarta.servlet.jsp.jakarta.servlet.jsp-api,2.1.2,2010-05-20,https://repo1.maven.org/maven2/javax/servlet/jsp/jsp-api/2.1.2/jsp-api-2.1.2.jar,2,0,0,0,0,0,0,2.2
+110770,jakarta.servlet.jsp.jakarta.servlet.jsp-api,2.2,2010-05-20,https://repo1.maven.org/maven2/javax/servlet/jsp/jsp-api/2.2/jsp-api-2.2.jar,2,0,0,0,0,0,0,2.2.1
+110237,jakarta.servlet.jsp.jakarta.servlet.jsp-api,2.2.1,2011-07-20,https://repo1.maven.org/maven2/javax/servlet/jsp/javax.servlet.jsp-api/2.2.1/javax.servlet.jsp-api-2.2.1.jar,2,0,0,0,0,0,0,2.3.0
+110236,jakarta.servlet.jsp.jakarta.servlet.jsp-api,2.3.0,2013-01-12,https://repo1.maven.org/maven2/javax/servlet/jsp/javax.servlet.jsp-api/2.3.0/javax.servlet.jsp-api-2.3.0.jar,2,0,0,0,0,0,0,2.3.1
+110235,jakarta.servlet.jsp.jakarta.servlet.jsp-api,2.3.1,2013-04-01,https://repo1.maven.org/maven2/javax/servlet/jsp/javax.servlet.jsp-api/2.3.1/javax.servlet.jsp-api-2.3.1.jar,2,0,0,0,0,0,0,2.3.3
+110201,jakarta.servlet.jsp.jakarta.servlet.jsp-api,2.3.3,2018-08-01,https://repo1.maven.org/maven2/javax/servlet/jsp/javax.servlet.jsp-api/2.3.3/javax.servlet.jsp-api-2.3.3.jar,2,0,0,0,0,0,0,2.3.4
+2982,jakarta.servlet.jsp.jakarta.servlet.jsp-api,2.3.4,2019-01-14,https://repo1.maven.org/maven2/jakarta/servlet/jsp/jakarta.servlet.jsp-api/2.3.4/jakarta.servlet.jsp-api-2.3.4.jar,2,0,0,0,0,0,0,2.3.5
+2983,jakarta.servlet.jsp.jakarta.servlet.jsp-api,2.3.5,2019-01-24,https://repo1.maven.org/maven2/jakarta/servlet/jsp/jakarta.servlet.jsp-api/2.3.5/jakarta.servlet.jsp-api-2.3.5.jar,2,0,0,0,0,0,0,2.3.6
+2984,jakarta.servlet.jsp.jakarta.servlet.jsp-api,2.3.6,2019-09-04,https://repo1.maven.org/maven2/jakarta/servlet/jsp/jakarta.servlet.jsp-api/2.3.6/jakarta.servlet.jsp-api-2.3.6.jar,2,0,0,0,0,0,0,3.0.0
+2985,jakarta.servlet.jsp.jakarta.servlet.jsp-api,3.0.0,2020-11-11,https://repo1.maven.org/maven2/jakarta/servlet/jsp/jakarta.servlet.jsp-api/3.0.0/jakarta.servlet.jsp-api-3.0.0.jar,2,0,0,0,0,2,2,3.1.0
+2986,jakarta.servlet.jsp.jakarta.servlet.jsp-api,3.1.0,2022-05-17,https://repo1.maven.org/maven2/jakarta/servlet/jsp/jakarta.servlet.jsp-api/3.1.0/jakarta.servlet.jsp-api-3.1.0.jar,2,0,0,0,0,0,0,3.1.1
+2987,jakarta.servlet.jsp.jakarta.servlet.jsp-api,3.1.1,2023-02-01,https://repo1.maven.org/maven2/jakarta/servlet/jsp/jakarta.servlet.jsp-api/3.1.1/jakarta.servlet.jsp-api-3.1.1.jar,2,0,0,0,0,0,0,4.0.0
+2988,jakarta.servlet.jsp.jakarta.servlet.jsp-api,4.0.0,2024-06-11,https://repo1.maven.org/maven2/jakarta/servlet/jsp/jakarta.servlet.jsp-api/4.0.0/jakarta.servlet.jsp-api-4.0.0.jar,: 2,0,0,0,0,0,0,

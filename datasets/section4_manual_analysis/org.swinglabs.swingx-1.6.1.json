@@ -1,0 +1,141 @@
+{
+    "tabby": [
+        [
+            "javax.swing.JMenuItem#readObject",
+            "-[CALL]-> javax.swing.JMenuItem#updateUI -[ALIAS]-> javax.swing.JMenu#updateUI",
+            "-[CALL]-> javax.swing.JPopupMenu#setUI",
+            "-[CALL]-> javax.swing.JComponent#setUI",
+            "-[CALL]-> javax.swing.plaf.ComponentUI#installUI -[ALIAS]-> org.jdesktop.swingx.plaf.basic.BasicTitledPanelUI#installUI",
+            "-[CALL]-> org.jdesktop.swingx.plaf.basic.BasicTitledPanelUI#installDefaults",
+            "-[CALL]-> org.jdesktop.swingx.plaf.basic.BasicTitledPanelUI#installProperty",
+            "-[CALL]-> java.beans.Introspector#getBeanInfo"
+        ],
+        [
+            "javax.swing.JCheckBox#readObject",
+            "-[CALL]-> javax.swing.JCheckBox#updateUI",
+            "-[CALL]-> javax.swing.AbstractButton#setUI",
+            "-[CALL]-> javax.swing.JComponent#setUI",
+            "-[CALL]-> javax.swing.plaf.ComponentUI#installUI -[ALIAS]-> org.jdesktop.swingx.plaf.basic.BasicTitledPanelUI#installUI",
+            "-[CALL]-> org.jdesktop.swingx.plaf.basic.BasicTitledPanelUI#installDefaults",
+            "-[CALL]-> org.jdesktop.swingx.plaf.basic.BasicTitledPanelUI#installProperty",
+            "-[CALL]-> java.beans.Introspector#getBeanInfo"
+        ]
+    ],
+    "androChain": [
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<sun.swing.FilePane: void propertyChange(java.beans.PropertyChangeEvent)> with actual argTypes: [java.beans.PropertyChangeEvent] and taint: [true, true]",
+            "<sun.swing.FilePane: void applyEdit()> with actual argTypes: [] and taint: [true]",
+            "<org.jdesktop.swingx.JXTable$GenericEditor: boolean stopCellEditing()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.jdesktop.swingx.autocomplete.ComboBoxCellEditor: java.awt.Component getTableCellEditorComponent(javax.swing.JTable,java.lang.Object,boolean,int,int)> with actual argTypes: [javax.swing.JTable, java.lang.Object, boolean, int, int] and taint: [true, true, true, true, true, true]",
+            "<javax.swing.JComboBox: void setSelectedItem(java.lang.Object)> with actual argTypes: [java.lang.Object] and taint: [true, true]",
+            "<javax.swing.JComboBox: void fireActionEvent()> with actual argTypes: [] and taint: [true]",
+            "<org.jdesktop.swingx.action.ServerAction: void actionPerformed(java.awt.event.ActionEvent)> with actual argTypes: [java.awt.event.ActionEvent] and taint: [true, false]",
+            "<java.net.URL: java.net.URLConnection openConnection()> with actual argTypes: [] and taint: [true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<sun.swing.FilePane: void propertyChange(java.beans.PropertyChangeEvent)> with actual argTypes: [java.beans.PropertyChangeEvent] and taint: [true, true]",
+            "<sun.swing.FilePane: void applyEdit()> with actual argTypes: [] and taint: [true]",
+            "<org.jdesktop.swingx.table.NumberEditorExt: boolean stopCellEditing()> with actual argTypes: [] and taint: [true]",
+            "<org.jdesktop.swingx.table.NumberEditorExt: boolean isValid()> with actual argTypes: [] and taint: [true]",
+            "<org.jdesktop.swingx.table.NumberEditorExt: java.lang.Number getNumber()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<javax.swing.JSlider$1SmartHashtable: void propertyChange(java.beans.PropertyChangeEvent)> with actual argTypes: [java.beans.PropertyChangeEvent] and taint: [true, true]",
+            "<javax.swing.JSlider: void setLabelTable(java.util.Dictionary)> with actual argTypes: [javax.swing.JSlider$1SmartHashtable] and taint: [true, true]",
+            "<javax.swing.JSlider: void updateLabelUIs()> with actual argTypes: [] and taint: [true]",
+            "<org.jdesktop.swingx.JXDatePicker: void updateUI()> with actual argTypes: [] and taint: [true]",
+            "<org.jdesktop.swingx.plaf.LookAndFeelAddons: javax.swing.plaf.ComponentUI getUI(javax.swing.JComponent,java.lang.Class)> with actual argTypes: [org.jdesktop.swingx.JXDatePicker, java.lang.Class] and taint: [false, true, false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [null, java.lang.Object[]] and taint: [true, false, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.jdesktop.swingx.autocomplete.ComboBoxCellEditor: java.awt.Component getTableCellEditorComponent(javax.swing.JTable,java.lang.Object,boolean,int,int)> with actual argTypes: [javax.swing.JTable, java.lang.Object, boolean, int, int] and taint: [true, true, true, true, true, true]",
+            "<javax.swing.JComboBox: void setSelectedItem(java.lang.Object)> with actual argTypes: [java.lang.Object] and taint: [true, true]",
+            "<javax.swing.JComboBox: void fireActionEvent()> with actual argTypes: [] and taint: [true]",
+            "<org.jdesktop.swingx.action.CompositeAction: void actionPerformed(java.awt.event.ActionEvent)> with actual argTypes: [java.awt.event.ActionEvent] and taint: [true, false]",
+            "<org.jdesktop.swingx.action.ServerAction: void actionPerformed(java.awt.event.ActionEvent)> with actual argTypes: [java.awt.event.ActionEvent] and taint: [true, false]",
+            "<java.net.URL: java.net.URLConnection openConnection()> with actual argTypes: [] and taint: [true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.jdesktop.swingx.autocomplete.ComboBoxCellEditor: java.awt.Component getTableCellEditorComponent(javax.swing.JTable,java.lang.Object,boolean,int,int)> with actual argTypes: [javax.swing.JTable, java.lang.Object, boolean, int, int] and taint: [true, true, true, true, true, true]",
+            "<javax.swing.JComboBox: void setSelectedItem(java.lang.Object)> with actual argTypes: [java.lang.Object] and taint: [true, true]",
+            "<javax.swing.JComboBox: void fireActionEvent()> with actual argTypes: [] and taint: [true]",
+            "<javax.swing.plaf.basic.BasicFileChooserUI$ApproveSelectionAction: void actionPerformed(java.awt.event.ActionEvent)> with actual argTypes: [java.awt.event.ActionEvent] and taint: [true, false]",
+            "<sun.print.ServiceDialog$ValidatingFileChooser: void approveSelection()> with actual argTypes: [] and taint: [true]",
+            "<java.io.File: boolean delete()> with actual argTypes: [] and taint: [true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.jdesktop.swingx.autocomplete.ComboBoxCellEditor: java.awt.Component getTableCellEditorComponent(javax.swing.JTable,java.lang.Object,boolean,int,int)> with actual argTypes: [javax.swing.JTable, java.lang.Object, boolean, int, int] and taint: [true, true, true, true, true, true]",
+            "<javax.swing.JComboBox: void setSelectedItem(java.lang.Object)> with actual argTypes: [java.lang.Object] and taint: [true, true]",
+            "<javax.swing.JComboBox: void fireActionEvent()> with actual argTypes: [] and taint: [true]",
+            "<org.jdesktop.swingx.JXImageView$2: void actionPerformed(java.awt.event.ActionEvent)> with actual argTypes: [java.awt.event.ActionEvent] and taint: [true, false]",
+            "<javax.imageio.ImageIO: boolean write(java.awt.image.RenderedImage,java.lang.String,java.io.File)> with actual argTypes: [java.awt.image.BufferedImage, java.lang.String, java.io.File] and taint: [false, false, false, false]",
+            "<java.io.File: boolean delete()> with actual argTypes: [] and taint: [false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.jdesktop.swingx.autocomplete.ComboBoxCellEditor: java.awt.Component getTableCellEditorComponent(javax.swing.JTable,java.lang.Object,boolean,int,int)> with actual argTypes: [javax.swing.JTable, java.lang.Object, boolean, int, int] and taint: [true, true, true, true, true, true]",
+            "<javax.swing.JComboBox: void setSelectedItem(java.lang.Object)> with actual argTypes: [java.lang.Object] and taint: [true, true]",
+            "<javax.swing.JComboBox: void fireActionEvent()> with actual argTypes: [] and taint: [true]",
+            "<sun.tools.jconsole.Plotter: void actionPerformed(java.awt.event.ActionEvent)> with actual argTypes: [java.awt.event.ActionEvent] and taint: [true, false]",
+            "<sun.tools.jconsole.Plotter: void saveAs()> with actual argTypes: [] and taint: [true]",
+            "<sun.tools.jconsole.Plotter: void saveDataToFile(java.io.File)> with actual argTypes: [java.io.File] and taint: [true, true]",
+            "<java.io.FileOutputStream: void <init>(java.io.File)> with actual argTypes: [java.io.File] and taint: [false, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.jdesktop.swingx.autocomplete.ComboBoxCellEditor: java.awt.Component getTableCellEditorComponent(javax.swing.JTable,java.lang.Object,boolean,int,int)> with actual argTypes: [javax.swing.JTable, java.lang.Object, boolean, int, int] and taint: [true, true, true, true, true, true]",
+            "<javax.swing.JComboBox: void setSelectedItem(java.lang.Object)> with actual argTypes: [java.lang.Object] and taint: [true, true]",
+            "<javax.swing.JComboBox: void fireActionEvent()> with actual argTypes: [] and taint: [true]",
+            "<javax.swing.JFormattedTextField$CommitAction: void actionPerformed(java.awt.event.ActionEvent)> with actual argTypes: [java.awt.event.ActionEvent] and taint: [true, false]",
+            "<javax.swing.JFormattedTextField: void commitEdit()> with actual argTypes: [] and taint: [true]",
+            "<javax.swing.text.DefaultFormatter: java.lang.Object stringToValue(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.jdesktop.swingx.autocomplete.ComboBoxCellEditor: java.awt.Component getTableCellEditorComponent(javax.swing.JTable,java.lang.Object,boolean,int,int)> with actual argTypes: [javax.swing.JTable, java.lang.Object, boolean, int, int] and taint: [true, true, true, true, true, true]",
+            "<javax.swing.JComboBox: void setSelectedItem(java.lang.Object)> with actual argTypes: [java.lang.Object] and taint: [true, true]",
+            "<javax.swing.JComboBox: void fireActionEvent()> with actual argTypes: [] and taint: [true]",
+            "<org.jdesktop.swingx.JXImageView$1: void actionPerformed(java.awt.event.ActionEvent)> with actual argTypes: [java.awt.event.ActionEvent] and taint: [true, false]",
+            "<org.jdesktop.swingx.JXImageView: void setImage(java.io.File)> with actual argTypes: [java.io.File] and taint: [true, false]",
+            "<org.jdesktop.swingx.JXImageView: void setImageURL(java.net.URL)> with actual argTypes: [java.net.URL] and taint: [true, false]",
+            "<javax.imageio.ImageIO: java.awt.image.BufferedImage read(java.net.URL)> with actual argTypes: [java.net.URL] and taint: [false, true]",
+            "<java.net.URL: java.io.InputStream openStream()> with actual argTypes: [] and taint: [true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.jdesktop.swingx.autocomplete.ComboBoxCellEditor: java.awt.Component getTableCellEditorComponent(javax.swing.JTable,java.lang.Object,boolean,int,int)> with actual argTypes: [javax.swing.JTable, java.lang.Object, boolean, int, int] and taint: [true, true, true, true, true, true]",
+            "<javax.swing.JComboBox: void setSelectedItem(java.lang.Object)> with actual argTypes: [java.lang.Object] and taint: [true, true]",
+            "<javax.swing.JComboBox: void fireActionEvent()> with actual argTypes: [] and taint: [true]",
+            "<javax.swing.text.DefaultEditorKit$DeletePrevCharAction: void actionPerformed(java.awt.event.ActionEvent)> with actual argTypes: [java.awt.event.ActionEvent] and taint: [true, false]",
+            "<javax.swing.text.AbstractDocument: void remove(int,int)> with actual argTypes: [int, int] and taint: [true, true, true]",
+            "<javax.swing.text.DefaultFormatter$DefaultDocumentFilter: void remove(javax.swing.text.DocumentFilter$FilterBypass,int,int)> with actual argTypes: [javax.swing.text.DocumentFilter$FilterBypass, int, int] and taint: [true, true, true, true]",
+            "<javax.swing.text.NumberFormatter: void replace(javax.swing.text.DocumentFilter$FilterBypass,int,int,java.lang.String,javax.swing.text.AttributeSet)> with actual argTypes: [javax.swing.text.DocumentFilter$FilterBypass, int, int, null, null] and taint: [true, true, true, true, false, false]",
+            "<javax.swing.text.NumberFormatter: boolean toggleSignIfNecessary(javax.swing.text.DocumentFilter$FilterBypass,int,char)> with actual argTypes: [javax.swing.text.DocumentFilter$FilterBypass, int, char] and taint: [true, true, true, false]",
+            "<javax.swing.text.NumberFormatter: java.lang.Object toggleSign(boolean)> with actual argTypes: [boolean] and taint: [true, false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, true]"
+        ]
+    ]
+}

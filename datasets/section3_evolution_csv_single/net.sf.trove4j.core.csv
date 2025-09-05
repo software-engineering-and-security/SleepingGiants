@@ -1,0 +1,9 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+110940,net.sf.trove4j.core,1.0.2,2005-11-08,https://repo1.maven.org/maven2/trove/trove/1.0.2/trove-1.0.2.jar,48,,,,,,,2.0.2
+100032,net.sf.trove4j.core,2.0.2,2010-09-14,https://repo1.maven.org/maven2/net/sf/trove4j/trove4j/2.0.2/trove4j-2.0.2.jar,73,0,5,0,0,31,1,2.0.4
+100034,net.sf.trove4j.core,2.0.4,2014-12-04,https://repo1.maven.org/maven2/net/sf/trove4j/trove4j/2.0.4/trove4j-2.0.4.jar,73,0,0,0,0,0,0,2.1.0
+100038,net.sf.trove4j.core,2.1.0,2014-12-04,https://repo1.maven.org/maven2/net/sf/trove4j/trove4j/2.1.0/trove4j-2.1.0.jar,73,0,0,0,0,0,0,3.0.1
+100035,net.sf.trove4j.core,3.0.1,2011-10-08,https://repo1.maven.org/maven2/net/sf/trove4j/trove4j/3.0.1/trove4j-3.0.1.jar,188,0,0,0,0,195,73,3.0.2
+100036,net.sf.trove4j.core,3.0.2,2011-12-07,https://repo1.maven.org/maven2/net/sf/trove4j/trove4j/3.0.2/trove4j-3.0.2.jar,188,0,0,0,0,0,0,3.0.3
+100037,net.sf.trove4j.core,3.0.3,2012-06-04,https://repo1.maven.org/maven2/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar,188,0,0,0,0,0,0,3.1.0
+80083,net.sf.trove4j.core,3.1.0,2018-08-03,https://repo1.maven.org/maven2/net/sf/trove4j/core/3.1.0/core-3.1.0.jar,: 188,0,0,0,0,0,0,

@@ -1,0 +1,4 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+29299,oro.oro,2.0.6,2005-11-08,https://repo1.maven.org/maven2/oro/oro/2.0.6/oro-2.0.6.jar,8,,,,,,,2.0.7
+29300,oro.oro,2.0.7,2005-11-08,https://repo1.maven.org/maven2/oro/oro/2.0.7/oro-2.0.7.jar,8,0,0,0,0,0,0,2.0.8
+29301,oro.oro,2.0.8,2005-11-08,https://repo1.maven.org/maven2/oro/oro/2.0.8/oro-2.0.8.jar,: 8,0,0,0,0,0,0,

@@ -1,0 +1,14 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.quartz.core.JobRunShell: void run()> with actual argTypes: [] and taint: [true]",
+            "<org.quartz.plugins.xml.FileScanJob: void execute(org.quartz.JobExecutionContext)> with actual argTypes: [org.quartz.impl.JobExecutionContextImpl] and taint: [true, true]",
+            "<org.quartz.impl.RemoteScheduler: org.quartz.SchedulerContext getContext()> with actual argTypes: [] and taint: [true]",
+            "<org.quartz.impl.RemoteScheduler: org.quartz.core.RemotableQuartzScheduler getRemoteScheduler()> with actual argTypes: [] and taint: [true]",
+            "<java.rmi.registry.Registry: java.rmi.Remote lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]"
+        ]
+    ]
+}

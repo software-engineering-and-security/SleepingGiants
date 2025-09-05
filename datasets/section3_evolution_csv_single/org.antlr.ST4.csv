@@ -1,0 +1,17 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+91532,org.antlr.ST4,3.0,2007-01-13,https://repo1.maven.org/maven2/org/antlr/stringtemplate/3.0/stringtemplate-3.0.jar,,,,,,,,3.2
+91514,org.antlr.ST4,3.2,2008-10-28,https://repo1.maven.org/maven2/org/antlr/stringtemplate/3.2/stringtemplate-3.2.jar,,,,,,,,3.2.1
+91515,org.antlr.ST4,3.2.1,2009-09-22,https://repo1.maven.org/maven2/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar,,,,,,,,4.0
+91516,org.antlr.ST4,4.0,2011-05-19,https://repo1.maven.org/maven2/org/antlr/stringtemplate/4.0/stringtemplate-4.0.jar,,,,,,,,4.0.2
+91517,org.antlr.ST4,4.0.2,2011-05-19,https://repo1.maven.org/maven2/org/antlr/stringtemplate/4.0.2/stringtemplate-4.0.2.jar,,,,,,,,4.0.3
+26052,org.antlr.ST4,4.0.3,2011-06-22,https://repo1.maven.org/maven2/org/antlr/ST4/4.0.3/ST4-4.0.3.jar,,,,,,,,4.0.4
+26053,org.antlr.ST4,4.0.4,2011-07-19,https://repo1.maven.org/maven2/org/antlr/ST4/4.0.4/ST4-4.0.4.jar,,,,,,,,4.0.7
+26054,org.antlr.ST4,4.0.7,2013-01-05,https://repo1.maven.org/maven2/org/antlr/ST4/4.0.7/ST4-4.0.7.jar,,,,,,,,4.0.8
+26055,org.antlr.ST4,4.0.8,2014-03-25,https://repo1.maven.org/maven2/org/antlr/ST4/4.0.8/ST4-4.0.8.jar,,,,,,,,4.1
+26056,org.antlr.ST4,4.1,2018-11-10,https://repo1.maven.org/maven2/org/antlr/ST4/4.1/ST4-4.1.jar,,,,,,,,4.2
+26057,org.antlr.ST4,4.2,2019-10-15,https://repo1.maven.org/maven2/org/antlr/ST4/4.2/ST4-4.2.jar,,,,,,,,4.3
+26058,org.antlr.ST4,4.3,2020-01-16,https://repo1.maven.org/maven2/org/antlr/ST4/4.3/ST4-4.3.jar,,,,,,,,4.3.1
+26059,org.antlr.ST4,4.3.1,2020-06-23,https://repo1.maven.org/maven2/org/antlr/ST4/4.3.1/ST4-4.3.1.jar,,,,,,,,4.3.2
+26060,org.antlr.ST4,4.3.2,2022-04-03,https://repo1.maven.org/maven2/org/antlr/ST4/4.3.2/ST4-4.3.2.jar,,,,,,,,4.3.3
+26061,org.antlr.ST4,4.3.3,2022-04-13,https://repo1.maven.org/maven2/org/antlr/ST4/4.3.3/ST4-4.3.3.jar,,,,,,,,4.3.4
+26062,org.antlr.ST4,4.3.4,2022-09-02,https://repo1.maven.org/maven2/org/antlr/ST4/4.3.4/ST4-4.3.4.jar,,,,,,,,

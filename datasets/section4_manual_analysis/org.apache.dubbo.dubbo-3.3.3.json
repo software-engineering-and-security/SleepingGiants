@@ -1,0 +1,86 @@
+{
+    "tabby": [
+        [
+            "org.apache.dubbo.common.serialize.DefaultSerializationExceptionWrapper$ProxyObjectInput#readObject",
+            "-[CALL]-> org.apache.dubbo.common.serialize.ObjectInput#readObject -[ALIAS]-> org.apache.dubbo.common.serialize.hessian2.Hessian2ObjectInput#readObject",
+            "-[CALL]-> org.apache.dubbo.common.serialize.hessian2.Hessian2FactoryManager#getSerializerFactory",
+            "-[CALL]-> org.apache.dubbo.common.utils.ConcurrentHashMapUtils#computeIfAbsent",
+            "-[CALL]-> java.util.function.Function#apply -[ALIAS]-> org.apache.dubbo.common.extension.ExtensionLoader$lambda_getResourceContent_7__369#apply",
+            "-[CALL]-> org.apache.dubbo.common.extension.ExtensionLoader#lambda$getResourceContent$7",
+            "-[CALL]-> java.net.URL#openStream"
+        ],
+        [
+            "org.apache.dubbo.common.serialize.ObjectInput#readObject -[ALIAS]-> org.apache.dubbo.common.serialize.hessian2.Hessian2ObjectInput#readObject",
+            "-[CALL]-> org.apache.dubbo.common.serialize.hessian2.Hessian2FactoryManager#getSerializerFactory",
+            "-[CALL]-> org.apache.dubbo.common.utils.ConcurrentHashMapUtils#computeIfAbsent",
+            "-[CALL]-> java.util.function.Function#apply -[ALIAS]-> org.apache.dubbo.common.extension.ExtensionLoader$lambda_getResourceContent_7__369#apply",
+            "-[CALL]-> org.apache.dubbo.common.extension.ExtensionLoader#lambda$getResourceContent$7",
+            "-[CALL]-> java.net.URL#openStream"
+        ],
+        [
+            "org.apache.dubbo.common.serialize.hessian2.Hessian2ObjectInput#readObject",
+            "-[CALL]-> org.apache.dubbo.common.serialize.hessian2.Hessian2FactoryManager#getSerializerFactory",
+            "-[CALL]-> org.apache.dubbo.common.utils.ConcurrentHashMapUtils#computeIfAbsent",
+            "-[CALL]-> java.util.function.Function#apply -[ALIAS]-> org.apache.dubbo.common.extension.ExtensionLoader$lambda_getResourceContent_7__369#apply",
+            "-[CALL]-> org.apache.dubbo.common.extension.ExtensionLoader#lambda$getResourceContent$7",
+            "-[CALL]-> java.net.URL#openStream"
+        ],
+        [
+            "javax.crypto.spec.SecretKeySpec#readObject",
+            "-[CALL]-> java.lang.Object#clone -[ALIAS]-> javax.crypto.Mac#clone",
+            "-[CALL]-> javax.crypto.Mac#chooseFirstProvider",
+            "-[CALL]-> java.security.Provider$Service#newInstance",
+            "-[CALL]-> java.security.Provider$Service#newInstanceUtil",
+            "-[CALL]-> java.security.Provider$Service#getImplClass",
+            "-[CALL]-> java.lang.ClassLoader#loadClass",
+            "-[CALL]-> java.lang.ClassLoader#loadClass",
+            "-[CALL]-> java.lang.ClassLoader#findClass -[ALIAS]-> org.apache.dubbo.common.compiler.support.JdkCompiler$ClassLoaderImpl#findClass",
+            "-[CALL]-> java.lang.ClassLoader#defineClass"
+        ],
+        [
+            "java.util.concurrent.ConcurrentSkipListMap#readObject",
+            "-[CALL]-> java.util.concurrent.ConcurrentSkipListMap#cpr",
+            "-[CALL]-> java.util.Comparator#compare -[ALIAS]-> java.util.Comparator$lambda_comparing_ea9a8b3a_1__993#compare",
+            "-[CALL]-> java.util.Comparator#lambda$comparing$ea9a8b3a$1",
+            "-[CALL]-> java.util.function.Function#apply -[ALIAS]-> org.apache.dubbo.common.extension.ExtensionLoader$lambda_getResourceContent_7__369#apply",
+            "-[CALL]-> org.apache.dubbo.common.extension.ExtensionLoader#lambda$getResourceContent$7",
+            "-[CALL]-> java.net.URL#openStream"
+        ],
+        [
+            "java.lang.Throwable#readObject",
+            "-[CALL]-> java.lang.Object#clone -[ALIAS]-> javax.crypto.Mac#clone",
+            "-[CALL]-> javax.crypto.Mac#chooseFirstProvider",
+            "-[CALL]-> java.security.Provider$Service#newInstance",
+            "-[CALL]-> java.security.Provider$Service#newInstanceUtil",
+            "-[CALL]-> java.security.Provider$Service#getImplClass",
+            "-[CALL]-> java.lang.ClassLoader#loadClass",
+            "-[CALL]-> java.lang.ClassLoader#loadClass",
+            "-[CALL]-> java.lang.ClassLoader#findClass -[ALIAS]-> org.apache.dubbo.common.compiler.support.JdkCompiler$ClassLoaderImpl#findClass",
+            "-[CALL]-> java.lang.ClassLoader#defineClass"
+        ],
+        [
+            "java.util.concurrent.ConcurrentSkipListMap#readObject",
+            "-[CALL]-> java.util.concurrent.ConcurrentSkipListMap#cpr",
+            "-[CALL]-> java.util.Comparator#compare -[ALIAS]-> org.apache.dubbo.common.extension.support.WrapperComparator#compare",
+            "-[CALL]-> org.apache.dubbo.common.extension.support.WrapperComparator#parseOrder",
+            "-[CALL]-> java.lang.Class#isAnnotationPresent",
+            "-[CALL]-> java.lang.reflect.AnnotatedElement#isAnnotationPresent",
+            "-[CALL]-> java.lang.reflect.AnnotatedElement#getAnnotation -[ALIAS]-> java.lang.Package#getAnnotation",
+            "-[CALL]-> java.lang.Package#getPackageInfo",
+            "-[CALL]-> java.lang.ClassLoader#loadClass"
+        ],
+        [
+            "java.security.Permissions#readObject",
+            "-[CALL]-> java.lang.Object#equals -[ALIAS]-> java.util.concurrent.ConcurrentSkipListMap#equals",
+            "-[CALL]-> java.util.concurrent.ConcurrentSkipListMap#cpr",
+            "-[CALL]-> java.util.Comparator#compare -[ALIAS]-> org.apache.dubbo.common.extension.support.WrapperComparator#compare",
+            "-[CALL]-> org.apache.dubbo.common.extension.support.WrapperComparator#parseOrder",
+            "-[CALL]-> java.lang.Class#isAnnotationPresent",
+            "-[CALL]-> java.lang.reflect.AnnotatedElement#isAnnotationPresent",
+            "-[CALL]-> java.lang.reflect.AnnotatedElement#getAnnotation -[ALIAS]-> java.lang.Package#getAnnotation",
+            "-[CALL]-> java.lang.Package#getPackageInfo",
+            "-[CALL]-> java.lang.ClassLoader#loadClass"
+        ]
+    ],
+    "androChain": []
+}

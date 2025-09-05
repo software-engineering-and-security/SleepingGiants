@@ -1,0 +1,7 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+102742,androidx.multidex.multidex,1.0.0,2017-05-11,https://maven.google.com/com/android/support/multidex/1.0.0/multidex-1.0.0.aar,,,,,,,,1.0.1
+102741,androidx.multidex.multidex,1.0.1,2017-05-11,https://maven.google.com/com/android/support/multidex/1.0.1/multidex-1.0.1.aar,,,,,,,,1.0.2
+102736,androidx.multidex.multidex,1.0.2,2017-07-13,https://maven.google.com/com/android/support/multidex/1.0.2/multidex-1.0.2.aar,,,,,,,,1.0.3
+102735,androidx.multidex.multidex,1.0.3,2018-02-27,https://maven.google.com/com/android/support/multidex/1.0.3/multidex-1.0.3.aar,,,,,,,,2.0.0
+54386,androidx.multidex.multidex,2.0.0,2018-05-07,https://maven.google.com/androidx/multidex/multidex/2.0.0/multidex-2.0.0.aar,,,,,,,,2.0.1
+54387,androidx.multidex.multidex,2.0.1,2018-12-17,https://maven.google.com/androidx/multidex/multidex/2.0.1/multidex-2.0.1.aar,,,,,,,,

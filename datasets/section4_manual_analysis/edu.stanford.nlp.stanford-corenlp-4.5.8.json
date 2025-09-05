@@ -1,0 +1,67 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<edu.stanford.nlp.util.ArrayHeap: java.util.Iterator iterator()> with actual argTypes: [] and taint: [true]",
+            "<edu.stanford.nlp.util.ArrayHeap: void <init>(java.util.Comparator,int)> with actual argTypes: [java.util.Comparator, int] and taint: [false, true, true]",
+            "<edu.stanford.nlp.util.Generics: java.util.Map newHashMap(int)> with actual argTypes: [int] and taint: [false, true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, true]"
+        ],
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<edu.stanford.nlp.objectbank.ReaderIteratorFactory$ReaderIterator: java.lang.Object next()> with actual argTypes: [] and taint: [true]",
+            "<edu.stanford.nlp.objectbank.ReaderIteratorFactory$ReaderIterator: java.io.Reader next()> with actual argTypes: [] and taint: [true]",
+            "<edu.stanford.nlp.objectbank.ReaderIteratorFactory$ReaderIterator: void setNextObject()> with actual argTypes: [] and taint: [true]",
+            "<java.net.URL: java.io.InputStream openStream()> with actual argTypes: [] and taint: [true]"
+        ],
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<edu.stanford.nlp.pipeline.AnnotationIterator: java.lang.Object next()> with actual argTypes: [] and taint: [true]",
+            "<edu.stanford.nlp.pipeline.AnnotationIterator: edu.stanford.nlp.pipeline.Annotation next()> with actual argTypes: [] and taint: [true]",
+            "<edu.stanford.nlp.pipeline.AnnotationIterator: edu.stanford.nlp.pipeline.Annotation readNextDocument()> with actual argTypes: [] and taint: [true]",
+            "<edu.stanford.nlp.pipeline.ProtobufAnnotationSerializer: edu.stanford.nlp.util.Pair read(java.io.InputStream)> with actual argTypes: [java.io.InputStream] and taint: [true, true]",
+            "<edu.stanford.nlp.pipeline.ProtobufAnnotationSerializer: edu.stanford.nlp.pipeline.Annotation fromProto(edu.stanford.nlp.pipeline.CoreNLPProtos$Document)> with actual argTypes: [edu.stanford.nlp.pipeline.CoreNLPProtos$Document] and taint: [true, true]",
+            "<edu.stanford.nlp.pipeline.ProtobufAnnotationSerializer: edu.stanford.nlp.coref.data.CorefChain fromProto(edu.stanford.nlp.pipeline.CoreNLPProtos$CorefChain,edu.stanford.nlp.pipeline.Annotation)> with actual argTypes: [edu.stanford.nlp.pipeline.CoreNLPProtos$CorefChain, edu.stanford.nlp.pipeline.Annotation] and taint: [true, true, false]",
+            "<edu.stanford.nlp.coref.data.Dictionaries$MentionType: edu.stanford.nlp.coref.data.Dictionaries$MentionType valueOf(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<java.lang.Enum: java.lang.Enum valueOf(java.lang.Class,java.lang.String)> with actual argTypes: [java.lang.Class, java.lang.String] and taint: [false, false, true]",
+            "<java.lang.Class: java.util.Map enumConstantDirectory()> with actual argTypes: [] and taint: [false]",
+            "<java.lang.Class: java.lang.Object[] getEnumConstantsShared()> with actual argTypes: [] and taint: [false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [null, java.lang.Object[]] and taint: [false, false, false]"
+        ],
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<edu.stanford.nlp.objectbank.LineIterator: java.lang.Object next()> with actual argTypes: [] and taint: [true]",
+            "<edu.stanford.nlp.objectbank.LineIterator: void setNext()> with actual argTypes: [] and taint: [true]",
+            "<edu.stanford.nlp.international.arabic.process.ArabicDocumentReaderAndWriter$1: java.lang.Object apply(java.lang.Object)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<edu.stanford.nlp.international.arabic.process.ArabicDocumentReaderAndWriter$1: java.util.List apply(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<edu.stanford.nlp.international.spanish.process.SpanishTokenizer$SpanishTokenizerFactory: edu.stanford.nlp.process.Tokenizer getTokenizer(java.io.Reader)> with actual argTypes: [java.io.StringReader] and taint: [true, false]",
+            "<edu.stanford.nlp.international.spanish.process.SpanishTokenizer: void <init>(java.io.Reader,edu.stanford.nlp.process.LexedTokenFactory,java.util.Properties,boolean,boolean,boolean)> with actual argTypes: [java.io.Reader, edu.stanford.nlp.process.LexedTokenFactory, java.util.Properties, boolean, boolean, boolean] and taint: [false, false, true, true, true, true, true]",
+            "<edu.stanford.nlp.international.spanish.SpanishVerbStripper: edu.stanford.nlp.international.spanish.SpanishVerbStripper getInstance()> with actual argTypes: [] and taint: [false]",
+            "<edu.stanford.nlp.international.spanish.SpanishVerbStripper: edu.stanford.nlp.international.spanish.SpanishVerbStripper getInstance(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<edu.stanford.nlp.international.spanish.SpanishVerbStripper: void <init>(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<edu.stanford.nlp.international.spanish.SpanishVerbStripper: java.util.HashMap setupDictionary(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<edu.stanford.nlp.io.IOUtils: java.io.BufferedReader readerFromString(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<edu.stanford.nlp.io.IOUtils: java.io.InputStream getInputStreamFromURLOrClasspathOrFileSystem(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<java.net.URL: java.net.URLConnection openConnection()> with actual argTypes: [] and taint: [false]"
+        ],
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<edu.stanford.nlp.objectbank.LineIterator: java.lang.Object next()> with actual argTypes: [] and taint: [true]",
+            "<edu.stanford.nlp.objectbank.LineIterator: void setNext()> with actual argTypes: [] and taint: [true]",
+            "<edu.stanford.nlp.international.arabic.process.ArabicDocumentReaderAndWriter$1: java.lang.Object apply(java.lang.Object)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<edu.stanford.nlp.international.arabic.process.ArabicDocumentReaderAndWriter$1: java.util.List apply(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<edu.stanford.nlp.trees.TreeTokenizerFactory: edu.stanford.nlp.process.Tokenizer getTokenizer(java.io.Reader)> with actual argTypes: [java.io.StringReader] and taint: [true, false]",
+            "<edu.stanford.nlp.trees.TreeTokenizerFactory$1: void <init>(edu.stanford.nlp.trees.TreeTokenizerFactory,java.io.Reader)> with actual argTypes: [edu.stanford.nlp.trees.TreeTokenizerFactory, java.io.Reader] and taint: [false, true, false]",
+            "<edu.stanford.nlp.trees.international.spanish.SpanishXMLTreeReaderFactory: edu.stanford.nlp.trees.TreeReader newTreeReader(java.io.Reader)> with actual argTypes: [java.io.Reader] and taint: [true, true]",
+            "<edu.stanford.nlp.trees.international.spanish.SpanishXMLTreeReader: void <init>(java.lang.String,java.io.Reader,boolean,boolean,boolean,boolean,boolean,boolean)> with actual argTypes: [null, java.io.Reader, boolean, boolean, boolean, boolean, boolean, boolean] and taint: [false, false, true, true, true, true, true, true, true]",
+            "<edu.stanford.nlp.util.XMLUtils: javax.xml.parsers.DocumentBuilder getXmlParser()> with actual argTypes: [] and taint: [false]",
+            "<edu.stanford.nlp.util.XMLUtils: javax.xml.parsers.DocumentBuilderFactory safeDocumentBuilderFactory()> with actual argTypes: [] and taint: [false]",
+            "<javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()> with actual argTypes: [] and taint: [false]",
+            "<javax.xml.parsers.FactoryFinder: java.lang.Object find(java.lang.Class,java.lang.String)> with actual argTypes: [java.lang.Class, java.lang.String] and taint: [false, false, false]",
+            "<javax.xml.parsers.FactoryFinder: java.lang.Object newInstance(java.lang.Class,java.lang.String,java.lang.ClassLoader,boolean)> with actual argTypes: [java.lang.Class, java.lang.String, null, int] and taint: [false, false, false, false, false]",
+            "<javax.xml.parsers.FactoryFinder: java.lang.Object newInstance(java.lang.Class,java.lang.String,java.lang.ClassLoader,boolean,boolean)> with actual argTypes: [java.lang.Class, java.lang.String, java.lang.ClassLoader, boolean, int] and taint: [false, false, false, false, false, false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, false]"
+        ]
+    ]
+}

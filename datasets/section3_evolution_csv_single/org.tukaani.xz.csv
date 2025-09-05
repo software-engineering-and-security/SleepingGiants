@@ -1,0 +1,12 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+82078,org.tukaani.xz,1.0,2011-10-22,https://repo1.maven.org/maven2/org/tukaani/xz/1.0/xz-1.0.jar,,,,,,,,1.1
+82079,org.tukaani.xz,1.1,2012-07-05,https://repo1.maven.org/maven2/org/tukaani/xz/1.1/xz-1.1.jar,,,,,,,,1.2
+82080,org.tukaani.xz,1.2,2013-01-29,https://repo1.maven.org/maven2/org/tukaani/xz/1.2/xz-1.2.jar,,,,,,,,1.3
+82081,org.tukaani.xz,1.3,2013-05-12,https://repo1.maven.org/maven2/org/tukaani/xz/1.3/xz-1.3.jar,,,,,,,,1.4
+82082,org.tukaani.xz,1.4,2013-09-22,https://repo1.maven.org/maven2/org/tukaani/xz/1.4/xz-1.4.jar,,,,,,,,1.5
+82083,org.tukaani.xz,1.5,2014-03-08,https://repo1.maven.org/maven2/org/tukaani/xz/1.5/xz-1.5.jar,,,,,,,,1.6
+82084,org.tukaani.xz,1.6,2016-11-27,https://repo1.maven.org/maven2/org/tukaani/xz/1.6/xz-1.6.jar,,,,,,,,1.7
+82107,org.tukaani.xz,1.7,2017-12-29,https://repo1.maven.org/maven2/org/tukaani/xz/1.7/xz-1.7.jar,,,,,,,,1.8
+82108,org.tukaani.xz,1.8,2018-01-04,https://repo1.maven.org/maven2/org/tukaani/xz/1.8/xz-1.8.jar,,,,,,,,1.9
+82109,org.tukaani.xz,1.9,2021-03-12,https://repo1.maven.org/maven2/org/tukaani/xz/1.9/xz-1.9.jar,,,,,,,,1.10
+82110,org.tukaani.xz,1.10,2024-07-29,https://repo1.maven.org/maven2/org/tukaani/xz/1.10/xz-1.10.jar,,,,,,,,

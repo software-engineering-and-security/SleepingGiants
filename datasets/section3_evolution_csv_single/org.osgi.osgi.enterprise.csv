@@ -1,0 +1,5 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+92239,org.osgi.osgi.enterprise,4.2.0,2010-09-07,https://repo1.maven.org/maven2/org/osgi/org.osgi.enterprise/4.2.0/org.osgi.enterprise-4.2.0.jar,,,,,,,,5.0.0
+48226,org.osgi.osgi.enterprise,5.0.0,2016-11-18,https://repo1.maven.org/maven2/org/osgi/osgi.enterprise/5.0.0/osgi.enterprise-5.0.0.jar,,,,,,,,6.0.0
+48227,org.osgi.osgi.enterprise,6.0.0,2015-08-05,https://repo1.maven.org/maven2/org/osgi/osgi.enterprise/6.0.0/osgi.enterprise-6.0.0.jar,,,,,,,,7.0.0
+48228,org.osgi.osgi.enterprise,7.0.0,2019-01-29,https://repo1.maven.org/maven2/org/osgi/osgi.enterprise/7.0.0/osgi.enterprise-7.0.0.jar,,,,,,,,

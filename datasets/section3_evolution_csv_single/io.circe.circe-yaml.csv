@@ -1,0 +1,22 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+32140,io.circe.circe-yaml,0.4.0,2016-12-06,https://repo1.maven.org/maven2/io/circe/circe-yaml_2.11/0.4.0/circe-yaml_2.11-0.4.0.jar,,,,,,,,0.5.0
+32141,io.circe.circe-yaml,0.5.0,2017-01-21,https://repo1.maven.org/maven2/io/circe/circe-yaml_2.12/0.5.0/circe-yaml_2.12-0.5.0.jar,,,,,,,,0.6.0
+32142,io.circe.circe-yaml,0.6.0,2017-06-05,https://repo1.maven.org/maven2/io/circe/circe-yaml_2.12/0.6.0/circe-yaml_2.12-0.6.0.jar,,,,,,,,0.6.1
+32143,io.circe.circe-yaml,0.6.1,2017-06-06,https://repo1.maven.org/maven2/io/circe/circe-yaml_2.12/0.6.1/circe-yaml_2.12-0.6.1.jar,,,,,,,,0.7.0
+32144,io.circe.circe-yaml,0.7.0,2018-01-04,https://repo1.maven.org/maven2/io/circe/circe-yaml_2.12/0.7.0/circe-yaml_2.12-0.7.0.jar,,,,,,,,0.8.0
+32145,io.circe.circe-yaml,0.8.0,2018-04-11,https://repo1.maven.org/maven2/io/circe/circe-yaml_2.12/0.8.0/circe-yaml_2.12-0.8.0.jar,,,,,,,,0.9.0
+32146,io.circe.circe-yaml,0.9.0,2018-09-28,https://repo1.maven.org/maven2/io/circe/circe-yaml_2.12/0.9.0/circe-yaml_2.12-0.9.0.jar,,,,,,,,0.10.0
+32147,io.circe.circe-yaml,0.10.0,2019-05-08,https://repo1.maven.org/maven2/io/circe/circe-yaml_2.12/0.10.0/circe-yaml_2.12-0.10.0.jar,,,,,,,,0.10.1
+32148,io.circe.circe-yaml,0.10.1,2019-12-18,https://repo1.maven.org/maven2/io/circe/circe-yaml_2.12/0.10.1/circe-yaml_2.12-0.10.1.jar,,,,,,,,0.12.0
+32149,io.circe.circe-yaml,0.12.0,2019-11-12,https://repo1.maven.org/maven2/io/circe/circe-yaml_2.13/0.12.0/circe-yaml_2.13-0.12.0.jar,15,,,,,,,0.13.0
+32150,io.circe.circe-yaml,0.13.0,2020-04-17,https://repo1.maven.org/maven2/io/circe/circe-yaml_2.13/0.13.0/circe-yaml_2.13-0.13.0.jar,15,0,0,0,0,0,0,0.13.1
+32151,io.circe.circe-yaml,0.13.1,2020-05-05,https://repo1.maven.org/maven2/io/circe/circe-yaml_2.13/0.13.1/circe-yaml_2.13-0.13.1.jar,15,0,0,0,0,0,0,0.14.0
+32132,io.circe.circe-yaml,0.14.0,2021-05-31,https://repo1.maven.org/maven2/io/circe/circe-yaml_3/0.14.0/circe-yaml_3-0.14.0.jar,24,9,0,0,0,0,0,0.14.1
+32152,io.circe.circe-yaml,0.14.1,2021-08-10,https://repo1.maven.org/maven2/io/circe/circe-yaml_3/0.14.1/circe-yaml_3-0.14.1.jar,24,0,0,0,0,0,0,0.14.2
+32131,io.circe.circe-yaml,0.14.2,2022-10-27,https://repo1.maven.org/maven2/io/circe/circe-yaml_3/0.14.2/circe-yaml_3-0.14.2.jar,27,0,0,0,0,3,0,0.15.0
+32129,io.circe.circe-yaml,0.15.0,2023-11-03,https://repo1.maven.org/maven2/io/circe/circe-yaml_3/0.15.0/circe-yaml_3-0.15.0.jar,28,0,1,0,0,2,0,0.15.1
+32108,io.circe.circe-yaml,0.15.1,2023-11-03,https://repo1.maven.org/maven2/io/circe/circe-yaml_3/0.15.1/circe-yaml_3-0.15.1.jar,28,0,0,0,0,0,0,0.15.2
+32109,io.circe.circe-yaml,0.15.2,2024-06-24,https://repo1.maven.org/maven2/io/circe/circe-yaml_3/0.15.2/circe-yaml_3-0.15.2.jar,30,0,0,0,0,2,0,0.15.3
+32110,io.circe.circe-yaml,0.15.3,2024-07-11,https://repo1.maven.org/maven2/io/circe/circe-yaml_3/0.15.3/circe-yaml_3-0.15.3.jar,30,0,0,0,0,0,0,0.16.0
+32111,io.circe.circe-yaml,0.16.0,2024-08-01,https://repo1.maven.org/maven2/io/circe/circe-yaml_3/0.16.0/circe-yaml_3-0.16.0.jar,30,0,0,0,0,0,0,1.15.0
+32112,io.circe.circe-yaml,1.15.0,2023-11-01,https://repo1.maven.org/maven2/io/circe/circe-yaml_3/1.15.0/circe-yaml_3-1.15.0.jar,: 28,0,0,0,0,0,2,

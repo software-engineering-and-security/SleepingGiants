@@ -1,0 +1,12 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+15053,com.101tec.zkclient,0.1.0,2013-05-29,https://repo1.maven.org/maven2/com/101tec/zkclient/0.1.0/zkclient-0.1.0.jar,,,,,,,,0.2
+15030,com.101tec.zkclient,0.2,2012-11-29,https://repo1.maven.org/maven2/com/101tec/zkclient/0.2/zkclient-0.2.jar,,,,,,,,0.3
+15029,com.101tec.zkclient,0.3,2013-05-29,https://repo1.maven.org/maven2/com/101tec/zkclient/0.3/zkclient-0.3.jar,,,,,,,,0.4
+15028,com.101tec.zkclient,0.4,2013-10-03,https://repo1.maven.org/maven2/com/101tec/zkclient/0.4/zkclient-0.4.jar,,,,,,,,0.5
+15027,com.101tec.zkclient,0.5,2015-04-30,https://repo1.maven.org/maven2/com/101tec/zkclient/0.5/zkclient-0.5.jar,,,,,,,,0.6
+15005,com.101tec.zkclient,0.6,2015-08-31,https://repo1.maven.org/maven2/com/101tec/zkclient/0.6/zkclient-0.6.jar,,,,,,,,0.7
+15006,com.101tec.zkclient,0.7,2015-11-06,https://repo1.maven.org/maven2/com/101tec/zkclient/0.7/zkclient-0.7.jar,,,,,,,,0.8
+15007,com.101tec.zkclient,0.8,2016-03-16,https://repo1.maven.org/maven2/com/101tec/zkclient/0.8/zkclient-0.8.jar,,,,,,,,0.9
+15008,com.101tec.zkclient,0.9,2016-06-14,https://repo1.maven.org/maven2/com/101tec/zkclient/0.9/zkclient-0.9.jar,,,,,,,,0.10
+15009,com.101tec.zkclient,0.10,2016-11-08,https://repo1.maven.org/maven2/com/101tec/zkclient/0.10/zkclient-0.10.jar,,,,,,,,0.11
+15010,com.101tec.zkclient,0.11,2018-10-23,https://repo1.maven.org/maven2/com/101tec/zkclient/0.11/zkclient-0.11.jar,,,,,,,,

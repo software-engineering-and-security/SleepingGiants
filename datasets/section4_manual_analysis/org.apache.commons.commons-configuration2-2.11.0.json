@@ -1,0 +1,25 @@
+{
+    "tabby": [
+        [
+            "java.beans.PropertyChangeSupport#readObject",
+            "-[CALL]-> java.util.Map$Entry#getValue -[ALIAS]-> org.apache.commons.configuration2.ConfigurationMap$ConfigurationSet$Entry#getValue",
+            "-[CALL]-> org.apache.commons.configuration2.ImmutableConfiguration#getProperty -[ALIAS]-> org.apache.commons.configuration2.AbstractConfiguration#getProperty",
+            "-[CALL]-> org.apache.commons.configuration2.AbstractConfiguration#getPropertyInternal -[ALIAS]-> org.apache.commons.configuration2.JNDIConfiguration#getPropertyInternal",
+            "-[CALL]-> javax.naming.Context#lookup -[ALIAS]-> javax.naming.InitialContext#lookup"
+        ]
+    ],
+    "androChain": [
+        [
+            "<java.security.SignedObject: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<org.apache.commons.configuration2.MapConfiguration: java.lang.Object clone()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.commons.configuration2.ConfigurationUtils: java.lang.Object clone(java.lang.Object)> with actual argTypes: [java.util.Map] and taint: [false, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [true, true, false]"
+        ],
+        [
+            "<java.security.SignedObject: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<org.apache.commons.configuration2.AbstractHierarchicalConfiguration: java.lang.Object clone()> with actual argTypes: [] and taint: [true]",
+            "<org.apache.commons.configuration2.ConfigurationUtils: org.apache.commons.configuration2.sync.Synchronizer cloneSynchronizer(org.apache.commons.configuration2.sync.Synchronizer)> with actual argTypes: [org.apache.commons.configuration2.sync.Synchronizer] and taint: [false, true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, false]"
+        ]
+    ]
+}

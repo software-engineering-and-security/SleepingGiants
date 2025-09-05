@@ -1,0 +1,4 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+27531,org.eclipse.equinox.common,3.2.0,2007-11-27,https://repo1.maven.org/maven2/org/eclipse/equinox/common/3.2.0-v20060603/common-3.2.0-v20060603.jar,,,,,,,,3.3.0
+27532,org.eclipse.equinox.common,3.3.0,2007-11-27,https://repo1.maven.org/maven2/org/eclipse/equinox/common/3.3.0-v20070426/common-3.3.0-v20070426.jar,,,,,,,,3.6.200
+27533,org.eclipse.equinox.common,3.6.200,2014-07-28,https://repo1.maven.org/maven2/org/eclipse/equinox/common/3.6.200-v20130402-1505/common-3.6.200-v20130402-1505.jar,,,,,,,,

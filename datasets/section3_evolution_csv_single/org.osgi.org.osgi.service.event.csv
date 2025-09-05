@@ -1,0 +1,4 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+27557,org.osgi.org.osgi.service.event,1.3.1,2015-08-18,https://repo1.maven.org/maven2/org/osgi/org.osgi.service.event/1.3.1/org.osgi.service.event-1.3.1.jar,,,,,,,,1.4.0
+27558,org.osgi.org.osgi.service.event,1.4.0,2018-04-20,https://repo1.maven.org/maven2/org/osgi/org.osgi.service.event/1.4.0/org.osgi.service.event-1.4.0.jar,,,,,,,,1.4.1
+27559,org.osgi.org.osgi.service.event,1.4.1,2021-10-13,https://repo1.maven.org/maven2/org/osgi/org.osgi.service.event/1.4.1/org.osgi.service.event-1.4.1.jar,,,,,,,,

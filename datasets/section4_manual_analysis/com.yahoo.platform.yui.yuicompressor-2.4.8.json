@@ -1,0 +1,17 @@
+{
+    "tabby": [
+        [
+            "org.mozilla.javascript.NativeJavaObject#readObject",
+            "-[CALL]-> org.mozilla.javascript.NativeJavaObject#initMembers",
+            "-[CALL]-> org.mozilla.javascript.JavaMembers#getFieldAndMethodsObjects",
+            "-[CALL]-> org.mozilla.javascript.FieldAndMethods#<init>",
+            "-[CALL]-> org.mozilla.javascript.ScriptableObject#getFunctionPrototype",
+            "-[CALL]-> org.mozilla.javascript.ScriptableObject#getClassPrototype",
+            "-[CALL]-> org.mozilla.javascript.Scriptable#get -[ALIAS]-> org.mozilla.javascript.NativeJavaClass#get",
+            "-[CALL]-> org.mozilla.javascript.NativeJavaClass#findNestedClass",
+            "-[CALL]-> org.mozilla.javascript.Kit#classOrNull",
+            "-[CALL]-> java.lang.ClassLoader#loadClass"
+        ]
+    ],
+    "androChain": []
+}

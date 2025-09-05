@@ -1,0 +1,29 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<io.lettuce.core.dynamic.support.TypeWrapper$TypeProxyInvocationHandler: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.reflect.Type, java.lang.Object[]] and taint: [true, true, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<io.lettuce.core.dynamic.support.TypeWrapper$TypeProxyInvocationHandler: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<io.lettuce.core.dynamic.support.TypeWrapper$MethodInvokeTypeProvider: java.lang.reflect.Type getType()> with actual argTypes: [] and taint: [true]",
+            "<io.lettuce.core.dynamic.support.ReflectionUtils: java.lang.Object invokeMethod(java.lang.reflect.Method,java.lang.Object)> with actual argTypes: [java.lang.reflect.Method, java.lang.reflect.Type] and taint: [false, true, true]",
+            "<io.lettuce.core.dynamic.support.ReflectionUtils: java.lang.Object invokeMethod(java.lang.reflect.Method,java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.reflect.Method, java.lang.Object, java.lang.Object[]] and taint: [false, true, true, false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [true, true, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<io.lettuce.core.dynamic.support.TypeWrapper$TypeProxyInvocationHandler: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<io.lettuce.core.dynamic.support.TypeWrapper: java.lang.reflect.Type forTypeProvider(io.lettuce.core.dynamic.support.TypeWrapper$TypeProvider)> with actual argTypes: [io.lettuce.core.dynamic.support.TypeWrapper$MethodInvokeTypeProvider] and taint: [false, false]",
+            "<java.lang.reflect.Proxy: java.lang.Object newProxyInstance(java.lang.ClassLoader,java.lang.Class[],java.lang.reflect.InvocationHandler)> with actual argTypes: [java.lang.ClassLoader, java.lang.Class[], io.lettuce.core.dynamic.support.TypeWrapper$TypeProxyInvocationHandler] and taint: [false, false, false, false]",
+            "<java.lang.reflect.Proxy: java.lang.Object newProxyInstance(java.lang.Class,java.lang.reflect.Constructor,java.lang.reflect.InvocationHandler)> with actual argTypes: [java.lang.Class, java.lang.reflect.Constructor, java.lang.reflect.InvocationHandler] and taint: [false, false, false, false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, false]"
+        ]
+    ]
+}

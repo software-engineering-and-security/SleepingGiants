@@ -1,0 +1,15 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<jenkins.plugins.git.GitSCMSource: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<jenkins.plugins.git.traits.GitSCMExtensionTraitDescriptor: jenkins.scm.api.trait.SCMSourceTrait convertToTrait(hudson.plugins.git.extensions.GitSCMExtension)> with actual argTypes: [hudson.plugins.git.extensions.GitSCMExtension] and taint: [false, true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, false]"
+        ],
+        [
+            "<jenkins.plugins.git.GitSCMSource: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<jenkins.plugins.git.traits.GitSCMExtensionTraitDescriptor: jenkins.scm.api.trait.SCMSourceTrait convertToTrait(hudson.plugins.git.extensions.GitSCMExtension)> with actual argTypes: [hudson.plugins.git.extensions.GitSCMExtension] and taint: [false, true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, true]"
+        ]
+    ]
+}

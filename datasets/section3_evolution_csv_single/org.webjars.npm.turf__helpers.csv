@@ -1,0 +1,4 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+36216,org.webjars.npm.turf__helpers,6.1.4,2018-08-14,https://repo1.maven.org/maven2/org/webjars/npm/turf__helpers/6.1.4/turf__helpers-6.1.4.jar,,,,,,,,
+36217,org.webjars.npm.turf__helpers,6.3.0,2021-01-29,https://repo1.maven.org/maven2/org/webjars/npm/turf__helpers/6.3.0/turf__helpers-6.3.0.jar,,,,,,,,
+36218,org.webjars.npm.turf__helpers,6.5.0,2021-09-24,https://repo1.maven.org/maven2/org/webjars/npm/turf__helpers/6.5.0/turf__helpers-6.5.0.jar,,,,,,,,

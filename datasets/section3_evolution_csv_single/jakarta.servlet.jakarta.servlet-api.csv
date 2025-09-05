@@ -1,0 +1,15 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+110646,jakarta.servlet.jakarta.servlet-api,2.2,2005-11-08,https://repo1.maven.org/maven2/javax/servlet/servlet-api/2.2/servlet-api-2.2.jar,4,,,,,,,2.3
+110647,jakarta.servlet.jakarta.servlet-api,2.3,2005-11-08,https://repo1.maven.org/maven2/javax/servlet/servlet-api/2.3/servlet-api-2.3.jar,4,0,0,0,0,0,0,2.4
+110638,jakarta.servlet.jakarta.servlet-api,2.4,2005-11-08,https://repo1.maven.org/maven2/javax/servlet/servlet-api/2.4/servlet-api-2.4.jar,2,0,0,0,0,0,2,2.5
+110639,jakarta.servlet.jakarta.servlet-api,2.5,2006-07-17,https://repo1.maven.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar,2,0,0,0,0,0,0,3.0.1
+90549,jakarta.servlet.jakarta.servlet-api,3.0.1,2011-07-12,https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar,3,1,0,0,0,0,0,3.1.0
+90550,jakarta.servlet.jakarta.servlet-api,3.1.0,2013-04-25,https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar,3,0,0,0,0,0,0,4.0.0
+90551,jakarta.servlet.jakarta.servlet-api,4.0.0,2017-08-15,https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/4.0.0/javax.servlet-api-4.0.0.jar,5,0,0,0,0,2,0,4.0.1
+90583,jakarta.servlet.jakarta.servlet-api,4.0.1,2018-04-20,https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar,5,0,0,0,0,0,0,4.0.2
+72924,jakarta.servlet.jakarta.servlet-api,4.0.2,2019-01-14,https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/4.0.2/jakarta.servlet-api-4.0.2.jar,5,0,0,0,0,0,0,4.0.3
+72923,jakarta.servlet.jakarta.servlet-api,4.0.3,2019-09-06,https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/4.0.3/jakarta.servlet-api-4.0.3.jar,5,0,0,0,0,0,0,4.0.4
+72922,jakarta.servlet.jakarta.servlet-api,4.0.4,2020-06-22,https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/4.0.4/jakarta.servlet-api-4.0.4.jar,5,0,0,0,0,0,0,5.0.0
+72921,jakarta.servlet.jakarta.servlet-api,5.0.0,2020-09-30,https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/5.0.0/jakarta.servlet-api-5.0.0.jar,5,0,0,0,0,5,5,6.0.0
+72920,jakarta.servlet.jakarta.servlet-api,6.0.0,2022-06-01,https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar,5,0,0,0,0,0,0,6.1.0
+72919,jakarta.servlet.jakarta.servlet-api,6.1.0,2024-06-11,https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/6.1.0/jakarta.servlet-api-6.1.0.jar,: 5,0,0,0,0,0,0,

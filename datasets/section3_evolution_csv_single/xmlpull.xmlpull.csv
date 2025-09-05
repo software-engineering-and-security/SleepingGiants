@@ -1,0 +1,3 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+32352,xmlpull.xmlpull,1.1.2.1,2005-11-08,https://repo1.maven.org/maven2/xmlpull/xmlpull/1.1.2.1/xmlpull-1.1.2.1.jar,,,,,,,,1.1.3.1
+32353,xmlpull.xmlpull,1.1.3.1,2007-03-20,https://repo1.maven.org/maven2/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar,,,,,,,,

@@ -1,0 +1,19 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<zipkin2.Span$SerializedForm: java.lang.Object readResolve()> with actual argTypes: [] and taint: [true]",
+            "<zipkin2.codec.SpanBytesDecoder$3: java.lang.Object decodeOne(byte[])> with actual argTypes: [byte[]] and taint: [false, true]",
+            "<zipkin2.codec.SpanBytesDecoder$3: zipkin2.Span decodeOne(byte[])> with actual argTypes: [byte[]] and taint: [false, true]",
+            "<zipkin2.internal.JsonCodec: java.lang.Object readOne(zipkin2.internal.JsonCodec$JsonReaderAdapter,zipkin2.internal.ReadBuffer)> with actual argTypes: [zipkin2.internal.V2SpanReader, zipkin2.internal.ReadBuffer] and taint: [false, false, true]",
+            "<zipkin2.internal.JsonCodec: boolean read(zipkin2.internal.JsonCodec$JsonReaderAdapter,zipkin2.internal.ReadBuffer,java.util.Collection)> with actual argTypes: [zipkin2.internal.JsonCodec$JsonReaderAdapter, zipkin2.internal.ReadBuffer, java.util.ArrayList] and taint: [false, false, true, false]",
+            "<zipkin2.internal.V2SpanReader: java.lang.Object fromJson(zipkin2.internal.JsonCodec$JsonReader)> with actual argTypes: [zipkin2.internal.JsonCodec$JsonReader] and taint: [false, false]",
+            "<zipkin2.internal.V2SpanReader: zipkin2.Span fromJson(zipkin2.internal.JsonCodec$JsonReader)> with actual argTypes: [zipkin2.internal.JsonCodec$JsonReader] and taint: [false, false]",
+            "<zipkin2.Span$Kind: zipkin2.Span$Kind valueOf(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, false]",
+            "<java.lang.Enum: java.lang.Enum valueOf(java.lang.Class,java.lang.String)> with actual argTypes: [java.lang.Class, java.lang.String] and taint: [false, false, false]",
+            "<java.lang.Class: java.util.Map enumConstantDirectory()> with actual argTypes: [] and taint: [false]",
+            "<java.lang.Class: java.lang.Object[] getEnumConstantsShared()> with actual argTypes: [] and taint: [false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [null, java.lang.Object[]] and taint: [false, false, false]"
+        ]
+    ]
+}

@@ -1,0 +1,6 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+81541,concurrent.concurrent,1.0,2005-11-08,https://repo1.maven.org/maven2/concurrent/concurrent/1.0/concurrent-1.0.jar,35,,,,,,,1.3.1
+81524,concurrent.concurrent,1.3.1,2005-11-08,https://repo1.maven.org/maven2/concurrent/concurrent/1.3.1/concurrent-1.3.1.jar,6,0,0,0,0,0,29,1.3.2
+81523,concurrent.concurrent,1.3.2,2005-11-08,https://repo1.maven.org/maven2/concurrent/concurrent/1.3.2/concurrent-1.3.2.jar,7,0,0,0,0,1,0,1.3.3
+81517,concurrent.concurrent,1.3.3,2005-11-08,https://repo1.maven.org/maven2/concurrent/concurrent/1.3.3/concurrent-1.3.3.jar,37,1,0,0,0,29,0,1.3.4
+81518,concurrent.concurrent,1.3.4,2006-02-06,https://repo1.maven.org/maven2/concurrent/concurrent/1.3.4/concurrent-1.3.4.jar,: 37,0,0,0,0,0,0,

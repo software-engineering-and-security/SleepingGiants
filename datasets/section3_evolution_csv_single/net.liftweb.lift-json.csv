@@ -1,0 +1,27 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+9986,net.liftweb.lift-json,2.0,2010-06-29,https://repo1.maven.org/maven2/net/liftweb/lift-json/2.0/lift-json-2.0.jar,159,,,,,,,2.1
+10008,net.liftweb.lift-json,2.1,2010-09-24,https://repo1.maven.org/maven2/net/liftweb/lift-json_2.8.0/2.1/lift-json_2.8.0-2.1.jar,159,0,0,0,0,5,5,2.2
+10009,net.liftweb.lift-json,2.2,2011-01-05,https://repo1.maven.org/maven2/net/liftweb/lift-json_2.8.1/2.2/lift-json_2.8.1-2.2.jar,190,31,0,0,0,0,0,2.3
+10017,net.liftweb.lift-json,2.3,2011-04-05,https://repo1.maven.org/maven2/net/liftweb/lift-json_2.8.1/2.3/lift-json_2.8.1-2.3.jar,,0,0,0,0,34,3,2.4
+10018,net.liftweb.lift-json,2.4,2012-01-01,https://repo1.maven.org/maven2/net/liftweb/lift-json_2.9.1/2.4/lift-json_2.9.1-2.4.jar,,,,,,,,2.5
+10019,net.liftweb.lift-json,2.5,2013-06-01,https://repo1.maven.org/maven2/net/liftweb/lift-json_2.10/2.5/lift-json_2.10-2.5.jar,,,,,,,,2.5.1
+10020,net.liftweb.lift-json,2.5.1,2013-06-26,https://repo1.maven.org/maven2/net/liftweb/lift-json_2.10/2.5.1/lift-json_2.10-2.5.1.jar,,,,,,,,2.5.2
+10021,net.liftweb.lift-json,2.5.2,2015-03-15,https://repo1.maven.org/maven2/net/liftweb/lift-json_2.10/2.5.2/lift-json_2.10-2.5.2.jar,,,,,,,,2.5.3
+10022,net.liftweb.lift-json,2.5.3,2015-03-22,https://repo1.maven.org/maven2/net/liftweb/lift-json_2.10/2.5.3/lift-json_2.10-2.5.3.jar,,,,,,,,2.5.4
+10023,net.liftweb.lift-json,2.5.4,2016-01-31,https://repo1.maven.org/maven2/net/liftweb/lift-json_2.10/2.5.4/lift-json_2.10-2.5.4.jar,,,,,,,,2.6
+10024,net.liftweb.lift-json,2.6,2015-01-10,https://repo1.maven.org/maven2/net/liftweb/lift-json_2.11/2.6/lift-json_2.11-2.6.jar,,,,,,,,2.6.1
+10025,net.liftweb.lift-json,2.6.1,2015-03-15,https://repo1.maven.org/maven2/net/liftweb/lift-json_2.11/2.6.1/lift-json_2.11-2.6.1.jar,,,,,,,,2.6.2
+10016,net.liftweb.lift-json,2.6.2,2015-03-20,https://repo1.maven.org/maven2/net/liftweb/lift-json_2.11/2.6.2/lift-json_2.11-2.6.2.jar,,,,,,,,2.6.3
+10026,net.liftweb.lift-json,2.6.3,2016-01-31,https://repo1.maven.org/maven2/net/liftweb/lift-json_2.11/2.6.3/lift-json_2.11-2.6.3.jar,,,,,,,,3.0
+10010,net.liftweb.lift-json,3.0,2016-11-13,https://repo1.maven.org/maven2/net/liftweb/lift-json_2.11/3.0/lift-json_2.11-3.0.jar,,,,,,,,3.0.1
+10011,net.liftweb.lift-json,3.0.1,2016-12-13,https://repo1.maven.org/maven2/net/liftweb/lift-json_2.12/3.0.1/lift-json_2.12-3.0.1.jar,,,,,,,,3.0.2
+10012,net.liftweb.lift-json,3.0.2,2017-09-16,https://repo1.maven.org/maven2/net/liftweb/lift-json_2.12/3.0.2/lift-json_2.12-3.0.2.jar,,,,,,,,3.1.0
+10013,net.liftweb.lift-json,3.1.0,2017-07-02,https://repo1.maven.org/maven2/net/liftweb/lift-json_2.12/3.1.0/lift-json_2.12-3.1.0.jar,,,,,,,,3.1.1
+10014,net.liftweb.lift-json,3.1.1,2017-09-16,https://repo1.maven.org/maven2/net/liftweb/lift-json_2.12/3.1.1/lift-json_2.12-3.1.1.jar,,,,,,,,3.2.0
+10015,net.liftweb.lift-json,3.2.0,2018-01-27,https://repo1.maven.org/maven2/net/liftweb/lift-json_2.12/3.2.0/lift-json_2.12-3.2.0.jar,,,,,,,,3.3.0
+5662,net.liftweb.lift-json,3.3.0,2018-07-11,https://repo1.maven.org/maven2/net/liftweb/lift-json_2.12/3.3.0/lift-json_2.12-3.3.0.jar,,,,,,,,3.4.0
+5661,net.liftweb.lift-json,3.4.0,2019-10-23,https://repo1.maven.org/maven2/net/liftweb/lift-json_2.13/3.4.0/lift-json_2.13-3.4.0.jar,102,,,,,,,3.4.1
+2748,net.liftweb.lift-json,3.4.1,2020-01-18,https://repo1.maven.org/maven2/net/liftweb/lift-json_2.13/3.4.1/lift-json_2.13-3.4.1.jar,102,0,0,0,0,0,0,3.4.2
+1859,net.liftweb.lift-json,3.4.2,2020-08-30,https://repo1.maven.org/maven2/net/liftweb/lift-json_2.13/3.4.2/lift-json_2.13-3.4.2.jar,102,0,0,0,0,0,0,3.4.3
+1860,net.liftweb.lift-json,3.4.3,2020-11-28,https://repo1.maven.org/maven2/net/liftweb/lift-json_2.13/3.4.3/lift-json_2.13-3.4.3.jar,102,0,0,0,0,0,0,3.5.0
+1861,net.liftweb.lift-json,3.5.0,2021-10-08,https://repo1.maven.org/maven2/net/liftweb/lift-json_2.13/3.5.0/lift-json_2.13-3.5.0.jar,: 102,0,0,0,0,0,0,

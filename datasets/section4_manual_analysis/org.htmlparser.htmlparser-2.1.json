@@ -1,0 +1,17 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.htmlparser.beans.HTMLTextBean: void propertyChange(java.beans.PropertyChangeEvent)> with actual argTypes: [java.beans.PropertyChangeEvent] and taint: [true, true]",
+            "<javax.swing.text.JTextComponent: void setText(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]",
+            "<javax.swing.text.AbstractDocument: void replace(int,int,java.lang.String,javax.swing.text.AttributeSet)> with actual argTypes: [int, int, java.lang.String, null] and taint: [true, false, true, true, false]",
+            "<javax.swing.text.DefaultFormatter$DefaultDocumentFilter: void replace(javax.swing.text.DocumentFilter$FilterBypass,int,int,java.lang.String,javax.swing.text.AttributeSet)> with actual argTypes: [javax.swing.text.DocumentFilter$FilterBypass, int, int, java.lang.String, javax.swing.text.AttributeSet] and taint: [true, true, false, true, true, false]",
+            "<javax.swing.text.NumberFormatter: void replace(javax.swing.text.DocumentFilter$FilterBypass,int,int,java.lang.String,javax.swing.text.AttributeSet)> with actual argTypes: [javax.swing.text.DocumentFilter$FilterBypass, int, int, java.lang.String, javax.swing.text.AttributeSet] and taint: [true, true, false, true, true, false]",
+            "<javax.swing.text.NumberFormatter: boolean toggleSignIfNecessary(javax.swing.text.DocumentFilter$FilterBypass,int,char)> with actual argTypes: [javax.swing.text.DocumentFilter$FilterBypass, int, char] and taint: [true, true, false, true]",
+            "<javax.swing.text.NumberFormatter: java.lang.Object toggleSign(boolean)> with actual argTypes: [boolean] and taint: [true, false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, true]"
+        ]
+    ]
+}

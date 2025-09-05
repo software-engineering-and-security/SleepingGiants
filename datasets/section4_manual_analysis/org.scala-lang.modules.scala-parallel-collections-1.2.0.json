@@ -1,0 +1,35 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<scala.collection.parallel.immutable.ParHashMap: boolean equals(java.lang.Object)> with actual argTypes: [java.lang.Class] and taint: [true, true]",
+            "<scala.collection.parallel.ParMapLike: boolean equals$(scala.collection.parallel.ParMapLike,java.lang.Object)> with actual argTypes: [scala.collection.parallel.immutable.ParHashMap, java.lang.Object] and taint: [false, true, true]",
+            "<scala.collection.parallel.ParMapLike: boolean equals(java.lang.Object)> with actual argTypes: [java.lang.Object] and taint: [true, true]",
+            "<scala.collection.parallel.mutable.ParTrieMap: int size()> with actual argTypes: [] and taint: [true]",
+            "<scala.collection.parallel.ForkJoinTaskSupport: java.lang.Object executeAndWaitResult(scala.collection.parallel.Task)> with actual argTypes: [scala.collection.parallel.mutable.ParTrieMap$Size] and taint: [true, false]",
+            "<scala.collection.parallel.ForkJoinTasks: java.lang.Object executeAndWaitResult$(scala.collection.parallel.ForkJoinTasks,scala.collection.parallel.Task)> with actual argTypes: [scala.collection.parallel.ForkJoinTaskSupport, scala.collection.parallel.Task] and taint: [false, true, false]",
+            "<scala.collection.parallel.ForkJoinTasks: java.lang.Object executeAndWaitResult(scala.collection.parallel.Task)> with actual argTypes: [scala.collection.parallel.Task] and taint: [true, false]",
+            "<scala.collection.parallel.ForkJoinTasks$FJTWrappedTask: void sync()> with actual argTypes: [] and taint: [true]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Object join()> with actual argTypes: [] and taint: [true]",
+            "<java.util.concurrent.ForkJoinTask: void reportException(int)> with actual argTypes: [int] and taint: [true, true]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Throwable getThrowableException()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, true]"
+        ],
+        [
+            "<java.security.Permissions: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<scala.collection.parallel.immutable.ParHashMap: boolean equals(java.lang.Object)> with actual argTypes: [java.lang.Class] and taint: [true, true]",
+            "<scala.collection.parallel.ParMapLike: boolean equals$(scala.collection.parallel.ParMapLike,java.lang.Object)> with actual argTypes: [scala.collection.parallel.immutable.ParHashMap, java.lang.Object] and taint: [false, true, true]",
+            "<scala.collection.parallel.ParMapLike: boolean equals(java.lang.Object)> with actual argTypes: [java.lang.Object] and taint: [true, true]",
+            "<scala.collection.parallel.mutable.ParTrieMap: int size()> with actual argTypes: [] and taint: [true]",
+            "<scala.collection.parallel.ForkJoinTaskSupport: java.lang.Object executeAndWaitResult(scala.collection.parallel.Task)> with actual argTypes: [scala.collection.parallel.mutable.ParTrieMap$Size] and taint: [true, false]",
+            "<scala.collection.parallel.ForkJoinTasks: java.lang.Object executeAndWaitResult$(scala.collection.parallel.ForkJoinTasks,scala.collection.parallel.Task)> with actual argTypes: [scala.collection.parallel.ForkJoinTaskSupport, scala.collection.parallel.Task] and taint: [false, true, false]",
+            "<scala.collection.parallel.ForkJoinTasks: java.lang.Object executeAndWaitResult(scala.collection.parallel.Task)> with actual argTypes: [scala.collection.parallel.Task] and taint: [true, false]",
+            "<scala.collection.parallel.ForkJoinTasks$FJTWrappedTask: void sync()> with actual argTypes: [] and taint: [true]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Object join()> with actual argTypes: [] and taint: [true]",
+            "<java.util.concurrent.ForkJoinTask: void reportException(int)> with actual argTypes: [int] and taint: [true, true]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Throwable getThrowableException()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, false]"
+        ]
+    ]
+}

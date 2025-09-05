@@ -1,0 +1,194 @@
+{
+    "tabby": [
+        [
+            "java.util.concurrent.ConcurrentSkipListMap#readObject",
+            "-[CALL]-> java.util.concurrent.ConcurrentSkipListMap#cpr",
+            "-[CALL]-> java.util.Comparator#compare -[ALIAS]-> java.util.Comparator$lambda_comparing_77a9974f_1__1747#compare",
+            "-[CALL]-> java.util.Comparator#lambda$comparing$77a9974f$1",
+            "-[CALL]-> java.util.function.Function#apply -[ALIAS]-> org.redisson.RedissonClientSideCaching$2$lambda_invoke_2__1501#apply",
+            "-[CALL]-> org.redisson.RedissonClientSideCaching$2#lambda$invoke$2",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ],
+        [
+            "java.util.concurrent.ConcurrentSkipListMap#readObject",
+            "-[CALL]-> java.util.concurrent.ConcurrentSkipListMap#cpr",
+            "-[CALL]-> java.util.Comparator#compare -[ALIAS]-> java.util.Comparator$lambda_comparing_77a9974f_1__1742#compare",
+            "-[CALL]-> java.util.Comparator#lambda$comparing$77a9974f$1",
+            "-[CALL]-> java.util.function.Function#apply -[ALIAS]-> org.redisson.command.CommandAsyncService$lambda_readAllAsync_4__217#apply",
+            "-[CALL]-> org.redisson.command.CommandAsyncService#lambda$readAllAsync$4",
+            "-[CALL]-> org.redisson.command.CommandAsyncService#async",
+            "-[CALL]-> org.redisson.command.RedisExecutor#execute",
+            "-[CALL]-> org.redisson.command.RedisExecutor#getCodec",
+            "-[CALL]-> java.lang.reflect.Constructor#newInstance"
+        ],
+        [
+            "java.util.concurrent.ConcurrentSkipListMap#readObject",
+            "-[CALL]-> java.util.concurrent.ConcurrentSkipListMap#cpr",
+            "-[CALL]-> java.util.Comparator#compare -[ALIAS]-> java.util.Comparator$lambda_comparing_77a9974f_1__311#compare",
+            "-[CALL]-> java.util.Comparator#lambda$comparing$77a9974f$1",
+            "-[CALL]-> java.util.function.Function#apply -[ALIAS]-> org.redisson.RedissonClientSideCaching$2$lambda_invoke_2__491#apply",
+            "-[CALL]-> org.redisson.RedissonClientSideCaching$2#lambda$invoke$2",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ],
+        [
+            "java.util.concurrent.ConcurrentSkipListMap#readObject",
+            "-[CALL]-> java.util.concurrent.ConcurrentSkipListMap#cpr",
+            "-[CALL]-> java.util.Comparator#compare -[ALIAS]-> java.util.Comparator$lambda_comparing_77a9974f_1__1712#compare",
+            "-[CALL]-> java.util.Comparator#lambda$comparing$77a9974f$1",
+            "-[CALL]-> java.util.function.Function#apply -[ALIAS]-> org.redisson.RedissonClientSideCaching$2$lambda_invoke_2__279#apply",
+            "-[CALL]-> org.redisson.RedissonClientSideCaching$2#lambda$invoke$2",
+            "-[CALL]-> java.lang.reflect.Method#invoke"
+        ]
+    ],
+    "androChain": [
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.redisson.mapreduce.CoordinatorTask: java.lang.Object call()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.redisson.mapreduce.CollectionMapperTask: void run()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.redisson.mapreduce.MapperTask: void run()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.redisson.mapreduce.ReducerTask: void run()> with actual argTypes: [] and taint: [true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.redisson.api.RScheduledExecutorService: java.util.concurrent.ScheduledFuture scheduleWithFixedDelay(java.lang.Runnable,long,long,java.util.concurrent.TimeUnit)> with actual argTypes: [java.lang.Runnable, long, long, java.util.concurrent.TimeUnit] and taint: [true, true, true, true, true]",
+            "<org.redisson.RedissonExecutorService: org.redisson.api.RScheduledFuture scheduleWithFixedDelay(java.lang.Runnable,long,long,java.util.concurrent.TimeUnit)> with actual argTypes: [java.lang.Runnable, long, long, java.util.concurrent.TimeUnit] and taint: [true, true, true, true, true]",
+            "<org.redisson.RedissonExecutorService: org.redisson.api.RScheduledFuture scheduleWithoutCheckWithFixedDelayAsync(java.lang.String,java.lang.Runnable,java.time.Duration,java.time.Duration)> with actual argTypes: [java.lang.String, java.lang.Runnable, java.time.Duration, java.time.Duration] and taint: [true, true, true, true, true]",
+            "<org.redisson.RedissonExecutorService: org.redisson.RedissonExecutorService$ClassBody getClassBody(java.lang.Object)> with actual argTypes: [java.lang.Runnable] and taint: [true, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [true, true, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.redisson.RedissonTransferQueue: java.lang.Object poll(long,java.util.concurrent.TimeUnit)> with actual argTypes: [long, java.util.concurrent.TimeUnit] and taint: [true, true, true]",
+            "<org.redisson.RedissonRemoteService: boolean tryExecute(java.lang.Class,java.lang.Object,java.util.concurrent.ExecutorService,long,java.util.concurrent.TimeUnit)> with actual argTypes: [java.lang.Class, org.redisson.RedissonTransferQueue$TransferQueueServiceImpl, java.util.concurrent.ExecutorService, long, java.util.concurrent.TimeUnit] and taint: [true, false, false, false, true, true]",
+            "<org.redisson.RedissonRemoteService: org.redisson.api.RFuture executeMethod(java.lang.Class,org.redisson.api.RBlockingQueue,java.util.concurrent.ExecutorService,org.redisson.remote.RemoteServiceRequest,java.lang.Object)> with actual argTypes: [java.lang.Class, org.redisson.api.RBlockingQueue, java.util.concurrent.ExecutorService, org.redisson.remote.RemoteServiceRequest, java.lang.Object] and taint: [true, false, true, false, true, false]",
+            "<org.redisson.RedissonRemoteService: void lambda$executeMethod$15(org.redisson.remote.RemoteServiceRequest,org.redisson.remote.RemoteServiceMethod,java.util.concurrent.CompletableFuture,java.util.concurrent.CompletableFuture)> with actual argTypes: [org.redisson.remote.RemoteServiceRequest, org.redisson.remote.RemoteServiceMethod, java.util.concurrent.CompletableFuture, java.util.concurrent.CompletableFuture] and taint: [false, false, false, false, false]",
+            "<org.redisson.RedissonRemoteService: void invokeMethod(org.redisson.remote.RemoteServiceRequest,org.redisson.remote.RemoteServiceMethod,java.util.concurrent.CompletableFuture,java.util.concurrent.CompletableFuture)> with actual argTypes: [org.redisson.remote.RemoteServiceRequest, org.redisson.remote.RemoteServiceMethod, java.util.concurrent.CompletableFuture, java.util.concurrent.CompletableFuture] and taint: [false, false, false, false, false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [false, false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.redisson.RedissonTransferQueue: java.lang.Object poll(long,java.util.concurrent.TimeUnit)> with actual argTypes: [long, java.util.concurrent.TimeUnit] and taint: [true, true, true]",
+            "<org.redisson.RedissonRemoteService: boolean tryExecute(java.lang.Class,java.lang.Object,java.util.concurrent.ExecutorService,long,java.util.concurrent.TimeUnit)> with actual argTypes: [java.lang.Class, org.redisson.RedissonTransferQueue$TransferQueueServiceImpl, java.util.concurrent.ExecutorService, long, java.util.concurrent.TimeUnit] and taint: [true, false, false, false, true, true]",
+            "<org.redisson.RedissonRemoteService: org.redisson.api.RFuture executeMethod(java.lang.Class,org.redisson.api.RBlockingQueue,java.util.concurrent.ExecutorService,org.redisson.remote.RemoteServiceRequest,java.lang.Object)> with actual argTypes: [java.lang.Class, org.redisson.api.RBlockingQueue, java.util.concurrent.ExecutorService, org.redisson.remote.RemoteServiceRequest, java.lang.Object] and taint: [true, false, true, false, true, false]",
+            "<org.redisson.RedissonRemoteService: void lambda$executeMethod$15(org.redisson.remote.RemoteServiceRequest,org.redisson.remote.RemoteServiceMethod,java.util.concurrent.CompletableFuture,java.util.concurrent.CompletableFuture)> with actual argTypes: [org.redisson.remote.RemoteServiceRequest, org.redisson.remote.RemoteServiceMethod, java.util.concurrent.CompletableFuture, java.util.concurrent.CompletableFuture] and taint: [false, false, false, false, false]",
+            "<org.redisson.executor.RedissonExecutorRemoteService: void invokeMethod(org.redisson.remote.RemoteServiceRequest,org.redisson.remote.RemoteServiceMethod,java.util.concurrent.CompletableFuture,java.util.concurrent.CompletableFuture)> with actual argTypes: [org.redisson.remote.RemoteServiceRequest, org.redisson.remote.RemoteServiceMethod, java.util.concurrent.CompletableFuture, java.util.concurrent.CompletableFuture] and taint: [false, false, false, false, false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [false, false, false]"
+        ],
+        [
+            "<java.net.SocketPermissionCollection: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<org.redisson.RedissonMap: java.lang.Object put(java.lang.Object,java.lang.Object)> with actual argTypes: [java.lang.String, java.net.SocketPermission] and taint: [true, true, true]",
+            "<org.redisson.RedissonMap: org.redisson.api.RFuture putAsync(java.lang.Object,java.lang.Object)> with actual argTypes: [java.lang.Object, java.lang.Object] and taint: [true, true, true]",
+            "<org.redisson.RedissonMap: org.redisson.api.RFuture mapWriterFuture(org.redisson.api.RFuture,org.redisson.MapWriterTask)> with actual argTypes: [org.redisson.api.RFuture, org.redisson.MapWriterTask$Add] and taint: [true, true, false]",
+            "<org.redisson.RedissonMap: java.util.concurrent.CompletionStage lambda$mapWriterFuture$36(java.util.function.Function,org.redisson.MapWriterTask,java.lang.Object)> with actual argTypes: [java.util.function.Function, org.redisson.MapWriterTask, java.lang.Object] and taint: [false, false, false, false]",
+            "<java.util.concurrent.CompletableFuture: java.util.concurrent.CompletableFuture supplyAsync(java.util.function.Supplier,java.util.concurrent.Executor)> with actual argTypes: [java.util.function.Supplier, java.util.concurrent.ExecutorService] and taint: [false, false, false]",
+            "<java.util.concurrent.CompletableFuture: java.util.concurrent.CompletableFuture asyncSupplyStage(java.util.concurrent.Executor,java.util.function.Supplier)> with actual argTypes: [java.util.concurrent.Executor, java.util.function.Supplier] and taint: [false, false, false]",
+            "<org.redisson.RedissonExecutorService: void execute(java.lang.Runnable)> with actual argTypes: [java.util.concurrent.CompletableFuture$AsyncSupply] and taint: [false, false]",
+            "<org.redisson.RedissonExecutorService: org.redisson.executor.params.TaskParameters createTaskParameters(java.lang.Runnable)> with actual argTypes: [java.lang.Runnable] and taint: [false, false]",
+            "<org.redisson.RedissonExecutorService: org.redisson.executor.params.TaskParameters createTaskParameters(java.lang.String,java.lang.Runnable)> with actual argTypes: [java.lang.String, java.lang.Runnable] and taint: [false, false, false]",
+            "<org.redisson.RedissonExecutorService: org.redisson.RedissonExecutorService$ClassBody getClassBody(java.lang.Object)> with actual argTypes: [java.lang.Runnable] and taint: [false, false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [false, false, false]"
+        ],
+        [
+            "<java.security.Provider: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<java.security.Provider: void implClear()> with actual argTypes: [] and taint: [true]",
+            "<org.redisson.RedissonMap: void clear()> with actual argTypes: [] and taint: [true]",
+            "<org.redisson.RedissonObject: boolean delete()> with actual argTypes: [] and taint: [true]",
+            "<org.redisson.transaction.RedissonTransactionalBucket: org.redisson.api.RFuture deleteAsync()> with actual argTypes: [] and taint: [true]",
+            "<org.redisson.transaction.RedissonTransactionalBucket: org.redisson.api.RFuture executeLocked(java.util.function.Supplier)> with actual argTypes: [java.util.function.Supplier] and taint: [true, true]",
+            "<org.redisson.RedissonBaseLock: org.redisson.api.RFuture lockAsync(long,java.util.concurrent.TimeUnit)> with actual argTypes: [long, java.util.concurrent.TimeUnit] and taint: [true, true, false]",
+            "<org.redisson.RedissonLock: org.redisson.api.RFuture lockAsync(long,java.util.concurrent.TimeUnit,long)> with actual argTypes: [long, java.util.concurrent.TimeUnit, long] and taint: [true, true, false, false]",
+            "<org.redisson.RedissonLock: void lambda$lockAsync$8(org.redisson.RedissonLockEntry,long,java.util.concurrent.CompletableFuture,long,java.util.concurrent.TimeUnit,java.lang.Long,java.lang.Throwable)> with actual argTypes: [org.redisson.RedissonLockEntry, long, java.util.concurrent.CompletableFuture, long, java.util.concurrent.TimeUnit, java.lang.Long, java.lang.Throwable] and taint: [false, false, false, false, false, false, false, false]",
+            "<org.redisson.RedissonLockEntry: void addListener(java.lang.Runnable)> with actual argTypes: [java.lang.Runnable] and taint: [false, false]",
+            "<org.redisson.RedissonLockEntry: void tryRunListener()> with actual argTypes: [] and taint: [false]",
+            "<org.redisson.mapreduce.CollectionMapperTask: void run()> with actual argTypes: [] and taint: [false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, false]"
+        ],
+        [
+            "<java.security.Provider: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<java.security.Provider: void implClear()> with actual argTypes: [] and taint: [true]",
+            "<org.redisson.RedissonMap: void clear()> with actual argTypes: [] and taint: [true]",
+            "<org.redisson.RedissonObject: boolean delete()> with actual argTypes: [] and taint: [true]",
+            "<org.redisson.transaction.RedissonTransactionalBucket: org.redisson.api.RFuture deleteAsync()> with actual argTypes: [] and taint: [true]",
+            "<org.redisson.transaction.RedissonTransactionalBucket: org.redisson.api.RFuture executeLocked(java.util.function.Supplier)> with actual argTypes: [java.util.function.Supplier] and taint: [true, true]",
+            "<org.redisson.RedissonBaseLock: org.redisson.api.RFuture lockAsync(long,java.util.concurrent.TimeUnit)> with actual argTypes: [long, java.util.concurrent.TimeUnit] and taint: [true, true, false]",
+            "<org.redisson.RedissonLock: org.redisson.api.RFuture lockAsync(long,java.util.concurrent.TimeUnit,long)> with actual argTypes: [long, java.util.concurrent.TimeUnit, long] and taint: [true, true, false, false]",
+            "<org.redisson.RedissonLock: void lambda$lockAsync$8(org.redisson.RedissonLockEntry,long,java.util.concurrent.CompletableFuture,long,java.util.concurrent.TimeUnit,java.lang.Long,java.lang.Throwable)> with actual argTypes: [org.redisson.RedissonLockEntry, long, java.util.concurrent.CompletableFuture, long, java.util.concurrent.TimeUnit, java.lang.Long, java.lang.Throwable] and taint: [false, false, false, false, false, false, false, false]",
+            "<org.redisson.RedissonLockEntry: void addListener(java.lang.Runnable)> with actual argTypes: [java.lang.Runnable] and taint: [false, false]",
+            "<org.redisson.RedissonLockEntry: void tryRunListener()> with actual argTypes: [] and taint: [false]",
+            "<org.redisson.mapreduce.MapperTask: void run()> with actual argTypes: [] and taint: [false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, false]"
+        ],
+        [
+            "<java.security.Provider: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<java.security.Provider: void implClear()> with actual argTypes: [] and taint: [true]",
+            "<org.redisson.RedissonMap: void clear()> with actual argTypes: [] and taint: [true]",
+            "<org.redisson.RedissonObject: boolean delete()> with actual argTypes: [] and taint: [true]",
+            "<org.redisson.transaction.RedissonTransactionalBucket: org.redisson.api.RFuture deleteAsync()> with actual argTypes: [] and taint: [true]",
+            "<org.redisson.transaction.RedissonTransactionalBucket: org.redisson.api.RFuture executeLocked(java.util.function.Supplier)> with actual argTypes: [java.util.function.Supplier] and taint: [true, true]",
+            "<org.redisson.RedissonBaseLock: org.redisson.api.RFuture lockAsync(long,java.util.concurrent.TimeUnit)> with actual argTypes: [long, java.util.concurrent.TimeUnit] and taint: [true, true, false]",
+            "<org.redisson.RedissonLock: org.redisson.api.RFuture lockAsync(long,java.util.concurrent.TimeUnit,long)> with actual argTypes: [long, java.util.concurrent.TimeUnit, long] and taint: [true, true, false, false]",
+            "<org.redisson.RedissonLock: void lambda$lockAsync$8(org.redisson.RedissonLockEntry,long,java.util.concurrent.CompletableFuture,long,java.util.concurrent.TimeUnit,java.lang.Long,java.lang.Throwable)> with actual argTypes: [org.redisson.RedissonLockEntry, long, java.util.concurrent.CompletableFuture, long, java.util.concurrent.TimeUnit, java.lang.Long, java.lang.Throwable] and taint: [false, false, false, false, false, false, false, false]",
+            "<org.redisson.RedissonLockEntry: void addListener(java.lang.Runnable)> with actual argTypes: [java.lang.Runnable] and taint: [false, false]",
+            "<org.redisson.RedissonLockEntry: void tryRunListener()> with actual argTypes: [] and taint: [false]",
+            "<org.redisson.mapreduce.ReducerTask: void run()> with actual argTypes: [] and taint: [false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, false]"
+        ],
+        [
+            "<java.security.Provider: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<java.security.Provider: void implClear()> with actual argTypes: [] and taint: [true]",
+            "<org.redisson.RedissonMap: void clear()> with actual argTypes: [] and taint: [true]",
+            "<org.redisson.RedissonObject: boolean delete()> with actual argTypes: [] and taint: [true]",
+            "<org.redisson.transaction.RedissonTransactionalBucket: org.redisson.api.RFuture deleteAsync()> with actual argTypes: [] and taint: [true]",
+            "<org.redisson.transaction.RedissonTransactionalBucket: org.redisson.api.RFuture executeLocked(java.util.function.Supplier)> with actual argTypes: [java.util.function.Supplier] and taint: [true, true]",
+            "<org.redisson.RedissonBaseLock: org.redisson.api.RFuture lockAsync(long,java.util.concurrent.TimeUnit)> with actual argTypes: [long, java.util.concurrent.TimeUnit] and taint: [true, true, false]",
+            "<org.redisson.RedissonLock: org.redisson.api.RFuture lockAsync(long,java.util.concurrent.TimeUnit,long)> with actual argTypes: [long, java.util.concurrent.TimeUnit, long] and taint: [true, true, false, false]",
+            "<org.redisson.RedissonLock: void lambda$lockAsync$8(org.redisson.RedissonLockEntry,long,java.util.concurrent.CompletableFuture,long,java.util.concurrent.TimeUnit,java.lang.Long,java.lang.Throwable)> with actual argTypes: [org.redisson.RedissonLockEntry, long, java.util.concurrent.CompletableFuture, long, java.util.concurrent.TimeUnit, java.lang.Long, java.lang.Throwable] and taint: [false, false, false, false, false, false, false, false]",
+            "<org.redisson.RedissonLockEntry: void addListener(java.lang.Runnable)> with actual argTypes: [java.lang.Runnable] and taint: [false, false]",
+            "<org.redisson.RedissonLockEntry: void tryRunListener()> with actual argTypes: [] and taint: [false]",
+            "<java.util.concurrent.ForkJoinTask$AdaptedRunnableAction: void run()> with actual argTypes: [] and taint: [false]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Object invoke()> with actual argTypes: [] and taint: [false]",
+            "<java.util.concurrent.ForkJoinTask: void reportException(int)> with actual argTypes: [int] and taint: [false, false]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Throwable getThrowableException()> with actual argTypes: [] and taint: [false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, false]"
+        ],
+        [
+            "<java.security.Provider: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<java.security.Provider: void implClear()> with actual argTypes: [] and taint: [true]",
+            "<org.redisson.RedissonMap: void clear()> with actual argTypes: [] and taint: [true]",
+            "<org.redisson.RedissonObject: boolean delete()> with actual argTypes: [] and taint: [true]",
+            "<org.redisson.transaction.RedissonTransactionalBucket: org.redisson.api.RFuture deleteAsync()> with actual argTypes: [] and taint: [true]",
+            "<org.redisson.transaction.RedissonTransactionalBucket: org.redisson.api.RFuture executeLocked(java.util.function.Supplier)> with actual argTypes: [java.util.function.Supplier] and taint: [true, true]",
+            "<org.redisson.RedissonBaseLock: org.redisson.api.RFuture lockAsync(long,java.util.concurrent.TimeUnit)> with actual argTypes: [long, java.util.concurrent.TimeUnit] and taint: [true, true, false]",
+            "<org.redisson.RedissonLock: org.redisson.api.RFuture lockAsync(long,java.util.concurrent.TimeUnit,long)> with actual argTypes: [long, java.util.concurrent.TimeUnit, long] and taint: [true, true, false, false]",
+            "<org.redisson.RedissonLock: void lambda$lockAsync$8(org.redisson.RedissonLockEntry,long,java.util.concurrent.CompletableFuture,long,java.util.concurrent.TimeUnit,java.lang.Long,java.lang.Throwable)> with actual argTypes: [org.redisson.RedissonLockEntry, long, java.util.concurrent.CompletableFuture, long, java.util.concurrent.TimeUnit, java.lang.Long, java.lang.Throwable] and taint: [false, false, false, false, false, false, false, false]",
+            "<org.redisson.RedissonLockEntry: void addListener(java.lang.Runnable)> with actual argTypes: [java.lang.Runnable] and taint: [false, false]",
+            "<org.redisson.RedissonLockEntry: void tryRunListener()> with actual argTypes: [] and taint: [false]",
+            "<java.util.concurrent.ForkJoinTask$AdaptedRunnableAction: void run()> with actual argTypes: [] and taint: [false]",
+            "<java.util.concurrent.ForkJoinTask: java.lang.Object invoke()> with actual argTypes: [] and taint: [false]",
+            "<java.util.concurrent.ForkJoinTask: int doExec()> with actual argTypes: [] and taint: [false]",
+            "<java.util.concurrent.ForkJoinTask$AdaptedCallable: boolean exec()> with actual argTypes: [] and taint: [false]",
+            "<org.redisson.mapreduce.CoordinatorTask: java.lang.Object call()> with actual argTypes: [] and taint: [false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, false]"
+        ]
+    ]
+}

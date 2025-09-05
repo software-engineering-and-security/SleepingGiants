@@ -1,0 +1,13 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+32113,org.snakeyaml.snakeyaml-engine,1.0,2018-09-08,https://repo1.maven.org/maven2/org/snakeyaml/snakeyaml-engine/1.0/snakeyaml-engine-1.0.jar,1,,,,,,,2.0
+32114,org.snakeyaml.snakeyaml-engine,2.0,2019-10-06,https://repo1.maven.org/maven2/org/snakeyaml/snakeyaml-engine/2.0/snakeyaml-engine-2.0.jar,2,0,0,0,0,2,1,2.1
+32115,org.snakeyaml.snakeyaml-engine,2.1,2020-01-25,https://repo1.maven.org/maven2/org/snakeyaml/snakeyaml-engine/2.1/snakeyaml-engine-2.1.jar,3,1,0,0,0,0,0,2.2
+32116,org.snakeyaml.snakeyaml-engine,2.2,2020-11-12,https://repo1.maven.org/maven2/org/snakeyaml/snakeyaml-engine/2.2/snakeyaml-engine-2.2.jar,3,0,0,0,0,0,0,2.2.1
+32117,org.snakeyaml.snakeyaml-engine,2.2.1,2020-11-24,https://repo1.maven.org/maven2/org/snakeyaml/snakeyaml-engine/2.2.1/snakeyaml-engine-2.2.1.jar,3,0,0,0,0,0,0,2.3
+32118,org.snakeyaml.snakeyaml-engine,2.3,2021-04-19,https://repo1.maven.org/maven2/org/snakeyaml/snakeyaml-engine/2.3/snakeyaml-engine-2.3.jar,3,0,0,0,0,0,0,2.4
+32119,org.snakeyaml.snakeyaml-engine,2.4,2022-08-31,https://repo1.maven.org/maven2/org/snakeyaml/snakeyaml-engine/2.4/snakeyaml-engine-2.4.jar,3,0,0,0,0,0,0,2.5
+32120,org.snakeyaml.snakeyaml-engine,2.5,2022-10-03,https://repo1.maven.org/maven2/org/snakeyaml/snakeyaml-engine/2.5/snakeyaml-engine-2.5.jar,3,0,0,0,0,0,0,2.6
+32121,org.snakeyaml.snakeyaml-engine,2.6,2023-01-12,https://repo1.maven.org/maven2/org/snakeyaml/snakeyaml-engine/2.6/snakeyaml-engine-2.6.jar,3,0,0,0,0,0,0,2.7
+32122,org.snakeyaml.snakeyaml-engine,2.7,2023-08-26,https://repo1.maven.org/maven2/org/snakeyaml/snakeyaml-engine/2.7/snakeyaml-engine-2.7.jar,3,0,0,0,0,0,0,2.8
+32123,org.snakeyaml.snakeyaml-engine,2.8,2024-09-17,https://repo1.maven.org/maven2/org/snakeyaml/snakeyaml-engine/2.8/snakeyaml-engine-2.8.jar,3,0,0,0,0,0,0,2.9
+32124,org.snakeyaml.snakeyaml-engine,2.9,2025-01-15,https://repo1.maven.org/maven2/org/snakeyaml/snakeyaml-engine/2.9/snakeyaml-engine-2.9.jar,: 3,0,0,0,0,0,0,

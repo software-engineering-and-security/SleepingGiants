@@ -1,0 +1,11 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+27639,org.springframework.osgi.spring-osgi-core,1.0,2008-01-25,https://repo1.maven.org/maven2/org/springframework/osgi/spring-osgi-core/1.0/spring-osgi-core-1.0.jar,1,,,,,,,1.0.1
+27640,org.springframework.osgi.spring-osgi-core,1.0.1,2008-03-06,https://repo1.maven.org/maven2/org/springframework/osgi/spring-osgi-core/1.0.1/spring-osgi-core-1.0.1.jar,1,0,0,0,0,0,0,1.0.2
+27619,org.springframework.osgi.spring-osgi-core,1.0.2,2008-03-25,https://repo1.maven.org/maven2/org/springframework/osgi/spring-osgi-core/1.0.2/spring-osgi-core-1.0.2.jar,1,0,0,0,0,0,0,1.0.3
+27641,org.springframework.osgi.spring-osgi-core,1.0.3,2008-07-03,https://repo1.maven.org/maven2/org/springframework/osgi/spring-osgi-core/1.0.3/spring-osgi-core-1.0.3.jar,1,0,0,0,0,0,0,1.1.0
+27618,org.springframework.osgi.spring-osgi-core,1.1.0,2008-07-04,https://repo1.maven.org/maven2/org/springframework/osgi/spring-osgi-core/1.1.0/spring-osgi-core-1.1.0.jar,1,0,0,0,0,1,1,1.1.1
+27616,org.springframework.osgi.spring-osgi-core,1.1.1,2008-07-29,https://repo1.maven.org/maven2/org/springframework/osgi/spring-osgi-core/1.1.1/spring-osgi-core-1.1.1.jar,1,0,0,0,0,0,0,1.1.2
+27598,org.springframework.osgi.spring-osgi-core,1.1.2,2008-10-06,https://repo1.maven.org/maven2/org/springframework/osgi/spring-osgi-core/1.1.2/spring-osgi-core-1.1.2.jar,1,0,0,0,0,0,0,1.1.3
+27599,org.springframework.osgi.spring-osgi-core,1.1.3,2009-04-09,https://repo1.maven.org/maven2/org/springframework/osgi/spring-osgi-core/1.1.3/spring-osgi-core-1.1.3.jar,1,0,0,0,0,0,0,1.2.0
+27600,org.springframework.osgi.spring-osgi-core,1.2.0,2009-04-09,https://repo1.maven.org/maven2/org/springframework/osgi/spring-osgi-core/1.2.0/spring-osgi-core-1.2.0.jar,1,0,0,0,0,0,0,1.2.1
+27601,org.springframework.osgi.spring-osgi-core,1.2.1,2009-12-17,https://repo1.maven.org/maven2/org/springframework/osgi/spring-osgi-core/1.2.1/spring-osgi-core-1.2.1.jar,: 1,0,0,0,0,0,0,

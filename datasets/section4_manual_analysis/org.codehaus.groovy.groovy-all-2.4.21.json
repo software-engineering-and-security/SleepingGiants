@@ -1,0 +1,38 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.codehaus.groovy.runtime.ConversionHandler: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.reflect.Method, java.lang.Object[]] and taint: [true, true, true, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [org.codehaus.groovy.runtime.ConversionHandler, java.lang.Object[]] and taint: [true, true, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.codehaus.groovy.tools.shell.util.PackageHelperImpl$_getClassnames_closure7: java.lang.Object call()> with actual argTypes: [] and taint: [true]",
+            "<org.codehaus.groovy.tools.shell.util.PackageHelperImpl$_getClassnames_closure7: java.lang.Object doCall(java.lang.Object)> with actual argTypes: [null] and taint: [true, false]",
+            "<org.codehaus.groovy.runtime.ScriptBytecodeAdapter: java.lang.Object castToType(java.lang.Object,java.lang.Class)> with actual argTypes: [java.lang.Object, java.lang.Class] and taint: [false, false, false]",
+            "<org.codehaus.groovy.runtime.typehandling.DefaultTypeTransformation: java.lang.Object castToType(java.lang.Object,java.lang.Class)> with actual argTypes: [java.lang.Object, java.lang.Class] and taint: [false, false, false]",
+            "<org.codehaus.groovy.runtime.typehandling.ShortTypeHandling: java.lang.Enum castToEnum(java.lang.Object,java.lang.Class)> with actual argTypes: [java.lang.Object, java.lang.Class] and taint: [false, false, false]",
+            "<java.lang.Enum: java.lang.Enum valueOf(java.lang.Class,java.lang.String)> with actual argTypes: [java.lang.Class, java.lang.String] and taint: [false, false, false]",
+            "<java.lang.Class: java.util.Map enumConstantDirectory()> with actual argTypes: [] and taint: [false]",
+            "<java.lang.Class: java.lang.Object[] getEnumConstantsShared()> with actual argTypes: [] and taint: [false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [null, java.lang.Object[]] and taint: [false, false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<org.codehaus.groovy.tools.shell.util.PackageHelperImpl$_getClassnames_closure7: java.lang.Object call()> with actual argTypes: [] and taint: [true]",
+            "<org.codehaus.groovy.tools.shell.util.PackageHelperImpl$_getClassnames_closure7: java.lang.Object doCall(java.lang.Object)> with actual argTypes: [null] and taint: [true, false]",
+            "<org.codehaus.groovy.runtime.ScriptBytecodeAdapter: java.lang.Object castToType(java.lang.Object,java.lang.Class)> with actual argTypes: [java.lang.Object, java.lang.Class] and taint: [false, false, false]",
+            "<org.codehaus.groovy.runtime.typehandling.DefaultTypeTransformation: java.lang.Object castToType(java.lang.Object,java.lang.Class)> with actual argTypes: [java.lang.Object, java.lang.Class] and taint: [false, false, false]",
+            "<org.codehaus.groovy.runtime.typehandling.DefaultTypeTransformation: java.lang.Object continueCastOnNumber(java.lang.Object,java.lang.Class)> with actual argTypes: [java.lang.Object, java.lang.Class] and taint: [false, false, false]",
+            "<org.codehaus.groovy.runtime.typehandling.DefaultTypeTransformation: java.lang.Object continueCastOnSAM(java.lang.Object,java.lang.Class)> with actual argTypes: [java.lang.Object, java.lang.Class] and taint: [false, false, false]",
+            "<org.codehaus.groovy.reflection.stdclasses.CachedSAMClass: java.lang.Object coerceToSAM(groovy.lang.Closure,java.lang.reflect.Method,java.lang.Class,boolean)> with actual argTypes: [groovy.lang.Closure, java.lang.reflect.Method, java.lang.Class, boolean] and taint: [false, false, false, false, false]",
+            "<java.lang.reflect.Proxy: java.lang.Object newProxyInstance(java.lang.ClassLoader,java.lang.Class[],java.lang.reflect.InvocationHandler)> with actual argTypes: [java.lang.ClassLoader, java.lang.Class[], org.codehaus.groovy.runtime.ConvertedClosure] and taint: [false, false, false, false]",
+            "<java.lang.reflect.Proxy: java.lang.Object newProxyInstance(java.lang.Class,java.lang.reflect.Constructor,java.lang.reflect.InvocationHandler)> with actual argTypes: [java.lang.Class, java.lang.reflect.Constructor, java.lang.reflect.InvocationHandler] and taint: [false, false, false, false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [false, false]"
+        ]
+    ]
+}

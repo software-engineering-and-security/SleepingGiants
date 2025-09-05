@@ -1,0 +1,15 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+75353,org.apache.commons.commons-text,1.0,2017-03-06,https://repo1.maven.org/maven2/org/apache/commons/commons-text/1.0/commons-text-1.0.jar,1,,,,,,,1.1
+75352,org.apache.commons.commons-text,1.1,2017-05-19,https://repo1.maven.org/maven2/org/apache/commons/commons-text/1.1/commons-text-1.1.jar,1,0,0,0,0,0,0,1.2
+75351,org.apache.commons.commons-text,1.2,2017-12-09,https://repo1.maven.org/maven2/org/apache/commons/commons-text/1.2/commons-text-1.2.jar,1,0,0,0,0,0,0,1.3
+75350,org.apache.commons.commons-text,1.3,2018-03-16,https://repo1.maven.org/maven2/org/apache/commons/commons-text/1.3/commons-text-1.3.jar,2,0,0,0,0,1,0,1.4
+75349,org.apache.commons.commons-text,1.4,2018-06-09,https://repo1.maven.org/maven2/org/apache/commons/commons-text/1.4/commons-text-1.4.jar,2,0,0,0,0,0,0,1.5
+75348,org.apache.commons.commons-text,1.5,2018-10-01,https://repo1.maven.org/maven2/org/apache/commons/commons-text/1.5/commons-text-1.5.jar,2,0,0,0,0,0,0,1.6
+75347,org.apache.commons.commons-text,1.6,2018-10-13,https://repo1.maven.org/maven2/org/apache/commons/commons-text/1.6/commons-text-1.6.jar,2,0,0,0,0,0,0,1.7
+75346,org.apache.commons.commons-text,1.7,2019-07-03,https://repo1.maven.org/maven2/org/apache/commons/commons-text/1.7/commons-text-1.7.jar,2,0,0,0,0,0,0,1.8
+75345,org.apache.commons.commons-text,1.8,2019-09-03,https://repo1.maven.org/maven2/org/apache/commons/commons-text/1.8/commons-text-1.8.jar,2,0,0,0,0,0,0,1.9
+75344,org.apache.commons.commons-text,1.9,2020-07-24,https://repo1.maven.org/maven2/org/apache/commons/commons-text/1.9/commons-text-1.9.jar,2,0,0,0,0,0,0,1.10.0
+75343,org.apache.commons.commons-text,1.10.0,2022-09-28,https://repo1.maven.org/maven2/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.jar,2,0,0,0,0,0,0,1.11.0
+75342,org.apache.commons.commons-text,1.11.0,2023-10-29,https://repo1.maven.org/maven2/org/apache/commons/commons-text/1.11.0/commons-text-1.11.0.jar,2,0,0,0,0,0,0,1.12.0
+75341,org.apache.commons.commons-text,1.12.0,2024-04-16,https://repo1.maven.org/maven2/org/apache/commons/commons-text/1.12.0/commons-text-1.12.0.jar,2,0,0,0,0,0,0,1.13.0
+75340,org.apache.commons.commons-text,1.13.0,2024-12-13,https://repo1.maven.org/maven2/org/apache/commons/commons-text/1.13.0/commons-text-1.13.0.jar,: 2,0,0,0,0,0,0,

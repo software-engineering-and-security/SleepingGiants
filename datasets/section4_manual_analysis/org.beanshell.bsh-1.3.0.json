@@ -1,0 +1,45 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<bsh.Interpreter: void run()> with actual argTypes: [] and taint: [true]",
+            "<javax.xml.transform.TransformerException: void printStackTrace()> with actual argTypes: [] and taint: [false]",
+            "<javax.xml.transform.TransformerException: void printStackTrace(java.io.PrintWriter)> with actual argTypes: [java.io.PrintWriter] and taint: [false, false]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Throwable, java.lang.Object[]] and taint: [false, false, false]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<bsh.Interpreter: void run()> with actual argTypes: [] and taint: [true]",
+            "<bsh.BSHClassDeclaration: java.lang.Object eval(bsh.CallStack,bsh.Interpreter)> with actual argTypes: [bsh.CallStack, bsh.Interpreter] and taint: [true, false, true]",
+            "<bsh.NameSpace: bsh.This getThis(bsh.Interpreter)> with actual argTypes: [bsh.Interpreter] and taint: [false, true]",
+            "<bsh.This: bsh.This getThis(bsh.NameSpace,bsh.Interpreter)> with actual argTypes: [bsh.NameSpace, bsh.Interpreter] and taint: [false, false, true]",
+            "<bsh.Reflect: java.lang.Object constructObject(java.lang.Class,java.lang.Object[])> with actual argTypes: [java.lang.Class, java.lang.Object[]] and taint: [false, false, true]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<bsh.Interpreter: void run()> with actual argTypes: [] and taint: [true]",
+            "<bsh.BSHMethodInvocation: java.lang.Object eval(bsh.CallStack,bsh.Interpreter)> with actual argTypes: [bsh.CallStack, bsh.Interpreter] and taint: [true, false, true]",
+            "<bsh.Name: java.lang.Object invokeMethod(bsh.Interpreter,java.lang.Object[],bsh.CallStack,bsh.SimpleNode)> with actual argTypes: [bsh.Interpreter, java.lang.Object[], bsh.CallStack, bsh.BSHMethodInvocation] and taint: [true, true, true, false, true]",
+            "<bsh.Reflect: java.lang.Object invokeStaticMethod(bsh.BshClassManager,java.lang.Class,java.lang.String,java.lang.Object[])> with actual argTypes: [bsh.BshClassManager, java.lang.Class, java.lang.String, java.lang.Object[]] and taint: [false, false, true, true, true]",
+            "<bsh.Reflect: java.lang.Object invokeOnMethod(java.lang.reflect.Method,java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.reflect.Method, null, java.lang.Object[]] and taint: [false, true, false, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [java.lang.Object, java.lang.Object[]] and taint: [true, false, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<bsh.Interpreter: void run()> with actual argTypes: [] and taint: [true]",
+            "<bsh.BSHTryStatement: java.lang.Object eval(bsh.CallStack,bsh.Interpreter)> with actual argTypes: [bsh.CallStack, bsh.Interpreter] and taint: [true, false, true]",
+            "<bsh.NameSpace: java.lang.Object getAssignableForm(java.lang.Object,java.lang.Class)> with actual argTypes: [java.lang.Throwable, java.lang.Class] and taint: [false, false, true]",
+            "<bsh.XThis: java.lang.Object getInterface(java.lang.Class)> with actual argTypes: [java.lang.Class] and taint: [false, true]",
+            "<bsh.XThis: java.lang.Object getInterface(java.lang.Class[])> with actual argTypes: [java.lang.Class[]] and taint: [false, true]",
+            "<java.lang.reflect.Proxy: java.lang.Object newProxyInstance(java.lang.ClassLoader,java.lang.Class[],java.lang.reflect.InvocationHandler)> with actual argTypes: [java.lang.ClassLoader, java.lang.Class[], java.lang.reflect.InvocationHandler] and taint: [false, true, true, false]",
+            "<java.lang.reflect.Proxy: java.lang.Object newProxyInstance(java.lang.Class,java.lang.reflect.Constructor,java.lang.reflect.InvocationHandler)> with actual argTypes: [java.lang.Class, java.lang.reflect.Constructor, java.lang.reflect.InvocationHandler] and taint: [false, false, true, false]",
+            "<java.lang.reflect.Constructor: java.lang.Object newInstance(java.lang.Object[])> with actual argTypes: [java.lang.Object[]] and taint: [true, false]"
+        ]
+    ]
+}

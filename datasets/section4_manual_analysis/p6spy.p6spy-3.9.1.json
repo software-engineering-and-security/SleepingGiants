@@ -1,0 +1,21 @@
+{
+    "tabby": [],
+    "androChain": [
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.p6spy.engine.spy.P6DataSource: void setLoginTimeout(int)> with actual argTypes: [int] and taint: [true, true]",
+            "<com.p6spy.engine.spy.P6DataSource: void bindDataSource()> with actual argTypes: [] and taint: [true]",
+            "<javax.naming.InitialContext: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [false, true]",
+            "<javax.naming.Context: java.lang.Object lookup(java.lang.String)> with actual argTypes: [java.lang.String] and taint: [true, true]"
+        ],
+        [
+            "<java.util.concurrent.ConcurrentHashMap: void readObject(java.io.ObjectInputStream)> with actual argTypes: [java.io.ObjectInputStream] and taint: [true, true]",
+            "<ses.ginject.pattern.Caller: int hashCode()> with actual argTypes: [] and taint: [true]",
+            "<com.p6spy.engine.spy.P6DataSource: void setLoginTimeout(int)> with actual argTypes: [int] and taint: [true, true]",
+            "<com.p6spy.engine.spy.P6DataSource: void bindDataSource()> with actual argTypes: [] and taint: [true]",
+            "<com.p6spy.engine.spy.P6DataSource: void setDataSourceProperties(java.util.Map)> with actual argTypes: [java.util.HashMap] and taint: [true, true]",
+            "<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])> with actual argTypes: [javax.sql.CommonDataSource, java.lang.Object[]] and taint: [true, true, true]"
+        ]
+    ]
+}

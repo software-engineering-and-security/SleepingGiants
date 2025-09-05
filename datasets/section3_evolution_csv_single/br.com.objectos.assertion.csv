@@ -1,0 +1,13 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+58462,br.com.objectos.assertion,0.1.0,2015-10-02,https://repo1.maven.org/maven2/br/com/objectos/assertion/0.1.0/assertion-0.1.0.jar,,,,,,,,0.1.1
+58463,br.com.objectos.assertion,0.1.1,2015-10-13,https://repo1.maven.org/maven2/br/com/objectos/assertion/0.1.1/assertion-0.1.1.jar,,,,,,,,0.1.2
+58473,br.com.objectos.assertion,0.1.2,2015-11-09,https://repo1.maven.org/maven2/br/com/objectos/assertion/0.1.2/assertion-0.1.2.jar,,,,,,,,0.2.0
+58474,br.com.objectos.assertion,0.2.0,2016-03-31,https://repo1.maven.org/maven2/br/com/objectos/assertion/0.2.0/assertion-0.2.0.jar,,,,,,,,0.3.0
+58475,br.com.objectos.assertion,0.3.0,2016-04-01,https://repo1.maven.org/maven2/br/com/objectos/assertion/0.3.0/assertion-0.3.0.jar,,,,,,,,0.4.0
+58500,br.com.objectos.assertion,0.4.0,2016-05-19,https://repo1.maven.org/maven2/br/com/objectos/assertion/0.4.0/assertion-0.4.0.jar,,,,,,,,0.5.0
+58501,br.com.objectos.assertion,0.5.0,2016-08-01,https://repo1.maven.org/maven2/br/com/objectos/assertion/0.5.0/assertion-0.5.0.jar,,,,,,,,0.6.0
+58502,br.com.objectos.assertion,0.6.0,2016-08-04,https://repo1.maven.org/maven2/br/com/objectos/assertion/0.6.0/assertion-0.6.0.jar,,,,,,,,0.6.1
+58503,br.com.objectos.assertion,0.6.1,2016-08-18,https://repo1.maven.org/maven2/br/com/objectos/assertion/0.6.1/assertion-0.6.1.jar,,,,,,,,0.7.0
+58504,br.com.objectos.assertion,0.7.0,2016-09-06,https://repo1.maven.org/maven2/br/com/objectos/assertion/0.7.0/assertion-0.7.0.jar,,,,,,,,0.8.0
+58505,br.com.objectos.assertion,0.8.0,2016-10-14,https://repo1.maven.org/maven2/br/com/objectos/assertion/0.8.0/assertion-0.8.0.jar,,,,,,,,0.9.0
+58506,br.com.objectos.assertion,0.9.0,2016-11-21,https://repo1.maven.org/maven2/br/com/objectos/assertion/0.9.0/assertion-0.9.0.jar,,,,,,,,

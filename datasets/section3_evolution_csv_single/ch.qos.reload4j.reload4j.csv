@@ -1,0 +1,15 @@
+,dependency_name,version,parsed_date,download_url,serializable_cnt,add_serializable,remove_serializable,add_serializable_indirect,remove_serializable_indirect,add_class,remove_class,next_version
+8807,ch.qos.reload4j.reload4j,1.2.18.0,2022-01-12,https://repo1.maven.org/maven2/ch/qos/reload4j/reload4j/1.2.18.0/reload4j-1.2.18.0.jar,11,,,,,,,1.2.18.1
+8809,ch.qos.reload4j.reload4j,1.2.18.1,2022-01-19,https://repo1.maven.org/maven2/ch/qos/reload4j/reload4j/1.2.18.1/reload4j-1.2.18.1.jar,6,0,0,0,0,0,5,1.2.18.2
+8836,ch.qos.reload4j.reload4j,1.2.18.2,2022-01-21,https://repo1.maven.org/maven2/ch/qos/reload4j/reload4j/1.2.18.2/reload4j-1.2.18.2.jar,6,0,0,0,0,0,0,1.2.18.3
+8837,ch.qos.reload4j.reload4j,1.2.18.3,2022-01-24,https://repo1.maven.org/maven2/ch/qos/reload4j/reload4j/1.2.18.3/reload4j-1.2.18.3.jar,6,0,0,0,0,0,0,1.2.18.4
+8838,ch.qos.reload4j.reload4j,1.2.18.4,2022-01-26,https://repo1.maven.org/maven2/ch/qos/reload4j/reload4j/1.2.18.4/reload4j-1.2.18.4.jar,6,0,0,0,0,0,0,1.2.18.5
+8866,ch.qos.reload4j.reload4j,1.2.18.5,2022-02-03,https://repo1.maven.org/maven2/ch/qos/reload4j/reload4j/1.2.18.5/reload4j-1.2.18.5.jar,6,0,0,0,0,0,0,1.2.19
+8867,ch.qos.reload4j.reload4j,1.2.19,2022-02-08,https://repo1.maven.org/maven2/ch/qos/reload4j/reload4j/1.2.19/reload4j-1.2.19.jar,6,0,0,0,0,0,0,1.2.20
+8868,ch.qos.reload4j.reload4j,1.2.20,2022-04-05,https://repo1.maven.org/maven2/ch/qos/reload4j/reload4j/1.2.20/reload4j-1.2.20.jar,6,0,0,0,0,0,0,1.2.21
+8869,ch.qos.reload4j.reload4j,1.2.21,2022-05-17,https://repo1.maven.org/maven2/ch/qos/reload4j/reload4j/1.2.21/reload4j-1.2.21.jar,6,0,0,0,0,0,0,1.2.22
+8870,ch.qos.reload4j.reload4j,1.2.22,2022-07-21,https://repo1.maven.org/maven2/ch/qos/reload4j/reload4j/1.2.22/reload4j-1.2.22.jar,6,0,0,0,0,0,0,1.2.23
+8871,ch.qos.reload4j.reload4j,1.2.23,2022-11-21,https://repo1.maven.org/maven2/ch/qos/reload4j/reload4j/1.2.23/reload4j-1.2.23.jar,6,0,0,0,0,0,0,1.2.24
+8872,ch.qos.reload4j.reload4j,1.2.24,2022-11-28,https://repo1.maven.org/maven2/ch/qos/reload4j/reload4j/1.2.24/reload4j-1.2.24.jar,6,0,0,0,0,0,0,1.2.25
+8873,ch.qos.reload4j.reload4j,1.2.25,2023-03-22,https://repo1.maven.org/maven2/ch/qos/reload4j/reload4j/1.2.25/reload4j-1.2.25.jar,6,0,0,0,0,0,0,1.2.26
+8874,ch.qos.reload4j.reload4j,1.2.26,2024-12-15,https://repo1.maven.org/maven2/ch/qos/reload4j/reload4j/1.2.26/reload4j-1.2.26.jar,: 6,0,0,0,0,0,0,
