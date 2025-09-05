@@ -78,7 +78,7 @@ elif MODE == "trampoline":
             continue
 
         proc = subprocess.run(
-            ["java", "-cp", INJECT_JAR, "ses.ginject.FindInterfacesMain", os.path.join(DOWNLOAD_DIR, file),
+            ["java", "-cp", INJECT_JAR, "org.ses.ginject.FindInterfacesMain", os.path.join(DOWNLOAD_DIR, file),
              os.path.join(trampoline_java_source_dir, "Caller.java")], text=True, stdout=subprocess.PIPE)
 
         log_json = ""
