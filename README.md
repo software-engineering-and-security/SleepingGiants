@@ -23,6 +23,7 @@ A preprint is available [here](https://arxiv.org/abs/2504.20485).
 
 - **Section 3.3**: find the 4 gadget providing dependency datasets in [datasets/section3_final_datasets](datasets/section3_final_datasets)
 - **Section 4.2**: modified dependencies are uploaded as release artifacts
+- **NEW: Deserialization Gadget Chain Benchmark**: see [here](https://github.com/brunok-cs/sleeping-giants-benchmark)
 
 ## Usage
 
